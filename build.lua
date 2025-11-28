@@ -16,8 +16,7 @@ maintainid          = "myhsia"
 email               = "myhsia@outlook.com"
 repository          = "https://github.com/" .. maintainid .. "/" .. module .. "-ctan"
 announcement        = [[New font family on CTAN.
-The LXGW Font Family provides an unprofessional open-source Chinese font family.
-]]
+The LXGW Font Family provides an unprofessional open-source Chinese font family.]]
 summary             = "An unprofessional open-source Chinese font family"
 description         = "The LXGW Font Family provides an unprofessional open-source Chinese font family."
 
