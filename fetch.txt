@@ -1,0 +1,10 @@
+https://github.com/lxgw/LxgwWenKai/releases/latest/download/LXGWWenKai-Regular.ttf
+https://github.com/lxgw/LxgwWenKai/releases/latest/download/LXGWWenKai-Medium.ttf
+https://github.com/lxgw/LxgwWenkaiGB/releases/latest/download/LXGWWenKaiGB-Regular.ttf
+https://github.com/lxgw/LxgwWenKai/releases/latest/download/LXGWWenKaiGB-Medium.ttf
+
+https://github.com/lxgw/LxgwMarkerGothic/releases/latest/download/LxgwMarkerGothic-v1.003.zip
+
+https://github.com/lxgw/kose-font/releases/latest/download/Xiaolai-Regular.ttf
+https://github.com/lxgw/yozai-font/releases/latest/download/Yozai-Regular.ttf
+https://github.com/lxgw/yozai-font/releases/latest/download/Yozai-Medium.ttf
