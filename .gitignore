@@ -2,6 +2,7 @@
 /build
 *.zip
 *.pdf
+*.curlopt
 
 # macOS DS
 .DS_Store
