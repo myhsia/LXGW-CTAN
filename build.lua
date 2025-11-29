@@ -7,7 +7,7 @@
              Do Check Before Push
 --]==========================================]--
 
-module              = "LXGW-fonts"
+module              = "LXGW"
 version             = "v1.521"
 date                = "2025-11-29"
 maintainer          = "Mingyu Xia"
@@ -25,7 +25,7 @@ description         = "The LXGW Font Family provides an unprofessional open-sour
          Do not Modify Unless Necessary
 --]==========================================]--
 
-ctanzip             = module
+ctanzip             = module .. "-fonts"
 excludefiles        = {"*~"}
 textfiles           = {"*.md", "LICENSE", "*.lua", "*.ttf"}
 typesetfiles        = {"*.tex"}
@@ -34,7 +34,7 @@ typesetruns         = 1
 unpacksuppfiles     = {"*.txt"}
 
 uploadconfig  = {
-  pkg          = module,
+  pkg          = ctanzip,
   version      = version .. " " .. date,
   author       = maintainer,
   uploader     = uploader,
@@ -42,11 +42,11 @@ uploadconfig  = {
   summary      = summary,
   description  = description,
   license      = "ofl",
-  ctanPath     = "/fonts/" .. module,
+  ctanPath     = "/fonts/" .. ctanzip,
   announcement = announcement,
   home         = "https://github.com/" .. maintainid,
   bugtracker   = repository .. "/issues",
-  support      = repository .. "/issues",
+  support      = "https://github.com/lxgw",
   repository   = repository,
   development  = "https://github.com/" .. maintainid,
   update       = false
