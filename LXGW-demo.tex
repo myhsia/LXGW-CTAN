@@ -3,12 +3,12 @@
 \PassOptionsToPackage{quiet}{xeCJK}
 \usepackage[scheme = plain, fontset = none]{ctex}
 \defaultfontfeatures{Path = ../unpacked/, Scale = .95}
-\setmainfont[BoldFont = LXGWWenKaiMono-Medium]{LXGWWenKaiMono-Regular}
+\setmainfont[BoldFont = LXGWWenKaiMonoLite-Medium]{LXGWWenKaiMonoLite-Regular}
 \renewcommand* \pkg \textbf
 \newcommand\setrow[1]{\gdef\rowmac{#1}#1\ignorespaces}
 \newcommand\clearrow{\global\let\rowmac\relax}
 \clearrow
-\usepackage{booktabs, array}
+\usepackage{booktabs, array, graphicx}
 \ExplSyntaxOn \makeatletter
 \DeclareDocumentCommand \key { s m }
   {
@@ -17,7 +17,7 @@
         \seq_set_from_clist:Nn \l_tmpa_seq {#2}
         \seq_set_map:NNn \l_tmpb_seq \l_tmpa_seq
           { \exp_not:n { \textcolor{red}{##1} } }
-        \seq_use:Nn \l_tmpb_seq { ,~ } \c_colon_str\
+        \seq_use:Nn \l_tmpb_seq { ,~ } \,\textbar\,
       }
   }
 \DeclareCommandCopy \val \meta
@@ -29,65 +29,100 @@
 
 \begin{document}
 
-\title{The \pkg{LXGW} Font Family}
+\title{The \pkg{LXGW} Font Family\thanks{%
+  \url{https://github.com/lxgw},
+  \url{https://github.com/myhsia/LXGW-CTAN}
+} \textbar\ \texorpdfstring{\parbox{4\ccwd}{%
+    \scalebox{\fpeval{4/7}}{落霞与孤鹜齐飞}\\[-.5\ccwd]
+    \scalebox{\fpeval{4/7}}{秋水共长天一色}%
+  }}{}%
+}
 
 \author{%
-  Administrator: Mingyu Xia\thanks{\texttt{<%
-    \href{mailto:xiamingyu@westlake.edu.cn}{xiamingyu@westlake.edu.cn}>%
-  }}, Maintainer: LXGW\thanks{\texttt{<%
-    \href{mailto:calxgw2018@gmail.com}{calxgw2018@gmail.com}>}}
+  Maintainer: LXGW\thanks{\texttt{%
+    \href{mailto:calxgw2018@gmail.com}{calxgw2018@gmail.com}}},
+  Administrator: Mingyu Xia\thanks{\texttt{%
+    \href{mailto:xiamingyu@westlake.edu.cn}{xiamingyu@westlake.edu.cn}%
+  }}
 }
 
 \date{Released 2025-11-29\quad \texttt{v1.521}}
+
+\def\Copyright{%
+  \begin{center}
+    \fbox{\fbox{\parbox {.84\linewidth} {%
+    This package is a selection of open-source fonts from the
+    \href{https://github.com/lxgw/LxgwWenKai-Lite}
+      {LXGW WenKai\textsuperscript{Lite Edition}},
+    \href{https://github.com/lxgw/LxgwWenKaiGB-Lite}
+      {LXGW WenKai GB\textsuperscript{Lite Edition}},
+    \href{https://github.com/lxgw/LxgwMarkerGothic}
+      {LXGW Marker Gothic},
+    \href{https://github.com/lxgw/kose-font}
+      {Xiaolai Font}, and
+    \href{https://github.com/lxgw/yozai-font}
+      {Yozai Font},
+    which are released into public domain by
+    \href{https://lxgw.github.io/}{LXGW} (2021). They are licensed under the
+    \href{https://ctan.org/license/ofl}{SIL Open Font License (OFL)}.
+    }}}
+  \end{center}}
+\makeatletter \def\@thanks{\Copyright} \makeatother
 
 \maketitle
 
 \begin{abstract}
   The \pkg{LXGW} Font Family provides an unprofessional open-source Chinese
-  font family, which (will be) included in the \pkg{ctex-kit} as a |fontset|
+  font family, which (will be) included in the \pkg{C\TeX 宏集} as a |fontset|
   option.
 \end{abstract}
 
+\noindent
 The following lists the Chinese name, English name, filename
 (with \file{.ttf} extension), and demo of the fonts.
-
+\def\0{我能吞下玻璃而不伤身体。}
 \begin{keyval}
-  \item [\key{\CJKfontspec[BoldFont = LXGWWenKaiMono-Medium]
-          {LXGWWenKaiMono-Regular}\selectfont
-          霞鹜文楷, LXGW WenKai}]
-        \file{LXGWWenKaiMono-Regular}, \file{LXGWWenKaiMono-Medium} \hfill
-        \CJKfontspec[BoldFont = LXGWWenKaiMono-Medium]
-          {LXGWWenKaiMono-Regular}\selectfont
-          我能吞下玻璃\textbf{而不伤身体。}
-  \item [\key{\CJKfontspec[BoldFont = LXGWWenKaiMonoGB-Medium]
-          {LXGWWenKaiMonoGB-Regular}\selectfont
-          霞鹜文楷\textsubscript{\textbf{国标}},
-          LXGW WenKai\textsubscript{\textbf{GB}}}]
-        \file{LXGWWenKaiMonoGB-Regular}, \file{LXGWWenKaiMonoGB-Medium} \hfill
-        \CJKfontspec[BoldFont = LXGWWenKaiMonoGB-Medium]
-          {LXGWWenKaiMonoGB-Regular}\selectfont
-          我能吞下玻璃\textbf{而不伤身体。}
+  \item [\key{\CJKfontspec[BoldFont = LXGWWenKaiMonoLite-Medium]
+          {LXGWWenKaiMonoLite-Regular}\selectfont
+          霞鹜文楷 (LXGW WenKai)}]
+        \file{LXGWWenKaiMonoLite-Regular}, \file{LXGWWenKaiMonoLite-Medium}
+  \begin{center}
+    \CJKfontspec[BoldFont = LXGWWenKaiMonoLite-Medium]
+      {LXGWWenKaiMonoLite-Regular}\selectfont \0\textbf{\0}
+  \end{center}
+  \item [\key{\CJKfontspec[BoldFont = LXGWWenKaiMonoGBLite-Medium]
+          {LXGWWenKaiMonoGBLite-Regular}\selectfont
+          霞鹜文楷\textsubscript{\textbf{国标}}
+          (LXGW WenKai\textsubscript{\textbf{GB}})}]
+        \file{LXGWWenKaiMonoGBLite-Regular}, \file{LXGWWenKaiMonoGBLite-Medium}
+  \begin{center}
+    \CJKfontspec[BoldFont = LXGWWenKaiMonoGBLite-Medium]
+          {LXGWWenKaiMonoGBLite-Regular}\selectfont \0\textbf{\0}
+  \end{center}
   \item [\key{\CJKfontspec[AutoFakeBold]
           {LXGWMarkerGothic-Regular}\selectfont
-          霞鹜漫黑, LXGW Marker Gothic}]
-        \file{LXGWMarkerGothic-Regular} \hfill
-        \CJKfontspec[AutoFakeBold]
-          {LXGWMarkerGothic-Regular}\selectfont
-          我能吞下玻璃\textbf{而不伤身体。}
+          霞鹜漫黑 (LXGW Marker Gothic)}]
+        \file{LXGWMarkerGothic-Regular}
+  \begin{center}
+    \CJKfontspec[AutoFakeBold]
+      {LXGWMarkerGothic-Regular}\selectfont \0\textbf{\0}
+  \end{center}
   \item [\key{\CJKfontspec[AutoFakeBold]
           {LXGWXiaolai-Regular}\selectfont
-          小赖字体, Xiaolai Font}]
-        \file{LXGWXiaolai-Regular} \hfill
-        \CJKfontspec[AutoFakeBold]
-          {LXGWXiaolai-Regular}\selectfont
-          我能吞下玻璃\textbf{而不伤身体。}
+          小赖字体 (Xiaolai Font)}]
+        \file{LXGWXiaolai-Regular}
+  \begin{center}
+    \CJKfontspec[AutoFakeBold]
+      {LXGWXiaolai-Regular}\selectfont \0\textbf{\0}
+  \end{center}
   \item [\key{\CJKfontspec[AutoFakeBold]
           {LXGWYozai-Regular}\selectfont
-          悠哉字体, Yozai Font}]
-        \file{LXGWYozai-Regular}, \file{LXGWYozai-Medium} \hfill
-        \CJKfontspec[BoldFont = LXGWYozai-Medium]
-          {LXGWYozai-Regular}\selectfont
-          我能吞下玻璃\textbf{而不伤身体。}
+          悠哉字体 (Yozai Font)}]
+        \file{LXGWYozai-Regular}, \file{LXGWYozai-Medium}
+  \begin{center}
+    \CJKfontspec[BoldFont = LXGWYozai-Medium]
+      {LXGWYozai-Regular}\selectfont \0\textbf{\0}
+  \end{center}
 \end{keyval}
 
 \end{document}

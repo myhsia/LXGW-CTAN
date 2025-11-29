@@ -7,16 +7,19 @@
              Do Check Before Push
 --]==========================================]--
 
-module              = "LXGW"
-version             = "v1.521"
-date                = "2025-11-29"
+module              = "lxgw-fonts"
+version             = "v1.521A"
+date                = "2025-11-30"
 maintainer          = "Mingyu Xia"
 uploader            = "Mingyu Xia"
 maintainid          = "myhsia"
 email               = "myhsia@outlook.com"
-repository          = "https://github.com/" .. maintainid .. "/" .. module .. "-ctan"
-announcement        = [[New font family on CTAN.
-The LXGW Font Family provides an unprofessional open-source Chinese font family.]]
+repository          = "https://github.com/" .. maintainid .. "/LXGW-CTAN"
+announcement        = [[Version 1.521A (2025-11-30) released
+- Use the lite version of TTF file.
+- Change the typeset layout of the demo file.
+- Fixed the wrong URL in README.md.
+- Rename the top-level directory to "lxgw-fonts" as it in CTAN.]]
 summary             = "An unprofessional open-source Chinese font family"
 description         = "The LXGW Font Family provides an unprofessional open-source Chinese font family."
 
@@ -25,7 +28,7 @@ description         = "The LXGW Font Family provides an unprofessional open-sour
          Do not Modify Unless Necessary
 --]==========================================]--
 
-ctanzip             = module .. "-fonts"
+ctanzip             = module
 excludefiles        = {"*~"}
 textfiles           = {"*.md", "LICENSE", "*.lua", "*.ttf"}
 typesetfiles        = {"*.tex"}
@@ -34,7 +37,7 @@ typesetruns         = 1
 unpacksuppfiles     = {"*.txt"}
 
 uploadconfig  = {
-  pkg          = ctanzip,
+  pkg          = module,
   version      = version .. " " .. date,
   author       = maintainer,
   uploader     = uploader,
@@ -42,14 +45,14 @@ uploadconfig  = {
   summary      = summary,
   description  = description,
   license      = "ofl",
-  ctanPath     = "/fonts/" .. ctanzip,
+  ctanPath     = "/fonts/" .. module,
   announcement = announcement,
   home         = "https://github.com/" .. maintainid,
   bugtracker   = repository .. "/issues",
   support      = "https://github.com/lxgw",
   repository   = repository,
   development  = "https://github.com/" .. maintainid,
-  update       = false
+  update       = true
 }
 function update_tag(file, content, tagname, tagdate)
   tagname = version
@@ -67,8 +70,8 @@ end
 function docinit_hook()
   cp("fetch.txt",  maindir, unpackdir)
   run(unpackdir, "wget -i fetch.txt")
-  run(unpackdir, "unzip LxgwMarkerGothic-v1.003.zip")
-  run(unpackdir, "mv ./LxgwMarkerGothic-v1.003/fonts/ttf/*.ttf ./")
+  run(unpackdir, "unzip LXGWMarkerGothic-v1.003.zip")
+  run(unpackdir, "mv ./LXGWMarkerGothic-v1.003/fonts/ttf/*.ttf ./")
   run(unpackdir, "mv ./Xiaolai-Regular.ttf ./LXGWXiaolai-Regular.ttf")
   run(unpackdir, "mv ./Yozai-Regular.ttf ./LXGWYozai-Regular.ttf")
   run(unpackdir, "mv ./Yozai-Medium.ttf ./LXGWYozai-Medium.ttf")

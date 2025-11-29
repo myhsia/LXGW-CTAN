@@ -1,5 +1,4 @@
-[![CTAN Version](https://img.shields.io/ctan/v/lxgw)](https://ctan.org/pkg/lxgw)
-[![GitHub Release](https://img.shields.io/github/v/release/myhsia/LXGW-CTAN)](https://github.com/myhsia/LXGW-CTAN/releases/latest)
+[![CTAN Version](https://img.shields.io/ctan/v/lxgw)](https://ctan.org/pkg/lxgw-fonts)
 
 The `LXGW` Font Family
 =======================
@@ -10,7 +9,7 @@ Issues
 ------
 
 The issue tracker for `LXGW` is currently located
-[on GitHub](https://github.com/LXGW-CTAN).
+[on GitHub](https://github.com/myhsia/LXGW-CTAN).
 
 Copyright and License
 ---------------------
