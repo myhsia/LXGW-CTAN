@@ -1,0 +1,90 @@
+\documentclass{l3doc}
+
+\PassOptionsToPackage{quiet}{xeCJK}
+\usepackage[scheme = plain, fontset = none]{ctex}
+\defaultfontfeatures{Path = ../unpacked/, Scale = .95}
+\setmainfont[BoldFont = LXGWWenKaiMono-Medium]{LXGWWenKaiMono-Regular}
+\renewcommand* \pkg \textbf
+\newcommand\setrow[1]{\gdef\rowmac{#1}#1\ignorespaces}
+\newcommand\clearrow{\global\let\rowmac\relax}
+\clearrow
+\usepackage{booktabs, array}
+\ExplSyntaxOn \makeatletter
+\DeclareDocumentCommand \key { s m }
+  {
+    \IfBooleanTF {#1} { \textcolor{red}{#2} }
+      {
+        \seq_set_from_clist:Nn \l_tmpa_seq {#2}
+        \seq_set_map:NNn \l_tmpb_seq \l_tmpa_seq
+          { \exp_not:n { \textcolor{red}{##1} } }
+        \seq_use:Nn \l_tmpb_seq { ,~ } \c_colon_str\
+      }
+  }
+\DeclareCommandCopy \val \meta
+\def \TFF {true\textup{\textbar\underline{\textbf{false}}}}
+\def \TTF {\textup{\underline{\textbf{true}}\textbar}false}
+\newlist{keyval}{itemize}{10}
+\setlist[keyval]{leftmargin = 0pt, labelsep = 0pt}
+\makeatother \ExplSyntaxOff
+
+\begin{document}
+
+\title{The \pkg{LXGW} Font Family}
+
+\author{%
+  Administrator: Mingyu Xia\thanks{\texttt{<%
+    \href{mailto:xiamingyu@westlake.edu.cn}{xiamingyu@westlake.edu.cn}>%
+  }}, Maintainer: LXGW\thanks{\texttt{<%
+    \href{mailto:calxgw2018@gmail.com}{calxgw2018@gmail.com}>}}
+}
+
+\date{Released 2025-11-29\quad \texttt{v1.521}}
+
+\maketitle
+
+\begin{abstract}
+  The \pkg{LXGW} Font Family provides an unprofessional open-source Chinese
+  font family, which (will be) included in the \pkg{ctex-kit} as a |fontset|
+  option.
+\end{abstract}
+
+\begin{keyval}
+  \item [\key{\CJKfontspec[BoldFont = LXGWWenKaiMono-Medium]
+          {LXGWWenKaiMono-Regular}\selectfont
+          霞鹜文楷, LXGW WenKai}]
+        \file{LXGWWenKaiMono-Regular}, \file{LXGWWenKaiMono-Medium} \hfill
+        \CJKfontspec[BoldFont = LXGWWenKaiMono-Medium]
+          {LXGWWenKaiMono-Regular}\selectfont
+          我能吞下玻璃\textbf{而不伤身体。}
+  \item [\key{\CJKfontspec[BoldFont = LXGWWenKaiMonoGB-Medium]
+          {LXGWWenKaiMonoGB-Regular}\selectfont
+          霞鹜文楷\textsubscript{\textbf{国标}},
+          LXGW WenKai\textsubscript{\textbf{GB}}}]
+        \file{LXGWWenKaiMonoGB-Regular}, \file{LXGWWenKaiMonoGB-Medium} \hfill
+        \CJKfontspec[BoldFont = LXGWWenKaiMonoGB-Medium]
+          {LXGWWenKaiMonoGB-Regular}\selectfont
+          我能吞下玻璃\textbf{而不伤身体。}
+  \item [\key{\CJKfontspec[AutoFakeBold]
+          {LXGWMarkerGothic-Regular}\selectfont
+          霞鹜漫黑, LXGW Marker Gothic}]
+        \file{LXGWMarkerGothic-Regular} \hfill
+        \CJKfontspec[AutoFakeBold]
+          {LXGWMarkerGothic-Regular}\selectfont
+          我能吞下玻璃\textbf{而不伤身体。}
+  \item [\key{\CJKfontspec[AutoFakeBold]
+          {LXGWXiaolai-Regular}\selectfont
+          小赖字体, Xiaolai Font}]
+        \file{LXGWXiaolai-Regular} \hfill
+        \CJKfontspec[AutoFakeBold]
+          {LXGWXiaolai-Regular}\selectfont
+          我能吞下玻璃\textbf{而不伤身体。}
+  \item [\key{\CJKfontspec[AutoFakeBold]
+          {LXGWYozai-Regular}\selectfont
+          悠哉字体, Yozai Font}]
+        \file{LXGWYozai-Regular}, \file{LXGWYozai-Medium} \hfill
+        \CJKfontspec[BoldFont = LXGWYozai-Medium]
+          {LXGWYozai-Regular}\selectfont
+          我能吞下玻璃\textbf{而不伤身体。}
+\end{keyval}
+
+\end{document}
