@@ -8,18 +8,14 @@
 --]==========================================]--
 
 module              = "lxgw-fonts"
-version             = "v1.521A"
+version             = "v1.521B"
 date                = "2025-11-30"
 maintainer          = "Mingyu Xia"
 uploader            = "Mingyu Xia"
 maintainid          = "myhsia"
 email               = "myhsia@outlook.com"
 repository          = "https://github.com/" .. maintainid .. "/LXGW-CTAN"
-announcement        = [[Version 1.521A (2025-11-30) released
-- Use the lite version of TTF file.
-- Change the typeset layout of the demo file.
-- Fixed the wrong URL in README.md.
-- Rename the top-level directory to "lxgw-fonts" as it in CTAN.]]
+announcement        = [[]]
 summary             = "An unprofessional open-source Chinese font family"
 description         = "The LXGW Font Family provides an unprofessional open-source Chinese font family."
 
@@ -54,16 +50,6 @@ uploadconfig  = {
   development  = "https://github.com/" .. maintainid,
   update       = true
 }
-function update_tag(file, content, tagname, tagdate)
-  tagname = version
-  tagdate = date
-  if string.match(file, "%.dtx$") or string.match(file, "%.tex$") then
-    content = string.gsub(content,
-      "\\date{Released %d+%-%d+%-%d+\\quad \\texttt{v([%d%.A-Z]+)}}",
-      "\\date{Released " .. tagdate .. "\\quad \\texttt{" .. tagname .. "}}")
-  end
-  return content
-end
 
 --[== "Hacks" to `l3build` | Do not Modify ==]--
 

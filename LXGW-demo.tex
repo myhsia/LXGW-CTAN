@@ -1,14 +1,10 @@
 \documentclass{l3doc}
 
+\usepackage[mono = false, osf]{libertine}
 \PassOptionsToPackage{quiet}{xeCJK}
-\usepackage[scheme = plain, fontset = none]{ctex}
-\defaultfontfeatures{Path = ../unpacked/, Scale = .95}
-\setmainfont[BoldFont = LXGWWenKaiMonoLite-Medium]{LXGWWenKaiMonoLite-Regular}
-\renewcommand* \pkg \textbf
-\newcommand\setrow[1]{\gdef\rowmac{#1}#1\ignorespaces}
-\newcommand\clearrow{\global\let\rowmac\relax}
-\clearrow
-\usepackage{booktabs, array, graphicx}
+\usepackage[LoadFandol = false]{xeCJK}
+\defaultfontfeatures{Path = ../unpacked/, Scale = .875}
+\usepackage{booktabs, graphicx, tikz}
 \ExplSyntaxOn \makeatletter
 \DeclareDocumentCommand \key { s m }
   {
@@ -21,107 +17,125 @@
       }
   }
 \DeclareCommandCopy \val \meta
-\def \TFF {true\textup{\textbar\underline{\textbf{false}}}}
-\def \TTF {\textup{\underline{\textbf{true}}\textbar}false}
 \newlist{keyval}{itemize}{10}
 \setlist[keyval]{leftmargin = 0pt, labelsep = 0pt}
+\def \HoLogo@LXGW#1{\xfontspec{LXGWWenKaiLite-Medium}LX\kern-.05emG\kern-.05emW}
+\DeclareDocumentCommand \xfontspec { O{} m O{} }
+  {
+    \fontspec    {#2} [#1, #3] \selectfont
+    \CJKfontspec {#2} [#1, #3] \selectfont
+  }
 \makeatother \ExplSyntaxOff
 
 \begin{document}
 
-\title{The \pkg{LXGW} Font Family\thanks{%
+\makeatletter
+\title{The \hologo{LXGW} Font Family\thanks{%
   \url{https://github.com/lxgw},
   \url{https://github.com/myhsia/LXGW-CTAN}
-} \textbar\ \texorpdfstring{\parbox{4\ccwd}{%
-    \scalebox{\fpeval{4/7}}{落霞与孤鹜齐飞}\\[-.5\ccwd]
+}\texorpdfstring{\enspace \textbar \enspace\parbox{4em}{%
+    \xfontspec{LXGWWenKaiLite-Regular}%
+    \scalebox{\fpeval{4/7}}{落霞与孤鹜齐飞}\\[-.75em]
     \scalebox{\fpeval{4/7}}{秋水共长天一色}%
   }}{}%
 }
 
 \author{%
-  Maintainer: LXGW\thanks{\texttt{%
+  Maintainer: \hologo{LXGW}\thanks{\texttt{%
     \href{mailto:calxgw2018@gmail.com}{calxgw2018@gmail.com}}},
   Administrator: Mingyu Xia\thanks{\texttt{%
     \href{mailto:xiamingyu@westlake.edu.cn}{xiamingyu@westlake.edu.cn}%
   }}
 }
 
-\date{Released 2025-11-29\quad \texttt{v1.521}}
+\date{Released 2025-11-30\quad \texttt{v1.521B}}
 
 \def\Copyright{%
   \begin{center}
-    \fbox{\fbox{\parbox {.84\linewidth} {%
-    This package is a selection of open-source fonts from the
+    \fbox{\fbox{\parbox {.8\linewidth} {%
+    This package packed a selection of open-source fonts from the
     \href{https://github.com/lxgw/LxgwWenKai-Lite}
-      {LXGW WenKai\textsuperscript{Lite Edition}},
+      {\xfontspec{LXGWWenKaiLite-Regular}%
+        LXGW WenKai\textsuperscript{Lite Edition}},
     \href{https://github.com/lxgw/LxgwWenKaiGB-Lite}
-      {LXGW WenKai GB\textsuperscript{Lite Edition}},
+      {\xfontspec{LXGWWenKaiGBLite-Regular}%
+        LXGW WenKai GB\textsuperscript{Lite Edition}},
     \href{https://github.com/lxgw/LxgwMarkerGothic}
-      {LXGW Marker Gothic},
+      {\xfontspec{LXGWMarkerGothic-Regular}%
+        LXGW Marker Gothic},
     \href{https://github.com/lxgw/kose-font}
-      {Xiaolai Font}, and
+      {\xfontspec{LXGWXiaolai-Regular}%
+        Xiaolai Font}, and
     \href{https://github.com/lxgw/yozai-font}
-      {Yozai Font},
+      {\xfontspec{LXGWYozai-Regular}%
+        Yozai Font},
     which are released into public domain by
-    \href{https://lxgw.github.io/}{LXGW} (2021). They are licensed under the
+    \href{https://lxgw.github.io/}{\hologo{LXGW}} (2021).
+    They are licensed under the
     \href{https://ctan.org/license/ofl}{SIL Open Font License (OFL)}.
-    }}}
+  }}}
   \end{center}}
-\makeatletter \def\@thanks{\Copyright} \makeatother
+\def\@thanks{\Copyright}
 
 \maketitle
+\tikz[remember picture, overlay]
+  \node [ rotate = -10, font = \xfontspec{LXGWWenKaiLite-Regular},
+          scale = 50, opacity = .1 ] at
+        ([shift = {(10 * \f@size \p@, 8 * \f@size \p@)}]
+          current page.south west) {鹜};
+\makeatother
 
 \begin{abstract}
-  The \pkg{LXGW} Font Family provides an unprofessional open-source Chinese
-  font family, which (will be) included in the \pkg{C\TeX 宏集} as a |fontset|
+  The \hologo{LXGW} Font Family provides an unprofessional open-source Chinese
+  font family, which (will be) included in the \pkg{ctex-kit} as a |fontset|
   option.
 \end{abstract}
 
 \noindent
 The following lists the Chinese name, English name, filename
 (with \file{.ttf} extension), and demo of the fonts.
-\def\0{我能吞下玻璃而不伤身体。}
+\def\0{%
+  我可以食玻璃，\textbf{佢傷唔到我㗎。}%
+  I can eat glass \textbf{and it doesn't hurt me.}%
+  我能吞下玻璃\textbf{而不伤身体。}\\
+  我能吞下玻璃而不傷身體。%
+  私はガラスを食べられます。\textbf{それは私を傷つけません。}%
+  12345\textbf{67890} ^^^^2370
+}
 \begin{keyval}
-  \item [\key{\CJKfontspec[BoldFont = LXGWWenKaiMonoLite-Medium]
-          {LXGWWenKaiMonoLite-Regular}\selectfont
-          霞鹜文楷 (LXGW WenKai)}]
-        \file{LXGWWenKaiMonoLite-Regular}, \file{LXGWWenKaiMonoLite-Medium}
+  \item [\key{\xfontspec[BoldFont = LXGWWenKaiLite-Medium]%
+          {LXGWWenKaiLite-Regular}霞鹜文楷 (LXGW WenKai)}]
+        \file{LXGWWenKaiLite-Regular}, \file{LXGWWenKaiLite-Medium}
   \begin{center}
-    \CJKfontspec[BoldFont = LXGWWenKaiMonoLite-Medium]
-      {LXGWWenKaiMonoLite-Regular}\selectfont \0\textbf{\0}
+    \xfontspec[BoldFont = LXGWWenKaiLite-Medium]%
+      {LXGWWenKaiLite-Regular}\0
   \end{center}
-  \item [\key{\CJKfontspec[BoldFont = LXGWWenKaiMonoGBLite-Medium]
-          {LXGWWenKaiMonoGBLite-Regular}\selectfont
+  \item [\key{\xfontspec[BoldFont = LXGWWenKaiGBLite-Medium]%
+          {LXGWWenKaiGBLite-Regular}%
           霞鹜文楷\textsubscript{\textbf{国标}}
           (LXGW WenKai\textsubscript{\textbf{GB}})}]
-        \file{LXGWWenKaiMonoGBLite-Regular}, \file{LXGWWenKaiMonoGBLite-Medium}
+        \file{LXGWWenKaiGBLite-Regular}, \file{LXGWWenKaiGBLite-Medium}
   \begin{center}
-    \CJKfontspec[BoldFont = LXGWWenKaiMonoGBLite-Medium]
-          {LXGWWenKaiMonoGBLite-Regular}\selectfont \0\textbf{\0}
+    \xfontspec[BoldFont = LXGWWenKaiGBLite-Medium]%
+      {LXGWWenKaiGBLite-Regular}\0
   \end{center}
-  \item [\key{\CJKfontspec[AutoFakeBold]
-          {LXGWMarkerGothic-Regular}\selectfont
+  \item [\key{\xfontspec[AutoFakeBold]{LXGWMarkerGothic-Regular}%
           霞鹜漫黑 (LXGW Marker Gothic)}]
         \file{LXGWMarkerGothic-Regular}
   \begin{center}
-    \CJKfontspec[AutoFakeBold]
-      {LXGWMarkerGothic-Regular}\selectfont \0\textbf{\0}
+    \xfontspec[AutoFakeBold]{LXGWMarkerGothic-Regular}\0
   \end{center}
-  \item [\key{\CJKfontspec[AutoFakeBold]
-          {LXGWXiaolai-Regular}\selectfont
+  \item [\key{\xfontspec[AutoFakeBold]{LXGWXiaolai-Regular}%
           小赖字体 (Xiaolai Font)}]
         \file{LXGWXiaolai-Regular}
   \begin{center}
-    \CJKfontspec[AutoFakeBold]
-      {LXGWXiaolai-Regular}\selectfont \0\textbf{\0}
+    \xfontspec[AutoFakeBold]{LXGWXiaolai-Regular}\0
   \end{center}
-  \item [\key{\CJKfontspec[AutoFakeBold]
-          {LXGWYozai-Regular}\selectfont
+  \item [\key{\xfontspec[AutoFakeBold]{LXGWYozai-Regular}%
           悠哉字体 (Yozai Font)}]
         \file{LXGWYozai-Regular}, \file{LXGWYozai-Medium}
   \begin{center}
-    \CJKfontspec[BoldFont = LXGWYozai-Medium]
-      {LXGWYozai-Regular}\selectfont \0\textbf{\0}
+    \xfontspec[AutoFakeBold]{LXGWYozai-Regular}\0
   \end{center}
 \end{keyval}
 
