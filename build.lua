@@ -8,7 +8,7 @@
 --]==========================================]--
 
 module              = "lxgw-fonts"
-version             = "v1.521B"
+version             = "v1.521C"
 date                = "2025-12-01"
 maintainer          = "Mingyu Xia"
 uploader            = "Mingyu Xia"
@@ -55,7 +55,7 @@ uploadconfig  = {
 
 function docinit_hook()
   cp("fetch.txt",  maindir, unpackdir)
-  run(unpackdir, "wget -i fetch.txt")
+  run(unpackdir, "wget2 -i fetch.txt")
   run(unpackdir, "unzip LXGWMarkerGothic-v1.003.zip")
   run(unpackdir, "mv ./LXGWMarkerGothic-v1.003/fonts/ttf/*.ttf ./")
   run(unpackdir, "mv ./Xiaolai-Regular.ttf ./LXGWXiaolai-Regular.ttf")
