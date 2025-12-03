@@ -8,8 +8,8 @@
 --]==========================================]--
 
 module              = "lxgw-fonts"
-version             = "v1.521C"
-date                = "2025-12-01"
+version             = "v1.521D"
+date                = "2025-12-03"
 maintainer          = "Mingyu Xia"
 uploader            = "Mingyu Xia"
 maintainid          = "myhsia"
@@ -26,8 +26,9 @@ description         = "The LXGW Font Family provides an unprofessional open-sour
 
 ctanzip             = module
 excludefiles        = {"*~"}
+docfiles            = {"ctex-fontset-lxgw.def", "ctex-zhmap-lxgw.tex"}
 textfiles           = {"*.md", "LICENSE", "*.lua", "*.ttf"}
-typesetfiles        = {"*.tex"}
+typesetfiles        = {"LXGW-demo.tex"}
 typesetexe          = "latexmk -xelatex"
 typesetruns         = 1
 unpacksuppfiles     = {"*.txt"}

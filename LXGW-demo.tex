@@ -2,10 +2,12 @@
 
 \usepackage[mono = false, osf]{libertine}
 \tracinglostchars = 0
-\usepackage[quiet, LoadFandol = false, PunctStyle = plain]{xeCJK}
-\defaultfontfeatures{Path = ../unpacked/, Scale = .875}
+\XeTeXcharclass "2370 = 1
+\usepackage[fontset = lxgw, scheme = plain]{ctex}
+\defaultfontfeatures{Extension = .ttf}
 \usepackage{booktabs, graphicx, tikz}
 \ExplSyntaxOn \makeatletter
+
 \DeclareDocumentCommand \key { s m }
   {
     \IfBooleanTF {#1} { \textcolor{red}{#2} }
@@ -19,12 +21,9 @@
 \DeclareCommandCopy \val \meta
 \newlist{keyval}{itemize}{10}
 \setlist[keyval]{leftmargin = 0pt, labelsep = 0pt}
-\def \HoLogo@LXGW#1{\xfontspec{LXGWWenKaiLite-Medium}LX\kern-.05emG\kern-.05emW}
-\DeclareDocumentCommand \xfontspec { O{} m O{} }
-  {
-    \fontspec    {#2} [#1, #3] \selectfont
-    \CJKfontspec {#2} [#1, #3] \selectfont
-  }
+\def \HoLogo@LXGW#1{%
+  \fontspec{LXGWWenKaiLite-Medium}\selectfont
+  LX\kern-.05emG\kern-.05emW}
 \makeatother \ExplSyntaxOff
 
 \begin{document}
@@ -34,7 +33,7 @@
   \url{https://github.com/lxgw},
   \url{https://github.com/myhsia/LXGW-CTAN}
 }\texorpdfstring{\enspace \textbar \enspace\parbox{4em}{%
-    \xfontspec{LXGWWenKaiLite-Regular}%
+    \songti
     \scalebox{\fpeval{4/7}}{落霞与孤鹜齐飞}\\[-.75em]
     \scalebox{\fpeval{4/7}}{秋水共长天一色}%
   }}{}%
@@ -48,27 +47,23 @@
   }}
 }
 
-\date{Released 2025-12-01\quad \texttt{v1.521C}}
+\date{Released 2025-12-03\quad \texttt{v1.521D}}
 
 \def\Copyright{%
   \begin{center}
     \fbox{\fbox{\parbox {.8\linewidth} {%
     This package packed a selection of open-source fonts from the
     \href{https://github.com/lxgw/LxgwWenKai-Lite}
-      {\xfontspec{LXGWWenKaiLite-Regular}%
-        LXGW WenKai\textsuperscript{Lite Edition}},
+      {\songti 霞鹜文楷\textsuperscript{轻便版}},
     \href{https://github.com/lxgw/LxgwWenKaiGB-Lite}
-      {\xfontspec{LXGWWenKaiGBLite-Regular}%
-        LXGW WenKai GB\textsuperscript{Lite Edition}},
+      {\CJKfontspec{LXGWWenKaiGBLite-Regular}\selectfont
+        霞鹜文楷\ 国标\textsuperscript{轻便版}},
     \href{https://github.com/lxgw/LxgwMarkerGothic}
-      {\xfontspec{LXGWMarkerGothic-Regular}%
-        LXGW Marker Gothic},
+      {\heiti 霞鹜漫黑},
     \href{https://github.com/lxgw/kose-font}
-      {\xfontspec{LXGWXiaolai-Regular}%
-        Xiaolai Font}, and
+      {\fangsong 小赖字体}, and
     \href{https://github.com/lxgw/yozai-font}
-      {\xfontspec{LXGWYozai-Regular}%
-        Yozai Font},
+      {\kaishu 悠哉字体},
     which are released into public domain by
     \href{https://lxgw.github.io/}{\hologo{LXGW}} (2021).
     They are licensed under the
@@ -79,7 +74,7 @@
 
 \maketitle
 \tikz[remember picture, overlay]
-  \node [ rotate = -10, font = \xfontspec{LXGWWenKaiLite-Regular},
+  \node [ rotate = -10, font = \songti,
           scale = 50, opacity = .1 ] at
         ([shift = {(10 * \f@size \p@, 8 * \f@size \p@)}]
           current page.south west) {鹜};
@@ -103,47 +98,42 @@ Japanese versions of ``\textbf{I Can Eat Glass}'', arabic numbers, and Missing
 character markers are provided.
 \def\0{%
   \makebox[\linewidth][s]{%
-  我可以食玻璃，\textbf{佢傷唔到我㗎。}%
-  I can eat glass \textbf{and it doesn't hurt me.}%
-  我能吞下玻璃\textbf{而不伤身体。}}\\
-  \makebox[\linewidth][s]{我能吞下玻璃而不傷身體。%
-  私はガラスを食べられます。\textbf{それは私を傷つけません。}%
-  12345\textbf{67890} ^^^^2370}
+    我可以食玻璃，\textbf{佢傷唔到我㗎。}%
+    私はガラスを食べられます。\textbf{それは私を傷つけません。}}\\
+  \makebox[\linewidth][s]{%
+    我能吞下玻璃而不伤身体。\textbf{我能吞下玻璃而不伤身体。}%
+    我能吞下玻璃而不傷身體。^^^^2370
+  }
 }
 \begin{keyval}
-  \item [\key{\xfontspec[BoldFont = LXGWWenKaiLite-Medium]%
-          {LXGWWenKaiLite-Regular}霞鹜文楷 (LXGW WenKai)}]
-        \file{LXGWWenKaiLite-Regular.ttf}, \file{LXGWWenKaiLite-Medium.ttf}
+  \item[\key{\songti 霞鹜文楷 (\pkg{LXGW WenKai})}]
+        \file{LXGWWenKaiLite-Regular}, \file{LXGWWenKaiLite-Medium}
   \begin{center}
-    \xfontspec[BoldFont = LXGWWenKaiLite-Medium]%
-      {LXGWWenKaiLite-Regular}\0
+    \songti\0
   \end{center}
-  \item [\key{\xfontspec[BoldFont = LXGWWenKaiGBLite-Medium]%
-          {LXGWWenKaiGBLite-Regular}%
-          霞鹜文楷\textsubscript{\textbf{国标}}
-          (LXGW WenKai\textsubscript{\textbf{GB}})}]
+  \item[\key{\CJKfontspec[BoldFont = LXGWWenKaiGBLite-Medium]%
+               {LXGWWenKaiGBLite-Regular}\selectfont
+        霞鹜文楷\textsubscript{\textbf{国标}}
+        (\pkg{LXGW WenKai\textsubscript{\textbf{GB}}})}]
         \file{LXGWWenKaiGBLite-Regular.ttf}, \file{LXGWWenKaiGBLite-Medium.ttf}
   \begin{center}
-    \xfontspec[BoldFont = LXGWWenKaiGBLite-Medium]%
-      {LXGWWenKaiGBLite-Regular}\0
+    \CJKfontspec[BoldFont = LXGWWenKaiGBLite-Medium]%
+      {LXGWWenKaiGBLite-Regular}\selectfont\0
   \end{center}
-  \item [\key{\xfontspec[AutoFakeBold]{LXGWMarkerGothic-Regular}%
-          霞鹜漫黑 (LXGW Marker Gothic)}]
+  \item[\key{\heiti 霞鹜漫黑 (\pkg{LXGW Marker Gothic})}]
         \file{LXGWMarkerGothic-Regular.ttf}
   \begin{center}
-    \xfontspec[AutoFakeBold]{LXGWMarkerGothic-Regular}\0
+    \heiti\0
   \end{center}
-  \item [\key{\xfontspec[AutoFakeBold]{LXGWXiaolai-Regular}%
-          小赖字体 (Xiaolai Font)}]
+  \item[\key{\fangsong 小赖字体 (\pkg{Xiaolai Font})}]
         \file{LXGWXiaolai-Regular.ttf}
   \begin{center}
-    \xfontspec[AutoFakeBold]{LXGWXiaolai-Regular}\0
+    \fangsong\0
   \end{center}
-  \item [\key{\xfontspec[AutoFakeBold]{LXGWYozai-Regular}%
-          悠哉字体 (Yozai Font)}]
+  \item[\key{\kaishu 悠哉字体 (\pkg{Yozai Font})}]
         \file{LXGWYozai-Regular.ttf}, \file{LXGWYozai-Medium.ttf}
   \begin{center}
-    \xfontspec[AutoFakeBold]{LXGWYozai-Regular}\0
+    \kaishu\0
   \end{center}
 \end{keyval}
 

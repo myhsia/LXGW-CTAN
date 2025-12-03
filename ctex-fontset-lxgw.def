@@ -1,0 +1,104 @@
+%%
+%% This is file `ctex-fontset-lxgw.def',
+%% -----------------------------------------------------------------------
+%%   Copyright (C) 2025 by Mingyu Xia <myhsia@outlook.com>               *
+%%                                                                       *
+%%   This work may be distributed and/or modified under the conditions   *
+%%   of the LaTeX Project Public License (LPPL), either version 1.3c of  *
+%%   this license or (at your option) any later version.                 *
+%%   The latest version of this license is in                            *
+%%                                                                       *
+%%       http://www.latex-project.org/lppl.txt                           *
+%%                                                                       *
+%%   and version 1.3c or later is part of all distributions of LaTeX     *
+%%   version 2008 or later.                                              *
+%%                                                                       *
+%%   This work has the LPPL maintenance status `maintained'.             *
+%%                                                                       *
+%%   The Current Maintainer of this work is Mingyu Xia.                  *
+%% -----------------------------------------------------------------------
+\ProvidesExplFile{ctex-fontset-lxgw.def}
+  {\ExplFileDate}{1.521D}{\ExplFileDescription}
+\ctex_fontset_case:nnn
+%   { \ctex_fontset_error:n { lxgw } }
+  {
+    \ctex_zhmap_case:nnn
+      {
+        \setCJKmainfont { LXGWWenKaiLite-Regular.ttf }
+          [
+            cmap       = UniGB-UTF16-H,
+            BoldFont   = LXGWWenKaiLite-Medium.ttf,
+            ItalicFont = LXGWYozai-Regular.ttf,
+          ]
+        \setCJKsansfont { LXGWMarkerGothic-Regular.ttf }
+          [ cmap = UniGB-UTF16-H, AutoFakeBold ]
+        \setCJKmonofont { LXGWXiaolai-Regular.ttf }
+          [ cmap = UniGB-UTF16-H, AutoFakeBold  ]
+        \setCJKfamilyfont { zhsong } { LXGWWenKaiLite-Regular.ttf }
+          [ cmap = UniGB-UTF16-H, BoldFont = LXGWWenKaiLite-Medium.ttf ]
+        \setCJKfamilyfont { zhhei } { LXGWMarkerGothic-Regular.ttf }
+          [ cmap = UniGB-UTF16-H, AutoFakeBold ]
+        \setCJKfamilyfont { zhfs } { LXGWXiaolai-Regular.ttf }
+          [ cmap = UniGB-UTF16-H, AutoFakeBold ]
+        \setCJKfamilyfont { zhkai } { LXGWYozai-Regular.ttf }
+          [ cmap = UniGB-UTF16-H, BoldFont = LXGWYozai-Medium.ttf ]
+        \ctex_punct_set:n { lxgw }
+        \ctex_punct_map_family:nn   { \CJKrmdefault         } { zhsong  }
+        \ctex_punct_map_family:nn   { \CJKsfdefault         } { zhhei   }
+        \ctex_punct_map_family:nn   { \CJKttdefault         } { zhfs    }
+        \ctex_punct_map_bfseries:nn { \CJKrmdefault, zhsong } { zhsongb }
+        \ctex_punct_map_bfseries:nn { \CJKsfdefault, zhhei  } { zhheib  }
+        \ctex_punct_map_itshape:nn  { \CJKrmdefault         } { zhkai   }
+      }
+      {
+        \ctex_load_zhmap:nnnn { rm } { zhhei } { zhfs } { lxgw }
+        \ctex_punct_set:n { lxgw }
+        \ctex_punct_map_family:nn   { \CJKrmdefault } { zhsong }
+        \ctex_punct_map_bfseries:nn { \CJKrmdefault } { zhhei  }
+        \ctex_punct_map_itshape:nn  { \CJKrmdefault } { zhkai  }
+      }
+      { \ctex_fontset_error:n { lxgw } }
+  }
+  {
+    \ctex_set_upfonts:nnnnnn
+      { LXGWWenKaiLite-Regular.ttf   }
+      { LXGWWenKaiLite-Medium.ttf    }
+      { LXGWYozai-Regular.ttf        }
+      { LXGWMarkerGothic-Regular.ttf }
+      { LXGWMarkerGothic-Regular.ttf  }
+      { LXGWXiaolai-Regular.ttf      }
+    \ctex_set_upfamily:nnn { zhsong } { upzhserif   } { upzhserifb }
+    \ctex_set_upfamily:nnn { zhhei  } { upzhsans    } { upzhsansb  }
+    \ctex_set_upfamily:nnn { zhfs   } { upzhmono    } {}
+    \ctex_set_upfamily:nnn { zhkai  } { upzhserifit } {}
+  }
+  {
+    \setCJKmainfont { LXGWWenKaiLite-Regular }
+      [
+        Extension  = .ttf,
+        BoldFont   = LXGWWenKaiLite-Medium,
+        ItalicFont = LXGWYozai-Regular
+      ]
+    \setCJKsansfont { LXGWMarkerGothic-Regular }
+      [ Extension = .ttf, AutoFakeBold ]
+    \setCJKmonofont { LXGWXiaolai-Regular }
+      [ Extension = .ttf, AutoFakeBold  ]
+    \setCJKfamilyfont { zhsong } { LXGWWenKaiLite-Regular }
+      [ Extension = .ttf, BoldFont = LXGWWenKaiLite-Medium ]
+    \setCJKfamilyfont { zhhei } { LXGWMarkerGothic-Regular }
+      [ Extension = .ttf, AutoFakeBold ]
+    \setCJKfamilyfont { zhfs } { LXGWXiaolai-Regular }
+      [ Extension = .ttf, AutoFakeBold ]
+    \setCJKfamilyfont { zhkai } { LXGWYozai-Regular }
+      [ Extension = .ttf, BoldFont = LXGWYozai-Medium ]
+  }
+\NewDocumentCommand \songti   { } { \CJKfamily { zhsong } }
+\NewDocumentCommand \heiti    { } { \CJKfamily { zhhei  } }
+\NewDocumentCommand \fangsong { } { \CJKfamily { zhfs   } }
+\NewDocumentCommand \kaishu   { } { \CJKfamily { zhkai  } }
+%% -----------------------------------------------------------------------
+%%   This work consists of the files ctex-fontset-lxgw.def,              *
+%%                               and ctex-zhmap-lxgw.tex.                *
+%% -----------------------------------------------------------------------
+%%
+%% End of file `ctex-fontset-lxgw.def'.

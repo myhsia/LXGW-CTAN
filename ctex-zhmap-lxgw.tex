@@ -1,0 +1,116 @@
+%%
+%% This is file `ctex-zhmap-lxgw.tex',
+%% -----------------------------------------------------------------------
+%%   Copyright (C) 2025 by Mingyu Xia <myhsia@outlook.com>               *
+%%                                                                       *
+%%   This work may be distributed and/or modified under the conditions   *
+%%   of the LaTeX Project Public License (LPPL), either version 1.3c of  *
+%%   this license or (at your option) any later version.                 *
+%%   The latest version of this license is in                            *
+%%                                                                       *
+%%       http://www.latex-project.org/lppl.txt                           *
+%%                                                                       *
+%%   and version 1.3c or later is part of all distributions of LaTeX     *
+%%   version 2008 or later.                                              *
+%%                                                                       *
+%%   This work has the LPPL maintenance status `maintained'.             *
+%%                                                                       *
+%%   The Current Maintainer of this work is Mingyu Xia.                  *
+%% -----------------------------------------------------------------------
+\begingroup\catcode61\catcode48\catcode32=10\relax%
+  \catcode 35=6  % #
+  \catcode 45=12 % -
+  \catcode123=1  % {
+  \catcode125=2  % }
+  \toks0{\endlinechar=\the\endlinechar\relax}%
+  \toks2{\endlinechar=-1 }%
+  \def\x#1 #2 {%
+    \toks0\expandafter{\the\toks0 \catcode#1=\the\catcode#1\relax}%
+    \toks2\expandafter{\the\toks2 \catcode#1=#2 }}%
+  \x  13  5 % carriage return
+  \x  32 10 % space
+  \x  35  6 % #
+  \x  40 12 % (
+  \x  41 12 % )
+  \x  45 12 % -
+  \x  46 12 % .
+  \x  47 12 % /
+  \x  58 12 % :
+  \x  60 12 % <
+  \x  61 12 % =
+  \x  64 11 % @
+  \x  91 12 % [
+  \x  93 12 % ]
+  \x 123  1 % {
+  \x 125  2 % }
+  \edef\x#1{\endgroup%
+    \edef\noexpand#1{%
+      \the\toks0 %
+      \let\noexpand\noexpand\noexpand#1%
+          \noexpand\noexpand\noexpand\undefined%
+      \noexpand\noexpand\noexpand\endinput}%
+    \the\toks2}%
+\expandafter\x\csname ctex@zhmap@endinput\endcsname
+\begingroup\expandafter\endgroup
+\expandafter\let\csname ifzhmappdf\expandafter\endcsname\csname
+  \expandafter\ifx\csname ifctexpdf\endcsname\relax
+    \expandafter\ifx\csname pdfoutput\endcsname\relax
+      iffalse\else\ifnum\pdfoutput < 1 iffalse\else iftrue\fi\fi
+  \else ifctexpdf\fi
+\endcsname
+\begingroup
+\expandafter\ifx\csname ProvidesFile\endcsname\relax
+  \long\def\x#1\ProvidesFile#2[#3]{%
+    #1%
+    \immediate\write-1{File: #2 #3}%
+    \expandafter\xdef\csname ver@#2\endcsname{#3}}
+  \expandafter\x%
+\fi
+\endgroup
+\ProvidesFile{ctex-zhmap-lxgw.tex}%
+  [2025-12-03 v1.521D lxgw font map loader for pdfTeX and DVIPDFMx (CTEX)]
+\ifzhmappdf
+  \pdfmapline{=gbk@UGBK@          <LXGWWenKaiLite-Regular.ttf}
+  \pdfmapline{=gbksong@UGBK@      <LXGWWenKaiLite-Regular.ttf}
+  \pdfmapline{=gbkkai@UGBK@       <LXGWYozai-Regular.ttf}
+  \pdfmapline{=gbkhei@UGBK@       <LXGWMarkerGothic-Regular.ttf}
+  \pdfmapline{=gbkfs@UGBK@        <LXGWXiaolai-Regular.ttf}
+  \pdfmapline{=cyberb@Unicode@    <LXGWWenKaiLite-Regular.ttf}
+  \pdfmapline{=unisong@Unicode@   <LXGWWenKaiLite-Regular.ttf}
+  \pdfmapline{=unikai@Unicode@    <LXGWYozai-Regular.ttf}
+  \pdfmapline{=unihei@Unicode@    <LXGWMarkerGothic-Regular.ttf}
+  \pdfmapline{=unifs@Unicode@     <LXGWXiaolai-Regular.ttf}
+  \pdfmapline{=gbksongsl@UGBK@    <LXGWWenKaiLite-Regular.ttf}
+  \pdfmapline{=gbkkaisl@UGBK@     <LXGWYozai-Regular.ttf}
+  \pdfmapline{=gbkheisl@UGBK@     <LXGWMarkerGothic-Regular.ttf}
+  \pdfmapline{=gbkfssl@UGBK@      <LXGWXiaolai-Regular.ttf}
+  \pdfmapline{=unisongsl@Unicode@ <LXGWWenKaiLite-Regular.ttf}
+  \pdfmapline{=unikaisl@Unicode@  <LXGWYozai-Regular.ttf}
+  \pdfmapline{=uniheisl@Unicode@  <LXGWMarkerGothic-Regular.ttf}
+  \pdfmapline{=unifssl@Unicode@   <LXGWXiaolai-Regular.ttf}
+\else
+  \special{pdf:mapline gbk@UGBK@          unicode LXGWWenKaiLite-Regular.ttf}
+  \special{pdf:mapline gbksong@UGBK@      unicode LXGWWenKaiLite-Regular.ttf}
+  \special{pdf:mapline gbkkai@UGBK@       unicode LXGWYozai-Regular.ttf}
+  \special{pdf:mapline gbkhei@UGBK@       unicode LXGWMarkerGothic-Regular.ttf}
+  \special{pdf:mapline gbkfs@UGBK@        unicode LXGWXiaolai-Regular.ttf}
+  \special{pdf:mapline cyberb@Unicode@    unicode LXGWWenKaiLite-Regular.ttf}
+  \special{pdf:mapline unisong@Unicode@   unicode LXGWWenKaiLite-Regular.ttf}
+  \special{pdf:mapline unikai@Unicode@    unicode LXGWYozai-Regular.ttf}
+  \special{pdf:mapline unihei@Unicode@    unicode LXGWMarkerGothic-Regular.ttf}
+  \special{pdf:mapline unifs@Unicode@     unicode LXGWXiaolai-Regular.ttf}
+  \special{pdf:mapline gbksongsl@UGBK@    unicode LXGWWenKaiLite-Regular.ttf -s .167}
+  \special{pdf:mapline gbkkaisl@UGBK@     unicode LXGWYozai-Regular.ttf -s .167}
+  \special{pdf:mapline gbkheisl@UGBK@     unicode LXGWMarkerGothic-Regular.ttf -s .167}
+  \special{pdf:mapline gbkfssl@UGBK@      unicode LXGWXiaolai-Regular.ttf -s .167}
+  \special{pdf:mapline unisongsl@Unicode@ unicode LXGWWenKaiLite-Regular.ttf -s .167}
+  \special{pdf:mapline unikaisl@Unicode@  unicode LXGWYozai-Regular.ttf -s .167}
+  \special{pdf:mapline uniheisl@Unicode@  unicode LXGWMarkerGothic-Regular.ttf -s .167}
+  \special{pdf:mapline unifssl@Unicode@   unicode LXGWXiaolai-Regular.ttf -s .167}
+\fi
+%% -----------------------------------------------------------------------
+%%   This work consists of the files ctex-fontset-lxgw.def,              *
+%%                               and ctex-zhmap-lxgw.tex.                *
+%% -----------------------------------------------------------------------
+%%
+%% End of file `ctex-zhmap-lxgw.tex'.
