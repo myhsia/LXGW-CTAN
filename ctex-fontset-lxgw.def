@@ -18,7 +18,7 @@
 %%   The Current Maintainer of this work is Mingyu Xia.                  *
 %% -----------------------------------------------------------------------
 \ProvidesExplFile{ctex-fontset-lxgw.def}
-  {\ExplFileDate}{1.521D}{\ExplFileDescription}
+  {\ExplFileDate}{1.521E}{\ExplFileDescription}
 \ctex_fontset_case:nnn
 %   { \ctex_fontset_error:n { lxgw } }
   {
