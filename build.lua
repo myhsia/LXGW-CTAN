@@ -15,7 +15,10 @@ uploader            = "Mingyu Xia"
 maintainid          = "myhsia"
 email               = "myhsia@outlook.com"
 repository          = "https://github.com/" .. maintainid .. "/LXGW-CTAN"
-announcement        = [[]]
+announcement        = [[Version 1.521E released.
+- Provide ctex fontset configuration: lxgw, for both XeTeX (fontspec) and pdfTeX (mapping)
+- Reduce the usage of `\*fontspec` instead of predefined commands in CTeX fontset in demo.
+- Apply `\tex_tracinglostchars:D` to some chars in demo.]]
 summary             = "An unprofessional open-source Chinese font family"
 description         = "The LXGW Font Family provides an unprofessional open-source Chinese font family."
 
