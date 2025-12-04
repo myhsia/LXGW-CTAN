@@ -1,8 +1,8 @@
 \documentclass{l3doc}
 
 \usepackage[mono = false, osf]{libertine}
-\usepackage[fontset = lxgw, scheme = plain]{ctex}
-\defaultfontfeatures{Extension = .ttf}
+\usepackage[punct = plain, fontset = lxgw, scheme = plain]{ctex}
+\defaultfontfeatures{Extension = .ttf, Scale = .95}
 \usepackage{tikz}
 \ExplSyntaxOn \makeatletter
 \tex_tracinglostchars:D = 0
@@ -94,14 +94,14 @@
 \end{abstract}
 
 \noindent
-The following lists the Chinese name, English name, filename, and demo of the
+The following lists the Chinese name, English name, filename, and demos of the
 fonts\footnote{%
   To enhance visual effects, \cs{makebox} with |s| parameter is applied
   to the two lines of every demo to make them the same width, and the kernings
   between characters make no sense here; Punctuation compression is disabled
   in \pkg{xeCJK}.}:
 Cantonese, Japanese, Chinese (Simplified / Traditional)
-versions of ``\textbf{I Can Eat Glass}'', and Missing
+versions of ``\textbf{I Can Eat Glass}'', missing
 character markers are provided.
 \def\0{%
   \makebox[\linewidth][s]{%
@@ -109,8 +109,8 @@ character markers are provided.
     私はガラスを食べられます。\textbf{それは私を傷つけません。}}\\
   \makebox[\linewidth][s]{%
     我能吞下玻璃而不伤身体。\textbf{我能吞下玻璃而不伤身体。}%
-    我能吞下玻璃而不傷身體。^^^^2370\textbf{^^^^2370}
-  }
+    我能吞下玻璃而不傷身體。^^^^2370^^^^2370^^^^2370%
+  }%
 }
 \begin{keyval}
   \item[\key*{\songti 霞鹜文楷 (\pkg{LXGW WenKai})}]
@@ -144,4 +144,4 @@ character markers are provided.
   \end{center}
 \end{keyval}
 
-\end{document}√
+\end{document}
