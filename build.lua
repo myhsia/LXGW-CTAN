@@ -8,17 +8,16 @@
 --]==========================================]--
 
 module              = "lxgw-fonts"
-version             = "v1.521E"
-date                = "2025-12-04"
+version             = "v1.521F"
+date                = "2025-12-05"
 maintainer          = "Mingyu Xia"
 uploader            = "Mingyu Xia"
 maintainid          = "myhsia"
 email               = "myhsia@outlook.com"
 repository          = "https://github.com/" .. maintainid .. "/LXGW-CTAN"
-announcement        = [[Version 1.521E released.
-- Provide ctex fontset configuration: lxgw, for both XeTeX (fontspec) and pdfTeX (mapping)
-- Reduce the usage of `\*fontspec` instead of predefined commands in CTeX fontset in demo.
-- Apply `\tex_tracinglostchars:D` to some chars in demo.]]
+announcement        = [[Version 1.512F released.
+- Change the `cmap` to from `UniGB-UTF16-H` to `unicode` for pdfTeX and upTeX
+- Changed `zhmappdf`.]]
 summary             = "An unprofessional open-source Chinese font family"
 description         = "The LXGW Font Family provides an unprofessional open-source Chinese font family."
 

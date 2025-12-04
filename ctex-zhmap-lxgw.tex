@@ -68,26 +68,9 @@
 \fi
 \endgroup
 \ProvidesFile{ctex-zhmap-lxgw.tex}%
-  [2025-12-03 v1.521E lxgw font map loader for pdfTeX and DVIPDFMx (CTEX)]
+  [2025-12-05 v1.521F lxgw font map loader for DVIPDFMx (CTEX)]
 \ifzhmappdf
-  \pdfmapline{=gbk@UGBK@          <LXGWWenKaiLite-Regular.ttf}
-  \pdfmapline{=gbksong@UGBK@      <LXGWWenKaiLite-Regular.ttf}
-  \pdfmapline{=gbkkai@UGBK@       <LXGWYozai-Regular.ttf}
-  \pdfmapline{=gbkhei@UGBK@       <LXGWMarkerGothic-Regular.ttf}
-  \pdfmapline{=gbkfs@UGBK@        <LXGWXiaolai-Regular.ttf}
-  \pdfmapline{=cyberb@Unicode@    <LXGWWenKaiLite-Regular.ttf}
-  \pdfmapline{=unisong@Unicode@   <LXGWWenKaiLite-Regular.ttf}
-  \pdfmapline{=unikai@Unicode@    <LXGWYozai-Regular.ttf}
-  \pdfmapline{=unihei@Unicode@    <LXGWMarkerGothic-Regular.ttf}
-  \pdfmapline{=unifs@Unicode@     <LXGWXiaolai-Regular.ttf}
-  \pdfmapline{=gbksongsl@UGBK@    <LXGWWenKaiLite-Regular.ttf}
-  \pdfmapline{=gbkkaisl@UGBK@     <LXGWYozai-Regular.ttf}
-  \pdfmapline{=gbkheisl@UGBK@     <LXGWMarkerGothic-Regular.ttf}
-  \pdfmapline{=gbkfssl@UGBK@      <LXGWXiaolai-Regular.ttf}
-  \pdfmapline{=unisongsl@Unicode@ <LXGWWenKaiLite-Regular.ttf}
-  \pdfmapline{=unikaisl@Unicode@  <LXGWYozai-Regular.ttf}
-  \pdfmapline{=uniheisl@Unicode@  <LXGWMarkerGothic-Regular.ttf}
-  \pdfmapline{=unifssl@Unicode@   <LXGWXiaolai-Regular.ttf}
+%% pdfTeX maps too slowly. This mode is obsolete.
 \else
   \special{pdf:mapline gbk@UGBK@          unicode LXGWWenKaiLite-Regular.ttf}
   \special{pdf:mapline gbksong@UGBK@      unicode LXGWWenKaiLite-Regular.ttf}

@@ -18,30 +18,27 @@
 %%   The Current Maintainer of this work is Mingyu Xia.                  *
 %% -----------------------------------------------------------------------
 \ProvidesExplFile{ctex-fontset-lxgw.def}
-  {\ExplFileDate}{1.521E}{\ExplFileDescription}
-\ctex_fontset_case:nnn
-%   { \ctex_fontset_error:n { lxgw } }
+  { \ExplFileDate } { 1.521F }{ \ExplFileDescription}
+\ctex_fontset_case:nnnn
+  { \ctex_fontset_error:n { lxgw } }
   {
     \ctex_zhmap_case:nnn
       {
-        \setCJKmainfont { LXGWWenKaiLite-Regular.ttf }
+        \setCJKmainfont { LXGWWenKaiLite-Regular.ttf   }
           [
-            cmap       = UniGB-UTF16-H,
             BoldFont   = LXGWWenKaiLite-Medium.ttf,
             ItalicFont = LXGWYozai-Regular.ttf,
           ]
-        \setCJKsansfont { LXGWMarkerGothic-Regular.ttf }
-          [ cmap = UniGB-UTF16-H, AutoFakeBold ]
-        \setCJKmonofont { LXGWXiaolai-Regular.ttf }
-          [ cmap = UniGB-UTF16-H, AutoFakeBold  ]
-        \setCJKfamilyfont { zhsong } { LXGWWenKaiLite-Regular.ttf }
-          [ cmap = UniGB-UTF16-H, BoldFont = LXGWWenKaiLite-Medium.ttf ]
-        \setCJKfamilyfont { zhhei } { LXGWMarkerGothic-Regular.ttf }
-          [ cmap = UniGB-UTF16-H, AutoFakeBold ]
-        \setCJKfamilyfont { zhfs } { LXGWXiaolai-Regular.ttf }
-          [ cmap = UniGB-UTF16-H, AutoFakeBold ]
-        \setCJKfamilyfont { zhkai } { LXGWYozai-Regular.ttf }
-          [ cmap = UniGB-UTF16-H, BoldFont = LXGWYozai-Medium.ttf ]
+        \setCJKsansfont { LXGWMarkerGothic-Regular.ttf } [ AutoFakeBold ]
+        \setCJKmonofont { LXGWXiaolai-Regular.ttf      } [ AutoFakeBold  ]
+        \setCJKfamilyfont { zhsong } { LXGWWenKaiLite-Regular.ttf   }
+          [ BoldFont = LXGWWenKaiLite-Medium.ttf ]
+        \setCJKfamilyfont { zhhei  } { LXGWMarkerGothic-Regular.ttf }
+          [ AutoFakeBold ]
+        \setCJKfamilyfont { zhfs   } { LXGWXiaolai-Regular.ttf      }
+          [ AutoFakeBold ]
+        \setCJKfamilyfont { zhkai  } { LXGWYozai-Regular.ttf        }
+          [ BoldFont = LXGWYozai-Medium.ttf ]
         \ctex_punct_set:n { lxgw }
         \ctex_punct_map_family:nn   { \CJKrmdefault         } { zhsong  }
         \ctex_punct_map_family:nn   { \CJKsfdefault         } { zhhei   }
@@ -60,17 +57,18 @@
       { \ctex_fontset_error:n { lxgw } }
   }
   {
-    \ctex_set_upfonts:nnnnnn
-      { LXGWWenKaiLite-Regular.ttf   }
-      { LXGWWenKaiLite-Medium.ttf    }
-      { LXGWYozai-Regular.ttf        }
-      { LXGWMarkerGothic-Regular.ttf }
-      { LXGWMarkerGothic-Regular.ttf  }
-      { LXGWXiaolai-Regular.ttf      }
-    \ctex_set_upfamily:nnn { zhsong } { upzhserif   } { upzhserifb }
-    \ctex_set_upfamily:nnn { zhhei  } { upzhsans    } { upzhsansb  }
-    \ctex_set_upfamily:nnn { zhfs   } { upzhmono    } {}
-    \ctex_set_upfamily:nnn { zhkai  } { upzhserifit } {}
+    \ctex_set_upmap_unicode:nnn { upserif   }
+      { LXGWWenKaiLite-Regular.ttf   } { LXGWWenKaiLite-Medium.ttf }
+    \ctex_set_upmap_unicode:nnn { upsans    }
+      { LXGWMarkerGothic-Regular.ttf } { }
+    \ctex_set_upmap_unicode:nnn { upmono    }
+      { LXGWXiaolai-Regular.ttf      } { }
+    \ctex_set_upmap_unicode:nnn { upserifit }
+      { LXGWYozai-Regular.ttf        } { }
+    \ctex_set_upfamily:nnn { zhsong } { upzhserif    } { upzhserifb }
+    \ctex_set_upfamily:nnn { zhhei  } { upzhsans     } { }
+    \ctex_set_upfamily:nnn { zhfs   } { upzhmono     } { }
+    \ctex_set_upfamily:nnn { zhkai  } { upzhserifit  } { }
   }
   {
     \setCJKmainfont { LXGWWenKaiLite-Regular }
@@ -81,15 +79,15 @@
       ]
     \setCJKsansfont { LXGWMarkerGothic-Regular }
       [ Extension = .ttf, AutoFakeBold ]
-    \setCJKmonofont { LXGWXiaolai-Regular }
+    \setCJKmonofont { LXGWXiaolai-Regular      }
       [ Extension = .ttf, AutoFakeBold  ]
-    \setCJKfamilyfont { zhsong } { LXGWWenKaiLite-Regular }
+    \setCJKfamilyfont { zhsong } { LXGWWenKaiLite-Regular   }
       [ Extension = .ttf, BoldFont = LXGWWenKaiLite-Medium ]
-    \setCJKfamilyfont { zhhei } { LXGWMarkerGothic-Regular }
+    \setCJKfamilyfont { zhhei  } { LXGWMarkerGothic-Regular }
       [ Extension = .ttf, AutoFakeBold ]
-    \setCJKfamilyfont { zhfs } { LXGWXiaolai-Regular }
+    \setCJKfamilyfont { zhfs   } { LXGWXiaolai-Regular      }
       [ Extension = .ttf, AutoFakeBold ]
-    \setCJKfamilyfont { zhkai } { LXGWYozai-Regular }
+    \setCJKfamilyfont { zhkai  } { LXGWYozai-Regular        }
       [ Extension = .ttf, BoldFont = LXGWYozai-Medium ]
   }
 \NewDocumentCommand \songti   { } { \CJKfamily { zhsong } }
