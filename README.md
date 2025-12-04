@@ -15,6 +15,7 @@ Copyright and License
 ---------------------
 
 Copyright (C) 2021-2025 by LXGW <https://github.com/lxgw/LxgwWenKai>
+
 Copyright (C) 2020 The Klee Project Authors <https://github.com/fontworks-fonts/Klee>
 
 ## Authorization information
