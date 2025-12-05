@@ -121,7 +121,7 @@ The Current Maintainer of this font family is LXGW.
   \tex_XeTeXcharclass:D "0057 = 1^^A W
   LX\kern-.05emG\kern-.05emW}
 \makeatother \ExplSyntaxOff
-
+\makeindex
 \begin{document}
   \DocInput{\jobname.dtx}
 \end{document}
@@ -201,9 +201,9 @@ The Current Maintainer of this font family is LXGW.
 %   |\documentclass[fontset = lxgw]{ctex|^^A
 %   \meta{art\textup\textbar book\textup\textbar rep\textup\textbar beamer}|}|
 % \end{quote}
-% with \hologo{XeLaTeX}, \hologo{LuaLaTeX}, and \hologo{upLaTeX} supported.
-% Since the unusually long mapping time of |zhmap|, \hologo{pdfLaTeX} is not
-% supported temporarily.
+% with \hologo{XeLaTeX}, \hologo{LuaLaTeX}, \hologo{LaTeX} + \hologo{DVIPDFMx},
+% and \hologo{upLaTeX} + \hologo{DVIPDFMx} supported. \hologo{pdfLaTeX} is not
+% supported temporarily since the long mapping time of |zhmap|.
 % Additionally, the following four commands are provided for convenience.
 % \begin{function}{\songti, \heiti, \fangsong, \kaishu} \footnotesize
 %   \begin{syntax}
@@ -410,7 +410,7 @@ The Current Maintainer of this font family is LXGW.
     \ctex_set_upfamily:nnn { zhsong } { upzhserif    } { upzhserifb   }
     \ctex_set_upfamily:nnn { zhhei  } { upzhsans     } { }
     \ctex_set_upfamily:nnn { zhfs   } { upzhmono     } { }
-    \ctex_set_upfamily:nnn { zhkai  } { upzhserifit  } { upzhserifitb }
+    \ctex_set_upfamily:nnn { zhkai  } { upzhserifit  } { }
   }
 %    \end{macrocode}
 % The \hologo{XeTeX}/\hologo{LuaTeX} branch.
@@ -606,3 +606,4 @@ The Current Maintainer of this font family is LXGW.
 %<*zhmap>
 %    \end{macrocode}
 % \end{implementation}
+% \PrintIndex
