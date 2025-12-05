@@ -22,6 +22,7 @@
 %                                   lxgw.ins,                           *
 %                 the derived files ctex-fontset-lxgw.def,              *
 %                                   ctex-zhmap-lxgw.tex,                *
+%                                   ctexpunct-lxgw.spa,                 *
 %                    the font files LXGWWenKaiLite-Regular.ttf,         *
 %                                   LXGWWenKaiLite-Medium.ttf,          *
 %                                   LXGWWenKaiGBLite-Regular.ttf,       *
@@ -51,7 +52,10 @@
 The `LXGW` Font Family
 ======================
 
-The `LXGW` Font Family provides an unprofessional open-source Chinese font family.
+The `LXGW` Font Family provides an open-source CJK font family with a
+comprehensive character set for Chinese (Simplified/Traditional), Cantonese,
+and Japanese. A `fontset` configuration of this font family for the `ctex-kit`
+is also provided in this package.
 
 Issues
 ------
@@ -88,8 +92,9 @@ The Current Maintainer of this font family is LXGW.
 \usepackage[mono = false, osf]{libertine}
 \usepackage[punct = plain, fontset = lxgw, scheme = plain]{ctex}
 \defaultfontfeatures{Extension = .ttf, Scale = .95}
-\usepackage{tikz}
+\usepackage{tikz, framed}
 \ExplSyntaxOn \makeatletter
+\dim_set:Nn \FrameSep {2pt}
 \tex_tracinglostchars:D = 0
 \tex_XeTeXcharclass:D "2370 = 1
 \DeclareDocumentCommand \key { s m }
@@ -178,15 +183,53 @@ The Current Maintainer of this font family is LXGW.
 % \begin{documentation}
 %
 % \begin{abstract}
-%   The \hologo{LXGW} Font Family provides an unprofessional open-source Chinese
-%   font family, which (will be) included in the \pkg{ctex-kit} as a |fontset|
-%   option.
+%   The \hologo{LXGW} Font Family provides an open-source CJK font family with a
+%   comprehensive character set for Chinese (Simplified/Traditional), Cantonese,
+%   and Japanese. A |fontset| configuration of this font family for the
+%   \pkg{ctex-kit} is also provided in this package.
 % \end{abstract}
+% 
+% \section{Usage}
+% 
+% Users are allowed to use the friendly interface:
+% the |fontset| key in the \pkg{ctex} package
+% \begin{quote}
+%   |\usepackage[fontset = lxgw]{ctex}|
+% \end{quote}
+% or the \cls{ctex} classes
+% \begin{quote}
+%   |\documentclass[fontset = lxgw]{ctex|^^A
+%   \meta{art\textup\textbar book\textup\textbar rep\textup\textbar beamer}|}|
+% \end{quote}
+% with \hologo{XeLaTeX}, \hologo{LuaLaTeX}, and \hologo{upLaTeX} supported.
+% Since the unusually long mapping time of |zhmap|, \hologo{pdfLaTeX} is not
+% supported temporarily.
+% Additionally, the following four commands are provided for convenience.
+% \begin{function}{\songti, \heiti, \fangsong, \kaishu} \footnotesize
+%   \begin{syntax}
+%   \songti   宋体 (|CJKmainfont|):^^A
+% \file{LXGWWenKaiGBLite-Regular.ttf}, \file{LXGWWenKaiGBLite-Medium.ttf}.\\
+%   \heiti    黑体 (|CJKsansfont|):^^A
+% \file{LXGWMarkerGothic-Regular.ttf} (with |AutoFakeBold| option).\\
+%   \fangsong 仿宋 (|CJKmonofont|):^^A
+% \file{LXGWXiaolai-Regular.ttf}.\\
+%   \kaishu   楷书 (itshape of |CJKmainfont|):^^A
+% \file{LXGWYozai-Regular.ttf}, \file{LXGWYozai-Medium.ttf}.
+%   \end{syntax}
+% \end{function}
+% \NB{tag}{cmt}
+% \begin{NOTE}{tag}
+% \end{NOTE}
+% Note that the names of the four control sequences make no sense here,
+% just to keep the same naming habit of \pkg{ctex-kit}.
+%
+% The implementation of this user-friendly interface is included in
+% \ref{subsec:fontset}, \ref{subsec:spa}, and~\ref{subsec:zhmap}.
 %
 % \section{Font Demos}
 %
-% The following lists the Chinese name, English name, filename, and demos of the
-% fonts: Cantonese, Japanese, Chinese (Simplified / Traditional)
+% The following lists the Chinese/English name, filename, and demos of the
+% fonts: Cantonese, Japanese, Chinese (Simplified/Traditional)
 % versions of ``\textbf{I Can Eat Glass}'', missing
 % character markers are provided with punctuation compression disabled and
 % fulfilling line.
@@ -202,43 +245,43 @@ The Current Maintainer of this font family is LXGW.
 % \begin{keyval}
 %   \item[\key*{\songti 霞鹜文楷 (\pkg{LXGW WenKai})}]
 %         \file{LXGWWenKaiLite-Regular.ttf}, \file{LXGWWenKaiLite-Medium.ttf}
-%   \begin{center}
+%   \begin{framed}
 %     \songti\0
-%   \end{center}
+%   \end{framed}
 %   \item[\key*{\CJKfontspec[BoldFont = LXGWWenKaiGBLite-Medium]^^A
 %                {LXGWWenKaiGBLite-Regular}\selectfont
 %         霞鹜文楷\textsubscript{\textbf{国标}}
 %         (\pkg{LXGW WenKai\textsubscript{\textbf{GB}}})}]
 %         \file{LXGWWenKaiGBLite-Regular.ttf},
 %         \file{LXGWWenKaiGBLite-Medium.ttf}
-%   \begin{center}
+%   \begin{framed}
 %     \CJKfontspec[BoldFont = LXGWWenKaiGBLite-Medium]^^A
 %       {LXGWWenKaiGBLite-Regular}\selectfont\0
-%   \end{center}
+%   \end{framed}
 %   \item[\key*{\heiti 霞鹜漫黑 (\pkg{LXGW Marker Gothic})}]
 %         \file{LXGWMarkerGothic-Regular.ttf}
-%   \begin{center}
+%   \begin{framed}
 %     \heiti\0
-%   \end{center}
+%   \end{framed}
 %   \item[\key*{\fangsong 小赖字体 (\pkg{Xiaolai Font})}]
 %         \file{LXGWXiaolai-Regular.ttf}
-%   \begin{center}
+%   \begin{framed}
 %     \fangsong\0
-%   \end{center}
+%   \end{framed}
 %   \item[\key*{\kaishu 悠哉字体 (\pkg{Yozai Font})}]
 %         \file{LXGWYozai-Regular.ttf}, \file{LXGWYozai-Medium.ttf}
-%   \begin{center}
+%   \begin{framed}
 %     \kaishu\0
-%   \end{center}
+%   \end{framed}
 % \end{keyval}
 %
 % \end{documentation}
-%
+% \clearpage \appendix
 % \begin{implementation}
 %
 % \section{The Source Code}
 %
-% \subsection{The \texttt{ctex-fontset-lxgw.def} file}
+% \subsection{The \texttt{ctex-fontset-lxgw.def} file}\label{subsec:fontset}
 %
 % Start the optionlist |fontset| for l3docstrip.
 %    \begin{macrocode}
@@ -250,15 +293,34 @@ The Current Maintainer of this font family is LXGW.
 \ProvidesExplFile{ctex-fontset-lxgw.def}
   {2025-12-05} {1.521F} {lxgw fontset configuration for ctex-kit}
 %    \end{macrocode}
+% Load CJK font family, interface provided by \pkg{ctex-kit}.
 %    \begin{macrocode}
 \ctex_fontset_case:nnnn
 %    \end{macrocode}
+% The \hologo{pdfTeX} (generate PDF directly) branch is no longer supported for
+% the \pkg{LXGW} font family. Here will raise a
+% \underline{|fontset-unavailable|} error.
 %    \begin{macrocode}
   { \ctex_fontset_error:n { lxgw } }
-%    \end{macrocode}
-%    \begin{macrocode}
   {
+%    \end{macrocode}
+% The \hologo{pdfTeX} (generate DVI) branch.\par\noindent
+% Load the \file{.spa} file for the \pkg{CJKpunct} package.
+%    \begin{macrocode}
+    \ctex_file_input:n { ctexpunct-lxgw.spa }
+%    \end{macrocode}
+% Case choice controlled by the |zhmap| key of \pkg{ctex-kit}.
+%    \begin{macrocode}
     \ctex_zhmap_case:nnn
+%    \end{macrocode}
+% \begin{arguments}
+%   \item Content of this argument will be outputted to the input stream when
+%   |zhmap = zhmCJK|
+%   \begin{verbatim}[commandchars = \\\{\}]
+%     \color{gray}\cs{cs_gset_eq:NN} \cs{ctex_zhmap_case:nnn} \cs{use_i:nnn}
+%   \end{verbatim}
+% The \hologo{LXGW} font family uses the default |unicode| cmap.
+%    \begin{macrocode}
       {
         \setCJKmainfont { LXGWWenKaiLite-Regular.ttf   }
           [
@@ -266,7 +328,7 @@ The Current Maintainer of this font family is LXGW.
             ItalicFont = LXGWYozai-Regular.ttf,
           ]
         \setCJKsansfont { LXGWMarkerGothic-Regular.ttf } [ AutoFakeBold ]
-        \setCJKmonofont { LXGWXiaolai-Regular.ttf      } [ AutoFakeBold  ]
+        \setCJKmonofont { LXGWXiaolai-Regular.ttf      } [ AutoFakeBold ]
         \setCJKfamilyfont { zhsong } { LXGWWenKaiLite-Regular.ttf   }
           [ BoldFont = LXGWWenKaiLite-Medium.ttf ]
         \setCJKfamilyfont { zhhei  } { LXGWMarkerGothic-Regular.ttf }
@@ -276,6 +338,7 @@ The Current Maintainer of this font family is LXGW.
         \setCJKfamilyfont { zhkai  } { LXGWYozai-Regular.ttf        }
           [ BoldFont = LXGWYozai-Medium.ttf ]
 %    \end{macrocode}
+% Configure the usages of the edge information of the defined CJK families.
 %    \begin{macrocode}
         \ctex_punct_set:n { lxgw }
         \ctex_punct_map_family:nn   { \CJKrmdefault         } { zhsong  }
@@ -286,19 +349,49 @@ The Current Maintainer of this font family is LXGW.
         \ctex_punct_map_itshape:nn  { \CJKrmdefault         } { zhkai   }
       }
 %    \end{macrocode}
+%   \item Content of this argument will be outputted to the input stream when
+%   |zhmap = true|
+%   \begin{verbatim}[commandchars = \\\{\}]
+%     \color{gray}\cs{cs_gset_eq:NN} \cs{ctex_zhmap_case:nnn} \cs{use_ii:nnn}
+%   \end{verbatim}
+%   Load the mapping file \file{ctex-zhmap-lxgw.tex} for \pkg{zhmatrices} and
+%   set \cs{CJKrmdefault}, \cs{CJKsfdefault}, \cs{CJKttdefault} respectively.
 %    \begin{macrocode}
       {
         \ctex_load_zhmap:nnnn { rm } { zhhei } { zhfs } { lxgw }
+%    \end{macrocode}
+%   Configure the usages of the edge information of \cs{CJKrmdefault}.
+%    \begin{macrocode}
         \ctex_punct_set:n { lxgw }
         \ctex_punct_map_family:nn   { \CJKrmdefault } { zhsong }
         \ctex_punct_map_bfseries:nn { \CJKrmdefault } { zhhei  }
         \ctex_punct_map_itshape:nn  { \CJKrmdefault } { zhkai  }
       }
 %    \end{macrocode}
+%   \item Content of this argument will be outputted to the input stream when
+%   |zhmap = false|
+%   \begin{verbatim}[commandchars = \\\{\}]
+%     \color{gray}\cs{cs_gset_eq:NN} \cs{ctex_zhmap_case:nnn} \cs{use_iii:nnn}
+%   \end{verbatim}
+%   Here will raise a \underline{|fontset-unavailable|} error.
 %    \begin{macrocode}
       { \ctex_fontset_error:n { lxgw } }
   }
 %    \end{macrocode}
+% \end{arguments}
+% The \hologo{upTeX} branch.\par\noindent
+% Configure the basic font mapping for \hologo{upTeX}. Due to the definition in
+% \pkg{zhmetrics-uptex}, configure
+% \begin{multicols}{3}
+% \begin{enumerate}
+%   \item |upshape|  of serif font.
+%   \item |bfseries| of serif font.
+%   \item |itshape|  of serif font.
+%   \item |upshape|  of sans font.
+%   \item |bfseries| of sans font.
+%   \item |upshape|  of mono font.
+% \end{enumerate}
+% \end{multicols}
 %    \begin{macrocode}
   {
     \ctex_set_upmap_unicode:nnn { upserif   }
@@ -309,12 +402,18 @@ The Current Maintainer of this font family is LXGW.
       { LXGWXiaolai-Regular.ttf      } { }
     \ctex_set_upmap_unicode:nnn { upserifit }
       { LXGWYozai-Regular.ttf        } { }
-    \ctex_set_upfamily:nnn { zhsong } { upzhserif    } { upzhserifb }
+%    \end{macrocode}
+%   Config the \textsf{NFSS} font families |zhsong|, |zhhei|, |zhfs|, and
+%   |zhkai| to the \textsf{JFM} name in normal type and bold type.
+%   Leave empty for those font families with no bold version.
+%    \begin{macrocode}
+    \ctex_set_upfamily:nnn { zhsong } { upzhserif    } { upzhserifb   }
     \ctex_set_upfamily:nnn { zhhei  } { upzhsans     } { }
     \ctex_set_upfamily:nnn { zhfs   } { upzhmono     } { }
-    \ctex_set_upfamily:nnn { zhkai  } { upzhserifit  } { }
+    \ctex_set_upfamily:nnn { zhkai  } { upzhserifit  } { upzhserifitb }
   }
 %    \end{macrocode}
+% The \hologo{XeTeX}/\hologo{LuaTeX} branch.
 %    \begin{macrocode}
   {
     \setCJKmainfont { LXGWWenKaiLite-Regular }
@@ -337,18 +436,61 @@ The Current Maintainer of this font family is LXGW.
       [ Extension = .ttf, BoldFont = LXGWYozai-Medium ]
   }
 %    \end{macrocode}
+% \begin{macro}{\songti, \heiti, \fangsong, \kaishu}
+% Shortcuts that same as those in the \pkg{ctex-kit}.
 %    \begin{macrocode}
 \NewDocumentCommand \songti   { } { \CJKfamily { zhsong } }
 \NewDocumentCommand \heiti    { } { \CJKfamily { zhhei  } }
 \NewDocumentCommand \fangsong { } { \CJKfamily { zhfs   } }
 \NewDocumentCommand \kaishu   { } { \CJKfamily { zhkai  } }
 %    \end{macrocode}
+% \end{macro}
 % End the optionlist |fontset| for l3docstrip.
 %    \begin{macrocode}
 %</fontset>
 %    \end{macrocode}
 %
-% \subsection{The \texttt{ctex-zhmap-lxgw.tex} file}
+% \subsection{The \texttt{ctexpunct-lxgw.spa} file}\label{subsec:spa}
+%
+% To make the |.spa| file, run the following script: \file{ctex-spa-make.tex}
+% \begin{verbatim}
+% \input ctex-spa-macro %
+% \MAKESPA {ctexpunct-lxgw.spa}
+%   {
+%     {lxgwzhsong}      {LXGWWenKaiLite-Regular} ,
+%     {lxgwzhsongb}     {LXGWWenKaiLite-Medium} ,
+%     {lxgwgbzhsong}    {LXGWWenKaiGBLite-Regular} ,
+%     {lxgwgbzhsongb}   {LXGWWenKaiGBLite-Medium} ,
+%     {lxgwzhhei}       {LXGWMarkerGothic-Regular} ,
+%     {lxgwzhfs}        {LXGWXiaolai-Regular} ,
+%     {lxgwzhkai}       {LXGWYozai-Regular} ,
+%     {lxgwzhkaib}      {LXGWYozai-Medium} ,
+%   }
+% \primitive\end
+% \end{verbatim}
+% by executing the following line in the terminal
+% \begin{verbatim}
+%   xetex ctex-spa-make
+% \end{verbatim}
+% The \file{.spa} file of the corresponding font will be used
+% for the \pkg{CJKpunct} package to achieve the punctuation compression,
+% which can ensure the best typeset effect (under the \hologo{pdfTeX} engine).
+% \iffalse
+%    \begin{macrocode}
+%<*spa>
+\ctexspadef{lxgwzhsong}{12,11,6,4,72,6,68,5,72,6,71,7,72,6,68,7,66,5,52,5,70,-1,72,4,0,0,12,12,7,71,8,65,10,77,12,76,20,70,18,70,17,72,7,50,12,12,6,72,7,71,6,72,7,68,5,66,5,52,-1,70,4,72,11,12,4,6,6,72,5,68,,,}
+\ctexspadef{lxgwzhsongb}{12,10,5,4,72,5,68,4,72,6,70,6,71,6,67,6,66,5,51,4,70,-3,72,2,-0,-0,11,11,6,70,7,64,10,76,12,76,19,69,17,69,17,72,6,49,12,12,6,72,6,70,6,71,6,67,5,66,4,51,-3,70,2,72,10,11,4,5,5,72,4,68,,,}
+\ctexspadef{lxgwgbzhsong}{12,11,6,4,72,6,68,5,72,6,71,7,72,6,68,7,66,5,52,5,70,-1,72,4,0,0,12,12,7,71,8,65,10,77,12,76,20,70,18,70,17,72,7,50,12,12,6,72,7,71,6,72,7,68,5,66,5,52,-1,70,4,72,11,12,4,6,6,72,5,68,,,}
+\ctexspadef{lxgwgbzhsongb}{12,10,5,4,72,5,68,4,72,6,70,6,71,6,67,6,66,5,51,4,70,-3,72,2,-0,-0,11,11,6,70,7,64,10,76,12,76,19,69,17,69,17,72,6,49,12,12,6,72,6,70,6,71,6,67,5,66,4,51,-3,70,2,72,10,11,4,5,5,72,4,68,,,}
+\ctexspadef{lxgwzhhei}{11,8,11,8,65,10,54,6,70,7,61,12,73,7,63,7,63,7,43,7,54,4,73,5,0,0,19,18,7,64,8,57,12,77,11,78,11,78,11,78,18,73,10,45,11,11,7,69,12,61,7,73,7,63,7,63,7,43,4,54,5,73,8,11,8,11,10,65,6,54,,,}
+\ctexspadef{lxgwzhfs}{71,12,59,6,62,7,56,4,58,11,66,9,65,8,62,10,61,10,54,4,61,4,59,6,0,0,9,12,12,68,4,65,8,78,42,43,43,43,42,43,42,42,31,32,10,8,4,66,8,67,6,67,9,66,10,59,7,52,6,60,6,59,11,70,6,56,6,62,5,52,,,}
+\ctexspadef{lxgwzhkai}{70,13,57,6,69,5,54,3,70,3,72,3,65,3,63,10,69,2,54,1,59,4,62,6,-2,-2,9,10,12,64,6,67,11,74,13,74,44,44,43,42,45,43,25,26,7,8,3,70,3,72,2,66,10,63,2,70,2,53,4,60,6,62,11,72,6,58,4,69,3,54,,,}
+\ctexspadef{lxgwzhkaib}{70,12,56,5,68,4,53,2,69,2,72,3,65,3,62,9,69,1,53,0,59,3,61,6,-3,-3,8,10,12,63,5,67,10,73,12,74,43,44,43,41,44,42,24,25,7,7,2,70,3,71,2,65,10,62,1,70,2,52,3,59,6,61,10,72,6,57,4,68,2,54,,,}
+%</spa>
+%    \end{macrocode}
+% \fi
+%
+% \subsection{The \texttt{ctex-zhmap-lxgw.tex} file}\label{subsec:zhmap}
 %
 % Start the optionlist |zhmap| for l3docstrip.
 %    \begin{macrocode}
@@ -416,11 +558,29 @@ The Current Maintainer of this font family is LXGW.
 %    \end{macrocode}
 % The font mapping configurations.
 %    \begin{macrocode}
-\ifzhmappdf
+\ifzhmappdf \iffalse
+  \pdfmapline{=gbk@UGBK@          <LXGWWenKaiLite-Regular.ttf}
+  \pdfmapline{=gbksong@UGBK@      <LXGWWenKaiLite-Regular.ttf}
+  \pdfmapline{=gbkkai@UGBK@       <LXGWYozai-Regular.ttf}
+  \pdfmapline{=gbkhei@UGBK@       <LXGWMarkerGothic-Regular.ttf}
+  \pdfmapline{=gbkfs@UGBK@        <LXGWXiaolai-Regular.ttf}
+  \pdfmapline{=cyberb@Unicode@    <LXGWWenKaiLite-Regular.ttf}
+  \pdfmapline{=unisong@Unicode@   <LXGWWenKaiLite-Regular.ttf}
+  \pdfmapline{=unikai@Unicode@    <LXGWYozai-Regular.ttf}
+  \pdfmapline{=unihei@Unicode@    <LXGWMarkerGothic-Regular.ttf}
+  \pdfmapline{=unifs@Unicode@     <LXGWXiaolai-Regular.ttf}
+  \pdfmapline{=gbksongsl@UGBK@    <LXGWWenKaiLite-Regular.ttf}
+  \pdfmapline{=gbkkaisl@UGBK@     <LXGWYozai-Regular.ttf}
+  \pdfmapline{=gbkheisl@UGBK@     <LXGWMarkerGothic-Regular.ttf}
+  \pdfmapline{=gbkfssl@UGBK@      <LXGWXiaolai-Regular.ttf}
+  \pdfmapline{=unisongsl@Unicode@ <LXGWWenKaiLite-Regular.ttf}
+  \pdfmapline{=unikaisl@Unicode@  <LXGWYozai-Regular.ttf}
+  \pdfmapline{=uniheisl@Unicode@  <LXGWMarkerGothic-Regular.ttf}
+  \pdfmapline{=unifssl@Unicode@   <LXGWXiaolai-Regular.ttf}
 %    \end{macrocode}
 % Since \hologo{pdfTeX} maps too slowly, this mode is obsolete.
 %    \begin{macrocode}
-\else
+\fi \else
   \special{pdf:mapline gbk@UGBK@          unicode LXGWWenKaiLite-Regular.ttf}
   \special{pdf:mapline gbksong@UGBK@      unicode LXGWWenKaiLite-Regular.ttf}
   \special{pdf:mapline gbkkai@UGBK@       unicode LXGWYozai-Regular.ttf}

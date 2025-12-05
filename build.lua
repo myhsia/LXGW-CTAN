@@ -15,11 +15,9 @@ uploader            = "Mingyu Xia"
 maintainid          = "myhsia"
 email               = "myhsia@outlook.com"
 repository          = "https://github.com/" .. maintainid .. "/LXGW-CTAN"
-announcement        = [[Version 1.512F released.
-- Change the `cmap` to from `UniGB-UTF16-H` to `unicode` for pdfTeX and upTeX
-- Changed `zhmappdf`.]]
-summary             = "An unprofessional open-source Chinese font family"
-description         = "The LXGW Font Family provides an unprofessional open-source Chinese font family."
+announcement        = [[]]
+summary             = "CJK font family with a comprehensive character set"
+description         = "The `LXGW` Font Family provides an open-source CJK font family with a comprehensive character set for Chinese (Simplified/Traditional), Cantonese, and Japanese. A `fontset` configuration of this font family for the `ctex-kit` is also provided in this package."
 
 --[==========================================[--
                  Pack and Upload
@@ -28,7 +26,7 @@ description         = "The LXGW Font Family provides an unprofessional open-sour
 
 ctanzip             = module
 excludefiles        = {"*~"}
-installfiles        = {"*.def", "*.tex"}
+installfiles        = {"*.def", "*.tex", "*.spa"}
 textfiles           = {"*.md", "LICENSE", "*.lua", "*.ttf"}
 typesetexe          = "latexmk -xelatex"
 typesetruns         = 1

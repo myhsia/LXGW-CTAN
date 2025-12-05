@@ -1,4 +1,5 @@
 # Unnecessary files
+/archive
 /build
 *.zip
 *.pdf

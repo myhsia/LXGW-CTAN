@@ -5,7 +5,10 @@
 The `LXGW` Font Family
 ======================
 
-The `LXGW` Font Family provides an unprofessional open-source Chinese font family.
+The `LXGW` Font Family provides an open-source CJK font family with a
+comprehensive character set for Chinese (Simplified/Traditional), Cantonese,
+and Japanese. A `fontset` configuration of this font family for the `ctex-kit`
+is also provided in this package.
 
 Issues
 ------
