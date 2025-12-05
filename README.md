@@ -1,7 +1,9 @@
-[![CTAN Version](https://img.shields.io/ctan/v/lxgw)](https://ctan.org/pkg/lxgw-fonts)
+[![CTAN Version](https://img.shields.io/ctan/v/lxgw-fonts)](https://ctan.org/pkg/lxgw-fonts)
+[![GitHub Last Commit](https://img.shields.io/github/last-commit/myhsia/LXGW-CTAN)](https://github.com/myhsia/LXGW-CTAN/commits)
+[![GitHub Repo stars](https://img.shields.io/github/stars/myhsia/LXGW-CTAN)](https://github.com/myhsia/LXGW-CTAN)
 
 The `LXGW` Font Family
-=======================
+======================
 
 The `LXGW` Font Family provides an unprofessional open-source Chinese font family.
 
@@ -14,26 +16,18 @@ The issue tracker for `LXGW` is currently located
 Copyright and License
 ---------------------
 
-Copyright (C) 2021-2025 by LXGW <https://github.com/lxgw/LxgwWenKai>
+Runtime: Copyright (C) 2025 by Mingyu Xia <myhsia@outlook.com>
 
-Copyright (C) 2020 The Klee Project Authors <https://github.com/fontworks-fonts/Klee>
+Fonts:   Copyright (C) 2021-2025 by LXGW  <https://github.com/lxgw>
 
-## Authorization information
+This work may be distributed and/or modified under the conditions
+of the SIL Open Font License (OFL) version 1.1.
+The latest version of this license is in
 
-This font is based on the [Klee](https://github.com/fontworks-fonts/Klee) open source project developed and published by Fontworks (today's Monotype KK), using [SIL Open Font License 1.1] ( https://openfontlicense.org) license. Klee is a trademark of Fontworks.
+    https://openfontlicense.org
 
-> [Maoken.com](https://www.maoken.com/) provides SIL Open Font License 1.1 unofficial [Simplified Chinese translation](https://www.maoken.com/ofl) for easy understanding and is for reference only.
+This work has the OFL maintenance status `maintained'.
 
-### Permission
+The Current Maintainer of this work on CTAN is Mingyu Xia.
 
-- This font can be freely commercialized by both individuals and businesses without paying, notifying or identifying the original author. *(But I would appreciate it if told.)*
-- This font can be freely disseminated, shared, or it is allowed to install the font in a system, software or APP. It can be bundled with any software for redistribution and/or sold together.
-- This font can be freely modified, transformed and created to create derivative fonts. Modified or modified fonts must also be exposed under [SIL OFL](https://openfontlicense.org).
-
-### Restrict
-
-- When creating derivative fonts, the font name cannot use the "reserved name" of the original font. This font retains the names "Xiagu" and "LXGW". Based on the font derived from this font, the words "Xiagu" or "LXGW" cannot appear in the name; and without modifying the font source code, the recompiled font can continue to use the reserved names of this font "Xiayu" and "LXGW".
-- According to Article 1 of the "Licenses and Conditions" of [SIL Open Font License 1.1](https://openfontlicense.org), **the sale of font files (OTF/TTF files) separately is prohibited.**
-- This font cannot be distributed under licenses other than [SIL Open Font License 1.1](https://openfontlicense.org).
-
-The Current Administrator of this work on CTAN is **Mingyu Xia**, the Current Maintainer of this work is **LXGW**.
+The Current Maintainer of this font family is LXGW.

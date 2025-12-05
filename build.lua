@@ -28,9 +28,8 @@ description         = "The LXGW Font Family provides an unprofessional open-sour
 
 ctanzip             = module
 excludefiles        = {"*~"}
-docfiles            = {"ctex-fontset-lxgw.def", "ctex-zhmap-lxgw.tex"}
+installfiles        = {"*.def", "*.tex"}
 textfiles           = {"*.md", "LICENSE", "*.lua", "*.ttf"}
-typesetfiles        = {"LXGW-demo.tex"}
 typesetexe          = "latexmk -xelatex"
 typesetruns         = 1
 unpacksuppfiles     = {"*.txt"}
@@ -64,6 +63,7 @@ function docinit_hook()
   run(unpackdir, "mv ./Xiaolai-Regular.ttf ./LXGWXiaolai-Regular.ttf")
   run(unpackdir, "mv ./Yozai-Regular.ttf ./LXGWYozai-Regular.ttf")
   run(unpackdir, "mv ./Yozai-Medium.ttf ./LXGWYozai-Medium.ttf")
+  cp(ctanreadme, unpackdir, currentdir)
   return 0
 end
 function tex(file,dir,cmd)

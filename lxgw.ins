@@ -1,0 +1,100 @@
+\iffalse meta-comment
+
+File: lxgw.ins
+-----------------------------------------------------------------------
+  Runtime: Copyright (C) 2025 by Mingyu Xia <myhsia@outlook.com>      *
+                                                                      *
+  Fonts:   Copyright (C) 2021-2025 by LXGW  <https://github.com/lxgw> *
+                                                                      *
+  This work may be distributed and/or modified under the conditions   *
+  of the SIL Open Font License (OFL) version 1.1.                     *
+  The latest version of this license is in                            *
+                                                                      *
+      https://openfontlicense.org                                     *
+                                                                      *
+  This work has the OFL maintenance status `maintained'.              *
+                                                                      *
+  The Current Maintainer of this work on CTAN is Mingyu Xia.          *
+                                                                      *
+  The Current Maintainer of this font family is LXGW.                 *
+                                                                      *
+  This work consists of the files lxgw.dtx,                           *
+                                  lxgw.ins,                           *
+                the derived files ctex-fontset-lxgw.def,              *
+                                  ctex-zhmap-lxgw.tex,                *
+                   the font files LXGWWenKaiLite-Regular.ttf,         *
+                                  LXGWWenKaiLite-Medium.ttf,          *
+                                  LXGWWenKaiGBLite-Regular.ttf,       *
+                                  LXGWWenKaiGBLite-Medium.ttf,        *
+                                  LXGWMarkerGothic-Regular.ttf,       *
+                                  LXGWXiaolai-Regular.ttf,            *
+                                  LXGWYozai-Regular.ttf,              *
+                                  LXGWYozai-Medium.ttf,               *
+          the documentation files lxgw.pdf,                           *
+                              and README.md.                          *
+-----------------------------------------------------------------------
+
+  Any modification of this file should ensure that the copyright and
+  license information is placed in the derived files.
+
+-----------------------------------------------------------------------
+
+\fi
+
+\input l3docstrip %
+\askforoverwritefalse
+
+\preamble
+-----------------------------------------------------------------------
+  Runtime: Copyright (C) 2025 by Mingyu Xia <myhsia@outlook.com>      *
+                                                                      *
+  Fonts:   Copyright (C) 2021-2025 by LXGW  <https://github.com/lxgw> *
+                                                                      *
+  This work may be distributed and/or modified under the conditions   *
+  of the SIL Open Font License (OFL) version 1.1.                     *
+  The latest version of this license is in                            *
+                                                                      *
+      https://openfontlicense.org                                     *
+                                                                      *
+  This work has the OFL maintenance status `maintained'.              *
+                                                                      *
+  The Current Maintainer of this work on CTAN is Mingyu Xia.          *
+                                                                      *
+  The Current Maintainer of this font family is LXGW.                 *
+-----------------------------------------------------------------------
+\endpreamble
+
+\postamble
+-----------------------------------------------------------------------
+  This work consists of the files lxgw.dtx,                           *
+                                  lxgw.ins,                           *
+                the derived files ctex-fontset-lxgw.def,              *
+                                  ctex-zhmap-lxgw.tex,                *
+                   the font files LXGWWenKaiLite-Regular.ttf,         *
+                                  LXGWWenKaiLite-Medium.ttf,          *
+                                  LXGWWenKaiGBLite-Regular.ttf,       *
+                                  LXGWWenKaiGBLite-Medium.ttf,        *
+                                  LXGWMarkerGothic-Regular.ttf,       *
+                                  LXGWXiaolai-Regular.ttf,            *
+                                  LXGWYozai-Regular.ttf,              *
+                                  LXGWYozai-Medium.ttf,               *
+          the documentation files lxgw.pdf,                           *
+                              and README.md.                          *
+-----------------------------------------------------------------------
+\endpostamble
+
+\keepsilent
+
+\generate{
+  \usedir{tex/latex/lxgw}
+    \file{ctex-fontset-lxgw.def}         {\from{\jobname.dtx}{fontset}}
+    \file{ctex-zhmap-lxgw.tex}           {\from{\jobname.dtx}{zhmap}  }
+  \nopreamble \nopostamble
+  \usedir{doc/latex/whatsnote}
+    \file{README.md}                     {\from{\jobname.dtx}{readme} }
+  }
+
+\endbatchfile
+\endinput
+%%
+%% End of file `lxgw.ins'

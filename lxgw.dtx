@@ -1,0 +1,448 @@
+% \iffalse meta-comment
+%
+% File: lxgw.dtx
+% -----------------------------------------------------------------------
+%   Runtime: Copyright (C) 2025 by Mingyu Xia <myhsia@outlook.com>      *
+%                                                                       *
+%   Fonts:   Copyright (C) 2021-2025 by LXGW  <https://github.com/lxgw> *
+%                                                                       *
+%   This work may be distributed and/or modified under the conditions   *
+%   of the SIL Open Font License (OFL) version 1.1.                     *
+%   The latest version of this license is in                            *
+%                                                                       *
+%       https://openfontlicense.org                                     *
+%                                                                       *
+%   This work has the OFL maintenance status `maintained'.              *
+%                                                                       *
+%   The Current Maintainer of this work on CTAN is Mingyu Xia.          *
+%                                                                       *
+%   The Current Maintainer of this font family is LXGW.                 *
+%                                                                       *
+%   This work consists of the files lxgw.dtx,                           *
+%                                   lxgw.ins,                           *
+%                 the derived files ctex-fontset-lxgw.def,              *
+%                                   ctex-zhmap-lxgw.tex,                *
+%                    the font files LXGWWenKaiLite-Regular.ttf,         *
+%                                   LXGWWenKaiLite-Medium.ttf,          *
+%                                   LXGWWenKaiGBLite-Regular.ttf,       *
+%                                   LXGWWenKaiGBLite-Medium.ttf,        *
+%                                   LXGWMarkerGothic-Regular.ttf,       *
+%                                   LXGWXiaolai-Regular.ttf,            *
+%                                   LXGWYozai-Regular.ttf,              *
+%                                   LXGWYozai-Medium.ttf,               *
+%           the documentation files lxgw.pdf,                           *
+%                               and README.md.                          *
+% -----------------------------------------------------------------------
+%
+%   Any modification of this file should ensure that the copyright and
+%   license information is placed in the derived files.
+%
+% -----------------------------------------------------------------------
+%
+%<*internal>
+\iffalse
+%</internal>
+%
+%<*readme>
+[![CTAN Version](https://img.shields.io/ctan/v/lxgw-fonts)](https://ctan.org/pkg/lxgw-fonts)
+[![GitHub Last Commit](https://img.shields.io/github/last-commit/myhsia/LXGW-CTAN)](https://github.com/myhsia/LXGW-CTAN/commits)
+[![GitHub Repo stars](https://img.shields.io/github/stars/myhsia/LXGW-CTAN)](https://github.com/myhsia/LXGW-CTAN)
+
+The `LXGW` Font Family
+======================
+
+The `LXGW` Font Family provides an unprofessional open-source Chinese font family.
+
+Issues
+------
+
+The issue tracker for `LXGW` is currently located
+[on GitHub](https://github.com/myhsia/LXGW-CTAN).
+
+Copyright and License
+---------------------
+
+Runtime: Copyright (C) 2025 by Mingyu Xia <myhsia@outlook.com>
+
+Fonts:   Copyright (C) 2021-2025 by LXGW  <https://github.com/lxgw>
+  
+This work may be distributed and/or modified under the conditions
+of the SIL Open Font License (OFL) version 1.1.
+The latest version of this license is in
+
+    https://openfontlicense.org
+
+This work has the OFL maintenance status `maintained'.
+
+The Current Maintainer of this work on CTAN is Mingyu Xia.
+
+The Current Maintainer of this font family is LXGW.
+%</readme>
+%
+%<*internal>
+\fi
+%</internal>
+%
+%<*driver>
+\documentclass{l3doc}
+\usepackage[mono = false, osf]{libertine}
+\usepackage[punct = plain, fontset = lxgw, scheme = plain]{ctex}
+\defaultfontfeatures{Extension = .ttf, Scale = .95}
+\usepackage{tikz}
+\ExplSyntaxOn \makeatletter
+\tex_tracinglostchars:D = 0
+\tex_XeTeXcharclass:D "2370 = 1
+\DeclareDocumentCommand \key { s m }
+  {
+    \IfBooleanTF {#1} { \color_select:n { red } #2 ~ }
+      {
+        \seq_set_from_clist:Nn \l_tmpa_seq {#2}
+        \seq_set_map:NNn \l_tmpb_seq \l_tmpa_seq
+          {
+            \color_group_begin:
+            \color_select:n { red } \exp_not:n { ##1 }
+            \color_group_end:
+          }
+        \seq_use:Nn \l_tmpb_seq { ,~ } \:=\:
+      }
+  }
+\DeclareCommandCopy \val \meta
+\newlist{keyval}{itemize}{10}
+\setlist[keyval]{leftmargin = 0pt, labelsep = 0pt}
+\def \HoLogo@LXGW#1{^^A
+  \tex_XeTeXcharclass:D "004C = 1^^A L
+  \tex_XeTeXcharclass:D "0058 = 1^^A X
+  \tex_XeTeXcharclass:D "0047 = 1^^A G
+  \tex_XeTeXcharclass:D "0057 = 1^^A W
+  LX\kern-.05emG\kern-.05emW}
+\makeatother \ExplSyntaxOff
+
+\begin{document}
+  \DocInput{\jobname.dtx}
+\end{document}
+%</driver>
+% \fi
+%
+% \makeatletter
+% \title{The \hologo{LXGW} Font Family\thanks{^^A
+%   \url{https://github.com/lxgw},
+%   \url{https://github.com/myhsia/LXGW-CTAN}
+% }\texorpdfstring{\enspace \textbar \enspace\parbox{4em}{^^A
+%     \songti
+%     \scalebox{\fpeval{4/7}}{落霞与孤鹜齐飞}\\[-.75em]
+%     \scalebox{\fpeval{4/7}}{秋水共长天一色}^^A
+%   }}{}^^A
+% }
+%
+% \author{^^A
+%   Maintainer: \hologo{LXGW} (落霞孤鹜),
+%   Administrator: Mingyu Xia (夏明宇)\thanks{\texttt{^^A
+%     \href{mailto:xiamingyu@westlake.edu.cn}{xiamingyu@westlake.edu.cn}^^A
+%   }}
+% }
+%
+% \date{Released 2025-12-05\quad \texttt{v1.521F}}
+%
+% \def\Copyright{^^A
+%   \begin{center}
+%   \setlength \fboxrule {1.2pt} \fbox{\setlength \fboxrule {.6pt}^^A
+%     \fbox{\parbox {.8\linewidth} {^^A
+%     This package packs a selection of open-source fonts from the
+%     \href{https://github.com/lxgw/LxgwWenKai-Lite}
+%       {\songti 霞鹜文楷\textsuperscript{轻便版}},
+%     \href{https://github.com/lxgw/LxgwWenKaiGB-Lite}
+%       {\CJKfontspec{LXGWWenKaiGBLite-Regular}\selectfont
+%         霞鹜文楷\ 国标\textsuperscript{轻便版}},
+%     \href{https://github.com/lxgw/LxgwMarkerGothic}
+%       {\heiti 霞鹜漫黑},
+%     \href{https://github.com/lxgw/kose-font}
+%       {\fangsong 小赖字体}, and
+%     \href{https://github.com/lxgw/yozai-font}
+%       {\kaishu 悠哉字体},
+%     which are released into public domain by
+%     \href{https://lxgw.github.io/}{\hologo{LXGW}} since 2021.
+%     They are licensed under the
+%     \href{https://ctan.org/license/ofl}{SIL Open Font License (OFL)}.
+%   }}}
+%   \end{center}}
+% \def\@thanks{\Copyright}
+%
+% \maketitle
+% \tikz[remember picture, overlay]
+%   \node [ rotate = -10, font = \songti,
+%           scale = 50, opacity = .1 ] at
+%         ([shift = {(10 * \f@size \p@, 8 * \f@size \p@)}]
+%           current page.south west) {鹜};
+% \makeatother
+%
+% \begin{documentation}
+%
+% \begin{abstract}
+%   The \hologo{LXGW} Font Family provides an unprofessional open-source Chinese
+%   font family, which (will be) included in the \pkg{ctex-kit} as a |fontset|
+%   option.
+% \end{abstract}
+%
+% \section{Font Demos}
+%
+% The following lists the Chinese name, English name, filename, and demos of the
+% fonts: Cantonese, Japanese, Chinese (Simplified / Traditional)
+% versions of ``\textbf{I Can Eat Glass}'', missing
+% character markers are provided with punctuation compression disabled and
+% fulfilling line.
+% \def\0{^^A
+%   \makebox[\linewidth][s]{^^A
+%     我可以食玻璃，\textbf{佢傷唔到我㗎。}^^A
+%     私はガラスを食べられます。\textbf{それは私を傷つけません。}}\\
+%   \makebox[\linewidth][s]{^^A
+%     我能吞下玻璃而不伤身体。\textbf{我能吞下玻璃而不伤身体。}^^A
+%     我能吞下玻璃而不傷身體。^^^^2370^^^^2370^^^^2370^^A
+%   }^^A
+% }
+% \begin{keyval}
+%   \item[\key*{\songti 霞鹜文楷 (\pkg{LXGW WenKai})}]
+%         \file{LXGWWenKaiLite-Regular.ttf}, \file{LXGWWenKaiLite-Medium.ttf}
+%   \begin{center}
+%     \songti\0
+%   \end{center}
+%   \item[\key*{\CJKfontspec[BoldFont = LXGWWenKaiGBLite-Medium]^^A
+%                {LXGWWenKaiGBLite-Regular}\selectfont
+%         霞鹜文楷\textsubscript{\textbf{国标}}
+%         (\pkg{LXGW WenKai\textsubscript{\textbf{GB}}})}]
+%         \file{LXGWWenKaiGBLite-Regular.ttf},
+%         \file{LXGWWenKaiGBLite-Medium.ttf}
+%   \begin{center}
+%     \CJKfontspec[BoldFont = LXGWWenKaiGBLite-Medium]^^A
+%       {LXGWWenKaiGBLite-Regular}\selectfont\0
+%   \end{center}
+%   \item[\key*{\heiti 霞鹜漫黑 (\pkg{LXGW Marker Gothic})}]
+%         \file{LXGWMarkerGothic-Regular.ttf}
+%   \begin{center}
+%     \heiti\0
+%   \end{center}
+%   \item[\key*{\fangsong 小赖字体 (\pkg{Xiaolai Font})}]
+%         \file{LXGWXiaolai-Regular.ttf}
+%   \begin{center}
+%     \fangsong\0
+%   \end{center}
+%   \item[\key*{\kaishu 悠哉字体 (\pkg{Yozai Font})}]
+%         \file{LXGWYozai-Regular.ttf}, \file{LXGWYozai-Medium.ttf}
+%   \begin{center}
+%     \kaishu\0
+%   \end{center}
+% \end{keyval}
+%
+% \end{documentation}
+%
+% \begin{implementation}
+%
+% \section{The Source Code}
+%
+% \subsection{The \texttt{ctex-fontset-lxgw.def} file}
+%
+% Start the optionlist |fontset| for l3docstrip.
+%    \begin{macrocode}
+%<*fontset>
+%    \end{macrocode}
+% Declare the \pkg{ctex-kit} font configuration file with date, version, and
+% description.
+%    \begin{macrocode}
+\ProvidesExplFile{ctex-fontset-lxgw.def}
+  {2025-12-05} {1.521F} {lxgw fontset configuration for ctex-kit}
+%    \end{macrocode}
+%    \begin{macrocode}
+\ctex_fontset_case:nnnn
+%    \end{macrocode}
+%    \begin{macrocode}
+  { \ctex_fontset_error:n { lxgw } }
+%    \end{macrocode}
+%    \begin{macrocode}
+  {
+    \ctex_zhmap_case:nnn
+      {
+        \setCJKmainfont { LXGWWenKaiLite-Regular.ttf   }
+          [
+            BoldFont   = LXGWWenKaiLite-Medium.ttf,
+            ItalicFont = LXGWYozai-Regular.ttf,
+          ]
+        \setCJKsansfont { LXGWMarkerGothic-Regular.ttf } [ AutoFakeBold ]
+        \setCJKmonofont { LXGWXiaolai-Regular.ttf      } [ AutoFakeBold  ]
+        \setCJKfamilyfont { zhsong } { LXGWWenKaiLite-Regular.ttf   }
+          [ BoldFont = LXGWWenKaiLite-Medium.ttf ]
+        \setCJKfamilyfont { zhhei  } { LXGWMarkerGothic-Regular.ttf }
+          [ AutoFakeBold ]
+        \setCJKfamilyfont { zhfs   } { LXGWXiaolai-Regular.ttf      }
+          [ AutoFakeBold ]
+        \setCJKfamilyfont { zhkai  } { LXGWYozai-Regular.ttf        }
+          [ BoldFont = LXGWYozai-Medium.ttf ]
+%    \end{macrocode}
+%    \begin{macrocode}
+        \ctex_punct_set:n { lxgw }
+        \ctex_punct_map_family:nn   { \CJKrmdefault         } { zhsong  }
+        \ctex_punct_map_family:nn   { \CJKsfdefault         } { zhhei   }
+        \ctex_punct_map_family:nn   { \CJKttdefault         } { zhfs    }
+        \ctex_punct_map_bfseries:nn { \CJKrmdefault, zhsong } { zhsongb }
+        \ctex_punct_map_bfseries:nn { \CJKsfdefault, zhhei  } { zhheib  }
+        \ctex_punct_map_itshape:nn  { \CJKrmdefault         } { zhkai   }
+      }
+%    \end{macrocode}
+%    \begin{macrocode}
+      {
+        \ctex_load_zhmap:nnnn { rm } { zhhei } { zhfs } { lxgw }
+        \ctex_punct_set:n { lxgw }
+        \ctex_punct_map_family:nn   { \CJKrmdefault } { zhsong }
+        \ctex_punct_map_bfseries:nn { \CJKrmdefault } { zhhei  }
+        \ctex_punct_map_itshape:nn  { \CJKrmdefault } { zhkai  }
+      }
+%    \end{macrocode}
+%    \begin{macrocode}
+      { \ctex_fontset_error:n { lxgw } }
+  }
+%    \end{macrocode}
+%    \begin{macrocode}
+  {
+    \ctex_set_upmap_unicode:nnn { upserif   }
+      { LXGWWenKaiLite-Regular.ttf   } { LXGWWenKaiLite-Medium.ttf }
+    \ctex_set_upmap_unicode:nnn { upsans    }
+      { LXGWMarkerGothic-Regular.ttf } { }
+    \ctex_set_upmap_unicode:nnn { upmono    }
+      { LXGWXiaolai-Regular.ttf      } { }
+    \ctex_set_upmap_unicode:nnn { upserifit }
+      { LXGWYozai-Regular.ttf        } { }
+    \ctex_set_upfamily:nnn { zhsong } { upzhserif    } { upzhserifb }
+    \ctex_set_upfamily:nnn { zhhei  } { upzhsans     } { }
+    \ctex_set_upfamily:nnn { zhfs   } { upzhmono     } { }
+    \ctex_set_upfamily:nnn { zhkai  } { upzhserifit  } { }
+  }
+%    \end{macrocode}
+%    \begin{macrocode}
+  {
+    \setCJKmainfont { LXGWWenKaiLite-Regular }
+      [
+        Extension  = .ttf,
+        BoldFont   = LXGWWenKaiLite-Medium,
+        ItalicFont = LXGWYozai-Regular
+      ]
+    \setCJKsansfont { LXGWMarkerGothic-Regular }
+      [ Extension = .ttf, AutoFakeBold ]
+    \setCJKmonofont { LXGWXiaolai-Regular      }
+      [ Extension = .ttf, AutoFakeBold  ]
+    \setCJKfamilyfont { zhsong } { LXGWWenKaiLite-Regular   }
+      [ Extension = .ttf, BoldFont = LXGWWenKaiLite-Medium ]
+    \setCJKfamilyfont { zhhei  } { LXGWMarkerGothic-Regular }
+      [ Extension = .ttf, AutoFakeBold ]
+    \setCJKfamilyfont { zhfs   } { LXGWXiaolai-Regular      }
+      [ Extension = .ttf, AutoFakeBold ]
+    \setCJKfamilyfont { zhkai  } { LXGWYozai-Regular        }
+      [ Extension = .ttf, BoldFont = LXGWYozai-Medium ]
+  }
+%    \end{macrocode}
+%    \begin{macrocode}
+\NewDocumentCommand \songti   { } { \CJKfamily { zhsong } }
+\NewDocumentCommand \heiti    { } { \CJKfamily { zhhei  } }
+\NewDocumentCommand \fangsong { } { \CJKfamily { zhfs   } }
+\NewDocumentCommand \kaishu   { } { \CJKfamily { zhkai  } }
+%    \end{macrocode}
+% End the optionlist |fontset| for l3docstrip.
+%    \begin{macrocode}
+%</fontset>
+%    \end{macrocode}
+%
+% \subsection{The \texttt{ctex-zhmap-lxgw.tex} file}
+%
+% Start the optionlist |zhmap| for l3docstrip.
+%    \begin{macrocode}
+%<*zhmap>
+%    \end{macrocode}
+% Forked from the |zhmap| optionlist of \file{ctex.dtx}\footnote{^^A
+%   \url{https://github.com/CTeX-org/ctex-kit/blob/master/ctex/ctex.dtx}}.
+%
+%    \begin{macrocode}
+\begingroup\catcode61\catcode48\catcode32=10\relax%
+  \catcode 35=6  % #
+  \catcode 45=12 % -
+  \catcode123=1  % {
+  \catcode125=2  % }
+  \toks0{\endlinechar=\the\endlinechar\relax}%
+  \toks2{\endlinechar=-1 }%
+  \def\x#1 #2 {%
+    \toks0\expandafter{\the\toks0 \catcode#1=\the\catcode#1\relax}%
+    \toks2\expandafter{\the\toks2 \catcode#1=#2 }}%
+  \x  13  5 % carriage return
+  \x  32 10 % space
+  \x  35  6 % #
+  \x  40 12 % (
+  \x  41 12 % )
+  \x  45 12 % -
+  \x  46 12 % .
+  \x  47 12 % /
+  \x  58 12 % :
+  \x  60 12 % <
+  \x  61 12 % =
+  \x  64 11 % @
+  \x  91 12 % [
+  \x  93 12 % ]
+  \x 123  1 % {
+  \x 125  2 % }
+  \edef\x#1{\endgroup%
+    \edef\noexpand#1{%
+      \the\toks0 %
+      \let\noexpand\noexpand\noexpand#1%
+          \noexpand\noexpand\noexpand\undefined%
+      \noexpand\noexpand\noexpand\endinput}%
+    \the\toks2}%
+\expandafter\x\csname ctex@zhmap@endinput\endcsname
+\begingroup\expandafter\endgroup
+\expandafter\let\csname ifzhmappdf\expandafter\endcsname\csname
+  \expandafter\ifx\csname ifctexpdf\endcsname\relax
+    \expandafter\ifx\csname pdfoutput\endcsname\relax
+      iffalse\else\ifnum\pdfoutput < 1 iffalse\else iftrue\fi\fi
+  \else ifctexpdf\fi
+\endcsname
+\begingroup
+\expandafter\ifx\csname ProvidesFile\endcsname\relax
+  \long\def\x#1\ProvidesFile#2[#3]{%
+    #1%
+    \immediate\write-1{File: #2 #3}%
+    \expandafter\xdef\csname ver@#2\endcsname{#3}}
+  \expandafter\x%
+\fi
+\endgroup
+%    \end{macrocode}
+% Provides the identification information of the font mapping file.
+%    \begin{macrocode}
+\ProvidesFile{ctex-zhmap-lxgw.tex}%
+  [2025-12-05 v1.521F lxgw font map loader for DVIPDFMx (CTEX)]
+%    \end{macrocode}
+% The font mapping configurations.
+%    \begin{macrocode}
+\ifzhmappdf
+%    \end{macrocode}
+% Since \hologo{pdfTeX} maps too slowly, this mode is obsolete.
+%    \begin{macrocode}
+\else
+  \special{pdf:mapline gbk@UGBK@          unicode LXGWWenKaiLite-Regular.ttf}
+  \special{pdf:mapline gbksong@UGBK@      unicode LXGWWenKaiLite-Regular.ttf}
+  \special{pdf:mapline gbkkai@UGBK@       unicode LXGWYozai-Regular.ttf}
+  \special{pdf:mapline gbkhei@UGBK@       unicode LXGWMarkerGothic-Regular.ttf}
+  \special{pdf:mapline gbkfs@UGBK@        unicode LXGWXiaolai-Regular.ttf}
+  \special{pdf:mapline cyberb@Unicode@    unicode LXGWWenKaiLite-Regular.ttf}
+  \special{pdf:mapline unisong@Unicode@   unicode LXGWWenKaiLite-Regular.ttf}
+  \special{pdf:mapline unikai@Unicode@    unicode LXGWYozai-Regular.ttf}
+  \special{pdf:mapline unihei@Unicode@    unicode LXGWMarkerGothic-Regular.ttf}
+  \special{pdf:mapline unifs@Unicode@     unicode LXGWXiaolai-Regular.ttf}
+  \special{pdf:mapline gbksongsl@UGBK@    unicode LXGWWenKaiLite-Regular.ttf -s .167}
+  \special{pdf:mapline gbkkaisl@UGBK@     unicode LXGWYozai-Regular.ttf -s .167}
+  \special{pdf:mapline gbkheisl@UGBK@     unicode LXGWMarkerGothic-Regular.ttf -s .167}
+  \special{pdf:mapline gbkfssl@UGBK@      unicode LXGWXiaolai-Regular.ttf -s .167}
+  \special{pdf:mapline unisongsl@Unicode@ unicode LXGWWenKaiLite-Regular.ttf -s .167}
+  \special{pdf:mapline unikaisl@Unicode@  unicode LXGWYozai-Regular.ttf -s .167}
+  \special{pdf:mapline uniheisl@Unicode@  unicode LXGWMarkerGothic-Regular.ttf -s .167}
+  \special{pdf:mapline unifssl@Unicode@   unicode LXGWXiaolai-Regular.ttf -s .167}
+\fi
+%    \end{macrocode}
+% End the optionlist |zhmap| for l3docstrip.
+%    \begin{macrocode}
+%<*zhmap>
+%    \end{macrocode}
+% \end{implementation}
