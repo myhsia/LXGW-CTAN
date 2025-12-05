@@ -9,7 +9,7 @@
 
 module              = "lxgw-fonts"
 version             = "v1.521F"
-date                = "2025-12-05"
+date                = "2025-12-06"
 maintainer          = "Mingyu Xia"
 uploader            = "Mingyu Xia"
 maintainid          = "myhsia"
@@ -33,6 +33,7 @@ typesetruns         = 1
 unpacksuppfiles     = {"*.txt"}
 
 uploadconfig  = {
+  note         = "",
   pkg          = module,
   version      = version .. " " .. date,
   author       = maintainer,
