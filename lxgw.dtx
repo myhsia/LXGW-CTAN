@@ -4,8 +4,8 @@
 % -----------------------------------------------------------------------
 %   Runtime: Copyright (C) 2025 by Mingyu Xia <myhsia@outlook.com>      *
 %                                                                       *
-%   Fonts:   Copyright (C) 2021-2025 by LXGW  <https://github.com/lxgw> *
-%                                                                       *
+%   Fonts:   Copyright (C) 2021-2025 by LXGW <https://github.com/lxgw>  *
+% -----------------------------------------------------------------------
 %   This work may be distributed and/or modified under the conditions   *
 %   of the SIL Open Font License (OFL) version 1.1.                     *
 %   The latest version of this license is in                            *
@@ -16,12 +16,13 @@
 %                                                                       *
 %   The Current Maintainer of this work on CTAN is Mingyu Xia.          *
 %                                                                       *
-%   The Current Maintainer of this font family is LXGW.                 *
-%                                                                       *
+%   The Current Designer of this font family is LXGW.                   *
+% -----------------------------------------------------------------------
 %   This work consists of the files lxgw.dtx,                           *
 %                                   lxgw.ins,                           *
 %                 the derived files ctex-fontset-lxgw.def,              *
 %                                   ctex-zhmap-lxgw.tex,                *
+%                                   ctex-spa-lxgw.tex,                  *
 %                                   ctexpunct-lxgw.spa,                 *
 %                    the font files LXGWWenKaiLite-Regular.ttf,         *
 %                                   LXGWWenKaiGBLite-Regular.ttf,       *
@@ -33,10 +34,10 @@
 %           the documentation files lxgw.pdf,                           *
 %                               and README.md.                          *
 % -----------------------------------------------------------------------
-%
-%   Any modification of this file should ensure that the copyright and
-%   license information is placed in the derived files.
-%
+%                                                                       *
+%   Any modification of this file should ensure that the copyright and  *
+%   license information is placed in the derived files.                 *
+%                                                                       *
 % -----------------------------------------------------------------------
 %
 %<*internal>
@@ -67,7 +68,7 @@ Copyright and License
 
 Runtime: Copyright (C) 2025 by Mingyu Xia <myhsia@outlook.com>
 
-Fonts:   Copyright (C) 2021-2025 by LXGW  <https://github.com/lxgw>
+Fonts:   Copyright (C) 2021-2025 by LXGW <https://github.com/lxgw>
   
 This work may be distributed and/or modified under the conditions
 of the SIL Open Font License (OFL) version 1.1.
@@ -79,7 +80,7 @@ This work has the OFL maintenance status `maintained'.
 
 The Current Maintainer of this work on CTAN is Mingyu Xia.
 
-The Current Maintainer of this font family is LXGW.
+The Current Designer of this font family is LXGW.
 %</readme>
 %
 %<*internal>
@@ -110,7 +111,7 @@ The Current Maintainer of this font family is LXGW.
         \seq_use:Nn \l_tmpb_seq { ,~ } \:=\:
       }
   }
-\DeclareCommandCopy \val \meta
+\cs_gset_eq:NN \val \meta
 \newlist{keyval}{itemize}{10}
 \setlist[keyval]{leftmargin = 0pt, labelsep = 0pt}
 \def \HoLogo@LXGW#1{^^A
@@ -139,13 +140,13 @@ The Current Maintainer of this font family is LXGW.
 % }
 %
 % \author{^^A
-%   Maintainer: \hologo{LXGW} (落霞孤鹜),
-%   Administrator: Mingyu Xia (夏明宇)\thanks{\texttt{^^A
+%   Designer: \hologo{LXGW} (霞鹜),\texorpdfstring{\quad}{ }
+%   Maintainer: Mingyu Xia (夏明宇)\thanks{\texttt{^^A
 %     \href{mailto:xiamingyu@westlake.edu.cn}{xiamingyu@westlake.edu.cn}^^A
 %   }}
 % }
 %
-% \date{Released 2025-12-06\quad \texttt{v1.521F}}
+% \date{Released 2025-12-07\quad \texttt{v1.521G}}
 %
 % \def\Copyright{^^A
 %   \begin{center}
@@ -189,9 +190,9 @@ The Current Maintainer of this font family is LXGW.
 %   and Japanese. A |fontset| configuration of this font family for the
 %   \pkg{ctex-kit} is also provided in this package.
 % \end{abstract}
-% 
+%
 % \section{Usage}
-% 
+%
 % Users are allowed to use the friendly interface:
 % the |fontset| key in the \pkg{ctex} package
 % \begin{quote}
@@ -291,8 +292,8 @@ The Current Maintainer of this font family is LXGW.
 % Declare the \pkg{ctex-kit} font configuration file with date, version, and
 % description.
 %    \begin{macrocode}
-\ProvidesExplFile{ctex-fontset-lxgw.def}
-  {2025-12-06} {1.521F} {lxgw fontset configuration for ctex-kit}
+\ProvidesExplFile {ctex-fontset-lxgw.def} {2025-12-07} {v1.521G}
+  {lxgw fontset configuration for ctex-kit}
 %    \end{macrocode}
 % Load CJK font family, interface provided by \pkg{ctex-kit}.
 %    \begin{macrocode}
@@ -452,45 +453,82 @@ The Current Maintainer of this font family is LXGW.
 %</fontset>
 %    \end{macrocode}
 %
-% \subsection{The \texttt{ctexpunct-lxgw.spa} file}\label{subsec:spa}
+% \subsection{The \texttt{ctexpunct-lxgw.spa} and
+%   the \texttt{ctex-spa-make.tex} file}\label{subsec:spa}
 %
-% To make the |.spa| file, run the following script: \file{ctex-spa-make.tex}
-% \begin{verbatim}
-% \input ctex-spa-macro %
-% \MAKESPA {ctexpunct-lxgw.spa}
-%   {
-%     {lxgwzhsong}      {LXGWWenKaiLite-Regular} ,
-%     {lxgwzhsongb}     {LXGWZhenKaiGB-Regular} ,
-%     {lxgwgbzhsong}    {LXGWWenKaiGBLite-Regular} ,
-%     {lxgwgbzhsongb}   {LXGWZhenKaiGB-Regular} ,
-%     {lxgwzhhei}       {LXGWMarkerGothic-Regular} ,
-%     {lxgwzhfs}        {LXGWXiaolai-Regular} ,
-%     {lxgwzhkai}       {LXGWYozai-Regular} ,
-%     {lxgwzhkaib}      {LXGWYozai-Medium} ,
-%   }
-% \primitive\end
-% \end{verbatim}
-% by executing the following line in the terminal
-% \begin{verbatim}
-%   xetex ctex-spa-make
-% \end{verbatim}
 % The \file{.spa} file of the corresponding font will be used
 % for the \pkg{CJKpunct} package to achieve the punctuation compression,
 % which can ensure the best typeset effect (under the \hologo{pdfTeX} engine).
-% \iffalse
+% Run the following script, \file{ctex-spa-make.tex}, by executing
+% \begin{verbatim}
+%   xetex ctex-spa-make
+% \end{verbatim}
+% in the terminal. Then, one can obtain the \file{ctexpunct-lxgw.spa} file.
+% \paragraph{Implementation of the script}
+% Start the optionlist |makespa| for l3docstrip.
 %    \begin{macrocode}
-%<*spa>
-\ctexspadef{lxgwzhsong}{12,11,6,4,72,6,68,5,72,6,71,7,72,6,68,7,66,5,52,5,70,-1,72,4,0,0,12,12,7,71,8,65,10,77,12,76,20,70,18,70,17,72,7,50,12,12,6,72,7,71,6,72,7,68,5,66,5,52,-1,70,4,72,11,12,4,6,6,72,5,68,,,}
-\ctexspadef{lxgwzhsongb}{6,8,6,8,71,4,64,5,71,5,70,6,71,5,67,6,65,4,47,4,62,3,66,3,-1,-1,10,10,7,67,4,65,14,67,16,68,17,68,14,67,16,71,6,49,11,11,5,71,6,70,5,71,6,67,4,65,4,47,3,62,3,66,8,6,8,6,4,71,5,64,,,}
-\ctexspadef{lxgwgbzhsong}{12,11,6,4,72,6,68,5,72,6,71,7,72,6,68,7,66,5,52,5,70,-1,72,4,0,0,12,12,7,71,8,65,10,77,12,76,20,70,18,70,17,72,7,50,12,12,6,72,7,71,6,72,7,68,5,66,5,52,-1,70,4,72,11,12,4,6,6,72,5,68,,,}
-\ctexspadef{lxgwgbzhsongb}{6,8,6,8,71,4,64,5,71,5,70,6,71,5,67,6,65,4,47,4,62,3,66,3,-1,-1,10,10,7,67,4,65,14,67,16,68,17,68,14,67,16,71,6,49,11,11,5,71,6,70,5,71,6,67,4,65,4,47,3,62,3,66,8,6,8,6,4,71,5,64,,,}
-\ctexspadef{lxgwzhhei}{11,8,11,8,65,10,54,6,70,7,61,12,73,7,63,7,63,7,43,7,54,4,73,5,0,0,19,18,7,64,8,57,12,77,11,78,11,78,11,78,18,73,10,45,11,11,7,69,12,61,7,73,7,63,7,63,7,43,4,54,5,73,8,11,8,11,10,65,6,54,,,}
-\ctexspadef{lxgwzhfs}{71,12,59,6,62,7,56,4,58,11,66,9,65,8,62,10,61,10,54,4,61,4,59,6,0,0,9,12,12,68,4,65,8,78,42,43,43,43,42,43,42,42,31,32,10,8,4,66,8,67,6,67,9,66,10,59,7,52,6,60,6,59,11,70,6,56,6,62,5,52,,,}
-\ctexspadef{lxgwzhkai}{70,13,57,6,69,5,54,3,70,3,72,3,65,3,63,10,69,2,54,1,59,4,62,6,-2,-2,9,10,12,64,6,67,11,74,13,74,44,44,43,42,45,43,25,26,7,8,3,70,3,72,2,66,10,63,2,70,2,53,4,60,6,62,11,72,6,58,4,69,3,54,,,}
-\ctexspadef{lxgwzhkaib}{70,12,56,5,68,4,53,2,69,2,72,3,65,3,62,9,69,1,53,0,59,3,61,6,-3,-3,8,10,12,63,5,67,10,73,12,74,43,44,43,41,44,42,24,25,7,7,2,70,3,71,2,65,10,62,1,70,2,52,3,59,6,61,10,72,6,57,4,68,2,54,,,}
-%</spa>
+%<*makespa>
 %    \end{macrocode}
-% \fi
+% Assign the module name of the variables and control sequences, which will be
+% automatically replaced by \pkg{l3docstrip}.
+%    \begin{macrocode}
+%<@@=ctex>
+%    \end{macrocode}
+% Loading the macro file \file{ctex-spa-macro.tex} provided by \pkg{ctex-kit}.
+%    \begin{macrocode}
+\input ctex-spa-macro %
+%    \end{macrocode}
+% However, the macro file needs to be hacked due to the interface change
+% of \hologo{XeTeX}.
+%    \begin{macrocode}
+\ExplSyntaxOn
+\cs_set_protected:Npn \@@_write_family:nn #1#2
+  {
+    \group_begin:
+      \tex_font:D \l_@@_punct_font = "[#2]" ~ at ~ 100 pt \scan_stop:
+      \l_@@_punct_font
+      \clist_clear:N \l_@@_punct_bounds_clist
+      \seq_map_inline:Nn \c_@@_punct_seq
+        {
+          \exp_args:No \_@@_save_bounds:n
+            { \int_use:N \tex_XeTeXcharglyph:D ##1 }
+        }
+      \iow_now:Nx \g_@@_spa_iow
+        {
+          \token_to_str:N \ctexspadef {#1}
+            { \l_@@_punct_bounds_clist , , , }
+        }
+    \group_end:
+  }
+\ExplSyntaxOff
+%    \end{macrocode}
+% List all the CJK families with the corresponding font files in terms of
+% ``case-pairs''.
+%    \begin{macrocode}
+\MAKESPA {ctexpunct-lxgw.spa}
+  {
+    {lxgwzhsong}      {LXGWWenKaiLite-Regular} ,
+    {lxgwzhsongb}     {LXGWZhenKaiGB-Regular} ,
+    {lxgwgbzhsong}    {LXGWWenKaiGBLite-Regular} ,
+    {lxgwgbzhsongb}   {LXGWZhenKaiGB-Regular} ,
+    {lxgwzhhei}       {LXGWMarkerGothic-Regular} ,
+    {lxgwzhfs}        {LXGWXiaolai-Regular} ,
+    {lxgwzhkai}       {LXGWYozai-Regular} ,
+    {lxgwzhkaib}      {LXGWYozai-Medium} ,
+  }
+%    \end{macrocode}
+% End of the script.
+%    \begin{macrocode}
+\primitive\end
+%    \end{macrocode}
+% Restore the module name.
+%    \begin{macrocode}
+%<@@=>
+%    \end{macrocode}
+% End the optionlist |zhmap| for l3docstrip.
+%    \begin{macrocode}
+%</makespa>
+%    \end{macrocode}
 %
 % \subsection{The \texttt{ctex-zhmap-lxgw.tex} file}\label{subsec:zhmap}
 %
@@ -556,7 +594,7 @@ The Current Maintainer of this font family is LXGW.
 % Provides the identification information of the font mapping file.
 %    \begin{macrocode}
 \ProvidesFile{ctex-zhmap-lxgw.tex}%
-  [2025-12-06 v1.521F lxgw font map loader for DVIPDFMx (CTEX)]
+  [2025-12-07 v1.521G lxgw font map loader for DVIPDFMx (CTEX)]
 %    \end{macrocode}
 % The font mapping configurations.
 %    \begin{macrocode}
@@ -605,7 +643,8 @@ The Current Maintainer of this font family is LXGW.
 %    \end{macrocode}
 % End the optionlist |zhmap| for l3docstrip.
 %    \begin{macrocode}
-%<*zhmap>
+%</zhmap>
 %    \end{macrocode}
 % \end{implementation}
-% ^^A\PrintIndex
+% \clearpage
+% \PrintIndex

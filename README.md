@@ -21,7 +21,7 @@ Copyright and License
 
 Runtime: Copyright (C) 2025 by Mingyu Xia <myhsia@outlook.com>
 
-Fonts:   Copyright (C) 2021-2025 by LXGW  <https://github.com/lxgw>
+Fonts:   Copyright (C) 2021-2025 by LXGW <https://github.com/lxgw>
 
 This work may be distributed and/or modified under the conditions
 of the SIL Open Font License (OFL) version 1.1.
@@ -33,4 +33,4 @@ This work has the OFL maintenance status `maintained'.
 
 The Current Maintainer of this work on CTAN is Mingyu Xia.
 
-The Current Maintainer of this font family is LXGW.
+The Current Designer of this font family is LXGW.

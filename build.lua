@@ -9,7 +9,7 @@
 
 module              = "lxgw-fonts"
 version             = "v1.521G"
-date                = "2025-12-08"
+date                = "2025-12-07"
 maintainer          = "Mingyu Xia"
 uploader            = "Mingyu Xia"
 maintainid          = "myhsia"
@@ -51,9 +51,24 @@ uploadconfig  = {
   development  = "https://github.com/" .. maintainid,
   update       = true
 }
-
---[== "Hacks" to `l3build` | Do not Modify ==]--
-
+function update_tag(file, content, tagname, tagdate)
+  tagname = version
+  tagdate = date
+  if string.match(file, "%.dtx$") then
+    content = string.gsub(content,
+      "\\date{Released " .. "%d+%-%d+%-%d+" ..
+      "\\quad \\texttt{" .. "v([%d%.A-Z]+)" .. "}}",
+      "\\date{Released " ..     tagdate     ..
+      "\\quad \\texttt{" ..     tagname     .. "}}")
+    content = string.gsub(content,
+      "{%d+%-%d+%-%d+} {v([%d%.A-Z]+)}",
+      "{" ..     tagdate     .. "} {" ..    tagname     .. "}")
+    content = string.gsub(content,
+      "%d+%-%d+%-%d+" .. " " .. "v([%d%.A-Z]+)",
+          tagdate     .. " " ..     tagname)
+  end
+  return content
+end
 function docinit_hook()
   cp("fetch.txt",  maindir, unpackdir)
   run(unpackdir, "wget2 -i fetch.txt")
@@ -64,10 +79,14 @@ function docinit_hook()
   ren(unpackdir, "Xiaolai-Regular.ttf", "LXGWXiaolai-Regular.ttf")
   ren(unpackdir, "Yozai-Regular.ttf",   "LXGWYozai-Regular.ttf")
   ren(unpackdir, "Yozai-Medium.ttf",    "LXGWYozai-Medium.ttf")
+  run(unpackdir, "xetex ctex-spa-lxgw.tex")
   cp("*.ttf", unpackdir, typesetdir)
   cp(ctanreadme, unpackdir, currentdir)
   return 0
 end
+
+--[== "Hacks" to `l3build` | Do not Modify ==]--
+
 function tex(file,dir,cmd)
   dir = dir or "."
   cmd = cmd or typesetexe

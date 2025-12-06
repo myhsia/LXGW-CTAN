@@ -4,8 +4,8 @@ File: lxgw.ins
 -----------------------------------------------------------------------
   Runtime: Copyright (C) 2025 by Mingyu Xia <myhsia@outlook.com>      *
                                                                       *
-  Fonts:   Copyright (C) 2021-2025 by LXGW  <https://github.com/lxgw> *
-                                                                      *
+  Fonts:   Copyright (C) 2021-2025 by LXGW <https://github.com/lxgw>  *
+-----------------------------------------------------------------------
   This work may be distributed and/or modified under the conditions   *
   of the SIL Open Font License (OFL) version 1.1.                     *
   The latest version of this license is in                            *
@@ -16,12 +16,13 @@ File: lxgw.ins
                                                                       *
   The Current Maintainer of this work on CTAN is Mingyu Xia.          *
                                                                       *
-  The Current Maintainer of this font family is LXGW.                 *
-                                                                      *
+  The Current Designer of this font family is LXGW.                   *
+-----------------------------------------------------------------------
   This work consists of the files lxgw.dtx,                           *
                                   lxgw.ins,                           *
                 the derived files ctex-fontset-lxgw.def,              *
                                   ctex-zhmap-lxgw.tex,                *
+                                  ctex-spa-lxgw.tex,                  *
                                   ctexpunct-lxgw.spa,                 *
                    the font files LXGWWenKaiLite-Regular.ttf,         *
                                   LXGWWenKaiGBLite-Regular.ttf,       *
@@ -33,10 +34,10 @@ File: lxgw.ins
           the documentation files lxgw.pdf,                           *
                               and README.md.                          *
 -----------------------------------------------------------------------
-
-  Any modification of this file should ensure that the copyright and
-  license information is placed in the derived files.
-
+                                                                      *
+  Any modification of this file should ensure that the copyright and  *
+  license information is placed in the derived files.                 *
+                                                                      *
 -----------------------------------------------------------------------
 
 \fi
@@ -48,8 +49,8 @@ File: lxgw.ins
 -----------------------------------------------------------------------
   Runtime: Copyright (C) 2025 by Mingyu Xia <myhsia@outlook.com>      *
                                                                       *
-  Fonts:   Copyright (C) 2021-2025 by LXGW  <https://github.com/lxgw> *
-                                                                      *
+  Fonts:   Copyright (C) 2021-2025 by LXGW <https://github.com/lxgw>  *
+-----------------------------------------------------------------------
   This work may be distributed and/or modified under the conditions   *
   of the SIL Open Font License (OFL) version 1.1.                     *
   The latest version of this license is in                            *
@@ -60,7 +61,7 @@ File: lxgw.ins
                                                                       *
   The Current Maintainer of this work on CTAN is Mingyu Xia.          *
                                                                       *
-  The Current Maintainer of this font family is LXGW.                 *
+  The Current Designer of this font family is LXGW.                   *
 -----------------------------------------------------------------------
 \endpreamble
 
@@ -70,6 +71,7 @@ File: lxgw.ins
                                   lxgw.ins,                           *
                 the derived files ctex-fontset-lxgw.def,              *
                                   ctex-zhmap-lxgw.tex,                *
+                                  ctex-spa-lxgw.tex,                  *
                                   ctexpunct-lxgw.spa,                 *
                    the font files LXGWWenKaiLite-Regular.ttf,         *
                                   LXGWWenKaiGBLite-Regular.ttf,       *
@@ -89,9 +91,9 @@ File: lxgw.ins
   \usedir{tex/latex/lxgw}
     \file{ctex-fontset-lxgw.def}         {\from{\jobname.dtx}{fontset}}
     \file{ctex-zhmap-lxgw.tex}           {\from{\jobname.dtx}{zhmap}  }
-    \file{ctexpunct-lxgw.spa}            {\from{\jobname.dtx}{spa}    }
+    \file{ctex-spa-lxgw.tex}             {\from{\jobname.dtx}{makespa}}
   \nopreamble \nopostamble
-  \usedir{doc/latex/whatsnote}
+  \usedir{doc/latex/lxgw}
     \file{README.md}                     {\from{\jobname.dtx}{readme} }
   }
 
