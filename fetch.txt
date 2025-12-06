@@ -1,7 +1,6 @@
 https://github.com/lxgw/LxgwWenKai-Lite/releases/latest/download/LXGWWenKaiLite-Regular.ttf
-https://github.com/lxgw/LxgwWenKai-Lite/releases/latest/download/LXGWWenKaiLite-Medium.ttf
 https://github.com/lxgw/LxgwWenkaiGB-Lite/releases/latest/download/LXGWWenKaiGBLite-Regular.ttf
-https://github.com/lxgw/LxgwWenkaiGB-Lite/releases/latest/download/LXGWWenKaiGBLite-Medium.ttf
+https://github.com/lxgw/LxgwZhenKai/releases/latest/download/LXGWZhenKaiGB-Regular.ttf
 
 https://github.com/lxgw/LxgwMarkerGothic/releases/latest/download/LxgwMarkerGothic-v1.003.zip
 

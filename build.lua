@@ -62,6 +62,7 @@ function docinit_hook()
   run(unpackdir, "mv ./Xiaolai-Regular.ttf ./LXGWXiaolai-Regular.ttf")
   run(unpackdir, "mv ./Yozai-Regular.ttf ./LXGWYozai-Regular.ttf")
   run(unpackdir, "mv ./Yozai-Medium.ttf ./LXGWYozai-Medium.ttf")
+  cp("*.ttf", unpackdir, typesetdir)
   cp(ctanreadme, unpackdir, currentdir)
   return 0
 end

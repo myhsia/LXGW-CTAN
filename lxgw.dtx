@@ -24,9 +24,9 @@
 %                                   ctex-zhmap-lxgw.tex,                *
 %                                   ctexpunct-lxgw.spa,                 *
 %                    the font files LXGWWenKaiLite-Regular.ttf,         *
-%                                   LXGWWenKaiLite-Medium.ttf,          *
+%                                   LXGWZhenKaiGB-Regular.ttf,          *
 %                                   LXGWWenKaiGBLite-Regular.ttf,       *
-%                                   LXGWWenKaiGBLite-Medium.ttf,        *
+%                                   LXGWZhenKaiGB-Regular.ttf,        *
 %                                   LXGWMarkerGothic-Regular.ttf,       *
 %                                   LXGWXiaolai-Regular.ttf,            *
 %                                   LXGWYozai-Regular.ttf,              *
@@ -154,10 +154,12 @@ The Current Maintainer of this font family is LXGW.
 %     \fbox{\parbox {.8\linewidth} {^^A
 %     This package packs a selection of open-source fonts from the
 %     \href{https://github.com/lxgw/LxgwWenKai-Lite}
-%       {\songti 霞鹜文楷\textsuperscript{轻便版}},
+%       {\songti 霞鹜文楷},
 %     \href{https://github.com/lxgw/LxgwWenKaiGB-Lite}
 %       {\CJKfontspec{LXGWWenKaiGBLite-Regular}\selectfont
-%         霞鹜文楷\ 国标\textsuperscript{轻便版}},
+%         霞鹜文楷\textsuperscript{国标}},
+%     \href{https://github.com/lxgw/LxgwZhenKai}
+%       {\songti \bfseries 霞鹜臻楷},
 %     \href{https://github.com/lxgw/LxgwMarkerGothic}
 %       {\heiti 霞鹜漫黑},
 %     \href{https://github.com/lxgw/kose-font}
@@ -208,7 +210,7 @@ The Current Maintainer of this font family is LXGW.
 % \begin{function}{\songti, \heiti, \fangsong, \kaishu} \footnotesize
 %   \begin{syntax}
 %   \songti   宋体 (|CJKmainfont|):^^A
-% \file{LXGWWenKaiGBLite-Regular.ttf}, \file{LXGWWenKaiGBLite-Medium.ttf}.\\
+% \file{LXGWWenKaiGBLite-Regular.ttf}, \file{LXGWZhenKaiGB-Regular.ttf}.\\
 %   \heiti    黑体 (|CJKsansfont|):^^A
 % \file{LXGWMarkerGothic-Regular.ttf} (with |AutoFakeBold| option).\\
 %   \fangsong 仿宋 (|CJKmonofont|):^^A
@@ -244,18 +246,18 @@ The Current Maintainer of this font family is LXGW.
 % }
 % \begin{keyval}
 %   \item[\key*{\songti 霞鹜文楷 (\pkg{LXGW WenKai})}]
-%         \file{LXGWWenKaiLite-Regular.ttf}, \file{LXGWWenKaiLite-Medium.ttf}
+%         \file{LXGWWenKaiLite-Regular.ttf}, \file{LXGWZhenKaiGB-Regular.ttf}
 %   \begin{framed}
 %     \songti\0
 %   \end{framed}
-%   \item[\key*{\CJKfontspec[BoldFont = LXGWWenKaiGBLite-Medium]^^A
+%   \item[\key*{\CJKfontspec[BoldFont = LXGWZhenKaiGB-Regular]^^A
 %                {LXGWWenKaiGBLite-Regular}\selectfont
 %         霞鹜文楷\textsubscript{\textbf{国标}}
 %         (\pkg{LXGW WenKai\textsubscript{\textbf{GB}}})}]
 %         \file{LXGWWenKaiGBLite-Regular.ttf},
-%         \file{LXGWWenKaiGBLite-Medium.ttf}
+%         \file{LXGWZhenKaiGB-Regular.ttf}
 %   \begin{framed}
-%     \CJKfontspec[BoldFont = LXGWWenKaiGBLite-Medium]^^A
+%     \CJKfontspec[BoldFont = LXGWZhenKaiGB-Regular]^^A
 %       {LXGWWenKaiGBLite-Regular}\selectfont\0
 %   \end{framed}
 %   \item[\key*{\heiti 霞鹜漫黑 (\pkg{LXGW Marker Gothic})}]
@@ -319,18 +321,19 @@ The Current Maintainer of this font family is LXGW.
 %   \begin{verbatim}[commandchars = \\\{\}]
 %     \color{gray}\cs{cs_gset_eq:NN} \cs{ctex_zhmap_case:nnn} \cs{use_i:nnn}
 %   \end{verbatim}
-% The \hologo{LXGW} font family uses the default |unicode| cmap.
+% The \hologo{LXGW} font family uses the default |unicode| cmap (Character To
+% Glyph Index Mapping Table), not |UniGB-UTF16-H|.
 %    \begin{macrocode}
       {
         \setCJKmainfont { LXGWWenKaiLite-Regular.ttf   }
           [
-            BoldFont   = LXGWWenKaiLite-Medium.ttf,
+            BoldFont   = LXGWZhenKaiGB-Regular.ttf,
             ItalicFont = LXGWYozai-Regular.ttf,
           ]
         \setCJKsansfont { LXGWMarkerGothic-Regular.ttf } [ AutoFakeBold ]
         \setCJKmonofont { LXGWXiaolai-Regular.ttf      } [ AutoFakeBold ]
         \setCJKfamilyfont { zhsong } { LXGWWenKaiLite-Regular.ttf   }
-          [ BoldFont = LXGWWenKaiLite-Medium.ttf ]
+          [ BoldFont = LXGWZhenKaiGB-Regular.ttf ]
         \setCJKfamilyfont { zhhei  } { LXGWMarkerGothic-Regular.ttf }
           [ AutoFakeBold ]
         \setCJKfamilyfont { zhfs   } { LXGWXiaolai-Regular.ttf      }
@@ -395,7 +398,7 @@ The Current Maintainer of this font family is LXGW.
 %    \begin{macrocode}
   {
     \ctex_set_upmap_unicode:nnn { upserif   }
-      { LXGWWenKaiLite-Regular.ttf   } { LXGWWenKaiLite-Medium.ttf }
+      { LXGWWenKaiLite-Regular.ttf   } { LXGWZhenKaiGB-Regular.ttf }
     \ctex_set_upmap_unicode:nnn { upsans    }
       { LXGWMarkerGothic-Regular.ttf } { }
     \ctex_set_upmap_unicode:nnn { upmono    }
@@ -419,7 +422,7 @@ The Current Maintainer of this font family is LXGW.
     \setCJKmainfont { LXGWWenKaiLite-Regular }
       [
         Extension  = .ttf,
-        BoldFont   = LXGWWenKaiLite-Medium,
+        BoldFont   = LXGWZhenKaiGB-Regular,
         ItalicFont = LXGWYozai-Regular
       ]
     \setCJKsansfont { LXGWMarkerGothic-Regular }
@@ -427,7 +430,7 @@ The Current Maintainer of this font family is LXGW.
     \setCJKmonofont { LXGWXiaolai-Regular      }
       [ Extension = .ttf, AutoFakeBold  ]
     \setCJKfamilyfont { zhsong } { LXGWWenKaiLite-Regular   }
-      [ Extension = .ttf, BoldFont = LXGWWenKaiLite-Medium ]
+      [ Extension = .ttf, BoldFont = LXGWZhenKaiGB-Regular ]
     \setCJKfamilyfont { zhhei  } { LXGWMarkerGothic-Regular }
       [ Extension = .ttf, AutoFakeBold ]
     \setCJKfamilyfont { zhfs   } { LXGWXiaolai-Regular      }
@@ -458,9 +461,9 @@ The Current Maintainer of this font family is LXGW.
 % \MAKESPA {ctexpunct-lxgw.spa}
 %   {
 %     {lxgwzhsong}      {LXGWWenKaiLite-Regular} ,
-%     {lxgwzhsongb}     {LXGWWenKaiLite-Medium} ,
+%     {lxgwzhsongb}     {LXGWZhenKaiGB-Regular} ,
 %     {lxgwgbzhsong}    {LXGWWenKaiGBLite-Regular} ,
-%     {lxgwgbzhsongb}   {LXGWWenKaiGBLite-Medium} ,
+%     {lxgwgbzhsongb}   {LXGWZhenKaiGB-Regular} ,
 %     {lxgwzhhei}       {LXGWMarkerGothic-Regular} ,
 %     {lxgwzhfs}        {LXGWXiaolai-Regular} ,
 %     {lxgwzhkai}       {LXGWYozai-Regular} ,
@@ -479,9 +482,9 @@ The Current Maintainer of this font family is LXGW.
 %    \begin{macrocode}
 %<*spa>
 \ctexspadef{lxgwzhsong}{12,11,6,4,72,6,68,5,72,6,71,7,72,6,68,7,66,5,52,5,70,-1,72,4,0,0,12,12,7,71,8,65,10,77,12,76,20,70,18,70,17,72,7,50,12,12,6,72,7,71,6,72,7,68,5,66,5,52,-1,70,4,72,11,12,4,6,6,72,5,68,,,}
-\ctexspadef{lxgwzhsongb}{12,10,5,4,72,5,68,4,72,6,70,6,71,6,67,6,66,5,51,4,70,-3,72,2,-0,-0,11,11,6,70,7,64,10,76,12,76,19,69,17,69,17,72,6,49,12,12,6,72,6,70,6,71,6,67,5,66,4,51,-3,70,2,72,10,11,4,5,5,72,4,68,,,}
+\ctexspadef{lxgwzhsongb}{6,8,6,8,71,4,64,5,71,5,70,6,71,5,67,6,65,4,47,4,62,3,66,3,-1,-1,10,10,7,67,4,65,14,67,16,68,17,68,14,67,16,71,6,49,11,11,5,71,6,70,5,71,6,67,4,65,4,47,3,62,3,66,8,6,8,6,4,71,5,64,,,}
 \ctexspadef{lxgwgbzhsong}{12,11,6,4,72,6,68,5,72,6,71,7,72,6,68,7,66,5,52,5,70,-1,72,4,0,0,12,12,7,71,8,65,10,77,12,76,20,70,18,70,17,72,7,50,12,12,6,72,7,71,6,72,7,68,5,66,5,52,-1,70,4,72,11,12,4,6,6,72,5,68,,,}
-\ctexspadef{lxgwgbzhsongb}{12,10,5,4,72,5,68,4,72,6,70,6,71,6,67,6,66,5,51,4,70,-3,72,2,-0,-0,11,11,6,70,7,64,10,76,12,76,19,69,17,69,17,72,6,49,12,12,6,72,6,70,6,71,6,67,5,66,4,51,-3,70,2,72,10,11,4,5,5,72,4,68,,,}
+\ctexspadef{lxgwgbzhsongb}{6,8,6,8,71,4,64,5,71,5,70,6,71,5,67,6,65,4,47,4,62,3,66,3,-1,-1,10,10,7,67,4,65,14,67,16,68,17,68,14,67,16,71,6,49,11,11,5,71,6,70,5,71,6,67,4,65,4,47,3,62,3,66,8,6,8,6,4,71,5,64,,,}
 \ctexspadef{lxgwzhhei}{11,8,11,8,65,10,54,6,70,7,61,12,73,7,63,7,63,7,43,7,54,4,73,5,0,0,19,18,7,64,8,57,12,77,11,78,11,78,11,78,18,73,10,45,11,11,7,69,12,61,7,73,7,63,7,63,7,43,4,54,5,73,8,11,8,11,10,65,6,54,,,}
 \ctexspadef{lxgwzhfs}{71,12,59,6,62,7,56,4,58,11,66,9,65,8,62,10,61,10,54,4,61,4,59,6,0,0,9,12,12,68,4,65,8,78,42,43,43,43,42,43,42,42,31,32,10,8,4,66,8,67,6,67,9,66,10,59,7,52,6,60,6,59,11,70,6,56,6,62,5,52,,,}
 \ctexspadef{lxgwzhkai}{70,13,57,6,69,5,54,3,70,3,72,3,65,3,63,10,69,2,54,1,59,4,62,6,-2,-2,9,10,12,64,6,67,11,74,13,74,44,44,43,42,45,43,25,26,7,8,3,70,3,72,2,66,10,63,2,70,2,53,4,60,6,62,11,72,6,58,4,69,3,54,,,}
@@ -606,4 +609,4 @@ The Current Maintainer of this font family is LXGW.
 %<*zhmap>
 %    \end{macrocode}
 % \end{implementation}
-% \PrintIndex
+% ^^A\PrintIndex
