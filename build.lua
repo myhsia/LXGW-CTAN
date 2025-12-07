@@ -9,13 +9,12 @@
 
 module              = "lxgw-fonts"
 version             = "v1.521G"
-date                = "2025-12-07"
+date                = "2025-12-08"
 maintainer          = "Mingyu Xia"
 uploader            = "Mingyu Xia"
 maintainid          = "myhsia"
 email               = "myhsia@outlook.com"
 repository          = "https://github.com/" .. maintainid .. "/LXGW-CTAN"
-announcement        = [[]]
 summary             = "CJK font family with a comprehensive character set"
 description         = "The `LXGW` Font Family provides an open-source CJK font family with a comprehensive character set for Chinese (Simplified/Traditional), Cantonese, and Japanese. A `fontset` configuration of this font family for the `ctex-kit` is also provided in this package."
 
@@ -27,29 +26,30 @@ description         = "The `LXGW` Font Family provides an open-source CJK font f
 ctanzip             = module
 excludefiles        = {"*~"}
 installfiles        = {"*.def", "*.tex", "*.spa"}
-textfiles           = {"*.md", "LICENSE", "*.lua", "*.ttf"}
+textfiles           = {"README.md", "LICENSE", "*.lua", "*.ttf"}
 typesetexe          = "latexmk -xelatex"
 typesetruns         = 1
 unpacksuppfiles     = {"*.txt"}
 
 uploadconfig  = {
-  note         = "",
-  pkg          = module,
-  version      = version .. " " .. date,
-  author       = maintainer,
-  uploader     = uploader,
-  email        = email,
-  summary      = summary,
-  description  = description,
-  license      = "ofl",
-  ctanPath     = "/fonts/" .. module,
-  announcement = announcement,
-  home         = "https://github.com/" .. maintainid,
-  bugtracker   = repository .. "/issues",
-  support      = "https://github.com/lxgw",
-  repository   = repository,
-  development  = "https://github.com/" .. maintainid,
-  update       = true
+  note              = "",
+  announcement_file = "announcement.md",
+  pkg               = module,
+  version           = version .. " " .. date,
+  author            = maintainer,
+  uploader          = uploader,
+  email             = email,
+  summary           = summary,
+  description       = description,
+  license           = "ofl",
+  ctanPath          = "/fonts/" .. module,
+  announcement      = announcement,
+  home              = "https://github.com/" .. maintainid,
+  bugtracker        = repository .. "/issues",
+  support           = "https://github.com/lxgw",
+  repository        = repository,
+  development       = "https://github.com/" .. maintainid,
+  update            = true
 }
 function update_tag(file, content, tagname, tagdate)
   tagname = version
