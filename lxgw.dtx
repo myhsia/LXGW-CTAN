@@ -304,9 +304,18 @@ The Current Designer of this font family is LXGW.
 % \underline{|fontset-unavailable|} error.
 %    \begin{macrocode}
   { \ctex_fontset_error:n { lxgw } }
+%    \end{macrocode}
+% \begin{texnote}
+% For some fontset that supports this branch, line |4| -- |5| should be
+% replaced as a line
+% \begin{verbatim}
+%   \ctex_fontset_case:nnn
+% \end{verbatim}
+% \end{texnote}
+% The \hologo{pdfTeX} (generate DVI) branch.
+%    \begin{macrocode}
   {
 %    \end{macrocode}
-% The \hologo{pdfTeX} (generate DVI) branch.\par\noindent
 % Load the \file{.spa} file for the \pkg{CJKpunct} package.
 %    \begin{macrocode}
     \ctex_file_input:n { ctexpunct-lxgw.spa }
@@ -598,7 +607,11 @@ The Current Designer of this font family is LXGW.
 %    \end{macrocode}
 % The font mapping configurations.
 %    \begin{macrocode}
-\ifzhmappdf \iffalse
+\ifzhmappdf
+%    \end{macrocode}
+% Since \hologo{pdfTeX} maps too slowly, this mode is obsolete.
+%    \begin{macrocode}
+\iffalse
   \pdfmapline{=gbk@UGBK@          <LXGWWenKaiLite-Regular.ttf}
   \pdfmapline{=gbksong@UGBK@      <LXGWWenKaiLite-Regular.ttf}
   \pdfmapline{=gbkkai@UGBK@       <LXGWYozai-Regular.ttf}
@@ -617,10 +630,11 @@ The Current Designer of this font family is LXGW.
   \pdfmapline{=unikaisl@Unicode@  <LXGWYozai-Regular.ttf}
   \pdfmapline{=uniheisl@Unicode@  <LXGWMarkerGothic-Regular.ttf}
   \pdfmapline{=unifssl@Unicode@   <LXGWXiaolai-Regular.ttf}
+\fi
+\else
 %    \end{macrocode}
-% Since \hologo{pdfTeX} maps too slowly, this mode is obsolete.
+% Configuration for \hologo{pdfTeX} (generate DVI).
 %    \begin{macrocode}
-\fi \else
   \special{pdf:mapline gbk@UGBK@          unicode LXGWWenKaiLite-Regular.ttf}
   \special{pdf:mapline gbksong@UGBK@      unicode LXGWWenKaiLite-Regular.ttf}
   \special{pdf:mapline gbkkai@UGBK@       unicode LXGWYozai-Regular.ttf}
