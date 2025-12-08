@@ -631,9 +631,13 @@ The Current Designer of this font family is LXGW.
   \pdfmapline{=uniheisl@Unicode@  <LXGWMarkerGothic-Regular.ttf}
   \pdfmapline{=unifssl@Unicode@   <LXGWXiaolai-Regular.ttf}
 \fi
-\else
 %    \end{macrocode}
 % Configuration for \hologo{pdfTeX} (generate DVI).
+%    \begin{macrocode}
+\else
+%    \end{macrocode}
+% Configure the upright shape of \cs{songti}, \cs{kaishu}, \cs{heiti},
+% and \cs{fangsong} mapping for GBK encoding and UTF8 encoding.
 %    \begin{macrocode}
   \special{pdf:mapline gbk@UGBK@          unicode LXGWWenKaiLite-Regular.ttf}
   \special{pdf:mapline gbksong@UGBK@      unicode LXGWWenKaiLite-Regular.ttf}
@@ -645,6 +649,11 @@ The Current Designer of this font family is LXGW.
   \special{pdf:mapline unikai@Unicode@    unicode LXGWYozai-Regular.ttf}
   \special{pdf:mapline unihei@Unicode@    unicode LXGWMarkerGothic-Regular.ttf}
   \special{pdf:mapline unifs@Unicode@     unicode LXGWXiaolai-Regular.ttf}
+%    \end{macrocode}
+% Similar for the (fake) slant shape, set the \emph{Afine Transformation}
+% coefficient to |0.167|, which is the same as the default value
+% of |AutoFakeSlant| in the \pkg{xeCJK} package.
+%    \begin{macrocode}
   \special{pdf:mapline gbksongsl@UGBK@    unicode LXGWWenKaiLite-Regular.ttf -s .167}
   \special{pdf:mapline gbkkaisl@UGBK@     unicode LXGWYozai-Regular.ttf -s .167}
   \special{pdf:mapline gbkheisl@UGBK@     unicode LXGWMarkerGothic-Regular.ttf -s .167}
