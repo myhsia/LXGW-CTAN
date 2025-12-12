@@ -146,7 +146,7 @@ The Current Designer of this font family is LXGW.
 %   }}
 % }
 %
-% \date{Released 2025-12-11\quad \texttt{v1.521H}}
+% \date{Released 2025-12-13\quad \texttt{v1.521I}}
 %
 % \def\Copyright{^^A
 %   \begin{center}
@@ -204,7 +204,8 @@ The Current Designer of this font family is LXGW.
 %   \meta{art\textup\textbar book\textup\textbar rep\textup\textbar beamer}|}|
 % \end{quote}
 % with \hologo{XeLaTeX}, \hologo{LuaLaTeX}, \hologo{LaTeX} + \hologo{DVIPDFMx},
-% and \hologo{upLaTeX} + \hologo{DVIPDFMx} supported. \hologo{pdfLaTeX} is not
+% \hologo{upLaTeX} + \hologo{DVIPDFMx}, and \hologo{ApLaTeX}
+% (aka \hologo{pLaTeX}-ng) supported. \hologo{pdfLaTeX} is not
 % supported temporarily since the long mapping time of |zhmap|.
 % Additionally, the following four commands are provided for convenience.
 % \begin{function}{\songti, \heiti, \fangsong, \kaishu} \footnotesize
@@ -292,7 +293,7 @@ The Current Designer of this font family is LXGW.
 % Declare the \pkg{ctex-kit} font configuration file with date, version, and
 % description.
 %    \begin{macrocode}
-\ProvidesExplFile {ctex-fontset-lxgw.def} {2025-12-11} {v1.521H}
+\ProvidesExplFile {ctex-fontset-lxgw.def} {2025-12-13} {v1.521I}
   {lxgw fontset configuration for ctex-kit}
 %    \end{macrocode}
 % Load CJK font family, interface, accepts the following 4 branches,
@@ -332,25 +333,29 @@ The Current Designer of this font family is LXGW.
 %   \begin{verbatim}[commandchars = \\\{\}]
 %     \color{gray}\cs{cs_gset_eq:NN} \cs{ctex_zhmap_case:nnn} \cs{use_i:nnn}
 %   \end{verbatim}
-% The \hologo{LXGW} font family uses the default |unicode| cmap (Character To
-% Glyph Index Mapping Table), not |UniGB-UTF16-H|.
+% The \hologo{LXGW} font family uses the |UniGB-UTF16-H| cmap (Character To
+% Glyph Index Mapping Table).
 %    \begin{macrocode}
       {
         \setCJKmainfont { LXGWWenKaiLite-Regular.ttf   }
           [
-            BoldFont   = LXGWZhenKaiGB-Regular.ttf,
-            ItalicFont = LXGWYozai-Regular.ttf,
+            cmap           = UniGB-UTF16-H,
+            BoldFont       = LXGWZhenKaiGB-Regular.ttf,
+            ItalicFont     = LXGWYozai-Regular.ttf,
+            BoldItalicFont = LXGWYozai-Medium.ttf
           ]
-        \setCJKsansfont { LXGWMarkerGothic-Regular.ttf } [ AutoFakeBold ]
-        \setCJKmonofont { LXGWXiaolai-Regular.ttf      } [ AutoFakeBold ]
+        \setCJKsansfont { LXGWMarkerGothic-Regular.ttf }
+          [ cmap = UniGB-UTF16-H, AutoFakeBold ]
+        \setCJKmonofont { LXGWXiaolai-Regular.ttf      }
+          [ cmap = UniGB-UTF16-H, AutoFakeBold ]
         \setCJKfamilyfont { zhsong } { LXGWWenKaiLite-Regular.ttf   }
-          [ BoldFont = LXGWZhenKaiGB-Regular.ttf ]
+          [ cmap = UniGB-UTF16-H, BoldFont = LXGWZhenKaiGB-Regular.ttf ]
         \setCJKfamilyfont { zhhei  } { LXGWMarkerGothic-Regular.ttf }
-          [ AutoFakeBold ]
+          [ cmap = UniGB-UTF16-H, AutoFakeBold ]
         \setCJKfamilyfont { zhfs   } { LXGWXiaolai-Regular.ttf      }
-          [ AutoFakeBold ]
+          [ cmap = UniGB-UTF16-H, AutoFakeBold ]
         \setCJKfamilyfont { zhkai  } { LXGWYozai-Regular.ttf        }
-          [ BoldFont = LXGWYozai-Medium.ttf ]
+          [ cmap = UniGB-UTF16-H, BoldFont = LXGWYozai-Medium.ttf ]
 %    \end{macrocode}
 % Configure the usages of the edge information of the defined CJK families.
 %    \begin{macrocode}
@@ -393,7 +398,7 @@ The Current Designer of this font family is LXGW.
   }
 %    \end{macrocode}
 % \end{arguments}
-% \DescribeOption{\hologo{upTeX}}
+% \DescribeOption{\hologo{upTeX}/\hologo{ApTeX} (aka \hologo{pTeX}-ng)}
 % For those use \hologo{upLaTeX} + \hologo{DVIPDFMx}.
 % Configure the basic font mapping for \hologo{upTeX}. Due to the definition in
 % \pkg{zhmetrics-uptex}, configure
@@ -409,21 +414,20 @@ The Current Designer of this font family is LXGW.
 % \end{multicols}
 %    \begin{macrocode}
   {
-    \ctex_set_upmap_unicode:nnn { upserif   }
-      { LXGWWenKaiLite-Regular.ttf   } { LXGWZhenKaiGB-Regular.ttf }
-    \ctex_set_upmap_unicode:nnn { upsans    }
-      { LXGWMarkerGothic-Regular.ttf } { }
-    \ctex_set_upmap_unicode:nnn { upmono    }
-      { LXGWXiaolai-Regular.ttf      } { }
-    \ctex_set_upmap_unicode:nnn { upserifit }
-      { LXGWYozai-Regular.ttf        } { }
+    \ctex_set_upfonts:nnnnnn
+      { LXGWWenKaiLite-Regular.ttf   }
+      { LXGWZhenKaiGB-Regular.ttf    }
+      { LXGWYozai-Regular.ttf        }
+      { LXGWMarkerGothic-Regular.ttf }
+      { LXGWMarkerGothic-Regular.ttf }
+      { LXGWXiaolai-Regular.ttf      }
 %    \end{macrocode}
 %   Config the \textsf{NFSS} font families |zhsong|, |zhhei|, |zhfs|, and
 %   |zhkai| to the \textsf{JFM} name in normal type and bold type.
 %   Leave empty for those font families with no bold version.
 %    \begin{macrocode}
-    \ctex_set_upfamily:nnn { zhsong } { upzhserif    } { upzhserifb   }
-    \ctex_set_upfamily:nnn { zhhei  } { upzhsans     } { }
+    \ctex_set_upfamily:nnn { zhsong } { upzhserif    } { upzhserifb }
+    \ctex_set_upfamily:nnn { zhhei  } { upzhsans     } { upzhsans   }
     \ctex_set_upfamily:nnn { zhfs   } { upzhmono     } { }
     \ctex_set_upfamily:nnn { zhkai  } { upzhserifit  } { }
   }
@@ -434,9 +438,10 @@ The Current Designer of this font family is LXGW.
   {
     \setCJKmainfont { LXGWWenKaiLite-Regular }
       [
-        Extension  = .ttf,
-        BoldFont   = LXGWZhenKaiGB-Regular,
-        ItalicFont = LXGWYozai-Regular
+        Extension      = .ttf,
+        BoldFont       = LXGWZhenKaiGB-Regular,
+        ItalicFont     = LXGWYozai-Regular,
+        BoldItalicFont = LXGWYozai-Medium.ttf,
       ]
     \setCJKsansfont { LXGWMarkerGothic-Regular }
       [ Extension = .ttf, AutoFakeBold ]
@@ -625,7 +630,7 @@ The Current Designer of this font family is LXGW.
 % Provides the identification information of the font map loader.
 %    \begin{macrocode}
 \ProvidesFile{ctex-zhmap-lxgw.tex}%
-  [2025-12-11 v1.521H lxgw font map loader for DVIPDFMx (CTEX)]
+  [2025-12-13 v1.521I lxgw font map loader for DVIPDFMx (CTEX)]
 %    \end{macrocode}
 % Font map loader for pdfTeX and DVIPDFMx
 %    \begin{macrocode}
@@ -661,29 +666,29 @@ The Current Designer of this font family is LXGW.
 % Configure the upright shape of \cs{songti}, \cs{kaishu}, \cs{heiti},
 % and \cs{fangsong} mapping for GBK encoding and UTF8 encoding.
 %    \begin{macrocode}
-  \special{pdf:mapline gbk@UGBK@          unicode LXGWWenKaiLite-Regular.ttf}
-  \special{pdf:mapline gbksong@UGBK@      unicode LXGWWenKaiLite-Regular.ttf}
-  \special{pdf:mapline gbkkai@UGBK@       unicode LXGWYozai-Regular.ttf}
-  \special{pdf:mapline gbkhei@UGBK@       unicode LXGWMarkerGothic-Regular.ttf}
-  \special{pdf:mapline gbkfs@UGBK@        unicode LXGWXiaolai-Regular.ttf}
-  \special{pdf:mapline cyberb@Unicode@    unicode LXGWWenKaiLite-Regular.ttf}
-  \special{pdf:mapline unisong@Unicode@   unicode LXGWWenKaiLite-Regular.ttf}
-  \special{pdf:mapline unikai@Unicode@    unicode LXGWYozai-Regular.ttf}
-  \special{pdf:mapline unihei@Unicode@    unicode LXGWMarkerGothic-Regular.ttf}
-  \special{pdf:mapline unifs@Unicode@     unicode LXGWXiaolai-Regular.ttf}
+  \special{pdf:mapline gbk@UGBK@          UniGB-UTF16-H LXGWWenKaiLite-Regular.ttf}
+  \special{pdf:mapline gbksong@UGBK@      UniGB-UTF16-H LXGWWenKaiLite-Regular.ttf}
+  \special{pdf:mapline gbkkai@UGBK@       UniGB-UTF16-H LXGWYozai-Regular.ttf}
+  \special{pdf:mapline gbkhei@UGBK@       UniGB-UTF16-H LXGWMarkerGothic-Regular.ttf}
+  \special{pdf:mapline gbkfs@UGBK@        UniGB-UTF16-H LXGWXiaolai-Regular.ttf}
+  \special{pdf:mapline cyberb@Unicode@    UniGB-UTF16-H LXGWWenKaiLite-Regular.ttf}
+  \special{pdf:mapline unisong@Unicode@   UniGB-UTF16-H LXGWWenKaiLite-Regular.ttf}
+  \special{pdf:mapline unikai@Unicode@    UniGB-UTF16-H LXGWYozai-Regular.ttf}
+  \special{pdf:mapline unihei@Unicode@    UniGB-UTF16-H LXGWMarkerGothic-Regular.ttf}
+  \special{pdf:mapline unifs@Unicode@     UniGB-UTF16-H LXGWXiaolai-Regular.ttf}
 %    \end{macrocode}
 % Similar for the (fake) slant shape, set the
 % \emph{Afine Transformation coefficient} to |0.167|, which is the same as the
 % default value of |AutoFakeSlant| in the \pkg{xeCJK} package.
 %    \begin{macrocode}
-  \special{pdf:mapline gbksongsl@UGBK@    unicode LXGWWenKaiLite-Regular.ttf -s .167}
-  \special{pdf:mapline gbkkaisl@UGBK@     unicode LXGWYozai-Regular.ttf -s .167}
-  \special{pdf:mapline gbkheisl@UGBK@     unicode LXGWMarkerGothic-Regular.ttf -s .167}
-  \special{pdf:mapline gbkfssl@UGBK@      unicode LXGWXiaolai-Regular.ttf -s .167}
-  \special{pdf:mapline unisongsl@Unicode@ unicode LXGWWenKaiLite-Regular.ttf -s .167}
-  \special{pdf:mapline unikaisl@Unicode@  unicode LXGWYozai-Regular.ttf -s .167}
-  \special{pdf:mapline uniheisl@Unicode@  unicode LXGWMarkerGothic-Regular.ttf -s .167}
-  \special{pdf:mapline unifssl@Unicode@   unicode LXGWXiaolai-Regular.ttf -s .167}
+  \special{pdf:mapline gbksongsl@UGBK@    UniGB-UTF16-H LXGWWenKaiLite-Regular.ttf -s .167}
+  \special{pdf:mapline gbkkaisl@UGBK@     UniGB-UTF16-H LXGWYozai-Regular.ttf -s .167}
+  \special{pdf:mapline gbkheisl@UGBK@     UniGB-UTF16-H LXGWMarkerGothic-Regular.ttf -s .167}
+  \special{pdf:mapline gbkfssl@UGBK@      UniGB-UTF16-H LXGWXiaolai-Regular.ttf -s .167}
+  \special{pdf:mapline unisongsl@Unicode@ UniGB-UTF16-H LXGWWenKaiLite-Regular.ttf -s .167}
+  \special{pdf:mapline unikaisl@Unicode@  UniGB-UTF16-H LXGWYozai-Regular.ttf -s .167}
+  \special{pdf:mapline uniheisl@Unicode@  UniGB-UTF16-H LXGWMarkerGothic-Regular.ttf -s .167}
+  \special{pdf:mapline unifssl@Unicode@   UniGB-UTF16-H LXGWXiaolai-Regular.ttf -s .167}
 \fi
 %    \end{macrocode}
 % End the optionlist |zhmap| for l3docstrip.

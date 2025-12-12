@@ -1,3 +1,4 @@
-Version 1.521H released.
-- Updated the `.spa` file for punctation compression.
-- Updated the implementation part of the manual.
+Version 1.521I released.
+- ApTeX (aka pTeX-ng) is supported.
+- Fixed the wrong cmap.
+- Complete the `\ctex_set_upfonts:nnnnnn` function for the bold type of the sans font when using *pTeX.
