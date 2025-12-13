@@ -19,9 +19,9 @@ The issue tracker for `LXGW` is currently located
 Copyright and License
 ---------------------
 
-Runtime: Copyright (C) 2025 by Mingyu Xia <myhsia@outlook.com>
+Runtime: Copyright (C) 2025-2026 by Mingyu Xia <myhsia@outlook.com>
 
-Fonts:   Copyright (C) 2021-2025 by LXGW <https://github.com/lxgw>
+Fonts:   Copyright (C) 2021-2026 by LXGW <https://github.com/lxgw>
 
 This work may be distributed and/or modified under the conditions
 of the SIL Open Font License (OFL) version 1.1.
