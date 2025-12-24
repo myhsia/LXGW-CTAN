@@ -71,7 +71,7 @@ function update_tag(file, content, tagname, tagdate)
 end
 function docinit_hook()
   cp("fetch.txt",  maindir, unpackdir)
-  run(unpackdir, "wget2 -i fetch.txt")
+  run(unpackdir, "xargs -n 1 curl -O -L < fetch.txt")
   run(unpackdir, "unzip LXGWMarkerGothic-v1.003.zip")
   ren(unpackdir,
     "LXGWMarkerGothic-v1.003/fonts/ttf/LXGWMarkerGothic-Regular.ttf",
