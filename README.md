@@ -33,4 +33,4 @@ This work has the OFL maintenance status `maintained'.
 
 The Current Maintainer of this work on CTAN is Mingyu Xia.
 
-The Current Designer of this font family is LXGW.
+The Current Designer of this font family is LXGW and TrionesType.

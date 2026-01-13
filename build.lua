@@ -72,14 +72,12 @@ end
 function docinit_hook()
   cp("fetch.txt",  maindir, unpackdir)
   run(unpackdir, "xargs -n 1 curl -O -L < fetch.txt")
-  run(unpackdir, "unzip LXGWMarkerGothic-v1.003.zip")
-  ren(unpackdir,
-    "LXGWMarkerGothic-v1.003/fonts/ttf/LXGWMarkerGothic-Regular.ttf",
-    "LXGWMarkerGothic-Regular.ttf")
-  ren(unpackdir, "Xiaolai-Regular.ttf", "LXGWXiaolai-Regular.ttf")
-  ren(unpackdir, "Yozai-Regular.ttf",   "LXGWYozai-Regular.ttf")
-  ren(unpackdir, "Yozai-Medium.ttf",    "LXGWYozai-Medium.ttf")
-  run(unpackdir, "xetex ctex-spa-lxgw.tex")
+  ren(unpackdir, "Xiaolai-Regular.ttf",        "LXGWXiaolai-Regular.ttf")
+  run(unpackdir, "unzip ZhuqueFangsong-v0.212.zip")
+  ren(unpackdir, "ZhuqueFangsong-Regular.ttf", "LXGWZhuqueFangsong-Regular.ttf")
+  ren(unpackdir, "Yozai-Regular.ttf",          "LXGWYozai-Regular.ttf")
+  ren(unpackdir, "Yozai-Medium.ttf",           "LXGWYozai-Medium.ttf")
+  run(unpackdir, "xetex ctexpunct-lxgw.tex")
   cp("*.ttf", unpackdir, typesetdir)
   cp(ctanreadme, unpackdir, currentdir)
   return 0

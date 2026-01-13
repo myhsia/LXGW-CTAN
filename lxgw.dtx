@@ -22,13 +22,12 @@
 %                                   lxgw.ins,                           *
 %                 the derived files ctex-fontset-lxgw.def,              *
 %                                   ctex-zhmap-lxgw.tex,                *
-%                                   ctex-spa-lxgw.tex,                  *
-%                                   ctexpunct-lxgw.spa,                 *
+%                                   ctex-spa-lxgw.spa,                  *
+%                                   ctexpunct-lxgw.tex,                 *
 %                    the font files LXGWWenKaiLite-Regular.ttf,         *
-%                                   LXGWWenKaiGBLite-Regular.ttf,       *
 %                                   LXGWZhenKaiGB-Regular.ttf,          *
-%                                   LXGWMarkerGothic-Regular.ttf,       *
-%                                   LXGWXiaolai-Regular.ttf,            *
+%                                   LXGWNeoXiHei.ttf,                   *
+%                                   LXGWZhuqueFangsong-Regular.ttf,     *
 %                                   LXGWYozai-Regular.ttf,              *
 %                                   LXGWYozai-Medium.ttf,               *
 %           the documentation files lxgw.pdf,                           *
@@ -80,7 +79,7 @@ This work has the OFL maintenance status `maintained'.
 
 The Current Maintainer of this work on CTAN is Mingyu Xia.
 
-The Current Designer of this font family is LXGW.
+The Current Designer of this font family is LXGW and TrionesType.
 %</readme>
 %
 %<*internal>
@@ -120,6 +119,20 @@ The Current Designer of this font family is LXGW.
   \tex_XeTeXcharclass:D "0047 = 1^^A G
   \tex_XeTeXcharclass:D "0057 = 1^^A W
   LX\kern-.05emG\kern-.05emW}
+\def \HoLogo@TrionesType#1{^^A
+  \tex_XeTeXcharclass:D "0054 = 1^^A T
+  \tex_XeTeXcharclass:D "0072 = 1^^A r
+  \tex_XeTeXcharclass:D "0069 = 1^^A i
+  \tex_XeTeXcharclass:D "006F = 1^^A o
+  \tex_XeTeXcharclass:D "006E = 1^^A n
+  \tex_XeTeXcharclass:D "0065 = 1^^A e
+  \tex_XeTeXcharclass:D "0073 = 1^^A s
+  \tex_XeTeXcharclass:D "0054 = 1^^A T
+  \tex_XeTeXcharclass:D "0079 = 1^^A y
+  \tex_XeTeXcharclass:D "0070 = 1^^A p
+  \tex_XeTeXcharclass:D "0065 = 1^^A e
+  \fangsong TrionesType
+}
 \makeatother \ExplSyntaxOff
 \makeindex
 \begin{document}
@@ -140,8 +153,10 @@ The Current Designer of this font family is LXGW.
 % }
 %
 % \author{^^A
-%   Designer: \hologo{LXGW} (霞鹜),\texorpdfstring{\quad}{ }
-%   Maintainer: Mingyu Xia (夏明宇)\thanks{\texttt{^^A
+%   Designer: \hologo{LXGW} (霞鹜) /
+%             \hologo{TrionesType} ({\fangsong 璇璣造字}),
+%     \texorpdfstring{\enspace}{ }
+%   Maintainer: Mingyu Xia\thanks{\texttt{^^A
 %     \href{mailto:xiamingyu@westlake.edu.cn}{xiamingyu@westlake.edu.cn}^^A
 %   }}
 % }
@@ -155,19 +170,18 @@ The Current Designer of this font family is LXGW.
 %     This package packs a selection of open-source fonts from the
 %     \href{https://github.com/lxgw/LxgwWenKai-Lite}
 %       {\songti 霞鹜文楷},
-%     \href{https://github.com/lxgw/LxgwWenKaiGB-Lite}
-%       {\CJKfontspec{LXGWWenKaiGBLite-Regular}\selectfont
-%         霞鹜文楷\textsuperscript{国标}},
 %     \href{https://github.com/lxgw/LxgwZhenKai}
 %       {\songti \bfseries 霞鹜臻楷},
-%     \href{https://github.com/lxgw/LxgwMarkerGothic}
-%       {\heiti 霞鹜漫黑},
-%     \href{https://github.com/lxgw/kose-font}
-%       {\fangsong 小赖字体}, and
+%     \href{https://github.com/lxgw/LxgwNeoXiHei}
+%       {\heiti 霞鹜新晰黑},
 %     \href{https://github.com/lxgw/yozai-font}
 %       {\kaishu 悠哉字体},
 %     which are released into public domain by
-%     \href{https://lxgw.github.io/}{\hologo{LXGW}} since 2021.
+%     \href{https://lxgw.github.io}{\hologo{LXGW}} and
+%     \href{https://github.com/TrionesType/zhuque}
+%       {\fangsong 朱雀仿宋}
+%     released into public domain by
+%     \href{https://trionestype.com}{\hologo{TrionesType}} since 2021.
 %     They are licensed under the
 %     \href{https://ctan.org/license/ofl}{SIL Open Font License (OFL)}.
 %   }}}
@@ -211,11 +225,11 @@ The Current Designer of this font family is LXGW.
 % \begin{function}{\songti, \heiti, \fangsong, \kaishu} \footnotesize
 %   \begin{syntax}
 %   \songti   宋体 (|CJKmainfont|):^^A
-% \file{LXGWWenKaiGBLite-Regular.ttf}, \file{LXGWZhenKaiGB-Regular.ttf}.\\
+% \file{LXGWWenKaiLite-Regular.ttf}, \file{LXGWZhenKaiGB-Regular.ttf}.\\
 %   \heiti    黑体 (|CJKsansfont|):^^A
-% \file{LXGWMarkerGothic-Regular.ttf} (with the |AutoFakeBold| option).\\
+% \file{LXGWNeoXiHei.ttf} (|AutoFakeBold| enabled).\\
 %   \fangsong 仿宋 (|CJKmonofont|):^^A
-% \file{LXGWXiaolai-Regular.ttf} (with the |AutoFakeBold| option).\\
+% \file{LXGWZhuqueFangsong-Regular.ttf} (|AutoFakeBold| enabled).\\
 %   \kaishu   楷书 (itshape of |CJKmainfont|):^^A
 % \file{LXGWYozai-Regular.ttf}, \file{LXGWYozai-Medium.ttf}.
 %   \end{syntax}
@@ -251,23 +265,13 @@ The Current Designer of this font family is LXGW.
 %   \begin{framed}
 %     \songti\0
 %   \end{framed}
-%   \item[\key*{\CJKfontspec[BoldFont = LXGWZhenKaiGB-Regular]^^A
-%                {LXGWWenKaiGBLite-Regular}\selectfont
-%         霞鹜文楷\textsubscript{\textbf{国标}}
-%         (\pkg{LXGW WenKai\textsubscript{\textbf{GB}}})}]
-%         \file{LXGWWenKaiGBLite-Regular.ttf},
-%         \file{LXGWZhenKaiGB-Regular.ttf}
-%   \begin{framed}
-%     \CJKfontspec[BoldFont = LXGWZhenKaiGB-Regular]^^A
-%       {LXGWWenKaiGBLite-Regular}\selectfont\0
-%   \end{framed}
-%   \item[\key*{\heiti 霞鹜漫黑 (\pkg{LXGW Marker Gothic})}]
-%         \file{LXGWMarkerGothic-Regular.ttf}
+%   \item[\key*{\heiti 霞鹜新晰黑 (\pkg{LXGW Neo XiHei})}]
+%         \file{LXGWNeoXiHei.ttf}
 %   \begin{framed}
 %     \heiti\0
 %   \end{framed}
-%   \item[\key*{\fangsong 小赖字体 (\pkg{Xiaolai Font})}]
-%         \file{LXGWXiaolai-Regular.ttf}
+%   \item[\key*{\fangsong 朱雀仿宋 (\pkg{\textsc{Zhuque Fangsong}})}]
+%         \file{LXGWZhuqueFangsong-Regular.ttf}
 %   \begin{framed}
 %     \fangsong\0
 %   \end{framed}
@@ -321,7 +325,7 @@ The Current Designer of this font family is LXGW.
 %    \end{macrocode}
 % Load the \file{.spa} file for the \pkg{CJKpunct} package.
 %    \begin{macrocode}
-    \ctex_file_input:n { ctexpunct-lxgw.spa }
+    \ctex_file_input:n { ctex-spa-lxgw.spa }
 %    \end{macrocode}
 % Case choice controlled by the |zhmap| key of \pkg{ctex-kit}.
 %    \begin{macrocode}
@@ -337,24 +341,24 @@ The Current Designer of this font family is LXGW.
 % Glyph Index Mapping Table).
 %    \begin{macrocode}
       {
-        \setCJKmainfont { LXGWWenKaiLite-Regular.ttf   }
+        \setCJKmainfont { LXGWWenKaiLite-Regular.ttf      }
           [
             cmap           = UniGB-UTF16-H,
             BoldFont       = LXGWZhenKaiGB-Regular.ttf,
             ItalicFont     = LXGWYozai-Regular.ttf,
             BoldItalicFont = LXGWYozai-Medium.ttf
           ]
-        \setCJKsansfont { LXGWMarkerGothic-Regular.ttf }
+        \setCJKsansfont { LXGWNeoXiHei.ttf                }
           [ cmap = UniGB-UTF16-H, AutoFakeBold ]
-        \setCJKmonofont { LXGWXiaolai-Regular.ttf      }
+        \setCJKmonofont { LXGWZhuqueFangsong-Regular.ttf  }
           [ cmap = UniGB-UTF16-H, AutoFakeBold ]
-        \setCJKfamilyfont { zhsong } { LXGWWenKaiLite-Regular.ttf   }
+        \setCJKfamilyfont { zhsong } { LXGWWenKaiLite-Regular.ttf     }
           [ cmap = UniGB-UTF16-H, BoldFont = LXGWZhenKaiGB-Regular.ttf ]
-        \setCJKfamilyfont { zhhei  } { LXGWMarkerGothic-Regular.ttf }
+        \setCJKfamilyfont { zhhei  } { LXGWNeoXiHei.ttf   }
           [ cmap = UniGB-UTF16-H, AutoFakeBold ]
-        \setCJKfamilyfont { zhfs   } { LXGWXiaolai-Regular.ttf      }
+        \setCJKfamilyfont { zhfs   } { LXGWZhuqueFangsong-Regular.ttf }
           [ cmap = UniGB-UTF16-H, AutoFakeBold ]
-        \setCJKfamilyfont { zhkai  } { LXGWYozai-Regular.ttf        }
+        \setCJKfamilyfont { zhkai  } { LXGWYozai-Regular.ttf          }
           [ cmap = UniGB-UTF16-H, BoldFont = LXGWYozai-Medium.ttf ]
 %    \end{macrocode}
 % Configure the usages of the edge information of the defined CJK families.
@@ -415,12 +419,12 @@ The Current Designer of this font family is LXGW.
 %    \begin{macrocode}
   {
     \ctex_set_upfonts:nnnnnn
-      { LXGWWenKaiLite-Regular.ttf   }
-      { LXGWZhenKaiGB-Regular.ttf    }
-      { LXGWYozai-Regular.ttf        }
-      { LXGWMarkerGothic-Regular.ttf }
-      { LXGWMarkerGothic-Regular.ttf }
-      { LXGWXiaolai-Regular.ttf      }
+      { LXGWWenKaiLite-Regular.ttf      }
+      { LXGWZhenKaiGB-Regular.ttf       }
+      { LXGWYozai-Regular.ttf           }
+      { LXGWNeoXiHei.ttf                }
+      { LXGWNeoXiHei.ttf                }
+      { LXGWZhuqueFangsong-Regular.ttf  }
 %    \end{macrocode}
 %   Config the \textsf{NFSS} font families |zhsong|, |zhhei|, |zhfs|, and
 %   |zhkai| to the \textsf{JFM} name in normal type and bold type.
@@ -436,24 +440,24 @@ The Current Designer of this font family is LXGW.
 % For those use \hologo{XeLaTeX} or \hologo{LuaLaTeX}.
 %    \begin{macrocode}
   {
-    \setCJKmainfont { LXGWWenKaiLite-Regular   }
+    \setCJKmainfont { LXGWWenKaiLite-Regular      }
       [
         Extension      = .ttf,
         BoldFont       = LXGWZhenKaiGB-Regular,
         ItalicFont     = LXGWYozai-Regular,
         BoldItalicFont = LXGWYozai-Medium.ttf
       ]
-    \setCJKsansfont { LXGWMarkerGothic-Regular }
+    \setCJKsansfont { LXGWNeoXiHei                }
       [ Extension = .ttf, AutoFakeBold ]
-    \setCJKmonofont { LXGWXiaolai-Regular      }
+    \setCJKmonofont { LXGWZhuqueFangsong-Regular  }
       [ Extension = .ttf, AutoFakeBold  ]
-    \setCJKfamilyfont { zhsong } { LXGWWenKaiLite-Regular   }
+    \setCJKfamilyfont { zhsong } { LXGWWenKaiLite-Regular     }
       [ Extension = .ttf, BoldFont = LXGWZhenKaiGB-Regular ]
-    \setCJKfamilyfont { zhhei  } { LXGWMarkerGothic-Regular }
+    \setCJKfamilyfont { zhhei  } { LXGWNeoXiHei               }
       [ Extension = .ttf, AutoFakeBold ]
-    \setCJKfamilyfont { zhfs   } { LXGWXiaolai-Regular      }
+    \setCJKfamilyfont { zhfs   } { LXGWZhuqueFangsong-Regular }
       [ Extension = .ttf, AutoFakeBold ]
-    \setCJKfamilyfont { zhkai  } { LXGWYozai-Regular        }
+    \setCJKfamilyfont { zhkai  } { LXGWYozai-Regular          }
       [ Extension = .ttf, BoldFont = LXGWYozai-Medium ]
   }
 %    \end{macrocode}
@@ -472,7 +476,7 @@ The Current Designer of this font family is LXGW.
 %    \end{macrocode}
 %
 % \subsection{The \texttt{ctex-spa-make.tex} and
-%   the \texttt{ctexpunct-lxgw.spa} file}\label{subsec:spa}
+%   the \texttt{ctexpunct-lxgw.tex} file}\label{subsec:spa}
 %
 % The \file{.spa} file of the corresponding font will be used
 % for the \pkg{CJKpunct} package to achieve the punctuation compression,
@@ -481,7 +485,7 @@ The Current Designer of this font family is LXGW.
 % \begin{verbatim}
 %   xetex ctex-spa-make
 % \end{verbatim}
-% in the terminal. Then, one can obtain the \file{ctexpunct-lxgw.spa} file.
+% in the terminal. Then, one can obtain the \file{ctexpunct-lxgw.tex} file.
 % \paragraph{Implementation of the script}
 % Start the optionlist |makespa| for l3docstrip.
 %    \begin{macrocode}
@@ -523,14 +527,12 @@ The Current Designer of this font family is LXGW.
 % List all the CJK families with the corresponding font files in terms of
 % ``case-pairs''.
 %    \begin{macrocode}
-\MAKESPA {ctexpunct-lxgw.spa}
+\MAKESPA {ctexpunct-lxgw.tex}
   {
     {lxgwzhsong}      {LXGWWenKaiLite-Regular} ,
     {lxgwzhsongb}     {LXGWZhenKaiGB-Regular} ,
-    {lxgwgbzhsong}    {LXGWWenKaiGBLite-Regular} ,
-    {lxgwgbzhsongb}   {LXGWZhenKaiGB-Regular} ,
-    {lxgwzhhei}       {LXGWMarkerGothic-Regular} ,
-    {lxgwzhfs}        {LXGWXiaolai-Regular} ,
+    {lxgwzhhei}       {LXGWNeoXiHei} ,
+    {lxgwzhfs}        {LXGWZhuqueFangsong-Regular} ,
     {lxgwzhkai}       {LXGWYozai-Regular} ,
     {lxgwzhkaib}      {LXGWYozai-Medium} ,
   }
@@ -642,21 +644,21 @@ The Current Designer of this font family is LXGW.
   \pdfmapline{=gbk@UGBK@          <LXGWWenKaiLite-Regular.ttf}
   \pdfmapline{=gbksong@UGBK@      <LXGWWenKaiLite-Regular.ttf}
   \pdfmapline{=gbkkai@UGBK@       <LXGWYozai-Regular.ttf}
-  \pdfmapline{=gbkhei@UGBK@       <LXGWMarkerGothic-Regular.ttf}
-  \pdfmapline{=gbkfs@UGBK@        <LXGWXiaolai-Regular.ttf}
+  \pdfmapline{=gbkhei@UGBK@       <LXGWNeoXiHei.ttf}
+  \pdfmapline{=gbkfs@UGBK@        <LXGWZhuqueFangsong-Regular.ttf}
   \pdfmapline{=cyberb@Unicode@    <LXGWWenKaiLite-Regular.ttf}
   \pdfmapline{=unisong@Unicode@   <LXGWWenKaiLite-Regular.ttf}
   \pdfmapline{=unikai@Unicode@    <LXGWYozai-Regular.ttf}
-  \pdfmapline{=unihei@Unicode@    <LXGWMarkerGothic-Regular.ttf}
-  \pdfmapline{=unifs@Unicode@     <LXGWXiaolai-Regular.ttf}
+  \pdfmapline{=unihei@Unicode@    <LXGWNeoXiHei.ttf}
+  \pdfmapline{=unifs@Unicode@     <LXGWZhuqueFangsong-Regular.ttf}
   \pdfmapline{=gbksongsl@UGBK@    <LXGWWenKaiLite-Regular.ttf}
   \pdfmapline{=gbkkaisl@UGBK@     <LXGWYozai-Regular.ttf}
-  \pdfmapline{=gbkheisl@UGBK@     <LXGWMarkerGothic-Regular.ttf}
-  \pdfmapline{=gbkfssl@UGBK@      <LXGWXiaolai-Regular.ttf}
+  \pdfmapline{=gbkheisl@UGBK@     <LXGWNeoXiHei.ttf}
+  \pdfmapline{=gbkfssl@UGBK@      <LXGWZhuqueFangsong-Regular.ttf}
   \pdfmapline{=unisongsl@Unicode@ <LXGWWenKaiLite-Regular.ttf}
   \pdfmapline{=unikaisl@Unicode@  <LXGWYozai-Regular.ttf}
-  \pdfmapline{=uniheisl@Unicode@  <LXGWMarkerGothic-Regular.ttf}
-  \pdfmapline{=unifssl@Unicode@   <LXGWXiaolai-Regular.ttf}
+  \pdfmapline{=uniheisl@Unicode@  <LXGWNeoXiHei.ttf}
+  \pdfmapline{=unifssl@Unicode@   <LXGWZhuqueFangsong-Regular.ttf}
 \fi
 %    \end{macrocode}
 % Configuration for \hologo{pdfTeX} (generate DVI).
@@ -669,13 +671,13 @@ The Current Designer of this font family is LXGW.
   \special{pdf:mapline gbk@UGBK@          UniGB-UTF16-H LXGWWenKaiLite-Regular.ttf}
   \special{pdf:mapline gbksong@UGBK@      UniGB-UTF16-H LXGWWenKaiLite-Regular.ttf}
   \special{pdf:mapline gbkkai@UGBK@       UniGB-UTF16-H LXGWYozai-Regular.ttf}
-  \special{pdf:mapline gbkhei@UGBK@       UniGB-UTF16-H LXGWMarkerGothic-Regular.ttf}
-  \special{pdf:mapline gbkfs@UGBK@        UniGB-UTF16-H LXGWXiaolai-Regular.ttf}
+  \special{pdf:mapline gbkhei@UGBK@       UniGB-UTF16-H LXGWNeoXiHei.ttf}
+  \special{pdf:mapline gbkfs@UGBK@        UniGB-UTF16-H LXGWZhuqueFangsong-Regular.ttf}
   \special{pdf:mapline cyberb@Unicode@    UniGB-UTF16-H LXGWWenKaiLite-Regular.ttf}
   \special{pdf:mapline unisong@Unicode@   UniGB-UTF16-H LXGWWenKaiLite-Regular.ttf}
   \special{pdf:mapline unikai@Unicode@    UniGB-UTF16-H LXGWYozai-Regular.ttf}
-  \special{pdf:mapline unihei@Unicode@    UniGB-UTF16-H LXGWMarkerGothic-Regular.ttf}
-  \special{pdf:mapline unifs@Unicode@     UniGB-UTF16-H LXGWXiaolai-Regular.ttf}
+  \special{pdf:mapline unihei@Unicode@    UniGB-UTF16-H LXGWNeoXiHei.ttf}
+  \special{pdf:mapline unifs@Unicode@     UniGB-UTF16-H LXGWZhuqueFangsong-Regular.ttf}
 %    \end{macrocode}
 % Similar for the (fake) slant shape, set the
 % \emph{Afine Transformation coefficient} to |0.167|, which is the same as the
@@ -683,12 +685,12 @@ The Current Designer of this font family is LXGW.
 %    \begin{macrocode}
   \special{pdf:mapline gbksongsl@UGBK@    UniGB-UTF16-H LXGWWenKaiLite-Regular.ttf -s .167}
   \special{pdf:mapline gbkkaisl@UGBK@     UniGB-UTF16-H LXGWYozai-Regular.ttf -s .167}
-  \special{pdf:mapline gbkheisl@UGBK@     UniGB-UTF16-H LXGWMarkerGothic-Regular.ttf -s .167}
-  \special{pdf:mapline gbkfssl@UGBK@      UniGB-UTF16-H LXGWXiaolai-Regular.ttf -s .167}
+  \special{pdf:mapline gbkheisl@UGBK@     UniGB-UTF16-H LXGWNeoXiHei.ttf -s .167}
+  \special{pdf:mapline gbkfssl@UGBK@      UniGB-UTF16-H LXGWZhuqueFangsong-Regular.ttf -s .167}
   \special{pdf:mapline unisongsl@Unicode@ UniGB-UTF16-H LXGWWenKaiLite-Regular.ttf -s .167}
   \special{pdf:mapline unikaisl@Unicode@  UniGB-UTF16-H LXGWYozai-Regular.ttf -s .167}
-  \special{pdf:mapline uniheisl@Unicode@  UniGB-UTF16-H LXGWMarkerGothic-Regular.ttf -s .167}
-  \special{pdf:mapline unifssl@Unicode@   UniGB-UTF16-H LXGWXiaolai-Regular.ttf -s .167}
+  \special{pdf:mapline uniheisl@Unicode@  UniGB-UTF16-H LXGWNeoXiHei.ttf -s .167}
+  \special{pdf:mapline unifssl@Unicode@   UniGB-UTF16-H LXGWZhuqueFangsong-Regular.ttf -s .167}
 \fi
 %    \end{macrocode}
 % End the optionlist |zhmap| for l3docstrip.
