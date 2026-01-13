@@ -5,6 +5,7 @@
 %   Runtime: Copyright (C) 2025-2026 by Mingyu Xia <myhsia@outlook.com> *
 %                                                                       *
 %   Fonts:   Copyright (C) 2021-2026 by LXGW <https://github.com/lxgw>  *
+%            Copyright (C) 2021-2026 by TrionesType <x.com/TrionesType>  *
 % -----------------------------------------------------------------------
 %   This work may be distributed and/or modified under the conditions   *
 %   of the SIL Open Font License (OFL) version 1.1.                     *
@@ -24,12 +25,13 @@
 %                                   ctex-zhmap-lxgw.tex,                *
 %                                   ctex-spa-lxgw.spa,                  *
 %                                   ctexpunct-lxgw.tex,                 *
-%                    the font files LXGWWenKaiLite-Regular.ttf,         *
-%                                   LXGWZhenKaiGB-Regular.ttf,          *
+%                    the font files LXGWNeoZhiSong.ttf,                 *
+%                                   LXGWNeoZhiSongScreen.ttf,           *
 %                                   LXGWNeoXiHei.ttf,                   *
+%                                   LXGWNeoXiHeiScreen.ttf,             *
 %                                   LXGWZhuqueFangsong-Regular.ttf,     *
-%                                   LXGWYozai-Regular.ttf,              *
-%                                   LXGWYozai-Medium.ttf,               *
+%                                   LXGWWenKaiLite-Regular.ttf,         *
+%                                   LXGWZhenKaiGB-Regular.ttf,          *
 %           the documentation files lxgw.pdf,                           *
 %                               and README.md.                          *
 % -----------------------------------------------------------------------
@@ -68,6 +70,7 @@ Copyright and License
 Runtime: Copyright (C) 2025-2026 by Mingyu Xia <myhsia@outlook.com>
 
 Fonts:   Copyright (C) 2021-2026 by LXGW <https://github.com/lxgw>
+         Copyright (C) 2021-2026 by TrionesType <x.com/TrionesType>
 
 This work may be distributed and/or modified under the conditions
 of the SIL Open Font License (OFL) version 1.1.
@@ -91,7 +94,7 @@ The Current Designer of this font family is LXGW and TrionesType.
 \usepackage[mono = false, osf]{libertine}
 \usepackage[punct = plain, fontset = lxgw, scheme = plain]{ctex}
 \defaultfontfeatures{Extension = .ttf, Scale = .95}
-\usepackage{tikz, framed}
+\usepackage{tikz, framed, xfrac}
 \ExplSyntaxOn \makeatletter
 \dim_set:Nn \FrameSep {2pt}
 \tex_tracinglostchars:D = 0
@@ -118,7 +121,7 @@ The Current Designer of this font family is LXGW and TrionesType.
   \tex_XeTeXcharclass:D "0058 = 1^^A X
   \tex_XeTeXcharclass:D "0047 = 1^^A G
   \tex_XeTeXcharclass:D "0057 = 1^^A W
-  LX\kern-.05emG\kern-.05emW}
+  \kaishu LX\kern-.05emG\kern-.05emW}
 \def \HoLogo@TrionesType#1{^^A
   \tex_XeTeXcharclass:D "0054 = 1^^A T
   \tex_XeTeXcharclass:D "0072 = 1^^A r
@@ -143,19 +146,20 @@ The Current Designer of this font family is LXGW and TrionesType.
 %
 % \makeatletter
 % \title{The \hologo{LXGW} Font Family\thanks{^^A
-%   \url{https://github.com/lxgw},
 %   \url{https://github.com/myhsia/LXGW-CTAN}
 % }\texorpdfstring{\enspace \textbar \enspace\parbox{4em}{^^A
-%     \songti
+%     \kaishu
 %     \scalebox{\fpeval{4/7}}{落霞与孤鹜齐飞}\\[-.75em]
 %     \scalebox{\fpeval{4/7}}{秋水共长天一色}^^A
 %   }}{}^^A
 % }
 %
 % \author{^^A
-%   Designer: \hologo{LXGW} (霞鹜) /
-%             \hologo{TrionesType} ({\fangsong 璇璣造字}),
-%     \texorpdfstring{\enspace}{ }
+%   Designer: \texorpdfstring{\hologo{LXGW}}{LXGW} ({\kaishu 霞鹜}) /
+%             \texorpdfstring{\hologo{TrionesType}}{TrionesType} ({\fangsong 璇璣造字})\thanks{^^A
+%     \url{https://github.com/lxgw},
+%     \url{https://github.com/TrionesType/zhuque}},
+%   \texorpdfstring{\enspace}{ }
 %   Maintainer: Mingyu Xia\thanks{\texttt{^^A
 %     \href{mailto:xiamingyu@westlake.edu.cn}{xiamingyu@westlake.edu.cn}^^A
 %   }}
@@ -167,21 +171,21 @@ The Current Designer of this font family is LXGW and TrionesType.
 %   \begin{center}
 %   \setlength \fboxrule {1.2pt} \fbox{\setlength \fboxrule {.6pt}^^A
 %     \fbox{\parbox {.8\linewidth} {^^A
-%     This package packs a selection of open-source fonts from the
-%     \href{https://github.com/lxgw/LxgwWenKai-Lite}
-%       {\songti 霞鹜文楷},
-%     \href{https://github.com/lxgw/LxgwZhenKai}
-%       {\songti \bfseries 霞鹜臻楷},
+%     This package packs a selection of open-source CJK fonts from
+%     \href{https://github.com/lxgw/LxgwNeoZhiSong}
+%       {\songti 霞鹜新智宋},
 %     \href{https://github.com/lxgw/LxgwNeoXiHei}
 %       {\heiti 霞鹜新晰黑},
-%     \href{https://github.com/lxgw/yozai-font}
-%       {\kaishu 悠哉字体},
+%     \href{https://github.com/lxgw/LxgwWenKaiLite}
+%       {\kaishu 霞鹜文楷},
+%     \href{https://github.com/lxgw/LxgwZhenKai}
+%       {\kaishu \bfseries 霞鹜臻楷},
 %     which are released into public domain by
 %     \href{https://lxgw.github.io}{\hologo{LXGW}} and
 %     \href{https://github.com/TrionesType/zhuque}
 %       {\fangsong 朱雀仿宋}
 %     released into public domain by
-%     \href{https://trionestype.com}{\hologo{TrionesType}} since 2021.
+%     \href{https://x.com/TrionesType}{\hologo{TrionesType}} since 2021.
 %     They are licensed under the
 %     \href{https://ctan.org/license/ofl}{SIL Open Font License (OFL)}.
 %   }}}
@@ -225,13 +229,13 @@ The Current Designer of this font family is LXGW and TrionesType.
 % \begin{function}{\songti, \heiti, \fangsong, \kaishu} \footnotesize
 %   \begin{syntax}
 %   \songti   宋体 (|CJKmainfont|):^^A
-% \file{LXGWWenKaiLite-Regular.ttf}, \file{LXGWZhenKaiGB-Regular.ttf}.\\
+% \file{LXGWNeoZhiSong.ttf}, \file{LXGWNeoZhiSongScreen.ttf}\\
 %   \heiti    黑体 (|CJKsansfont|):^^A
-% \file{LXGWNeoXiHei.ttf} (|AutoFakeBold| enabled).\\
+% \file{LXGWNeoXiHei.ttf}, \file{LXGWNeoXiHeiScreen.ttf}\\
 %   \fangsong 仿宋 (|CJKmonofont|):^^A
-% \file{LXGWZhuqueFangsong-Regular.ttf} (|AutoFakeBold| enabled).\\
-%   \kaishu   楷书 (itshape of |CJKmainfont|):^^A
-% \file{LXGWYozai-Regular.ttf}, \file{LXGWYozai-Medium.ttf}.
+% \file{LXGWZhuqueFangsong-Regular.ttf} (|AutoFakeBold| enabled)\\
+%   \kaishu   楷书 (it. of |CJKmainfont|):^^A
+% \file{LXGWWenKaiLite-Regular.ttf}, \file{LXGWZhenKaiGB-Regular.ttf}
 %   \end{syntax}
 % \end{function}
 % \NB{tag}{cmt}
@@ -260,13 +264,13 @@ The Current Designer of this font family is LXGW and TrionesType.
 %   }^^A
 % }
 % \begin{keyval}
-%   \item[\key*{\songti 霞鹜文楷 (\pkg{LXGW WenKai})}]
-%         \file{LXGWWenKaiLite-Regular.ttf}, \file{LXGWZhenKaiGB-Regular.ttf}
+%   \item[\key*{\songti 霞鹜新智宋 (\pkg{LXGW Neo ZhiSong})}]
+%         \file{LXGWNeoZhiSong.ttf}, \file{LXGWNeoZhiSongScreen.ttf}
 %   \begin{framed}
 %     \songti\0
 %   \end{framed}
 %   \item[\key*{\heiti 霞鹜新晰黑 (\pkg{LXGW Neo XiHei})}]
-%         \file{LXGWNeoXiHei.ttf}
+%         \file{LXGWNeoXiHei.ttf}, \file{LXGWNeoXiHeiScreen.ttf}
 %   \begin{framed}
 %     \heiti\0
 %   \end{framed}
@@ -275,8 +279,9 @@ The Current Designer of this font family is LXGW and TrionesType.
 %   \begin{framed}
 %     \fangsong\0
 %   \end{framed}
-%   \item[\key*{\kaishu 悠哉字体 (\pkg{Yozai Font})}]
-%         \file{LXGWYozai-Regular.ttf}, \file{LXGWYozai-Medium.ttf}
+%   \item[\key*{\kaishu 霞鹜$\sfrac{\text{文楷}}{\text{臻楷}}$
+%         (\pkg{LXGW $\sfrac{\text{WenKai}}{\text{ZhenKai}}$})}]
+%         \file{LXGWWenKaiLite-Regular.ttf}, \file{LXGWZhenKaiGB-Regular.ttf}
 %   \begin{framed}
 %     \kaishu\0
 %   \end{framed}
@@ -341,25 +346,24 @@ The Current Designer of this font family is LXGW and TrionesType.
 % Glyph Index Mapping Table).
 %    \begin{macrocode}
       {
-        \setCJKmainfont { LXGWWenKaiLite-Regular.ttf      }
+        \setCJKmainfont { LXGWNeoZhiSong.ttf              }
           [
-            cmap           = UniGB-UTF16-H,
-            BoldFont       = LXGWZhenKaiGB-Regular.ttf,
-            ItalicFont     = LXGWYozai-Regular.ttf,
-            BoldItalicFont = LXGWYozai-Medium.ttf
+            cmap           = UniGB-UTF16-H, AutoFakeBold,
+            ItalicFont     = LXGWWenKaiLite-Regular.ttf,
+            BoldItalicFont = LXGWZhenKaiGB-Regular.ttf
           ]
         \setCJKsansfont { LXGWNeoXiHei.ttf                }
           [ cmap = UniGB-UTF16-H, AutoFakeBold ]
         \setCJKmonofont { LXGWZhuqueFangsong-Regular.ttf  }
           [ cmap = UniGB-UTF16-H, AutoFakeBold ]
-        \setCJKfamilyfont { zhsong } { LXGWWenKaiLite-Regular.ttf     }
-          [ cmap = UniGB-UTF16-H, BoldFont = LXGWZhenKaiGB-Regular.ttf ]
-        \setCJKfamilyfont { zhhei  } { LXGWNeoXiHei.ttf   }
+        \setCJKfamilyfont { zhsong } { LXGWNeoZhiSong.ttf             }
+          [ cmap = UniGB-UTF16-H, AutoFakeBold ]
+        \setCJKfamilyfont { zhhei  } { LXGWNeoXiHei.ttf               }
           [ cmap = UniGB-UTF16-H, AutoFakeBold ]
         \setCJKfamilyfont { zhfs   } { LXGWZhuqueFangsong-Regular.ttf }
           [ cmap = UniGB-UTF16-H, AutoFakeBold ]
-        \setCJKfamilyfont { zhkai  } { LXGWYozai-Regular.ttf          }
-          [ cmap = UniGB-UTF16-H, BoldFont = LXGWYozai-Medium.ttf ]
+        \setCJKfamilyfont { zhkai  } { LXGWWenKaiLite-Regular.ttf     }
+          [ cmap = UniGB-UTF16-H, BoldFont = LXGWZhenKaiGB-Regular.ttf ]
 %    \end{macrocode}
 % Configure the usages of the edge information of the defined CJK families.
 %    \begin{macrocode}
@@ -378,7 +382,7 @@ The Current Designer of this font family is LXGW and TrionesType.
 %     \color{gray}\cs{cs_gset_eq:NN} \cs{ctex_zhmap_case:nnn} \cs{use_ii:nnn}
 %   \end{verbatim}
 %   Load the mapping file \file{ctex-zhmap-lxgw.tex} for \pkg{zhmatrices} and
-%   set \cs{CJKrmdefault}, \cs{CJKsfdefault}, \cs{CJKttdefault} respectively.
+%   set \cs{CJKrmdefault}, \cs{CJKsfdefault}, \cs{CJKttdefault}, respectively.
 %    \begin{macrocode}
       {
         \ctex_load_zhmap:nnnn { rm } { zhhei } { zhfs } { lxgw }
@@ -419,11 +423,11 @@ The Current Designer of this font family is LXGW and TrionesType.
 %    \begin{macrocode}
   {
     \ctex_set_upfonts:nnnnnn
+      { LXGWNeoZhiSong.ttf              }
+      { LXGWNeoZhiSongScreen.ttf        }
       { LXGWWenKaiLite-Regular.ttf      }
-      { LXGWZhenKaiGB-Regular.ttf       }
-      { LXGWYozai-Regular.ttf           }
       { LXGWNeoXiHei.ttf                }
-      { LXGWNeoXiHei.ttf                }
+      { LXGWNeoXiHeiScreen.ttf          }
       { LXGWZhuqueFangsong-Regular.ttf  }
 %    \end{macrocode}
 %   Config the \textsf{NFSS} font families |zhsong|, |zhhei|, |zhfs|, and
@@ -440,25 +444,24 @@ The Current Designer of this font family is LXGW and TrionesType.
 % For those use \hologo{XeLaTeX} or \hologo{LuaLaTeX}.
 %    \begin{macrocode}
   {
-    \setCJKmainfont { LXGWWenKaiLite-Regular      }
+    \setCJKmainfont { LXGWNeoZhiSong              }
       [
-        Extension      = .ttf,
-        BoldFont       = LXGWZhenKaiGB-Regular,
-        ItalicFont     = LXGWYozai-Regular,
-        BoldItalicFont = LXGWYozai-Medium.ttf
+        Extension      = .ttf, AutoFakeBold,
+        ItalicFont     = LXGWWenKaiLite-Regular,
+        BoldItalicFont = LXGWZhenKaiGB-Regular.ttf
       ]
     \setCJKsansfont { LXGWNeoXiHei                }
       [ Extension = .ttf, AutoFakeBold ]
     \setCJKmonofont { LXGWZhuqueFangsong-Regular  }
       [ Extension = .ttf, AutoFakeBold  ]
-    \setCJKfamilyfont { zhsong } { LXGWWenKaiLite-Regular     }
-      [ Extension = .ttf, BoldFont = LXGWZhenKaiGB-Regular ]
+    \setCJKfamilyfont { zhsong } { LXGWNeoZhiSong }
+      [ Extension = .ttf, AutoFakeBold ]
     \setCJKfamilyfont { zhhei  } { LXGWNeoXiHei               }
       [ Extension = .ttf, AutoFakeBold ]
     \setCJKfamilyfont { zhfs   } { LXGWZhuqueFangsong-Regular }
       [ Extension = .ttf, AutoFakeBold ]
-    \setCJKfamilyfont { zhkai  } { LXGWYozai-Regular          }
-      [ Extension = .ttf, BoldFont = LXGWYozai-Medium ]
+    \setCJKfamilyfont { zhkai  } { LXGWWenKaiLite-Regular     }
+      [ Extension = .ttf, BoldFont = LXGWZhenKaiGB-Regular ]
   }
 %    \end{macrocode}
 % \begin{macro}{\songti, \heiti, \fangsong, \kaishu}
@@ -529,12 +532,13 @@ The Current Designer of this font family is LXGW and TrionesType.
 %    \begin{macrocode}
 \MAKESPA {ctexpunct-lxgw.tex}
   {
-    {lxgwzhsong}      {LXGWWenKaiLite-Regular} ,
-    {lxgwzhsongb}     {LXGWZhenKaiGB-Regular} ,
+    {lxgwzhsong}      {LXGWNeoZhiSong} ,
+    {lxgwzhsongb}     {LXGWNeoZhiSongScreen} ,
     {lxgwzhhei}       {LXGWNeoXiHei} ,
+    {lxgwzhheib}      {LXGWNeoXiHeiScreen} ,
     {lxgwzhfs}        {LXGWZhuqueFangsong-Regular} ,
-    {lxgwzhkai}       {LXGWYozai-Regular} ,
-    {lxgwzhkaib}      {LXGWYozai-Medium} ,
+    {lxgwzhkai}       {LXGWWenKaiLite-Regular} ,
+    {lxgwzhkaib}      {LXGWZhenKaiGB-Regular} ,
   }
 %    \end{macrocode}
 % End of the script.
@@ -554,14 +558,13 @@ The Current Designer of this font family is LXGW and TrionesType.
 %<*lxgw-spa>
 %    \end{macrocode}
 %    \begin{macrocode}
-\ctexspadef{lxgwzhsong}{12,11,6,4,72,6,68,5,72,6,71,7,72,6,68,7,66,5,52,5,70,-1,72,4,0,0,12,12,7,71,8,65,10,77,12,76,20,70,18,70,17,72,7,50,12,12,6,72,7,71,6,72,7,68,5,66,5,52,-1,70,4,72,11,12,4,6,6,72,5,68,,,}
-\ctexspadef{lxgwzhsongb}{6,8,6,8,71,4,64,5,71,5,70,6,71,5,67,6,65,4,47,4,62,3,66,3,-1,-1,10,10,7,67,4,65,14,67,16,68,17,68,14,67,16,71,6,49,11,11,5,71,6,70,5,71,6,67,4,65,4,47,3,62,3,66,8,6,8,6,4,71,5,64,,,}
-\ctexspadef{lxgwgbzhsong}{12,11,6,4,72,6,68,5,72,6,71,7,72,6,68,7,66,5,52,5,70,-1,72,4,0,0,12,12,7,71,8,65,10,77,12,76,20,70,18,70,17,72,7,50,12,12,6,72,7,71,6,72,7,68,5,66,5,52,-1,70,4,72,11,12,4,6,6,72,5,68,,,}
-\ctexspadef{lxgwgbzhsongb}{6,8,6,8,71,4,64,5,71,5,70,6,71,5,67,6,65,4,47,4,62,3,66,3,-1,-1,10,10,7,67,4,65,14,67,16,68,17,68,14,67,16,71,6,49,11,11,5,71,6,70,5,71,6,67,4,65,4,47,3,62,3,66,8,6,8,6,4,71,5,64,,,}
-\ctexspadef{lxgwzhhei}{11,8,11,8,65,10,54,6,70,7,61,12,73,7,63,7,63,7,43,7,54,4,73,5,0,0,19,18,7,64,8,57,12,77,11,78,11,78,11,78,18,73,10,45,11,11,7,69,12,61,7,73,7,63,7,63,7,43,4,54,5,73,8,11,8,11,10,65,6,54,,,}
-\ctexspadef{lxgwzhfs}{71,12,59,6,62,7,56,4,58,11,66,9,65,8,62,10,61,10,54,4,61,4,59,6,0,0,9,12,12,68,4,65,8,78,42,43,43,43,42,43,42,42,31,32,10,8,4,66,8,67,6,67,9,66,10,59,7,52,6,60,6,59,11,70,6,56,6,62,5,52,,,}
-\ctexspadef{lxgwzhkai}{70,13,57,6,69,5,54,3,70,3,72,3,65,3,63,10,69,2,54,1,59,4,62,6,-2,-2,9,10,12,64,6,67,11,74,13,74,44,44,43,42,45,43,25,26,7,8,3,70,3,72,2,66,10,63,2,70,2,53,4,60,6,62,11,72,6,58,4,69,3,54,,,}
-\ctexspadef{lxgwzhkaib}{70,12,56,5,68,4,53,2,69,2,72,3,65,3,62,9,69,1,53,0,59,3,61,6,-3,-3,8,10,12,63,5,67,10,73,12,74,43,44,43,41,44,42,24,25,7,7,2,70,3,71,2,65,10,62,1,70,2,52,3,59,6,61,10,72,6,57,4,68,2,54,,,}
+\ctexspadef{lxgwzhsong}{10,8,9,8,67,8,58,8,71,8,65,9,67,8,65,10,55,5,54,4,64,9,71,9,0,0,10,10,5,72,4,71,9,77,9,77,19,69,18,69,19,70,5,50,12,12,8,71,9,65,8,67,10,65,5,55,4,53,9,64,9,71,8,10,8,9,8,67,8,58,,,}
+\ctexspadef{lxgwzhsongb}{9,7,8,7,67,8,58,8,70,8,65,8,67,8,65,9,55,5,53,3,63,8,70,8,-0,-0,10,10,5,72,4,71,8,77,8,76,18,68,18,68,18,69,4,50,12,12,8,70,8,65,8,67,9,65,5,55,3,53,8,63,8,70,7,9,7,8,8,67,8,58,,,}
+\ctexspadef{lxgwzhhei}{9,5,10,5,65,8,58,5,68,8,66,8,61,8,67,8,53,5,52,3,60,7,71,7,0,0,11,11,4,72,6,67,8,77,9,77,19,69,18,69,20,69,4,48,8,8,8,68,8,66,8,61,8,67,6,53,3,52,7,60,7,71,5,9,5,10,8,65,5,58,,,}
+\ctexspadef{lxgwzhheib}{9,5,9,5,64,8,57,5,68,8,65,7,61,8,67,8,53,5,52,3,60,6,70,6,0,0,11,11,4,72,6,67,8,77,9,77,19,69,17,69,20,69,4,47,8,8,8,67,7,65,8,61,8,67,5,53,3,52,6,60,6,70,5,9,5,9,8,64,5,57,,,}
+\ctexspadef{lxgwzhfs}{3,2,3,2,60,8,60,5,65,16,62,17,63,18,59,17,60,13,49,12,60,6,69,8,0,0,11,11,12,64,12,62,17,66,11,76,19,69,16,68,20,66,15,58,20,18,18,63,17,62,18,63,17,59,13,60,11,49,7,59,8,69,2,3,2,3,12,56,8,57,,,}
+\ctexspadef{lxgwzhkai}{12,11,6,4,72,6,68,5,72,6,71,7,72,6,68,7,66,5,52,5,70,-1,72,4,0,0,12,12,7,71,8,65,10,77,12,76,20,70,18,70,17,72,7,50,12,12,6,72,7,71,6,72,7,68,5,66,5,52,-1,70,4,72,11,12,4,6,6,72,5,68,,,}
+\ctexspadef{lxgwzhkaib}{6,8,6,8,71,4,64,5,71,5,70,6,71,5,67,6,65,4,47,4,62,3,66,3,-1,-1,10,10,7,67,4,65,14,67,16,68,17,68,14,67,16,71,6,49,11,11,5,71,6,70,5,71,6,67,4,65,4,47,3,62,3,66,8,6,8,6,4,71,5,64,,,}
 %    \end{macrocode}
 %    \begin{macrocode}
 %</lxgw-spa>
@@ -641,22 +644,22 @@ The Current Designer of this font family is LXGW and TrionesType.
 % Since \hologo{pdfTeX} maps too slowly, this mode is obsolete.
 %    \begin{macrocode}
 \iffalse
-  \pdfmapline{=gbk@UGBK@          <LXGWWenKaiLite-Regular.ttf}
-  \pdfmapline{=gbksong@UGBK@      <LXGWWenKaiLite-Regular.ttf}
-  \pdfmapline{=gbkkai@UGBK@       <LXGWYozai-Regular.ttf}
+  \pdfmapline{=gbk@UGBK@          <LXGWNeoZhiSong.ttf}
+  \pdfmapline{=gbksong@UGBK@      <LXGWNeoZhiSong.ttf}
+  \pdfmapline{=gbkkai@UGBK@       <LXGWWenKaiLite-Regular.ttf}
   \pdfmapline{=gbkhei@UGBK@       <LXGWNeoXiHei.ttf}
   \pdfmapline{=gbkfs@UGBK@        <LXGWZhuqueFangsong-Regular.ttf}
-  \pdfmapline{=cyberb@Unicode@    <LXGWWenKaiLite-Regular.ttf}
-  \pdfmapline{=unisong@Unicode@   <LXGWWenKaiLite-Regular.ttf}
-  \pdfmapline{=unikai@Unicode@    <LXGWYozai-Regular.ttf}
+  \pdfmapline{=cyberb@Unicode@    <LXGWNeoZhiSong.ttf}
+  \pdfmapline{=unisong@Unicode@   <LXGWNeoZhiSong.ttf}
+  \pdfmapline{=unikai@Unicode@    <LXGWWenKaiLite-Regular.ttf}
   \pdfmapline{=unihei@Unicode@    <LXGWNeoXiHei.ttf}
   \pdfmapline{=unifs@Unicode@     <LXGWZhuqueFangsong-Regular.ttf}
-  \pdfmapline{=gbksongsl@UGBK@    <LXGWWenKaiLite-Regular.ttf}
-  \pdfmapline{=gbkkaisl@UGBK@     <LXGWYozai-Regular.ttf}
+  \pdfmapline{=gbksongsl@UGBK@    <LXGWNeoZhiSong.ttf}
+  \pdfmapline{=gbkkaisl@UGBK@     <LXGWWenKaiLite-Regular.ttf}
   \pdfmapline{=gbkheisl@UGBK@     <LXGWNeoXiHei.ttf}
   \pdfmapline{=gbkfssl@UGBK@      <LXGWZhuqueFangsong-Regular.ttf}
-  \pdfmapline{=unisongsl@Unicode@ <LXGWWenKaiLite-Regular.ttf}
-  \pdfmapline{=unikaisl@Unicode@  <LXGWYozai-Regular.ttf}
+  \pdfmapline{=unisongsl@Unicode@ <LXGWNeoZhiSong.ttf}
+  \pdfmapline{=unikaisl@Unicode@  <LXGWWenKaiLite-Regular.ttf}
   \pdfmapline{=uniheisl@Unicode@  <LXGWNeoXiHei.ttf}
   \pdfmapline{=unifssl@Unicode@   <LXGWZhuqueFangsong-Regular.ttf}
 \fi
@@ -668,14 +671,14 @@ The Current Designer of this font family is LXGW and TrionesType.
 % Configure the upright shape of \cs{songti}, \cs{kaishu}, \cs{heiti},
 % and \cs{fangsong} mapping for GBK encoding and UTF8 encoding.
 %    \begin{macrocode}
-  \special{pdf:mapline gbk@UGBK@          UniGB-UTF16-H LXGWWenKaiLite-Regular.ttf}
-  \special{pdf:mapline gbksong@UGBK@      UniGB-UTF16-H LXGWWenKaiLite-Regular.ttf}
-  \special{pdf:mapline gbkkai@UGBK@       UniGB-UTF16-H LXGWYozai-Regular.ttf}
+  \special{pdf:mapline gbk@UGBK@          UniGB-UTF16-H LXGWNeoZhiSong.ttf}
+  \special{pdf:mapline gbksong@UGBK@      UniGB-UTF16-H LXGWNeoZhiSong.ttf}
+  \special{pdf:mapline gbkkai@UGBK@       UniGB-UTF16-H LXGWWenKaiLite-Regular.ttf}
   \special{pdf:mapline gbkhei@UGBK@       UniGB-UTF16-H LXGWNeoXiHei.ttf}
   \special{pdf:mapline gbkfs@UGBK@        UniGB-UTF16-H LXGWZhuqueFangsong-Regular.ttf}
-  \special{pdf:mapline cyberb@Unicode@    UniGB-UTF16-H LXGWWenKaiLite-Regular.ttf}
-  \special{pdf:mapline unisong@Unicode@   UniGB-UTF16-H LXGWWenKaiLite-Regular.ttf}
-  \special{pdf:mapline unikai@Unicode@    UniGB-UTF16-H LXGWYozai-Regular.ttf}
+  \special{pdf:mapline cyberb@Unicode@    UniGB-UTF16-H LXGWNeoZhiSong.ttf}
+  \special{pdf:mapline unisong@Unicode@   UniGB-UTF16-H LXGWNeoZhiSong.ttf}
+  \special{pdf:mapline unikai@Unicode@    UniGB-UTF16-H LXGWWenKaiLite-Regular.ttf}
   \special{pdf:mapline unihei@Unicode@    UniGB-UTF16-H LXGWNeoXiHei.ttf}
   \special{pdf:mapline unifs@Unicode@     UniGB-UTF16-H LXGWZhuqueFangsong-Regular.ttf}
 %    \end{macrocode}
@@ -683,12 +686,12 @@ The Current Designer of this font family is LXGW and TrionesType.
 % \emph{Afine Transformation coefficient} to |0.167|, which is the same as the
 % default value of |AutoFakeSlant| in the \pkg{xeCJK} package.
 %    \begin{macrocode}
-  \special{pdf:mapline gbksongsl@UGBK@    UniGB-UTF16-H LXGWWenKaiLite-Regular.ttf -s .167}
-  \special{pdf:mapline gbkkaisl@UGBK@     UniGB-UTF16-H LXGWYozai-Regular.ttf -s .167}
+  \special{pdf:mapline gbksongsl@UGBK@    UniGB-UTF16-H LXGWNeoZhiSong.ttf -s .167}
+  \special{pdf:mapline gbkkaisl@UGBK@     UniGB-UTF16-H LXGWWenKaiLite-Regular.ttf -s .167}
   \special{pdf:mapline gbkheisl@UGBK@     UniGB-UTF16-H LXGWNeoXiHei.ttf -s .167}
   \special{pdf:mapline gbkfssl@UGBK@      UniGB-UTF16-H LXGWZhuqueFangsong-Regular.ttf -s .167}
-  \special{pdf:mapline unisongsl@Unicode@ UniGB-UTF16-H LXGWWenKaiLite-Regular.ttf -s .167}
-  \special{pdf:mapline unikaisl@Unicode@  UniGB-UTF16-H LXGWYozai-Regular.ttf -s .167}
+  \special{pdf:mapline unisongsl@Unicode@ UniGB-UTF16-H LXGWNeoZhiSong.ttf -s .167}
+  \special{pdf:mapline unikaisl@Unicode@  UniGB-UTF16-H LXGWWenKaiLite-Regular.ttf -s .167}
   \special{pdf:mapline uniheisl@Unicode@  UniGB-UTF16-H LXGWNeoXiHei.ttf -s .167}
   \special{pdf:mapline unifssl@Unicode@   UniGB-UTF16-H LXGWZhuqueFangsong-Regular.ttf -s .167}
 \fi
