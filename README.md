@@ -22,6 +22,7 @@ Copyright and License
 Runtime: Copyright (C) 2025-2026 by Mingyu Xia <myhsia@outlook.com>
 
 Fonts:   Copyright (C) 2021-2026 by LXGW <https://github.com/lxgw>
+
          Copyright (C) 2021-2026 by TrionesType <x.com/TrionesType>
 
 This work may be distributed and/or modified under the conditions

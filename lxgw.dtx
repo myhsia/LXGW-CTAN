@@ -5,7 +5,8 @@
 %   Runtime: Copyright (C) 2025-2026 by Mingyu Xia <myhsia@outlook.com> *
 %                                                                       *
 %   Fonts:   Copyright (C) 2021-2026 by LXGW <https://github.com/lxgw>  *
-%            Copyright (C) 2021-2026 by TrionesType <x.com/TrionesType>  *
+%                                                                       *
+%            Copyright (C) 2021-2026 by TrionesType <x.com/TrionesType> *
 % -----------------------------------------------------------------------
 %   This work may be distributed and/or modified under the conditions   *
 %   of the SIL Open Font License (OFL) version 1.1.                     *
@@ -70,6 +71,7 @@ Copyright and License
 Runtime: Copyright (C) 2025-2026 by Mingyu Xia <myhsia@outlook.com>
 
 Fonts:   Copyright (C) 2021-2026 by LXGW <https://github.com/lxgw>
+
          Copyright (C) 2021-2026 by TrionesType <x.com/TrionesType>
 
 This work may be distributed and/or modified under the conditions
@@ -90,11 +92,12 @@ The Current Designer of this font family is LXGW and TrionesType.
 %</internal>
 %
 %<*driver>
-\documentclass{l3doc}
+\documentclass[svgnames]{l3doc}
 \usepackage[mono = false, osf]{libertine}
 \usepackage[punct = plain, fontset = lxgw, scheme = plain]{ctex}
 \defaultfontfeatures{Extension = .ttf, Scale = .95}
 \usepackage{tikz, framed, xfrac}
+\tikzset{every picture/.append style = {line cap = round}}
 \ExplSyntaxOn \makeatletter
 \dim_set:Nn \FrameSep {2pt}
 \tex_tracinglostchars:D = 0
@@ -155,8 +158,9 @@ The Current Designer of this font family is LXGW and TrionesType.
 % }
 %
 % \author{^^A
-%   Designer: \texorpdfstring{\hologo{LXGW}}{LXGW} ({\kaishu 霞鹜}) /
-%             \texorpdfstring{\hologo{TrionesType}}{TrionesType} ({\fangsong 璇璣造字})\thanks{^^A
+%   Designer: \texorpdfstring{\hologo{LXGW} ({\kaishu 霞鹜})}{LXGW} /
+%             \texorpdfstring{\hologo{TrionesType} ({\fangsong 璇璣造字})}
+%               {TrionesType}\thanks{^^A
 %     \url{https://github.com/lxgw},
 %     \url{https://github.com/TrionesType/zhuque}},
 %   \texorpdfstring{\enspace}{ }
@@ -173,13 +177,13 @@ The Current Designer of this font family is LXGW and TrionesType.
 %     \fbox{\parbox {.8\linewidth} {^^A
 %     This package packs a selection of open-source CJK fonts from
 %     \href{https://github.com/lxgw/LxgwNeoZhiSong}
-%       {\songti 霞鹜新智宋},
+%       {\songti 霞鶩新緻宋},
 %     \href{https://github.com/lxgw/LxgwNeoXiHei}
-%       {\heiti 霞鹜新晰黑},
+%       {\heiti 霞鶩新晰黑},
 %     \href{https://github.com/lxgw/LxgwWenKaiLite}
-%       {\kaishu 霞鹜文楷},
+%       {\kaishu 霞鶩文楷},
 %     \href{https://github.com/lxgw/LxgwZhenKai}
-%       {\kaishu \bfseries 霞鹜臻楷},
+%       {\kaishu \bfseries 霞鶩臻楷},
 %     which are released into public domain by
 %     \href{https://lxgw.github.io}{\hologo{LXGW}} and
 %     \href{https://github.com/TrionesType/zhuque}
@@ -194,10 +198,72 @@ The Current Designer of this font family is LXGW and TrionesType.
 %
 % \maketitle
 % \tikz[remember picture, overlay]
-%   \node [ rotate = -10, font = \songti,
-%           scale = 50, opacity = .1 ] at
-%         ([shift = {(10 * \f@size \p@, 8 * \f@size \p@)}]
-%           current page.south west) {鹜};
+%   {
+%     \node [ above right,     minimum width  = 1.2\ccwd,
+%             inner sep = 0pt, minimum height = 1.2\ccwd,
+%             rotate = -10, font = \kaishu,
+%             scale = 15, opacity = .3, gray ] (xia) at
+%           ([shift = {(-3 * \f@size \p@, 2 * \f@size \p@)}]
+%             current page.south west) {霞};
+%     \draw [ loosely dashed, DarkGreen, opacity = .15,
+%             line width = .2 * \f@size \p@ ]
+%           (xia.north west) -- (xia.south east)
+%           (xia.north east) -- (xia.south west);
+%     \draw [ DarkGreen, opacity = .15, line width = .2 * \f@size \p@ ]
+%           (xia.north) -- (xia.south) (xia.west) -- (xia.east);
+%     \draw [ rotate around = {-10:(xia.center)}, line width = .5 * \f@size \p@,
+%             DarkGreen, opacity = .1 ]
+%           (xia.north west) rectangle (xia.south east);
+%     \node [ right,           minimum width  = 1.2\ccwd,
+%             inner sep = 0pt, minimum height = 1.2\ccwd,
+%             rotate = -10, font = \kaishu,
+%             scale = 15, opacity = .3, gray ] (wu) at
+%           (xia.east) {鶩};
+%     \draw [ loosely dashed, DarkGreen, opacity = .15,
+%             line width = .2 * \f@size \p@ ]
+%           (wu.north west) -- (wu.south east)
+%           (wu.north east) -- (wu.south west);
+%     \draw [ DarkGreen, opacity = .15, line width = .2 * \f@size \p@ ]
+%           (wu.north) -- (wu.south) (wu.west) -- (wu.east);
+%     \draw [ rotate around = {-10:(wu.center)}, line width = .5 * \f@size \p@,
+%             DarkGreen, opacity = .1 ]
+%           (wu.north west) rectangle (wu.south east);
+%     \draw [ rotate around = {-10:(xia.east)}, line width = .5 * \f@size \p@,
+%             DarkGreen, opacity = .1]
+%           (xia.north west) rectangle (wu.south east);
+%     \node [ below left,      minimum width  = 1.2\ccwd,
+%             inner sep = 0pt, minimum height = 1.2\ccwd,
+%             rotate = -10, font = \fangsong,
+%             scale = 15, opacity = .3, gray ] (xuan) at
+%           ([shift = {(3 * \f@size \p@, -2 * \f@size \p@)}]
+%             current page.north east) {璣};
+%     \draw [ loosely dashed, DarkRed, opacity = .15,
+%             line width = .2 * \f@size \p@ ]
+%           (xuan.north west) -- (xuan.south east)
+%           (xuan.north east) -- (xuan.south west);
+%     \draw [ DarkRed, opacity = .15, line width = .2 * \f@size \p@ ]
+%           (xuan.north) -- (xuan.south) (xuan.west) -- (xuan.east);
+%     \draw [ rotate around = {-10:(xuan.center)},
+%             line width = .5 * \f@size \p@, DarkRed, opacity = .1 ]
+%           (xuan.north west) rectangle (xuan.south east);
+%     \node [ left,            minimum width  = 1.2\ccwd,
+%             inner sep = 0pt, minimum height = 1.2\ccwd,
+%             rotate = -10, font = \kaishu,
+%             scale = 15, opacity = .3, gray ] (ji) at
+%           (xuan.west) {璇};
+%     \draw [ loosely dashed, DarkRed, opacity = .15,
+%             line width = .2 * \f@size \p@ ]
+%           (ji.north west) -- (ji.south east)
+%           (ji.north east) -- (ji.south west);
+%     \draw [ DarkRed, opacity = .15, line width = .2 * \f@size \p@ ]
+%           (ji.north) -- (ji.south) (ji.west) -- (ji.east);
+%     \draw [ rotate around = {-10:(ji.center)}, line width = .5 * \f@size \p@,
+%             DarkRed, opacity = .1 ]
+%           (ji.north west) rectangle (ji.south east);
+%     \draw [ rotate around = {-10:(ji.west)}, line width = .5 * \f@size \p@,
+%             DarkRed, opacity = .1]
+%           (xuan.north east) rectangle (ji.south west);
+%   }
 % \makeatother
 %
 % \begin{documentation}
@@ -212,14 +278,11 @@ The Current Designer of this font family is LXGW and TrionesType.
 % \section{Usage}
 %
 % Users are allowed to use the friendly interface:
-% the |fontset| key in the \pkg{ctex} package
-% \begin{quote}
-%   |\usepackage[fontset = lxgw]{ctex}|
-% \end{quote}
-% or the \cls{ctex} classes
+% the |fontset| key in the \pkg{ctex} classes or package
 % \begin{quote}
 %   |\documentclass[fontset = lxgw]{ctex|^^A
-%   \meta{art\textup\textbar book\textup\textbar rep\textup\textbar beamer}|}|
+%   \meta{art\textup\textbar book\textup\textbar rep\textup\textbar beamer}|}|\\
+%   |\usepackage[fontset = lxgw]{ctex}|
 % \end{quote}
 % with \hologo{XeLaTeX}, \hologo{LuaLaTeX}, \hologo{LaTeX} + \hologo{DVIPDFMx},
 % \hologo{upLaTeX} + \hologo{DVIPDFMx}, and \hologo{ApLaTeX}
@@ -238,12 +301,16 @@ The Current Designer of this font family is LXGW and TrionesType.
 % \file{LXGWWenKaiLite-Regular.ttf}, \file{LXGWZhenKaiGB-Regular.ttf}
 %   \end{syntax}
 % \end{function}
-% \NB{tag}{cmt}
-% \begin{NOTE}{tag}
-% \end{NOTE}
-% Note that the names of the four control sequences make no sense here,
-% just to \emph{keep the same naming habit of \pkg{ctex-kit}}.
-%
+% The \file{.ttf} files are sourced from the following links
+% \begin{itemize}[itemsep = 2pt, topsep = 4pt, leftmargin = 2em] \scriptsize
+%   \item \url{https://github.com/lxgw/LxgwNeoZhiSong/releases/latest/download/LXGWNeoZhiSong.ttf}
+%   \item \url{https://github.com/lxgw/LxgwNeoXiZhi-Screen/releases/latest/download/LXGWNeoZhiSongScreen.ttf}
+%   \item \url{https://github.com/lxgw/LxgwNeoXiHei/releases/latest/download/LXGWNeoXiHei.ttf}
+%   \item \url{https://github.com/lxgw/LxgwNeoXiZhi-Screen/releases/latest/download/LXGWNeoXiHeiScreen.ttf}
+%   \item \url{https://github.com/TrionesType/zhuque/releases/download/v0.212/ZhuqueFangsong-v0.212.zip}
+%   \item \url{https://github.com/lxgw/LxgwWenKai-Lite/releases/latest/download/LXGWWenKaiLite-Regular.ttf}
+%   \item \url{https://github.com/lxgw/LxgwZhenKai/releases/latest/download/LXGWZhenKaiGB-Regular.ttf}
+% \end{itemize}
 % The implementation of this user-friendly interface is included in
 % \ref{subsec:fontset}, \ref{subsec:spa}, and~\ref{subsec:zhmap}.
 %
@@ -264,12 +331,12 @@ The Current Designer of this font family is LXGW and TrionesType.
 %   }^^A
 % }
 % \begin{keyval}
-%   \item[\key*{\songti 霞鹜新智宋 (\pkg{LXGW Neo ZhiSong})}]
+%   \item[\key*{\songti 霞鶩新緻宋 (\pkg{LXGW Neo ZhiSong})}]
 %         \file{LXGWNeoZhiSong.ttf}, \file{LXGWNeoZhiSongScreen.ttf}
 %   \begin{framed}
 %     \songti\0
 %   \end{framed}
-%   \item[\key*{\heiti 霞鹜新晰黑 (\pkg{LXGW Neo XiHei})}]
+%   \item[\key*{\heiti 霞鶩新晰黑 (\pkg{LXGW Neo XiHei})}]
 %         \file{LXGWNeoXiHei.ttf}, \file{LXGWNeoXiHeiScreen.ttf}
 %   \begin{framed}
 %     \heiti\0
