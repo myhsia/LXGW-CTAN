@@ -1,7 +1,0 @@
-https://github.com/lxgw/LxgwNeoZhiSong/releases/latest/download/LXGWNeoZhiSong.ttf
-https://github.com/lxgw/LxgwNeoXiZhi-Screen/releases/latest/download/LXGWNeoZhiSongScreen.ttf
-https://github.com/lxgw/LxgwNeoXiHei/releases/latest/download/LXGWNeoXiHei.ttf
-https://github.com/lxgw/LxgwNeoXiZhi-Screen/releases/latest/download/LXGWNeoXiHeiScreen.ttf
-https://github.com/TrionesType/zhuque/releases/download/v0.212/ZhuqueFangsong-v0.212.zip
-https://github.com/lxgw/LxgwWenKai-Lite/releases/latest/download/LXGWWenKaiLite-Regular.ttf
-https://github.com/lxgw/LxgwZhenKai/releases/latest/download/LXGWZhenKaiGB-Regular.ttf

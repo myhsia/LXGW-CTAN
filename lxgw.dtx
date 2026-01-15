@@ -169,7 +169,7 @@ The Current Designer of this font family is LXGW and TrionesType.
 %   }}
 % }
 %
-% \date{Released 2026-01-13\quad \texttt{v1.521K}}
+% \date{Released 2026-01-15\quad \texttt{v1.521L}}
 %
 % \def\Copyright{^^A
 %   \begin{center}
@@ -302,14 +302,71 @@ The Current Designer of this font family is LXGW and TrionesType.
 %   \end{syntax}
 % \end{function}
 % The \file{.ttf} files are sourced from the following links
+% \def \fetch#1{\href{#1}{\ttfamily #1}}
 % \begin{itemize}[itemsep = 2pt, topsep = 4pt, leftmargin = 2em] \scriptsize
-%   \item \url{https://github.com/lxgw/LxgwNeoZhiSong/releases/latest/download/LXGWNeoZhiSong.ttf}
-%   \item \url{https://github.com/lxgw/LxgwNeoXiZhi-Screen/releases/latest/download/LXGWNeoZhiSongScreen.ttf}
-%   \item \url{https://github.com/lxgw/LxgwNeoXiHei/releases/latest/download/LXGWNeoXiHei.ttf}
-%   \item \url{https://github.com/lxgw/LxgwNeoXiZhi-Screen/releases/latest/download/LXGWNeoXiHeiScreen.ttf}
-%   \item \url{https://github.com/TrionesType/zhuque/releases/download/v0.212/ZhuqueFangsong-v0.212.zip}
-%   \item \url{https://github.com/lxgw/LxgwWenKai-Lite/releases/latest/download/LXGWWenKaiLite-Regular.ttf}
-%   \item \url{https://github.com/lxgw/LxgwZhenKai/releases/latest/download/LXGWZhenKaiGB-Regular.ttf}
+%   \item \fetch{^^A
+% \iffalse
+%<*fetch>
+% \fi
+https://github.com/lxgw/LxgwNeoZhiSong/releases/latest/download/LXGWNeoZhiSong.ttf
+% \iffalse
+%</fetch>
+% \fi
+% }
+%   \item \fetch{^^A
+% \iffalse
+%<*fetch>
+% \fi
+https://github.com/lxgw/LxgwNeoXiZhi-Screen/releases/latest/download/LXGWNeoZhiSongScreen.ttf
+% \iffalse
+%</fetch>
+% \fi
+% }
+%   \item \fetch{^^A
+% \iffalse
+%<*fetch>
+% \fi
+https://github.com/lxgw/LxgwNeoXiHei/releases/latest/download/LXGWNeoXiHei.ttf
+% \iffalse
+%</fetch>
+% \fi
+% }
+%   \item \fetch{^^A
+% \iffalse
+%<*fetch>
+% \fi
+https://github.com/lxgw/LxgwNeoXiZhi-Screen/releases/latest/download/LXGWNeoXiHeiScreen.ttf
+% \iffalse
+%</fetch>
+% \fi
+% }
+%   \item \fetch{^^A
+% \iffalse
+%<*fetch>
+% \fi
+https://github.com/TrionesType/zhuque/releases/download/v0.212/ZhuqueFangsong-v0.212.zip
+% \iffalse
+%</fetch>
+% \fi
+% }
+%   \item \fetch{^^A
+% \iffalse
+%<*fetch>
+% \fi
+https://github.com/lxgw/LxgwWenKai-Lite/releases/latest/download/LXGWWenKaiLite-Regular.ttf
+% \iffalse
+%</fetch>
+% \fi
+% }
+%   \item \fetch{^^A
+% \iffalse
+%<*fetch>
+% \fi
+https://github.com/lxgw/LxgwZhenKai/releases/latest/download/LXGWZhenKaiGB-Regular.ttf
+% \iffalse
+%</fetch>
+% \fi
+% }
 % \end{itemize}
 % The implementation of this user-friendly interface is included in
 % \ref{subsec:fontset}, \ref{subsec:spa}, and~\ref{subsec:zhmap}.
@@ -322,12 +379,17 @@ The Current Designer of this font family is LXGW and TrionesType.
 % character markers are provided with punctuation compression disabled and
 % fulfilling line.
 % \def\0{^^A
-%   \makebox[\linewidth][s]{^^A
-%     我可以食玻璃，\textbf{佢傷唔到我㗎。}^^A
-%     私はガラスを食べられます。\textbf{それは私を傷つけません。}}\\
-%   \makebox[\linewidth][s]{^^A
-%     我能吞下玻璃而不伤身体。\textbf{我能吞下玻璃而不伤身体。}^^A
-%     我能吞下玻璃而不傷身體。^^^^2370^^^^2370^^^^2370^^A
+%   \makebox[\linewidth][s]{\large
+%     ^^^^2370私はガラスを食べられます。^^^^2370^^A
+%     \textbf{それは私を傷つけません。^^^^2370}^^A
+%   }\\
+%   \makebox[\linewidth][s]{\large
+%     ^^^^2370我能吞下玻璃而不伤身体。^^^^2370^^^^2370^^A
+%     \textbf{我能吞下玻璃而不伤身体。^^^^2370}^^A
+%   }\\
+%   \makebox[\linewidth][s]{\large
+%     ^^^^2370我能吞下玻璃而不傷身體。
+%     我可以食玻璃，\textbf{佢傷唔到我㗎。^^^^2370}^^A
 %   }^^A
 % }
 % \begin{keyval}
@@ -369,7 +431,7 @@ The Current Designer of this font family is LXGW and TrionesType.
 % Declare the \pkg{ctex-kit} font configuration file with date, version, and
 % description.
 %    \begin{macrocode}
-\ProvidesExplFile {ctex-fontset-lxgw.def} {2026-01-13} {v1.521K}
+\ProvidesExplFile {ctex-fontset-lxgw.def} {2026-01-15} {v1.521L}
   {lxgw fontset configuration for ctex-kit}
 %    \end{macrocode}
 % Load CJK font family, interface, accepts the following 4 branches,
@@ -702,7 +764,7 @@ The Current Designer of this font family is LXGW and TrionesType.
 % Provides the identification information of the font map loader.
 %    \begin{macrocode}
 \ProvidesFile{ctex-zhmap-lxgw.tex}%
-  [2026-01-13 v1.521K lxgw font map loader for DVIPDFMx (CTEX)]
+  [2026-01-15 v1.521L lxgw font map loader for DVIPDFMx (CTEX)]
 %    \end{macrocode}
 % Font map loader for \hologo{pdfTeX} and \hologo{DVIPDFMx}.
 %    \begin{macrocode}
@@ -769,4 +831,4 @@ The Current Designer of this font family is LXGW and TrionesType.
 %    \end{macrocode}
 % \end{implementation}
 % \clearpage
-% \PrintIndex
+^^A % \PrintIndex
