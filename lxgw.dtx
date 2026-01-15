@@ -31,7 +31,7 @@
 %                                   LXGWNeoXiHei.ttf,                   *
 %                                   LXGWNeoXiHeiScreen.ttf,             *
 %                                   LXGWZhuqueFangsong-Regular.ttf,     *
-%                                   LXGWWenKaiLite-Regular.ttf,         *
+%                                   LXGWWenKaiGBLite-Regular.ttf,       *
 %                                   LXGWZhenKaiGB-Regular.ttf,          *
 %           the documentation files lxgw.pdf,                           *
 %                               and README.md.                          *
@@ -297,8 +297,8 @@ The Current Designer of this font family is LXGW and TrionesType.
 % \file{LXGWNeoXiHei.ttf}, \file{LXGWNeoXiHeiScreen.ttf}\\
 %   \fangsong 仿宋 (|CJKmonofont|):^^A
 % \file{LXGWZhuqueFangsong-Regular.ttf} (|AutoFakeBold| enabled)\\
-%   \kaishu   楷书 (it. of |CJKmainfont|):^^A
-% \file{LXGWWenKaiLite-Regular.ttf}, \file{LXGWZhenKaiGB-Regular.ttf}
+%   \kaishu   楷书 (it.\kern-.5exof |CJKmainfont|):^^A
+% \file{LXGWWenKaiGBLite-Regular.ttf}, \file{LXGWZhenKaiGB-Regular.ttf}
 %   \end{syntax}
 % \end{function}
 % The \file{.ttf} files are sourced from the following links
@@ -353,7 +353,7 @@ https://github.com/TrionesType/zhuque/releases/download/v0.212/ZhuqueFangsong-v0
 % \iffalse
 %<*fetch>
 % \fi
-https://github.com/lxgw/LxgwWenKai-Lite/releases/latest/download/LXGWWenKaiLite-Regular.ttf
+https://github.com/lxgw/LxgwWenkaiGB-Lite/releases/latest/download/LXGWWenKaiGBLite-Regular.ttf
 % \iffalse
 %</fetch>
 % \fi
@@ -410,7 +410,7 @@ https://github.com/lxgw/LxgwZhenKai/releases/latest/download/LXGWZhenKaiGB-Regul
 %   \end{framed}
 %   \item[\key*{\kaishu 霞鹜$\sfrac{\text{文楷}}{\text{臻楷}}$
 %         (\pkg{LXGW $\sfrac{\text{WenKai}}{\text{ZhenKai}}$})}]
-%         \file{LXGWWenKaiLite-Regular.ttf}, \file{LXGWZhenKaiGB-Regular.ttf}
+%         \file{LXGWWenKaiGBLite-Regular.ttf}, \file{LXGWZhenKaiGB-Regular.ttf}
 %   \begin{framed}
 %     \kaishu\0
 %   \end{framed}
@@ -478,7 +478,7 @@ https://github.com/lxgw/LxgwZhenKai/releases/latest/download/LXGWZhenKaiGB-Regul
         \setCJKmainfont { LXGWNeoZhiSong.ttf              }
           [
             cmap           = UniGB-UTF16-H, AutoFakeBold,
-            ItalicFont     = LXGWWenKaiLite-Regular.ttf,
+            ItalicFont     = LXGWWenKaiGBLite-Regular.ttf,
             BoldItalicFont = LXGWZhenKaiGB-Regular.ttf
           ]
         \setCJKsansfont { LXGWNeoXiHei.ttf                }
@@ -491,7 +491,7 @@ https://github.com/lxgw/LxgwZhenKai/releases/latest/download/LXGWZhenKaiGB-Regul
           [ cmap = UniGB-UTF16-H, AutoFakeBold ]
         \setCJKfamilyfont { zhfs   } { LXGWZhuqueFangsong-Regular.ttf }
           [ cmap = UniGB-UTF16-H, AutoFakeBold ]
-        \setCJKfamilyfont { zhkai  } { LXGWWenKaiLite-Regular.ttf     }
+        \setCJKfamilyfont { zhkai  } { LXGWWenKaiGBLite-Regular.ttf   }
           [ cmap = UniGB-UTF16-H, BoldFont = LXGWZhenKaiGB-Regular.ttf ]
 %    \end{macrocode}
 % Configure the usages of the edge information of the defined CJK families.
@@ -554,7 +554,7 @@ https://github.com/lxgw/LxgwZhenKai/releases/latest/download/LXGWZhenKaiGB-Regul
     \ctex_set_upfonts:nnnnnn
       { LXGWNeoZhiSong.ttf              }
       { LXGWNeoZhiSongScreen.ttf        }
-      { LXGWWenKaiLite-Regular.ttf      }
+      { LXGWWenKaiGBLite-Regular.ttf    }
       { LXGWNeoXiHei.ttf                }
       { LXGWNeoXiHeiScreen.ttf          }
       { LXGWZhuqueFangsong-Regular.ttf  }
@@ -576,7 +576,7 @@ https://github.com/lxgw/LxgwZhenKai/releases/latest/download/LXGWZhenKaiGB-Regul
     \setCJKmainfont { LXGWNeoZhiSong              }
       [
         Extension      = .ttf, AutoFakeBold,
-        ItalicFont     = LXGWWenKaiLite-Regular,
+        ItalicFont     = LXGWWenKaiGBLite-Regular,
         BoldItalicFont = LXGWZhenKaiGB-Regular.ttf
       ]
     \setCJKsansfont { LXGWNeoXiHei                }
@@ -589,7 +589,7 @@ https://github.com/lxgw/LxgwZhenKai/releases/latest/download/LXGWZhenKaiGB-Regul
       [ Extension = .ttf, AutoFakeBold ]
     \setCJKfamilyfont { zhfs   } { LXGWZhuqueFangsong-Regular }
       [ Extension = .ttf, AutoFakeBold ]
-    \setCJKfamilyfont { zhkai  } { LXGWWenKaiLite-Regular     }
+    \setCJKfamilyfont { zhkai  } { LXGWWenKaiGBLite-Regular   }
       [ Extension = .ttf, BoldFont = LXGWZhenKaiGB-Regular ]
   }
 %    \end{macrocode}
@@ -666,7 +666,7 @@ https://github.com/lxgw/LxgwZhenKai/releases/latest/download/LXGWZhenKaiGB-Regul
     {lxgwzhhei}       {LXGWNeoXiHei} ,
     {lxgwzhheib}      {LXGWNeoXiHeiScreen} ,
     {lxgwzhfs}        {LXGWZhuqueFangsong-Regular} ,
-    {lxgwzhkai}       {LXGWWenKaiLite-Regular} ,
+    {lxgwzhkai}       {LXGWWenKaiGBLite-Regular} ,
     {lxgwzhkaib}      {LXGWZhenKaiGB-Regular} ,
   }
 %    \end{macrocode}
@@ -775,20 +775,20 @@ https://github.com/lxgw/LxgwZhenKai/releases/latest/download/LXGWZhenKaiGB-Regul
 \iffalse
   \pdfmapline{=gbk@UGBK@          <LXGWNeoZhiSong.ttf}
   \pdfmapline{=gbksong@UGBK@      <LXGWNeoZhiSong.ttf}
-  \pdfmapline{=gbkkai@UGBK@       <LXGWWenKaiLite-Regular.ttf}
+  \pdfmapline{=gbkkai@UGBK@       <LXGWWenKaiGBLite-Regular.ttf}
   \pdfmapline{=gbkhei@UGBK@       <LXGWNeoXiHei.ttf}
   \pdfmapline{=gbkfs@UGBK@        <LXGWZhuqueFangsong-Regular.ttf}
   \pdfmapline{=cyberb@Unicode@    <LXGWNeoZhiSong.ttf}
   \pdfmapline{=unisong@Unicode@   <LXGWNeoZhiSong.ttf}
-  \pdfmapline{=unikai@Unicode@    <LXGWWenKaiLite-Regular.ttf}
+  \pdfmapline{=unikai@Unicode@    <LXGWWenKaiGBLite-Regular.ttf}
   \pdfmapline{=unihei@Unicode@    <LXGWNeoXiHei.ttf}
   \pdfmapline{=unifs@Unicode@     <LXGWZhuqueFangsong-Regular.ttf}
   \pdfmapline{=gbksongsl@UGBK@    <LXGWNeoZhiSong.ttf}
-  \pdfmapline{=gbkkaisl@UGBK@     <LXGWWenKaiLite-Regular.ttf}
+  \pdfmapline{=gbkkaisl@UGBK@     <LXGWWenKaiGBLite-Regular.ttf}
   \pdfmapline{=gbkheisl@UGBK@     <LXGWNeoXiHei.ttf}
   \pdfmapline{=gbkfssl@UGBK@      <LXGWZhuqueFangsong-Regular.ttf}
   \pdfmapline{=unisongsl@Unicode@ <LXGWNeoZhiSong.ttf}
-  \pdfmapline{=unikaisl@Unicode@  <LXGWWenKaiLite-Regular.ttf}
+  \pdfmapline{=unikaisl@Unicode@  <LXGWWenKaiGBLite-Regular.ttf}
   \pdfmapline{=uniheisl@Unicode@  <LXGWNeoXiHei.ttf}
   \pdfmapline{=unifssl@Unicode@   <LXGWZhuqueFangsong-Regular.ttf}
 \fi
@@ -802,12 +802,12 @@ https://github.com/lxgw/LxgwZhenKai/releases/latest/download/LXGWZhenKaiGB-Regul
 %    \begin{macrocode}
   \special{pdf:mapline gbk@UGBK@          UniGB-UTF16-H LXGWNeoZhiSong.ttf}
   \special{pdf:mapline gbksong@UGBK@      UniGB-UTF16-H LXGWNeoZhiSong.ttf}
-  \special{pdf:mapline gbkkai@UGBK@       UniGB-UTF16-H LXGWWenKaiLite-Regular.ttf}
+  \special{pdf:mapline gbkkai@UGBK@       UniGB-UTF16-H LXGWWenKaiGBLite-Regular.ttf}
   \special{pdf:mapline gbkhei@UGBK@       UniGB-UTF16-H LXGWNeoXiHei.ttf}
   \special{pdf:mapline gbkfs@UGBK@        UniGB-UTF16-H LXGWZhuqueFangsong-Regular.ttf}
   \special{pdf:mapline cyberb@Unicode@    UniGB-UTF16-H LXGWNeoZhiSong.ttf}
   \special{pdf:mapline unisong@Unicode@   UniGB-UTF16-H LXGWNeoZhiSong.ttf}
-  \special{pdf:mapline unikai@Unicode@    UniGB-UTF16-H LXGWWenKaiLite-Regular.ttf}
+  \special{pdf:mapline unikai@Unicode@    UniGB-UTF16-H LXGWWenKaiGBLite-Regular.ttf}
   \special{pdf:mapline unihei@Unicode@    UniGB-UTF16-H LXGWNeoXiHei.ttf}
   \special{pdf:mapline unifs@Unicode@     UniGB-UTF16-H LXGWZhuqueFangsong-Regular.ttf}
 %    \end{macrocode}
@@ -816,11 +816,11 @@ https://github.com/lxgw/LxgwZhenKai/releases/latest/download/LXGWZhenKaiGB-Regul
 % default value of |AutoFakeSlant| in the \pkg{xeCJK} package.
 %    \begin{macrocode}
   \special{pdf:mapline gbksongsl@UGBK@    UniGB-UTF16-H LXGWNeoZhiSong.ttf -s .167}
-  \special{pdf:mapline gbkkaisl@UGBK@     UniGB-UTF16-H LXGWWenKaiLite-Regular.ttf -s .167}
+  \special{pdf:mapline gbkkaisl@UGBK@     UniGB-UTF16-H LXGWWenKaiGBLite-Regular.ttf -s .167}
   \special{pdf:mapline gbkheisl@UGBK@     UniGB-UTF16-H LXGWNeoXiHei.ttf -s .167}
   \special{pdf:mapline gbkfssl@UGBK@      UniGB-UTF16-H LXGWZhuqueFangsong-Regular.ttf -s .167}
   \special{pdf:mapline unisongsl@Unicode@ UniGB-UTF16-H LXGWNeoZhiSong.ttf -s .167}
-  \special{pdf:mapline unikaisl@Unicode@  UniGB-UTF16-H LXGWWenKaiLite-Regular.ttf -s .167}
+  \special{pdf:mapline unikaisl@Unicode@  UniGB-UTF16-H LXGWWenKaiGBLite-Regular.ttf -s .167}
   \special{pdf:mapline uniheisl@Unicode@  UniGB-UTF16-H LXGWNeoXiHei.ttf -s .167}
   \special{pdf:mapline unifssl@Unicode@   UniGB-UTF16-H LXGWZhuqueFangsong-Regular.ttf -s .167}
 \fi
