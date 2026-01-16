@@ -297,7 +297,7 @@ The Current Designer of this font family is LXGW and TrionesType.
 % \file{LXGWNeoXiHei.ttf}, \file{LXGWNeoXiHeiScreen.ttf}\\
 %   \fangsong 仿宋 (|CJKmonofont|):^^A
 % \file{LXGWZhuqueFangsong-Regular.ttf} (|AutoFakeBold| enabled)\\
-%   \kaishu   楷书 (it.\kern-.5exof |CJKmainfont|):^^A
+%   \kaishu   楷书 (it. \kern-1.5exof |CJKmainfont|):^^A
 % \file{LXGWWenKaiGBLite-Regular.ttf}, \file{LXGWZhenKaiGB-Regular.ttf}
 %   \end{syntax}
 % \end{function}
@@ -459,7 +459,7 @@ https://github.com/lxgw/LxgwZhenKai/releases/latest/download/LXGWZhenKaiGB-Regul
 %    \end{macrocode}
 % Load the \file{.spa} file for the \pkg{CJKpunct} package.
 %    \begin{macrocode}
-    \ctex_file_input:n { ctex-spa-lxgw.spa }
+    \ctex_file_input:n { ctexpunct-lxgw.spa }
 %    \end{macrocode}
 % Case choice controlled by the |zhmap| key of \pkg{ctex-kit}.
 %    \begin{macrocode}
@@ -632,6 +632,7 @@ https://github.com/lxgw/LxgwZhenKai/releases/latest/download/LXGWZhenKaiGB-Regul
 %    \begin{macrocode}
 \input ctex-spa-macro %
 %    \end{macrocode}
+% \iffalse
 % However, the macro file needs to be hacked due to the interface change
 % of \hologo{XeTeX}.
 %    \begin{macrocode}
@@ -656,6 +657,7 @@ https://github.com/lxgw/LxgwZhenKai/releases/latest/download/LXGWZhenKaiGB-Regul
   }
 \ExplSyntaxOff
 %    \end{macrocode}
+% \fi
 % List all the CJK families with the corresponding font files in terms of
 % ``case-pairs''.
 %    \begin{macrocode}

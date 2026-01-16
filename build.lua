@@ -73,7 +73,7 @@ function docinit_hook()
   run(unpackdir, "xargs -n 1 curl -O -L < lxgw-fetch.csv")
   run(unpackdir, "unzip ZhuqueFangsong-v0.212.zip")
   ren(unpackdir, "ZhuqueFangsong-Regular.ttf", "LXGWZhuqueFangsong-Regular.ttf")
-  run(unpackdir, "xetex ctexpunct-lxgw.tex")
+  run(unpackdir, "xetex ctex-makespa-lxgw.tex")
   cp("*.ttf", unpackdir, typesetdir)
   cp(ctanreadme, unpackdir, currentdir)
   return 0
