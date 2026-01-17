@@ -16,14 +16,24 @@ Issues
 The issue tracker for `LXGW` is currently located
 [on GitHub](https://github.com/myhsia/LXGW-CTAN).
 
+Build status
+------------
+
+This project uses [GitHub Actions](https://github.com/features/actions)
+as a hosted continuous integration service. For each commit, the build status
+is tested using the current release of TeX Live.
+
+_Current build status:_ ![build status](https://github.com/myhsia/lxgw-ctan/actions/workflows/main.yaml/badge.svg?branch=main)
+
 Copyright and License
 ---------------------
 
-Runtime: Copyright (C) 2025-2026 by Mingyu Xia <myhsia@outlook.com>
+- Runtime: Copyright (C) 2025-2026 by Mingyu Xia <myhsia@outlook.com>
 
-Fonts:   Copyright (C) 2021-2026 by LXGW <https://github.com/lxgw>
+- Fonts:   Copyright (C) 2021-2026 by LXGW <https://github.com/lxgw>
 
-         Copyright (C) 2021-2026 by TrionesType <x.com/TrionesType>
+&emsp;&emsp;&emsp;&ensp; &ensp; &ensp; &ensp;
+           Copyright (C) 2021-2026 by TrionesType <x.com/TrionesType>
 
 This work may be distributed and/or modified under the conditions
 of the SIL Open Font License (OFL) version 1.1.
