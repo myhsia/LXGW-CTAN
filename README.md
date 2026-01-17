@@ -30,12 +30,10 @@ _Current build status:_ ![build status](https://github.com/myhsia/lxgw-ctan/acti
 Copyright and License
 ---------------------
 
-- Runtime: Copyright (C) 2025-2026 by Mingyu Xia <myhsia@outlook.com>
+- Runtime: Copyright (C) 2025-2026 by Mingyu Xia \<myhsia@outlook.com\>
 
-- Fonts:   Copyright (C) 2021-2026 by LXGW <https://github.com/lxgw>
-
-&emsp;&emsp;&emsp;&ensp; &ensp; &ensp; &ensp;
-           Copyright (C) 2021-2026 by TrionesType <x.com/TrionesType>
+- Fonts:   Copyright (C) 2021-2026 by [LXGW](https://github.com/lxgw) and
+                                      [TrionesType](https://x.com/TrionesType)
 
 This work may be distributed and/or modified under the conditions
 of the SIL Open Font License (OFL) version 1.1.
