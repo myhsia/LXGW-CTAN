@@ -1,6 +1,7 @@
 # Test framework
 l3build
 latexmk
+makeindex
 #
 # l3doc
 l3kernel
