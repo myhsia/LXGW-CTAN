@@ -139,6 +139,7 @@ The Current Designer of this font family is LXGW and TrionesType.
   \tex_XeTeXcharclass:D "0065 = 1^^A e
   \fangsong TrionesType
 }
+\def\@thanks{\Copyright}
 \makeatother \ExplSyntaxOff
 \makeindex
 \begin{document}
@@ -147,7 +148,6 @@ The Current Designer of this font family is LXGW and TrionesType.
 %</driver>
 % \fi
 %
-% \makeatletter
 % \title{The \hologo{LXGW} Font Family\thanks{^^A
 %   \url{https://github.com/myhsia/LXGW-CTAN}
 % }\texorpdfstring{\enspace \textbar \enspace\parbox{4em}{^^A
@@ -194,77 +194,74 @@ The Current Designer of this font family is LXGW and TrionesType.
 %     \href{https://ctan.org/license/ofl}{SIL Open Font License (OFL)}.
 %   }}}
 %   \end{center}}
-% \def\@thanks{\Copyright}
 %
 % \maketitle
-% \tikz[remember picture, overlay]
-%   {
-%     \node [ above right,     minimum width  = 1.2\ccwd,
-%             inner sep = 0pt, minimum height = 1.2\ccwd,
-%             rotate = -10, font = \kaishu,
-%             scale = 15, opacity = .3, gray ] (xia) at
-%           ([shift = {(-3 * \f@size \p@, 2 * \f@size \p@)}]
-%             current page.south west) {肉};
-%     \draw [ loosely dashed, DarkGreen, opacity = .15,
-%             line width = .2 * \f@size \p@ ]
-%           (xia.north west) -- (xia.south east)
-%           (xia.north east) -- (xia.south west);
-%     \draw [ DarkGreen, opacity = .15, line width = .2 * \f@size \p@ ]
-%           (xia.north) -- (xia.south) (xia.west) -- (xia.east);
-%     \draw [ rotate around = {-10:(xia.center)}, line width = .5 * \f@size \p@,
-%             DarkGreen, opacity = .1 ]
-%           (xia.north west) rectangle (xia.south east);
-%     \node [ right,           minimum width  = 1.2\ccwd,
-%             inner sep = 0pt, minimum height = 1.2\ccwd,
-%             rotate = -10, font = \kaishu,
-%             scale = 15, opacity = .3, gray ] (wu) at
-%           (xia.east) {檢};
-%     \draw [ loosely dashed, DarkGreen, opacity = .15,
-%             line width = .2 * \f@size \p@ ]
-%           (wu.north west) -- (wu.south east)
-%           (wu.north east) -- (wu.south west);
-%     \draw [ DarkGreen, opacity = .15, line width = .2 * \f@size \p@ ]
-%           (wu.north) -- (wu.south) (wu.west) -- (wu.east);
-%     \draw [ rotate around = {-10:(wu.center)}, line width = .5 * \f@size \p@,
-%             DarkGreen, opacity = .1 ]
-%           (wu.north west) rectangle (wu.south east);
-%     \draw [ rotate around = {-10:(xia.east)}, line width = .5 * \f@size \p@,
-%             DarkGreen, opacity = .1]
-%           (xia.north west) rectangle (wu.south east);
-%     \node [ below left,      minimum width  = 1.2\ccwd,
-%             inner sep = 0pt, minimum height = 1.2\ccwd,
-%             rotate = -10, font = \fangsong,
-%             scale = 15, opacity = .3, gray ] (xuan) at
-%           ([shift = {(3 * \f@size \p@, -2 * \f@size \p@)}]
-%             current page.north east) {訖};
-%     \draw [ loosely dashed, DarkRed, opacity = .15,
-%             line width = .2 * \f@size \p@ ]
-%           (xuan.north west) -- (xuan.south east)
-%           (xuan.north east) -- (xuan.south west);
-%     \draw [ DarkRed, opacity = .15, line width = .2 * \f@size \p@ ]
-%           (xuan.north) -- (xuan.south) (xuan.west) -- (xuan.east);
-%     \draw [ rotate around = {-10:(xuan.center)},
-%             line width = .5 * \f@size \p@, DarkRed, opacity = .1 ]
-%           (xuan.north west) rectangle (xuan.south east);
-%     \node [ left,            minimum width  = 1.2\ccwd,
-%             inner sep = 0pt, minimum height = 1.2\ccwd,
-%             rotate = -10, font = \kaishu,
-%             scale = 15, opacity = .3, gray ] (ji) at
-%           (xuan.west) {驗};
-%     \draw [ loosely dashed, DarkRed, opacity = .15,
-%             line width = .2 * \f@size \p@ ]
-%           (ji.north west) -- (ji.south east)
-%           (ji.north east) -- (ji.south west);
-%     \draw [ DarkRed, opacity = .15, line width = .2 * \f@size \p@ ]
-%           (ji.north) -- (ji.south) (ji.west) -- (ji.east);
-%     \draw [ rotate around = {-10:(ji.center)}, line width = .5 * \f@size \p@,
-%             DarkRed, opacity = .1 ]
-%           (ji.north west) rectangle (ji.south east);
-%     \draw [ rotate around = {-10:(ji.west)}, line width = .5 * \f@size \p@,
-%             DarkRed, opacity = .1]
-%           (xuan.north east) rectangle (ji.south west);
-%   }
-% \makeatother
+% \tikz[remember picture, overlay] {
+%   \node [ above right,     minimum width  = 1.2\ccwd,
+%           inner sep = 0pt, minimum height = 1.2\ccwd,
+%           rotate = -10, font = \kaishu,
+%           scale = 15, opacity = .3, gray ] (xia) at
+%         ([shift = {(-3 * 10pt, 2 * 10pt)}]
+%           current page.south west) {肉};
+%   \draw [ loosely dashed, DarkGreen, opacity = .15,
+%           line width = .2 * 10pt ]
+%         (xia.north west) -- (xia.south east)
+%         (xia.north east) -- (xia.south west);
+%   \draw [ DarkGreen, opacity = .15, line width = .2 * 10pt ]
+%         (xia.north) -- (xia.south) (xia.west) -- (xia.east);
+%   \draw [ rotate around = {-10:(xia.center)}, line width = .5 * 10pt,
+%           DarkGreen, opacity = .1 ]
+%         (xia.north west) rectangle (xia.south east);
+%   \node [ right,           minimum width  = 1.2\ccwd,
+%           inner sep = 0pt, minimum height = 1.2\ccwd,
+%           rotate = -10, font = \kaishu,
+%           scale = 15, opacity = .3, gray ] (wu) at
+%         (xia.east) {檢};
+%   \draw [ loosely dashed, DarkGreen, opacity = .15,
+%           line width = .2 * 10pt ]
+%         (wu.north west) -- (wu.south east)
+%         (wu.north east) -- (wu.south west);
+%   \draw [ DarkGreen, opacity = .15, line width = .2 * 10pt ]
+%         (wu.north) -- (wu.south) (wu.west) -- (wu.east);
+%   \draw [ rotate around = {-10:(wu.center)}, line width = .5 * 10pt,
+%           DarkGreen, opacity = .1 ]
+%         (wu.north west) rectangle (wu.south east);
+%   \draw [ rotate around = {-10:(xia.east)}, line width = .5 * 10pt,
+%           DarkGreen, opacity = .1]
+%         (xia.north west) rectangle (wu.south east);
+%   \node [ below left,      minimum width  = 1.2\ccwd,
+%           inner sep = 0pt, minimum height = 1.2\ccwd,
+%           rotate = -10, font = \fangsong,
+%           scale = 15, opacity = .3, gray ] (xuan) at
+%         ([shift = {(3 * 10pt, -2 * 10pt)}]
+%           current page.north east) {訖};
+%   \draw [ loosely dashed, DarkRed, opacity = .15,
+%           line width = .2 * 10pt ]
+%         (xuan.north west) -- (xuan.south east)
+%         (xuan.north east) -- (xuan.south west);
+%   \draw [ DarkRed, opacity = .15, line width = .2 * 10pt ]
+%         (xuan.north) -- (xuan.south) (xuan.west) -- (xuan.east);
+%   \draw [ rotate around = {-10:(xuan.center)},
+%           line width = .5 * 10pt, DarkRed, opacity = .1 ]
+%         (xuan.north west) rectangle (xuan.south east);
+%   \node [ left,            minimum width  = 1.2\ccwd,
+%           inner sep = 0pt, minimum height = 1.2\ccwd,
+%           rotate = -10, font = \kaishu,
+%           scale = 15, opacity = .3, gray ] (ji) at
+%         (xuan.west) {驗};
+%   \draw [ loosely dashed, DarkRed, opacity = .15,
+%           line width = .2 * 10pt ]
+%         (ji.north west) -- (ji.south east)
+%         (ji.north east) -- (ji.south west);
+%   \draw [ DarkRed, opacity = .15, line width = .2 * 10pt ]
+%         (ji.north) -- (ji.south) (ji.west) -- (ji.east);
+%   \draw [ rotate around = {-10:(ji.center)}, line width = .5 * 10pt,
+%           DarkRed, opacity = .1 ]
+%         (ji.north west) rectangle (ji.south east);
+%   \draw [ rotate around = {-10:(ji.west)}, line width = .5 * 10pt,
+%           DarkRed, opacity = .1]
+%         (xuan.north east) rectangle (ji.south west);
+% }
 %
 % \begin{documentation}
 %
@@ -301,6 +298,9 @@ The Current Designer of this font family is LXGW and TrionesType.
 % \file{LXGWWenKaiGBLite-Regular.ttf}, \file{LXGWZhenKaiGB-Regular.ttf}
 %   \end{syntax}
 % \end{function}
+% This user-friendly interface is implemented in
+% \ref{subsec:fontset}, \ref{subsec:spa}, and~\ref{subsec:zhmap}.
+%
 % The \file{.ttf} files are sourced from the following links
 % \def \fetch#1{\href{#1}{\ttfamily #1}}
 % \begin{itemize}[itemsep = 2pt, topsep = 4pt, leftmargin = 2em] \scriptsize
@@ -368,29 +368,46 @@ https://github.com/lxgw/LxgwZhenKai/releases/latest/download/LXGWZhenKaiGB-Regul
 % \fi
 % }
 % \end{itemize}
-% The implementation of this user-friendly interface is included in
-% \ref{subsec:fontset}, \ref{subsec:spa}, and~\ref{subsec:zhmap}.
 %
 % \section{Font Demos}
 %
 % The following lists the Chinese/English name, filename, and demos of the
-% fonts: Cantonese, Japanese, Chinese (Simplified/Traditional)
-% versions of ``\textbf{I Can Eat Glass}'', missing
-% character markers are provided with punctuation compression disabled and
-% fulfilling line.
-% \def\0{^^A
-%   \makebox[\linewidth][s]{\large
-%     ^^^^2370私はガラスを食べられます。^^^^2370^^A
-%     \textbf{それは私を傷つけません。^^^^2370}^^A
-%   }\\
-%   \makebox[\linewidth][s]{\large
-%     ^^^^2370我能吞下玻璃而不伤身体。^^^^2370^^^^2370^^A
-%     \textbf{我能吞下玻璃而不伤身体。^^^^2370}^^A
-%   }\\
-%   \makebox[\linewidth][s]{\large
-%     ^^^^2370我能吞下玻璃而不傷身體。
-%     我可以食玻璃，\textbf{佢傷唔到我㗎。^^^^2370}^^A
-%   }^^A
+% fonts: Cantonese, Japanese, Chinese (Simplified/Traditional) versions of
+% ``\textbf{I Can Eat Glass}'', and missing character markers are provided with
+% punctuation compression disabled.
+% \ExplSyntaxOn
+% \NewDocumentCommand \shufa { O{} m }
+%   {
+%     \group_begin:
+%     \tl_map_inline:nn { #2 }
+%       {
+%         \xeCJKsetup{PunctStyle = plain, MiddlePunct+ = {，。}}
+%         \tikz {
+%           \node [ minimum ~ width  = 1.5\ccwd, outer ~ sep = 0pt,
+%                   draw = DarkGreen!40, thick, font = #1,
+%                   minimum ~ height = 1.5\ccwd, inner ~ sep = 0pt ]
+%             (tmp) {##1};
+%           \draw [densely ~ dashed, DarkGreen, opacity = .2]
+%                 (tmp.north ~ west) -- (tmp.south ~ east)
+%                 (tmp.north ~ east) -- (tmp.south ~ west);
+%           \draw [DarkGreen, opacity = .2, thin]
+%                 (tmp.north) -- (tmp.south) (tmp.west)  -- (tmp.east);
+%         } \kern-.8pt
+%       }
+%     \group_end:
+% }
+% \ExplSyntaxOff
+% \def\0{\centering
+%   \shufa[\Large]{私ガラスを食べられます。^^^^2370}^^A
+%   \shufa[\Large\bfseries]{それは私を傷つけません。}^^A
+%   \kern.8pt \\[-.2\baselineskip+.8pt]
+%   \shufa[\Large]{我能吞下玻璃而不伤身体。}^^A
+%   \shufa[\Large\bfseries]{^^^^2370我能吞下玻璃而不伤身体。}^^A
+%   \kern.8pt\\[-.2\baselineskip+.8pt]
+%   \shufa[\Large]{我能吞下玻璃而不傷身體。}^^A
+%   \shufa[\Large]{我可以食玻璃，}^^A
+%   \shufa[\Large\bfseries]{佢傷唔到我。}^^A
+%   \kern.8pt
 % }
 % \begin{keyval}
 %   \item[\key*{\songti 霞鶩新緻宋 (\pkg{LXGW Neo ZhiSong})}]
@@ -415,7 +432,6 @@ https://github.com/lxgw/LxgwZhenKai/releases/latest/download/LXGWZhenKaiGB-Regul
 %     \kaishu\0
 %   \end{framed}
 % \end{keyval}
-%
 % \end{documentation}
 % \clearpage \appendix
 % \begin{implementation}
@@ -510,8 +526,9 @@ https://github.com/lxgw/LxgwZhenKai/releases/latest/download/LXGWZhenKaiGB-Regul
 %   \begin{verbatim}[commandchars = \\\{\}]
 %     \color{gray}\cs{cs_gset_eq:NN} \cs{ctex_zhmap_case:nnn} \cs{use_ii:nnn}
 %   \end{verbatim}
-%   Load the mapping file \file{ctex-zhmap-lxgw.tex} for \pkg{zhmatrices} and
-%   set \cs{CJKrmdefault}, \cs{CJKsfdefault}, \cs{CJKttdefault}, respectively.
+%   Load the mapping file \file{ctex-zhmap-lxgw.tex} (see~\ref{subsec:zhmap})
+%   for \pkg{zhmatrices} and set \cs{CJKrmdefault}, \cs{CJKsfdefault},
+%   \cs{CJKttdefault}, respectively.
 %    \begin{macrocode}
       {
         \ctex_load_zhmap:nnnn { rm } { zhhei } { zhfs } { lxgw }
@@ -623,11 +640,13 @@ https://github.com/lxgw/LxgwZhenKai/releases/latest/download/LXGWZhenKaiGB-Regul
 %    \begin{macrocode}
 %<*makespa>
 %    \end{macrocode}
+% \iffalse
 % Assign the module name of the variables and control sequences, which will be
 % automatically replaced by \pkg{l3docstrip}.
 %    \begin{macrocode}
 %<@@=ctex>
 %    \end{macrocode}
+% \fi
 % Loading the macro file \file{ctex-spa-macro.tex} provided by \pkg{ctex-kit}.
 %    \begin{macrocode}
 \input ctex-spa-macro %
@@ -676,10 +695,12 @@ https://github.com/lxgw/LxgwZhenKai/releases/latest/download/LXGWZhenKaiGB-Regul
 %    \begin{macrocode}
 \primitive\end
 %    \end{macrocode}
+% \iffalse
 % Restore the module name.
 %    \begin{macrocode}
 %<@@=>
 %    \end{macrocode}
+% \fi
 % End the optionlist |zhmap| for l3docstrip.
 %    \begin{macrocode}
 %</makespa>
@@ -768,11 +789,12 @@ https://github.com/lxgw/LxgwZhenKai/releases/latest/download/LXGWZhenKaiGB-Regul
 \ProvidesFile{ctex-zhmap-lxgw.tex}%
   [2026-01-15 v1.521L lxgw font map loader for DVIPDFMx (CTEX)]
 %    \end{macrocode}
-% Font map loader for \hologo{pdfTeX} and \hologo{DVIPDFMx}.
+% Font map loader for \hologo{pdfTeX} (generate PDF) is disabled since
+% \hologo{pdfTeX} maps too slowly.
 %    \begin{macrocode}
 \ifzhmappdf
 %    \end{macrocode}
-% Since \hologo{pdfTeX} maps too slowly, this mode is obsolete.
+% \iffalse
 %    \begin{macrocode}
 \iffalse
   \pdfmapline{=gbk@UGBK@          <LXGWNeoZhiSong.ttf}
@@ -795,6 +817,7 @@ https://github.com/lxgw/LxgwZhenKai/releases/latest/download/LXGWZhenKaiGB-Regul
   \pdfmapline{=unifssl@Unicode@   <LXGWZhuqueFangsong-Regular.ttf}
 \fi
 %    \end{macrocode}
+% \fi
 % Configuration for \hologo{pdfTeX} (generate DVI).
 %    \begin{macrocode}
 \else
@@ -802,29 +825,29 @@ https://github.com/lxgw/LxgwZhenKai/releases/latest/download/LXGWZhenKaiGB-Regul
 % Configure the upright shape of \cs{songti}, \cs{kaishu}, \cs{heiti},
 % and \cs{fangsong} mapping for GBK encoding and UTF8 encoding.
 %    \begin{macrocode}
-  \special{pdf:mapline gbk@UGBK@          UniGB-UTF16-H LXGWNeoZhiSong.ttf}
-  \special{pdf:mapline gbksong@UGBK@      UniGB-UTF16-H LXGWNeoZhiSong.ttf}
-  \special{pdf:mapline gbkkai@UGBK@       UniGB-UTF16-H LXGWWenKaiGBLite-Regular.ttf}
-  \special{pdf:mapline gbkhei@UGBK@       UniGB-UTF16-H LXGWNeoXiHei.ttf}
-  \special{pdf:mapline gbkfs@UGBK@        UniGB-UTF16-H LXGWZhuqueFangsong-Regular.ttf}
-  \special{pdf:mapline cyberb@Unicode@    UniGB-UTF16-H LXGWNeoZhiSong.ttf}
-  \special{pdf:mapline unisong@Unicode@   UniGB-UTF16-H LXGWNeoZhiSong.ttf}
-  \special{pdf:mapline unikai@Unicode@    UniGB-UTF16-H LXGWWenKaiGBLite-Regular.ttf}
-  \special{pdf:mapline unihei@Unicode@    UniGB-UTF16-H LXGWNeoXiHei.ttf}
-  \special{pdf:mapline unifs@Unicode@     UniGB-UTF16-H LXGWZhuqueFangsong-Regular.ttf}
+\special{pdf:mapline gbk@UGBK@          UniGB-UTF16-H LXGWNeoZhiSong.ttf}
+\special{pdf:mapline gbksong@UGBK@      UniGB-UTF16-H LXGWNeoZhiSong.ttf}
+\special{pdf:mapline gbkkai@UGBK@       UniGB-UTF16-H LXGWWenKaiGBLite-Regular.ttf}
+\special{pdf:mapline gbkhei@UGBK@       UniGB-UTF16-H LXGWNeoXiHei.ttf}
+\special{pdf:mapline gbkfs@UGBK@        UniGB-UTF16-H LXGWZhuqueFangsong-Regular.ttf}
+\special{pdf:mapline cyberb@Unicode@    UniGB-UTF16-H LXGWNeoZhiSong.ttf}
+\special{pdf:mapline unisong@Unicode@   UniGB-UTF16-H LXGWNeoZhiSong.ttf}
+\special{pdf:mapline unikai@Unicode@    UniGB-UTF16-H LXGWWenKaiGBLite-Regular.ttf}
+\special{pdf:mapline unihei@Unicode@    UniGB-UTF16-H LXGWNeoXiHei.ttf}
+\special{pdf:mapline unifs@Unicode@     UniGB-UTF16-H LXGWZhuqueFangsong-Regular.ttf}
 %    \end{macrocode}
 % Similar for the (fake) slant shape, set the
 % \emph{Afine Transformation coefficient} to |0.167|, which is the same as the
 % default value of |AutoFakeSlant| in the \pkg{xeCJK} package.
 %    \begin{macrocode}
-  \special{pdf:mapline gbksongsl@UGBK@    UniGB-UTF16-H LXGWNeoZhiSong.ttf -s .167}
-  \special{pdf:mapline gbkkaisl@UGBK@     UniGB-UTF16-H LXGWWenKaiGBLite-Regular.ttf -s .167}
-  \special{pdf:mapline gbkheisl@UGBK@     UniGB-UTF16-H LXGWNeoXiHei.ttf -s .167}
-  \special{pdf:mapline gbkfssl@UGBK@      UniGB-UTF16-H LXGWZhuqueFangsong-Regular.ttf -s .167}
-  \special{pdf:mapline unisongsl@Unicode@ UniGB-UTF16-H LXGWNeoZhiSong.ttf -s .167}
-  \special{pdf:mapline unikaisl@Unicode@  UniGB-UTF16-H LXGWWenKaiGBLite-Regular.ttf -s .167}
-  \special{pdf:mapline uniheisl@Unicode@  UniGB-UTF16-H LXGWNeoXiHei.ttf -s .167}
-  \special{pdf:mapline unifssl@Unicode@   UniGB-UTF16-H LXGWZhuqueFangsong-Regular.ttf -s .167}
+\special{pdf:mapline gbksongsl@UGBK@    UniGB-UTF16-H LXGWNeoZhiSong.ttf -s .167}
+\special{pdf:mapline gbkkaisl@UGBK@     UniGB-UTF16-H LXGWWenKaiGBLite-Regular.ttf -s .167}
+\special{pdf:mapline gbkheisl@UGBK@     UniGB-UTF16-H LXGWNeoXiHei.ttf -s .167}
+\special{pdf:mapline gbkfssl@UGBK@      UniGB-UTF16-H LXGWZhuqueFangsong-Regular.ttf -s .167}
+\special{pdf:mapline unisongsl@Unicode@ UniGB-UTF16-H LXGWNeoZhiSong.ttf -s .167}
+\special{pdf:mapline unikaisl@Unicode@  UniGB-UTF16-H LXGWWenKaiGBLite-Regular.ttf -s .167}
+\special{pdf:mapline uniheisl@Unicode@  UniGB-UTF16-H LXGWNeoXiHei.ttf -s .167}
+\special{pdf:mapline unifssl@Unicode@   UniGB-UTF16-H LXGWZhuqueFangsong-Regular.ttf -s .167}
 \fi
 %    \end{macrocode}
 % End the optionlist |zhmap| for l3docstrip.

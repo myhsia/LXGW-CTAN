@@ -1,0 +1,33 @@
+# Test framework
+l3build
+latexmk
+#
+# l3doc
+l3kernel
+## Base
+latex
+### latex-bin
+## Required
+graphics
+tools
+psnfss
+## Generic
+hologo
+## Contrib
+alphalph
+amsmath
+amsfonts
+booktabs
+colortbl
+csquotes
+enumitem
+fancyvrb
+hypdoc
+lm
+underscore
+# Preamble
+ctex
+framed
+libertine
+pgf
+xfrac
