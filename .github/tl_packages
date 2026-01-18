@@ -1,4 +1,4 @@
-# Test framework
+# Shell
 l3build
 latexmk
 makeindex
@@ -7,7 +7,6 @@ makeindex
 l3kernel
 ## Base
 latex
-### latex-bin
 ## Required
 graphics
 tools
@@ -26,6 +25,7 @@ fancyvrb
 hypdoc
 lm
 underscore
+#
 # Preamble
 ctex
 framed
