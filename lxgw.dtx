@@ -108,6 +108,7 @@ The Current Designer of this font family is **LXGW** and **TrionesType**.
 \usepackage{tikz, framed, xfrac}
 \tikzset{every picture/.append style = {line cap = round}}
 \ExplSyntaxOn \makeatletter
+\newcommand \mail[1]{\href{mailto:#1}{\ttfamily #1}}
 \dim_set:Nn \FrameSep {2pt}
 \tex_tracinglostchars:D = 0
 \tex_XeTeXcharclass:D "2370 = 1
@@ -173,12 +174,10 @@ The Current Designer of this font family is **LXGW** and **TrionesType**.
 %     \url{https://github.com/lxgw},
 %     \url{https://github.com/TrionesType/zhuque}},
 %   \texorpdfstring{\enspace}{ }
-%   Maintainer: Mingyu Xia\thanks{\texttt{^^A
-%     \href{mailto:xiamingyu@westlake.edu.cn}{xiamingyu@westlake.edu.cn}^^A
-%   }}
+%   Maintainer: Mingyu Xia\thanks{\mail{xiamingyu@westlake.edu.cn}}^^A
 % }
 %
-% \date{Released 2026-01-27\quad \texttt{v1.521O}}
+% \date{Released 2026-01-27\quad \texttt{v1.521N}}
 %
 % \def\Copyright{^^A
 %   \begin{center}
@@ -456,7 +455,7 @@ https://github.com/lxgw/LxgwZhenKai/releases/latest/download/LXGWZhenKaiGB-Regul
 % Declare the \pkg{ctex-kit} font configuration file with date, version, and
 % description.
 %    \begin{macrocode}
-\ProvidesExplFile {ctex-fontset-lxgw.def} {2026-01-27} {v1.521O}
+\ProvidesExplFile {ctex-fontset-lxgw.def} {2026-01-27} {v1.521N}
   {lxgw fontset configuration for ctex-kit}
 %    \end{macrocode}
 % Load CJK font family, interface, accepts the following 4 branches,
@@ -796,7 +795,7 @@ https://github.com/lxgw/LxgwZhenKai/releases/latest/download/LXGWZhenKaiGB-Regul
 % Provides the identification information of the font map loader.
 %    \begin{macrocode}
 \ProvidesFile{ctex-zhmap-lxgw.tex}%
-  [2026-01-27 v1.521O lxgw font map loader for DVIPDFMx (CTEX)]
+  [2026-01-27 v1.521N lxgw font map loader for DVIPDFMx (CTEX)]
 %    \end{macrocode}
 % Font map loader for \hologo{pdfTeX} (generate PDF) is disabled since
 % \hologo{pdfTeX} maps too slowly.
