@@ -5,7 +5,6 @@
 %   Runtime: Copyright (C) 2025-2026 by Mingyu Xia <myhsia@outlook.com> *
 %                                                                       *
 %   Fonts:   Copyright (C) 2021-2026 by LXGW <https://github.com/lxgw>  *
-%                                                                       *
 %            Copyright (C) 2021-2026 by TrionesType <x.com/TrionesType> *
 % -----------------------------------------------------------------------
 %   This work may be distributed and/or modified under the conditions   *
@@ -92,9 +91,9 @@ The latest version of this license is in
 
 This work has the OFL maintenance status `maintained'.
 
-The Current Maintainer of this work on CTAN is Mingyu Xia.
+The Current Maintainer of this work on CTAN is **Mingyu Xia**.
 
-The Current Designer of this font family is LXGW and TrionesType.
+The Current Designer of this font family is **LXGW** and **TrionesType**.
 %</readme>
 %
 %<*internal>
@@ -179,7 +178,7 @@ The Current Designer of this font family is LXGW and TrionesType.
 %   }}
 % }
 %
-% \date{Released 2026-01-18\quad \texttt{v1.521M}}
+% \date{Released 2026-01-27\quad \texttt{v1.521O}}
 %
 % \def\Copyright{^^A
 %   \begin{center}
@@ -206,13 +205,13 @@ The Current Designer of this font family is LXGW and TrionesType.
 %   \end{center}}
 %
 % \maketitle
-% \tikz[remember picture, overlay] {
+% \tikz[remember picture, overlay] {^^A
 %   \node [ above right,     minimum width  = 1.2\ccwd,
 %           inner sep = 0pt, minimum height = 1.2\ccwd,
 %           rotate = -10, font = \kaishu,
 %           scale = 15, opacity = .3, gray ] (xia) at
 %         ([shift = {(-3 * 10pt, 2 * 10pt)}]
-%           current page.south west) {肉};
+%           current page.south west) {驗};
 %   \draw [ loosely dashed, DarkGreen, opacity = .15,
 %           line width = .2 * 10pt ]
 %         (xia.north west) -- (xia.south east)
@@ -226,7 +225,7 @@ The Current Designer of this font family is LXGW and TrionesType.
 %           inner sep = 0pt, minimum height = 1.2\ccwd,
 %           rotate = -10, font = \kaishu,
 %           scale = 15, opacity = .3, gray ] (wu) at
-%         (xia.east) {檢};
+%         (xia.east) {訖};
 %   \draw [ loosely dashed, DarkGreen, opacity = .15,
 %           line width = .2 * 10pt ]
 %         (wu.north west) -- (wu.south east)
@@ -244,7 +243,7 @@ The Current Designer of this font family is LXGW and TrionesType.
 %           rotate = -10, font = \fangsong,
 %           scale = 15, opacity = .3, gray ] (xuan) at
 %         ([shift = {(3 * 10pt, -2 * 10pt)}]
-%           current page.north east) {訖};
+%           current page.north east) {檢};
 %   \draw [ loosely dashed, DarkRed, opacity = .15,
 %           line width = .2 * 10pt ]
 %         (xuan.north west) -- (xuan.south east)
@@ -258,7 +257,7 @@ The Current Designer of this font family is LXGW and TrionesType.
 %           inner sep = 0pt, minimum height = 1.2\ccwd,
 %           rotate = -10, font = \kaishu,
 %           scale = 15, opacity = .3, gray ] (ji) at
-%         (xuan.west) {驗};
+%         (xuan.west) {肉};
 %   \draw [ loosely dashed, DarkRed, opacity = .15,
 %           line width = .2 * 10pt ]
 %         (ji.north west) -- (ji.south east)
@@ -457,7 +456,7 @@ https://github.com/lxgw/LxgwZhenKai/releases/latest/download/LXGWZhenKaiGB-Regul
 % Declare the \pkg{ctex-kit} font configuration file with date, version, and
 % description.
 %    \begin{macrocode}
-\ProvidesExplFile {ctex-fontset-lxgw.def} {2026-01-18} {v1.521M}
+\ProvidesExplFile {ctex-fontset-lxgw.def} {2026-01-27} {v1.521O}
   {lxgw fontset configuration for ctex-kit}
 %    \end{macrocode}
 % Load CJK font family, interface, accepts the following 4 branches,
@@ -797,7 +796,7 @@ https://github.com/lxgw/LxgwZhenKai/releases/latest/download/LXGWZhenKaiGB-Regul
 % Provides the identification information of the font map loader.
 %    \begin{macrocode}
 \ProvidesFile{ctex-zhmap-lxgw.tex}%
-  [2026-01-18 v1.521M lxgw font map loader for DVIPDFMx (CTEX)]
+  [2026-01-27 v1.521O lxgw font map loader for DVIPDFMx (CTEX)]
 %    \end{macrocode}
 % Font map loader for \hologo{pdfTeX} (generate PDF) is disabled since
 % \hologo{pdfTeX} maps too slowly.
