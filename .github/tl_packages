@@ -18,6 +18,7 @@ alphalph
 amsmath
 amsfonts
 booktabs
+cm-super
 colortbl
 csquotes
 enumitem
