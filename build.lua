@@ -9,7 +9,7 @@
 
 module              = "lxgw-fonts"
 version             = "v1.521N"
-date                = "2026-01-27"
+date                = "2026-02-07"
 maintainer          = "Mingyu Xia"
 uploader            = "Mingyu Xia"
 maintainid          = "myhsia"
