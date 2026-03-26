@@ -10,7 +10,15 @@ The `LXGW` Font Family
 The `LXGW` Font Family provides an open-source CJK font family with a
 comprehensive character set for Chinese (Simplified/Traditional), Cantonese,
 and Japanese. A `fontset` configuration of this font family for the `ctex-kit`
-is also provided in this package.
+is also provided in this package, which provides the following four commands for
+loading the font family with the corresponding **bold** font
+
+|  Command  | Name |        Regular Font File       |       Bold Font File      |
+| --------- | ---- | ------------------------------ | ------------------------- |
+|`\songti`  | 宋体 | LXGWNeoZhiSong.ttf             | LXGWNeoZhiSongScreen.ttf  |
+|`\heiti`   | 黑体 | LXGWNeoXiHei.ttf               | LXGWNeoXiHeiScreen.ttf    |
+|`\fangsong`| 仿宋 | LXGWZhuqueFangsong-Regular.ttf | (AutoFakeBold enabled)    |
+| `\kaishu` | 楷书 | LXGWWenKaiGBLite-Regular.ttf   | LXGWZhenKaiGB-Regular.ttf |
 
 Issues
 ------
