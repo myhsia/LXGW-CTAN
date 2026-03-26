@@ -58,15 +58,15 @@ The `LXGW` Font Family
 The `LXGW` Font Family provides an open-source CJK font family with a
 comprehensive character set for Chinese (Simplified/Traditional), Cantonese,
 and Japanese. A `fontset` configuration of this font family for the `ctex-kit`
-is also provided in this package, which provides the following four commands for
-loading the font family with the corresponding **bold** font
+is also provided in this package, which provides four commands for loading the
+listed regular and **bold** font files
 
 |  Command  | Name |        Regular Font File       |       Bold Font File      |
 | --------- | ---- | ------------------------------ | ------------------------- |
 |`\songti`  | 宋体 | LXGWNeoZhiSong.ttf             | LXGWNeoZhiSongScreen.ttf  |
 |`\heiti`   | 黑体 | LXGWNeoXiHei.ttf               | LXGWNeoXiHeiScreen.ttf    |
 |`\fangsong`| 仿宋 | LXGWZhuqueFangsong-Regular.ttf | (AutoFakeBold enabled)    |
-| `\kaishu` | 楷书 | LXGWWenKaiGBLite-Regular.ttf   | LXGWZhenKaiGB-Regular.ttf |
+|`\kaishu`  | 楷书 | LXGWWenKaiGBLite-Regular.ttf   | LXGWZhenKaiGB-Regular.ttf |
 
 Issues
 ------
@@ -291,7 +291,7 @@ The Current Designer of this font family is **LXGW** and **TrionesType**.
 % \section{Usage}
 %
 % Users are allowed to use the friendly interface:
-% the |fontset| key in \CTeX\ bundle
+% the |fontset| key in \CTeX\ kit
 % \begin{quote}
 %   |\documentclass[fontset = lxgw]{ctex|^^A
 %   \meta{art\textup\textbar book\textup\textbar rep\textup\textbar beamer}|}|\\
@@ -301,7 +301,8 @@ The Current Designer of this font family is **LXGW** and **TrionesType**.
 % \hologo{upLaTeX} + \hologo{DVIPDFMx}, and \hologo{ApLaTeX}
 % (aka \hologo{pLaTeX}-ng) supported. \hologo{pdfLaTeX} is not
 % supported temporarily since the long mapping time of |zhmap|.
-% Additionally, the following four commands are provided for convenience.
+% Four commands are provided for loading the listed regular and
+% \textbf{bold} font files
 % \begin{function}{\songti, \heiti, \fangsong, \kaishu} \footnotesize
 %   \begin{syntax}
 %   \songti   宋体 (|CJKmainfont|):^^A
