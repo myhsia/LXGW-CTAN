@@ -657,43 +657,10 @@ https://github.com/lxgw/LxgwZhenKai/releases/latest/download/LXGWZhenKaiGB-Regul
 %    \begin{macrocode}
 %<*makespa>
 %    \end{macrocode}
-% \iffalse
-% Assign the module name of the variables and control sequences, which will be
-% automatically replaced by \pkg{l3docstrip}.
-%    \begin{macrocode}
-%<@@=ctex>
-%    \end{macrocode}
-% \fi
 % Loading the macro file \file{ctex-spa-macro.tex} provided by \pkg{ctex-kit}.
 %    \begin{macrocode}
 \input ctex-spa-macro %
 %    \end{macrocode}
-% \iffalse
-% However, the macro file needs to be hacked due to the interface change
-% of \hologo{XeTeX}.
-%    \begin{macrocode}
-\ExplSyntaxOn
-\cs_set_protected:Npn \@@_write_family:nn #1#2
-  {
-    \group_begin:
-      \tex_font:D \l_@@_punct_font = "[#2]" ~ at ~ 100 pt \scan_stop:
-      \l_@@_punct_font
-      \clist_clear:N \l_@@_punct_bounds_clist
-      \seq_map_inline:Nn \c_@@_punct_seq
-        {
-          \exp_args:No \_@@_save_bounds:n
-            { \int_use:N \tex_XeTeXcharglyph:D ##1 }
-        }
-      \iow_now:Nx \g_@@_spa_iow
-        {
-          \token_to_str:N \ctexspadef {#1}
-            { \l_@@_punct_bounds_clist , , , }
-        }
-    \group_end:
-  }
-\ExplSyntaxOff
-%    \end{macrocode}
-% \fi
 % List all the CJK families with the corresponding font files in terms of
 % ``case-pairs''.
 %    \begin{macrocode}
@@ -712,12 +679,6 @@ https://github.com/lxgw/LxgwZhenKai/releases/latest/download/LXGWZhenKaiGB-Regul
 %    \begin{macrocode}
 \primitive\end
 %    \end{macrocode}
-% \iffalse
-% Restore the module name.
-%    \begin{macrocode}
-%<@@=>
-%    \end{macrocode}
-% \fi
 % End the optionlist |zhmap| for \pkg{l3docstrip}.
 %    \begin{macrocode}
 %</makespa>
