@@ -13,8 +13,8 @@ and Japanese. A `fontset` configuration of this font family for the `ctex-kit`
 is also provided in this package, which provides four commands for loading the
 listed regular and **bold** font files
 
-|  Command  | Name |        Regular Font File       |       Bold Font File      |
-| --------- | ---- | ------------------------------ | ------------------------- |
+|  Command  | Name |         Regular Font File        |        Bold Font File       |
+| --------- | ---- | -------------------------------- | --------------------------- |
 |`\songti`  | 宋体 | `LXGWNeoZhiSong.ttf'             | `LXGWNeoZhiSongScreen.ttf'  |
 |`\heiti`   | 黑体 | `LXGWNeoXiHei.ttf'               | `LXGWNeoXiHeiScreen.ttf'    |
 |`\fangsong`| 仿宋 | `LXGWZhuqueFangsong-Regular.ttf' | (AutoFakeBold enabled).     |
