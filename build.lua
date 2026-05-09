@@ -27,7 +27,7 @@ ctanzip             = module
 excludefiles        = {"*~"}
 installfiles        = {"*.def", "*.tex", "*.spa"}
 textfiles           = {"README.md", "LICENSE", "*.lua", "*.ttf"}
-typesetexe          = "latexmk -xelatex"
+typesetexe          = "latexmk -pdfxe"
 typesetruns         = 1
 unpacksuppfiles     = {"*.txt"}
 
