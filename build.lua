@@ -8,8 +8,8 @@
 --]==========================================]--
 
 module              = "lxgw-fonts"
-date                = "2026-03-26"
-version             = "v1.522B"
+date                = "2026-06-dd"
+version             = "v1.522C"
 maintainer          = "Mingyu Xia"
 uploader            = "Mingyu Xia"
 maintainid          = "myhsia"
