@@ -49,7 +49,7 @@ The latest version of this license is in
 
     https://openfontlicense.org
 
-This work has the OFL maintenance status `maintained`.
+This work has the OFL maintenance status `maintained'.
 
 The Current Maintainer of this work on CTAN is **Mingyu Xia**.
 
