@@ -71,8 +71,22 @@ function update_tag(file, content, tagname, tagdate)
   return content
 end
 
+function download(filelist)
+  local file = io.open(filelist, "r")
+  if file then
+      for line in file:lines() do
+          local url = line:gsub("[%s\r\n]", "")
+          if url ~= "" then
+              local cmd = 'curl -O -L "' .. url .. '"'
+              run(currentdir, cmd)
+          end
+      end
+      file:close()
+  end
+end
+
 function bundleunpack(sourcedirs, sources)
-  errorlevel = run(currentdir, "wget -i lxgw-fetch.csv")
+  errorlevel = run(currentdir, download("lxgw-fetch.csv"))
   if errorlevel ~=0 then
     return errorlevel
   end
