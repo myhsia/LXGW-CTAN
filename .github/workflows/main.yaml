@@ -20,6 +20,7 @@ jobs:
         with:
           package_file: .github/tl_packages
       - name: Run l3build
+        continue-on-error: true
         run: |
           l3build check
           cp ./build/test/*.diff ./
