@@ -37,6 +37,12 @@ oberdiek
 underscore
 xcolor
 #
+# Engines
+cjk
+zhmetrics
+luatexja
+zhmetrics-uptex
+#
 # Preamble
 ctex
 framed
