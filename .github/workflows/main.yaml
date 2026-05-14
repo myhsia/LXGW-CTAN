@@ -20,9 +20,11 @@ jobs:
         with:
           package_file: .github/tl_packages
       - name: Run l3build
-        continue-on-error: true
+        if: always()
+        run: l3build check
+      - name: obtain diff
+        if: always()
         run: |
-          l3build check
           cp ./build/test/lxgw-fonts.luatex.diff ./
           git config --global user.name "GitHub Actions"
           git config --global user.email "actions@github.com"
@@ -33,3 +35,4 @@ jobs:
           else
             echo "No changes to commit."
           fi
+
