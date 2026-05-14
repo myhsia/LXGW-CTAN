@@ -24,6 +24,7 @@ description         = "The `LXGW` Font Family provides an open-source CJK font f
 --]==========================================]--
 
 checkengines        = {"xetex", "uptex"}
+cleanfiles          = {"*.log", "*.pdf", "*.zip", "*.ttf", "*.otf"}
 ctanzip             = module
 excludefiles        = {"*~"}
 installfiles        = {"*.def", "*.tex", "*.spa", "*.ttf", "*.otf"}
@@ -71,22 +72,22 @@ function update_tag(file, content, tagname, tagdate)
   return content
 end
 
-function download(filelist)
+function download(dir, filelist)
   local file = io.open(filelist, "r")
   if file then
-      for line in file:lines() do
-          local url = line:gsub("[%s\r\n]", "")
-          if url ~= "" then
-              local cmd = 'curl -O -L "' .. url .. '"'
-              run(currentdir, cmd)
-          end
+    for line in file:lines() do
+      local url = line:gsub("[%s\r\n]", "")
+      if url ~= "" then
+        local cmd = 'curl -O -L "' .. url .. '"'
+        run(dir, cmd)
       end
-      file:close()
+    end
+    file:close()
+    return 0
   end
 end
-
 function bundleunpack(sourcedirs, sources)
-  errorlevel = run(currentdir, download("lxgw-fetch.csv"))
+  errorlevel = download(currentdir, "lxgw-fetch.csv")
   if errorlevel ~=0 then
     return errorlevel
   end
