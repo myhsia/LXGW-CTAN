@@ -1,0 +1,56 @@
+\input regression-test.tex
+\documentclass[landscape, scheme = plain, fontset = lxgw]{ctexart}
+
+\usepackage[landscape]{geometry}
+\pagestyle{empty}
+
+\ExplSyntaxOn
+
+\NewDocumentCommand \shufa { O{} m }
+  {
+    \group_begin:
+    \tl_map_inline:nn { #2 }
+      {
+        \mode_leave_vertical: #1
+        \vbox:nn { .25\ccwd } { \hbox_to_wd:nn { \ccwd } { ##1 } }
+      }
+    \group_end:
+}
+\def\0{
+  \shufa[\Large]{私ガラスを食べられます。}
+  \shufa[\Large\bfseries]{それは私を傷つけません。}
+  \shufa[\Large]{我能吞下玻璃而不伤身体。}\\
+  \shufa[\Large\bfseries]{我能吞下玻璃而不伤身体。}
+  \shufa[\Large]{我能吞下玻璃而不傷身體。}
+  \shufa[\Large]{我可以食玻璃，}
+  \shufa[\Large\bfseries]{佢傷唔到我。}
+}
+\ExplSyntaxOff
+
+\begin{document}
+
+% \START
+
+\loggingoutput
+
+\ExplSyntaxOn
+\clist_map_inline:nn
+  {
+    \songti,   \itshape \songti,   \slshape \songti,
+    \heiti,    \itshape \heiti,    \slshape \heiti,
+    \fangsong, \itshape \fangsong, \slshape \fangsong,
+    \kaishu,   \itshape \kaishu,   \slshape \kaishu
+  }
+  {
+    \BEGINTEST { Basic ~ Usage ~ of ~ LXGW ~ Font: ~ #1 }
+      \group_begin:
+      \parindent = \c_zero_dim
+      #1 \0 \par
+      \group_end:
+    \ENDTEST
+  }
+\ExplSyntaxOff
+
+% \END
+
+\end{document}
