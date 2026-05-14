@@ -72,22 +72,22 @@ function update_tag(file, content, tagname, tagdate)
 end
 
 function bundleunpack(sourcedirs, sources)
-  errorlevel = run(currentdir, "xargs -n 1 curl -O -L < lxgw-fetch.csv")
-  if errorlevel ~=0 then
-    return errorlevel
-  end
-  errorlevel = run(currentdir, "unzip ZhuqueFangsong-v0.212.zip")
-  if errorlevel ~=0 then
-    return errorlevel
-  end
-  errorlevel = rm(currentdir, "ZhuqueFangsong-v0.212.zip")
-  if errorlevel ~=0 then
-    return errorlevel
-  end
-  errorlevel = ren(currentdir, "ZhuqueFangsong-Regular.ttf", "LXGWZhuqueFangsong-Regular.ttf")
-  if errorlevel ~=0 then
-    return errorlevel
-  end
+  -- errorlevel = run(currentdir, "xargs -n 1 curl -O -L < lxgw-fetch.csv")
+  -- if errorlevel ~=0 then
+  --   return errorlevel
+  -- end
+  -- errorlevel = run(currentdir, "unzip ZhuqueFangsong-v0.212.zip")
+  -- if errorlevel ~=0 then
+  --   return errorlevel
+  -- end
+  -- errorlevel = rm(currentdir, "ZhuqueFangsong-v0.212.zip")
+  -- if errorlevel ~=0 then
+  --   return errorlevel
+  -- end
+  -- errorlevel = ren(currentdir, "ZhuqueFangsong-Regular.ttf", "LXGWZhuqueFangsong-Regular.ttf")
+  -- if errorlevel ~=0 then
+  --   return errorlevel
+  -- end
   local errorlevel = mkdir(localdir)
   if errorlevel ~=0 then
     return errorlevel
