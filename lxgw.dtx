@@ -398,7 +398,6 @@ https://github.com/lxgw/LxgwZhenKai/releases/latest/download/LXGWZhenKaiGB-Regul
 %     \group_begin:
 %     \tl_map_inline:nn { #2 }
 %       {
-%         \xeCJKsetup{PunctStyle = plain, MiddlePunct+ = {，。}}
 %         \tikz {
 %           \node [ minimum ~ width  = 1.5\ccwd, outer ~ sep = 0pt,
 %                   draw = DarkGreen!40, thick, font = #1,
@@ -408,24 +407,24 @@ https://github.com/lxgw/LxgwZhenKai/releases/latest/download/LXGWZhenKaiGB-Regul
 %                 (tmp.north ~ west) -- (tmp.south ~ east)
 %                 (tmp.north ~ east) -- (tmp.south ~ west);
 %           \draw [DarkGreen, opacity = .2, thin]
-%                 (tmp.north) -- (tmp.south) (tmp.west)  -- (tmp.east);
+%                 (tmp.north) -- (tmp.south) (tmp.west) -- (tmp.east);
 %         } \kern-.8pt
 %       }
 %     \group_end:
 % }
-% \ExplSyntaxOff
 % \def\0{\centering
-%   \shufa[\Large]{私ガラスを食べられます。^^^^2370}^^A
-%   \shufa[\Large\bfseries]{それは私を傷つけません。}^^A
-%   \kern.8pt \\[-.2\baselineskip+.8pt]
-%   \shufa[\Large]{我能吞下玻璃而不伤身体。}^^A
-%   \shufa[\Large\bfseries]{^^^^2370我能吞下玻璃而不伤身体。}^^A
-%   \kern.8pt\\[-.2\baselineskip+.8pt]
-%   \shufa[\Large]{我能吞下玻璃而不傷身體。}^^A
-%   \shufa[\Large]{我可以食玻璃，}^^A
-%   \shufa[\Large\bfseries]{佢傷唔到我。}^^A
+%   \shufa[\Large]{私ガラスを食べられます。^^^^2370}
+%   \shufa[\Large\bfseries]{それは私を傷つけません。}
+%   \kern.8pt \\[\dimexpr-.2\baselineskip+.8pt]
+%   \shufa[\Large]{我能吞下玻璃而不伤身体。}
+%   \shufa[\Large\bfseries]{^^^^2370我能吞下玻璃而不伤身体。}
+%   \kern.8pt\\[\dimexpr-.2\baselineskip+.8pt]
+%   \shufa[\Large]{我能吞下玻璃而不傷身體。}
+%   \shufa[\Large]{我可以食玻璃，}
+%   \shufa[\Large\bfseries]{佢傷唔到我。}
 %   \kern.8pt
 % }
+% \ExplSyntaxOff
 % \begin{keyval}
 %   \item[\key*{\songti 霞鶩新緻宋 (\pkg{LXGW Neo ZhiSong})}]
 %         \file{LXGWNeoZhiSong.ttf}, \file{LXGWNeoZhiSongScreen.ttf}
@@ -515,17 +514,22 @@ https://github.com/lxgw/LxgwZhenKai/releases/latest/download/LXGWZhenKaiGB-Regul
             BoldItalicFont = LXGWZhenKaiGB-Regular.ttf
           ]
         \setCJKsansfont { LXGWNeoXiHei.ttf                }
-          [ cmap = UniGB-UTF16-H, AutoFakeBold ]
+          [ cmap = UniGB-UTF16-H, AutoFakeBold, AutoFakeSlant ]
         \setCJKmonofont { LXGWZhuqueFangsong-Regular.ttf  }
-          [ cmap = UniGB-UTF16-H, AutoFakeBold ]
+          [ cmap = UniGB-UTF16-H, AutoFakeBold, AutoFakeSlant ]
         \setCJKfamilyfont { zhsong } { LXGWNeoZhiSong.ttf             }
-          [ cmap = UniGB-UTF16-H, AutoFakeBold ]
+          [ cmap = UniGB-UTF16-H, AutoFakeBold, AutoFakeSlant ]
         \setCJKfamilyfont { zhhei  } { LXGWNeoXiHei.ttf               }
-          [ cmap = UniGB-UTF16-H, AutoFakeBold ]
+          [ cmap = UniGB-UTF16-H, AutoFakeBold, AutoFakeSlant ]
         \setCJKfamilyfont { zhfs   } { LXGWZhuqueFangsong-Regular.ttf }
-          [ cmap = UniGB-UTF16-H, AutoFakeBold ]
+          [ cmap = UniGB-UTF16-H, AutoFakeBold, AutoFakeSlant ]
         \setCJKfamilyfont { zhkai  } { LXGWWenKaiGBLite-Regular.ttf   }
-          [ cmap = UniGB-UTF16-H, BoldFont = LXGWZhenKaiGB-Regular.ttf ]
+          [ cmap = UniGB-UTF16-H, AutoFakeSlant,
+            BoldFont        = LXGWZhenKaiGB-Regular.ttf,
+            SlantedFont     = LXGWWenKaiGBLite-Regular.ttf,
+            ItalicFont      = LXGWWenKaiGBLite-Regular.ttf,
+            BoldSlantedFont = LXGWZhenKaiGB-Regular.ttf,
+            BoldItalicFont  = LXGWZhenKaiGB-Regular.ttf       ]
 %    \end{macrocode}
 % Configure the usages of the edge information of the defined CJK families.
 %    \begin{macrocode}
@@ -611,20 +615,24 @@ https://github.com/lxgw/LxgwZhenKai/releases/latest/download/LXGWZhenKaiGB-Regul
       [
         Extension      = .ttf, AutoFakeBold,
         ItalicFont     = LXGWWenKaiGBLite-Regular,
-        BoldItalicFont = LXGWZhenKaiGB-Regular.ttf
+        BoldItalicFont = LXGWZhenKaiGB-Regular.ttf,
       ]
     \setCJKsansfont { LXGWNeoXiHei                }
-      [ Extension = .ttf, AutoFakeBold ]
+      [ Extension = .ttf, AutoFakeBold,                     AutoFakeSlant ]
     \setCJKmonofont { LXGWZhuqueFangsong-Regular  }
-      [ Extension = .ttf, AutoFakeBold  ]
+      [ Extension = .ttf, AutoFakeBold,                     AutoFakeSlant ]
     \setCJKfamilyfont { zhsong } { LXGWNeoZhiSong }
-      [ Extension = .ttf, AutoFakeBold ]
+      [ Extension = .ttf, AutoFakeBold,                     AutoFakeSlant ]
     \setCJKfamilyfont { zhhei  } { LXGWNeoXiHei               }
-      [ Extension = .ttf, AutoFakeBold ]
+      [ Extension = .ttf, AutoFakeBold,                     AutoFakeSlant ]
     \setCJKfamilyfont { zhfs   } { LXGWZhuqueFangsong-Regular }
-      [ Extension = .ttf, AutoFakeBold ]
+      [ Extension = .ttf, AutoFakeBold,                     AutoFakeSlant ]
     \setCJKfamilyfont { zhkai  } { LXGWWenKaiGBLite-Regular   }
-      [ Extension = .ttf, BoldFont = LXGWZhenKaiGB-Regular ]
+      [ Extension = .ttf, BoldFont        = LXGWZhenKaiGB-Regular,
+                          SlantedFont     = LXGWWenKaiGBLite-Regular,
+                          ItalicFont      = LXGWWenKaiGBLite-Regular,
+                          BoldSlantedFont = LXGWZhenKaiGB-Regular,
+                          BoldItalicFont  = LXGWZhenKaiGB-Regular         ]
   }
 %    \end{macrocode}
 % \begin{macro}{\songti, \heiti, \fangsong, \kaishu}

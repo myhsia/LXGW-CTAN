@@ -4,6 +4,8 @@
 *.zip
 *.pdf
 *.curlopt
+*.ttf
+*.otf
 
 # macOS DS
 .DS_Store
