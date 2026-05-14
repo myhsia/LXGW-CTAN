@@ -72,7 +72,7 @@ function update_tag(file, content, tagname, tagdate)
 end
 
 function bundleunpack(sourcedirs, sources)
-  errorlevel = run(currentdir, "xargs -n 1 curl -O -L < lxgw-fetch.csv")
+  errorlevel = run(currentdir, "tr -d '\r' < lxgw-fetch.csv | xargs -n 1 curl -O -L")
   if errorlevel ~=0 then
     return errorlevel
   end
