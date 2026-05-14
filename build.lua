@@ -8,7 +8,7 @@
 --]==========================================]--
 
 module              = "lxgw-fonts"
-date                = "2026-06-dd"
+date                = "2026-05-14"
 version             = "v1.522C"
 maintainer          = "Mingyu Xia"
 uploader            = "Mingyu Xia"
@@ -23,12 +23,12 @@ description         = "The `LXGW` Font Family provides an open-source CJK font f
          Do not Modify Unless Necessary
 --]==========================================]--
 
-checkengines        = {"xetex", "uptex", "luatex"}
+checkengines        = {"xetex", "uptex"}
 ctanzip             = module
 excludefiles        = {"*~"}
 installfiles        = {"*.def", "*.tex", "*.spa", "*.ttf", "*.otf"}
 sourcefiles         = {"*.dtx", "*.ins", "*.ttf", "*.otf"}
-textfiles           = {"README.md", "*.csv", "LICENSE", "*.lua"}
+textfiles           = {"README.md", "LICENSE", "*.lua"}
 typesetexe          = "latexmk -pdfxe"
 typesetruns         = 1
 unpacksuppfiles     = {"*.txt"}

@@ -22,19 +22,4 @@ jobs:
         with:
           package_file: .github/tl_packages
       - name: Run l3build
-        if: always()
         run: l3build check
-      - name: obtain diff
-        if: always()
-        run: |
-          cp ./build/test/lxgw-fonts.luatex.diff ./
-          git config --global user.name "GitHub Actions"
-          git config --global user.email "actions@github.com"
-          if [[ -n $(git status --porcelain) ]]; then
-            git add .
-            git commit -m "Automatic tagging by l3build"
-            git push origin main
-          else
-            echo "No changes to commit."
-          fi
-
