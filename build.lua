@@ -30,6 +30,7 @@ installfiles        = {"*.def", "*.tex", "*.spa", "*.ttf", "*.otf"}
 sourcefiles         = {"*.dtx", "*.ins", "*.ttf", "*.otf"}
 textfiles           = {"README.md", "*.csv", "LICENSE", "*.lua"}
 typesetexe          = "latexmk -pdfxe"
+typesetdemofiles    = {"lxgw-fonts.tex"}
 typesetruns         = 1
 unpacksuppfiles     = {"*.txt"}
 
