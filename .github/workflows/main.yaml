@@ -23,7 +23,7 @@ jobs:
         continue-on-error: true
         run: |
           l3build check
-          cp ./build/test/*.diff ./
+          cp ./build/test/lxgw-fonts.luatex.diff ./
           git config --global user.name "GitHub Actions"
           git config --global user.email "actions@github.com"
           if [[ -n $(git status --porcelain) ]]; then
