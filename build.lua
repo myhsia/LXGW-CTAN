@@ -34,7 +34,7 @@ typesetexe          = "latexmk -pdfxe"
 typesetruns         = 1
 unpacksuppfiles     = {"*.txt"}
 
-uploadconfig  = {
+uploadconfig = {
   note              = "",
   announcement_file = "announcement.md",
   pkg               = module,
