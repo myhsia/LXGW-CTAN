@@ -43,9 +43,9 @@ cjk
 cjkpunct
 zhmetrics
 ## XeTeX
-xeCJK
+xecjk
 fontspec
-xtemplate
+l3packages
 ## upTeX
 zhmetrics-uptex
 ## LuaTeX
