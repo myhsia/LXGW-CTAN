@@ -3,47 +3,43 @@ Don't change this file in any respect.
 ============================================================
 TEST 1: Basic Usage of LXGW Font: \songti 
 ============================================================
-Underfull \hbox (badness 10000) detected at line 52
+Underfull \hbox (badness 10000) detected at line 51
 \JY2/zhsong/m/n/14.4 。
 \hbox(12.67198+1.728)x14.4
 .\penalty 10000(for kinsoku)
 .\JY2/zhsong/m/n/14.4 。
 .\glue(refer from jfm) 0.0
-Underfull \hbox (badness 10000) detected at line 52
-\hbox(0.0+0.0)x14.4
-Underfull \hbox (badness 10000) detected at line 52
+Underfull \hbox (badness 10000) detected at line 51
 \JY2/zhsong/bx/n/14.4 。
 \hbox(12.67198+1.728)x14.4
 .\penalty 10000(for kinsoku)
 .\JY2/zhsong/bx/n/14.4 。
 .\glue(refer from jfm) 0.0
-Underfull \hbox (badness 10000) detected at line 52
+Underfull \hbox (badness 10000) detected at line 51
 \JY2/zhsong/m/n/14.4 。
 \hbox(12.67198+1.728)x14.4
 .\penalty 10000(for kinsoku)
 .\JY2/zhsong/m/n/14.4 。
 .\glue(refer from jfm) 0.0
-Underfull \hbox (badness 10000) detected at line 52
+Underfull \hbox (badness 10000) detected at line 51
 \JY2/zhsong/bx/n/14.4 。
 \hbox(12.67198+1.728)x14.4
 .\penalty 10000(for kinsoku)
 .\JY2/zhsong/bx/n/14.4 。
 .\glue(refer from jfm) 0.0
-Underfull \hbox (badness 10000) detected at line 52
-\hbox(0.0+0.0)x14.4
-Underfull \hbox (badness 10000) detected at line 52
+Underfull \hbox (badness 10000) detected at line 51
 \JY2/zhsong/m/n/14.4 。
 \hbox(12.67198+1.728)x14.4
 .\penalty 10000(for kinsoku)
 .\JY2/zhsong/m/n/14.4 。
 .\glue(refer from jfm) 0.0
-Underfull \hbox (badness 10000) detected at line 52
+Underfull \hbox (badness 10000) detected at line 51
 \JY2/zhsong/m/n/14.4 ，
 \hbox(12.67198+1.728)x14.4
 .\penalty 10000(for kinsoku)
 .\JY2/zhsong/m/n/14.4 ，
 .\glue(refer from jfm) 0.0
-Underfull \hbox (badness 10000) detected at line 52
+Underfull \hbox (badness 10000) detected at line 51
 \JY2/zhsong/bx/n/14.4 。
 \hbox(12.67198+1.728)x14.4
 .\penalty 10000(for kinsoku)
@@ -57,14 +53,12 @@ LaTeX Font Warning: Font shape `JT2/zhsong/m/it' undefined
 (Font)              using `JT2/zhsong/m/n' instead on input line ....
 LaTeX Font Warning: Font shape `JY2/zhsong/m/it' undefined
 (Font)              using `JY2/zhsong/m/n' instead on input line ....
-Underfull \hbox (badness 10000) detected at line 52
+Underfull \hbox (badness 10000) detected at line 51
 \JY2/zhsong/m/it/14.4 。
 \hbox(12.67198+1.728)x14.4
 .\penalty 10000(for kinsoku)
 .\JY2/zhsong/m/it/14.4 。
 .\glue(refer from jfm) 0.0
-Underfull \hbox (badness 10000) detected at line 52
-\hbox(0.0+0.0)x14.4
 LaTeX Font Warning: Font shape `JY2/zhsong/bx/it' undefined
 (Font)              using `JY2/zhsong/b/it' instead on input line ....
 LaTeX Font Warning: Font shape `JT2/zhsong/b/it' undefined
@@ -93,13 +87,13 @@ LaTeX Font Warning: Font shape `JY2/zhsong/bx/it' undefined
 (Font)              using `JY2/zhsong/b/it' instead on input line ....
 LaTeX Font Warning: Font shape `JY2/zhsong/bx/it' undefined
 (Font)              using `JY2/zhsong/b/it' instead on input line ....
-Underfull \hbox (badness 10000) detected at line 52
+Underfull \hbox (badness 10000) detected at line 51
 \JY2/zhsong/b/it/14.4 。
 \hbox(12.67198+1.728)x14.4
 .\penalty 10000(for kinsoku)
 .\JY2/zhsong/b/it/14.4 。
 .\glue(refer from jfm) 0.0
-Underfull \hbox (badness 10000) detected at line 52
+Underfull \hbox (badness 10000) detected at line 51
 \JY2/zhsong/m/it/14.4 。
 \hbox(12.67198+1.728)x14.4
 .\penalty 10000(for kinsoku)
@@ -129,23 +123,19 @@ LaTeX Font Warning: Font shape `JY2/zhsong/bx/it' undefined
 (Font)              using `JY2/zhsong/b/it' instead on input line ....
 LaTeX Font Warning: Font shape `JY2/zhsong/bx/it' undefined
 (Font)              using `JY2/zhsong/b/it' instead on input line ....
-Underfull \hbox (badness 10000) detected at line 52
+Underfull \hbox (badness 10000) detected at line 51
 \JY2/zhsong/b/it/14.4 。
 \hbox(12.67198+1.728)x14.4
 .\penalty 10000(for kinsoku)
 .\JY2/zhsong/b/it/14.4 。
 .\glue(refer from jfm) 0.0
-LaTeX Font Warning: Font shape `JY2/zhsong/bx/it' undefined
-(Font)              using `JY2/zhsong/b/it' instead on input line ....
-Underfull \hbox (badness 10000) detected at line 52
-\hbox(0.0+0.0)x14.4
-Underfull \hbox (badness 10000) detected at line 52
+Underfull \hbox (badness 10000) detected at line 51
 \JY2/zhsong/m/it/14.4 。
 \hbox(12.67198+1.728)x14.4
 .\penalty 10000(for kinsoku)
 .\JY2/zhsong/m/it/14.4 。
 .\glue(refer from jfm) 0.0
-Underfull \hbox (badness 10000) detected at line 52
+Underfull \hbox (badness 10000) detected at line 51
 \JY2/zhsong/m/it/14.4 ，
 \hbox(12.67198+1.728)x14.4
 .\penalty 10000(for kinsoku)
@@ -163,7 +153,7 @@ LaTeX Font Warning: Font shape `JY2/zhsong/bx/it' undefined
 (Font)              using `JY2/zhsong/b/it' instead on input line ....
 LaTeX Font Warning: Font shape `JY2/zhsong/bx/it' undefined
 (Font)              using `JY2/zhsong/b/it' instead on input line ....
-Underfull \hbox (badness 10000) detected at line 52
+Underfull \hbox (badness 10000) detected at line 51
 \JY2/zhsong/b/it/14.4 。
 \hbox(12.67198+1.728)x14.4
 .\penalty 10000(for kinsoku)
@@ -175,14 +165,12 @@ TEST 3: Basic Usage of LXGW Font: \slshape \songti
 ============================================================
 LaTeX Font Warning: Font shape `JY2/zhrm/m/sl' undefined
 (Font)              using `JY2/zhrm/m/it' instead on input line ....
-Underfull \hbox (badness 10000) detected at line 52
+Underfull \hbox (badness 10000) detected at line 51
 \JY2/zhsong/m/it/14.4 。
 \hbox(12.67198+1.728)x14.4
 .\penalty 10000(for kinsoku)
 .\JY2/zhsong/m/it/14.4 。
 .\glue(refer from jfm) 0.0
-Underfull \hbox (badness 10000) detected at line 52
-\hbox(0.0+0.0)x14.4
 LaTeX Font Warning: Font shape `JY2/zhsong/bx/it' undefined
 (Font)              using `JY2/zhsong/b/it' instead on input line ....
 LaTeX Font Warning: Font shape `JY2/zhsong/bx/it' undefined
@@ -207,13 +195,13 @@ LaTeX Font Warning: Font shape `JY2/zhsong/bx/it' undefined
 (Font)              using `JY2/zhsong/b/it' instead on input line ....
 LaTeX Font Warning: Font shape `JY2/zhsong/bx/it' undefined
 (Font)              using `JY2/zhsong/b/it' instead on input line ....
-Underfull \hbox (badness 10000) detected at line 52
+Underfull \hbox (badness 10000) detected at line 51
 \JY2/zhsong/b/it/14.4 。
 \hbox(12.67198+1.728)x14.4
 .\penalty 10000(for kinsoku)
 .\JY2/zhsong/b/it/14.4 。
 .\glue(refer from jfm) 0.0
-Underfull \hbox (badness 10000) detected at line 52
+Underfull \hbox (badness 10000) detected at line 51
 \JY2/zhsong/m/it/14.4 。
 \hbox(12.67198+1.728)x14.4
 .\penalty 10000(for kinsoku)
@@ -243,23 +231,19 @@ LaTeX Font Warning: Font shape `JY2/zhsong/bx/it' undefined
 (Font)              using `JY2/zhsong/b/it' instead on input line ....
 LaTeX Font Warning: Font shape `JY2/zhsong/bx/it' undefined
 (Font)              using `JY2/zhsong/b/it' instead on input line ....
-Underfull \hbox (badness 10000) detected at line 52
+Underfull \hbox (badness 10000) detected at line 51
 \JY2/zhsong/b/it/14.4 。
 \hbox(12.67198+1.728)x14.4
 .\penalty 10000(for kinsoku)
 .\JY2/zhsong/b/it/14.4 。
 .\glue(refer from jfm) 0.0
-LaTeX Font Warning: Font shape `JY2/zhsong/bx/it' undefined
-(Font)              using `JY2/zhsong/b/it' instead on input line ....
-Underfull \hbox (badness 10000) detected at line 52
-\hbox(0.0+0.0)x14.4
-Underfull \hbox (badness 10000) detected at line 52
+Underfull \hbox (badness 10000) detected at line 51
 \JY2/zhsong/m/it/14.4 。
 \hbox(12.67198+1.728)x14.4
 .\penalty 10000(for kinsoku)
 .\JY2/zhsong/m/it/14.4 。
 .\glue(refer from jfm) 0.0
-Underfull \hbox (badness 10000) detected at line 52
+Underfull \hbox (badness 10000) detected at line 51
 \JY2/zhsong/m/it/14.4 ，
 \hbox(12.67198+1.728)x14.4
 .\penalty 10000(for kinsoku)
@@ -277,7 +261,7 @@ LaTeX Font Warning: Font shape `JY2/zhsong/bx/it' undefined
 (Font)              using `JY2/zhsong/b/it' instead on input line ....
 LaTeX Font Warning: Font shape `JY2/zhsong/bx/it' undefined
 (Font)              using `JY2/zhsong/b/it' instead on input line ....
-Underfull \hbox (badness 10000) detected at line 52
+Underfull \hbox (badness 10000) detected at line 51
 \JY2/zhsong/b/it/14.4 。
 \hbox(12.67198+1.728)x14.4
 .\penalty 10000(for kinsoku)
@@ -287,47 +271,43 @@ Underfull \hbox (badness 10000) detected at line 52
 ============================================================
 TEST 4: Basic Usage of LXGW Font: \heiti 
 ============================================================
-Underfull \hbox (badness 10000) detected at line 52
+Underfull \hbox (badness 10000) detected at line 51
 \JY2/zhhei/m/n/14.4 。
 \hbox(12.67198+1.728)x14.4
 .\penalty 10000(for kinsoku)
 .\JY2/zhhei/m/n/14.4 。
 .\glue(refer from jfm) 0.0
-Underfull \hbox (badness 10000) detected at line 52
-\hbox(0.0+0.0)x14.4
-Underfull \hbox (badness 10000) detected at line 52
+Underfull \hbox (badness 10000) detected at line 51
 \JY2/zhhei/bx/n/14.4 。
 \hbox(12.67198+1.728)x14.4
 .\penalty 10000(for kinsoku)
 .\JY2/zhhei/bx/n/14.4 。
 .\glue(refer from jfm) 0.0
-Underfull \hbox (badness 10000) detected at line 52
+Underfull \hbox (badness 10000) detected at line 51
 \JY2/zhhei/bx/n/14.4 。
 \hbox(12.67198+1.728)x14.4
 .\penalty 10000(for kinsoku)
 .\JY2/zhhei/bx/n/14.4 。
 .\glue(refer from jfm) 0.0
-Underfull \hbox (badness 10000) detected at line 52
+Underfull \hbox (badness 10000) detected at line 51
 \JY2/zhhei/bx/n/14.4 。
 \hbox(12.67198+1.728)x14.4
 .\penalty 10000(for kinsoku)
 .\JY2/zhhei/bx/n/14.4 。
 .\glue(refer from jfm) 0.0
-Underfull \hbox (badness 10000) detected at line 52
-\hbox(0.0+0.0)x14.4
-Underfull \hbox (badness 10000) detected at line 52
+Underfull \hbox (badness 10000) detected at line 51
 \JY2/zhhei/bx/n/14.4 。
 \hbox(12.67198+1.728)x14.4
 .\penalty 10000(for kinsoku)
 .\JY2/zhhei/bx/n/14.4 。
 .\glue(refer from jfm) 0.0
-Underfull \hbox (badness 10000) detected at line 52
+Underfull \hbox (badness 10000) detected at line 51
 \JY2/zhhei/bx/n/14.4 ，
 \hbox(12.67198+1.728)x14.4
 .\penalty 10000(for kinsoku)
 .\JY2/zhhei/bx/n/14.4 ，
 .\glue(refer from jfm) 0.0
-Underfull \hbox (badness 10000) detected at line 52
+Underfull \hbox (badness 10000) detected at line 51
 \JY2/zhhei/bx/n/14.4 。
 \hbox(12.67198+1.728)x14.4
 .\penalty 10000(for kinsoku)
@@ -341,14 +321,12 @@ LaTeX Font Warning: Font shape `JT2/zhhei/m/it' undefined
 (Font)              using `JT2/zhhei/m/n' instead on input line ....
 LaTeX Font Warning: Font shape `JY2/zhhei/m/it' undefined
 (Font)              using `JY2/zhhei/m/n' instead on input line ....
-Underfull \hbox (badness 10000) detected at line 52
+Underfull \hbox (badness 10000) detected at line 51
 \JY2/zhhei/m/it/14.4 。
 \hbox(12.67198+1.728)x14.4
 .\penalty 10000(for kinsoku)
 .\JY2/zhhei/m/it/14.4 。
 .\glue(refer from jfm) 0.0
-Underfull \hbox (badness 10000) detected at line 52
-\hbox(0.0+0.0)x14.4
 LaTeX Font Warning: Font shape `JY2/zhhei/bx/it' undefined
 (Font)              using `JY2/zhhei/b/it' instead on input line ....
 LaTeX Font Warning: Font shape `JT2/zhhei/b/it' undefined
@@ -377,43 +355,13 @@ LaTeX Font Warning: Font shape `JY2/zhhei/bx/it' undefined
 (Font)              using `JY2/zhhei/b/it' instead on input line ....
 LaTeX Font Warning: Font shape `JY2/zhhei/bx/it' undefined
 (Font)              using `JY2/zhhei/b/it' instead on input line ....
-Underfull \hbox (badness 10000) detected at line 52
+Underfull \hbox (badness 10000) detected at line 51
 \JY2/zhhei/b/it/14.4 。
 \hbox(12.67198+1.728)x14.4
 .\penalty 10000(for kinsoku)
 .\JY2/zhhei/b/it/14.4 。
 .\glue(refer from jfm) 0.0
-Underfull \hbox (badness 10000) detected at line 52
-\JY2/zhhei/b/it/14.4 。
-\hbox(12.67198+1.728)x14.4
-.\penalty 10000(for kinsoku)
-.\JY2/zhhei/b/it/14.4 。
-.\glue(refer from jfm) 0.0
-LaTeX Font Warning: Font shape `JY2/zhhei/bx/it' undefined
-(Font)              using `JY2/zhhei/b/it' instead on input line ....
-LaTeX Font Warning: Font shape `JY2/zhhei/bx/it' undefined
-(Font)              using `JY2/zhhei/b/it' instead on input line ....
-LaTeX Font Warning: Font shape `JY2/zhhei/bx/it' undefined
-(Font)              using `JY2/zhhei/b/it' instead on input line ....
-LaTeX Font Warning: Font shape `JY2/zhhei/bx/it' undefined
-(Font)              using `JY2/zhhei/b/it' instead on input line ....
-LaTeX Font Warning: Font shape `JY2/zhhei/bx/it' undefined
-(Font)              using `JY2/zhhei/b/it' instead on input line ....
-LaTeX Font Warning: Font shape `JY2/zhhei/bx/it' undefined
-(Font)              using `JY2/zhhei/b/it' instead on input line ....
-LaTeX Font Warning: Font shape `JY2/zhhei/bx/it' undefined
-(Font)              using `JY2/zhhei/b/it' instead on input line ....
-LaTeX Font Warning: Font shape `JY2/zhhei/bx/it' undefined
-(Font)              using `JY2/zhhei/b/it' instead on input line ....
-LaTeX Font Warning: Font shape `JY2/zhhei/bx/it' undefined
-(Font)              using `JY2/zhhei/b/it' instead on input line ....
-LaTeX Font Warning: Font shape `JY2/zhhei/bx/it' undefined
-(Font)              using `JY2/zhhei/b/it' instead on input line ....
-LaTeX Font Warning: Font shape `JY2/zhhei/bx/it' undefined
-(Font)              using `JY2/zhhei/b/it' instead on input line ....
-LaTeX Font Warning: Font shape `JY2/zhhei/bx/it' undefined
-(Font)              using `JY2/zhhei/b/it' instead on input line ....
-Underfull \hbox (badness 10000) detected at line 52
+Underfull \hbox (badness 10000) detected at line 51
 \JY2/zhhei/b/it/14.4 。
 \hbox(12.67198+1.728)x14.4
 .\penalty 10000(for kinsoku)
@@ -421,15 +369,41 @@ Underfull \hbox (badness 10000) detected at line 52
 .\glue(refer from jfm) 0.0
 LaTeX Font Warning: Font shape `JY2/zhhei/bx/it' undefined
 (Font)              using `JY2/zhhei/b/it' instead on input line ....
-Underfull \hbox (badness 10000) detected at line 52
-\hbox(0.0+0.0)x14.4
-Underfull \hbox (badness 10000) detected at line 52
+LaTeX Font Warning: Font shape `JY2/zhhei/bx/it' undefined
+(Font)              using `JY2/zhhei/b/it' instead on input line ....
+LaTeX Font Warning: Font shape `JY2/zhhei/bx/it' undefined
+(Font)              using `JY2/zhhei/b/it' instead on input line ....
+LaTeX Font Warning: Font shape `JY2/zhhei/bx/it' undefined
+(Font)              using `JY2/zhhei/b/it' instead on input line ....
+LaTeX Font Warning: Font shape `JY2/zhhei/bx/it' undefined
+(Font)              using `JY2/zhhei/b/it' instead on input line ....
+LaTeX Font Warning: Font shape `JY2/zhhei/bx/it' undefined
+(Font)              using `JY2/zhhei/b/it' instead on input line ....
+LaTeX Font Warning: Font shape `JY2/zhhei/bx/it' undefined
+(Font)              using `JY2/zhhei/b/it' instead on input line ....
+LaTeX Font Warning: Font shape `JY2/zhhei/bx/it' undefined
+(Font)              using `JY2/zhhei/b/it' instead on input line ....
+LaTeX Font Warning: Font shape `JY2/zhhei/bx/it' undefined
+(Font)              using `JY2/zhhei/b/it' instead on input line ....
+LaTeX Font Warning: Font shape `JY2/zhhei/bx/it' undefined
+(Font)              using `JY2/zhhei/b/it' instead on input line ....
+LaTeX Font Warning: Font shape `JY2/zhhei/bx/it' undefined
+(Font)              using `JY2/zhhei/b/it' instead on input line ....
+LaTeX Font Warning: Font shape `JY2/zhhei/bx/it' undefined
+(Font)              using `JY2/zhhei/b/it' instead on input line ....
+Underfull \hbox (badness 10000) detected at line 51
 \JY2/zhhei/b/it/14.4 。
 \hbox(12.67198+1.728)x14.4
 .\penalty 10000(for kinsoku)
 .\JY2/zhhei/b/it/14.4 。
 .\glue(refer from jfm) 0.0
-Underfull \hbox (badness 10000) detected at line 52
+Underfull \hbox (badness 10000) detected at line 51
+\JY2/zhhei/b/it/14.4 。
+\hbox(12.67198+1.728)x14.4
+.\penalty 10000(for kinsoku)
+.\JY2/zhhei/b/it/14.4 。
+.\glue(refer from jfm) 0.0
+Underfull \hbox (badness 10000) detected at line 51
 \JY2/zhhei/b/it/14.4 ，
 \hbox(12.67198+1.728)x14.4
 .\penalty 10000(for kinsoku)
@@ -447,7 +421,7 @@ LaTeX Font Warning: Font shape `JY2/zhhei/bx/it' undefined
 (Font)              using `JY2/zhhei/b/it' instead on input line ....
 LaTeX Font Warning: Font shape `JY2/zhhei/bx/it' undefined
 (Font)              using `JY2/zhhei/b/it' instead on input line ....
-Underfull \hbox (badness 10000) detected at line 52
+Underfull \hbox (badness 10000) detected at line 51
 \JY2/zhhei/b/it/14.4 。
 \hbox(12.67198+1.728)x14.4
 .\penalty 10000(for kinsoku)
@@ -459,45 +433,7 @@ TEST 6: Basic Usage of LXGW Font: \slshape \heiti
 ============================================================
 LaTeX Font Warning: Font shape `JY2/zhrm/m/sl' undefined
 (Font)              using `JY2/zhrm/m/it' instead on input line ....
-Underfull \hbox (badness 10000) detected at line 52
-\JY2/zhhei/b/it/14.4 。
-\hbox(12.67198+1.728)x14.4
-.\penalty 10000(for kinsoku)
-.\JY2/zhhei/b/it/14.4 。
-.\glue(refer from jfm) 0.0
-Underfull \hbox (badness 10000) detected at line 52
-\hbox(0.0+0.0)x14.4
-LaTeX Font Warning: Font shape `JY2/zhhei/bx/it' undefined
-(Font)              using `JY2/zhhei/b/it' instead on input line ....
-LaTeX Font Warning: Font shape `JY2/zhhei/bx/it' undefined
-(Font)              using `JY2/zhhei/b/it' instead on input line ....
-LaTeX Font Warning: Font shape `JY2/zhhei/bx/it' undefined
-(Font)              using `JY2/zhhei/b/it' instead on input line ....
-LaTeX Font Warning: Font shape `JY2/zhhei/bx/it' undefined
-(Font)              using `JY2/zhhei/b/it' instead on input line ....
-LaTeX Font Warning: Font shape `JY2/zhhei/bx/it' undefined
-(Font)              using `JY2/zhhei/b/it' instead on input line ....
-LaTeX Font Warning: Font shape `JY2/zhhei/bx/it' undefined
-(Font)              using `JY2/zhhei/b/it' instead on input line ....
-LaTeX Font Warning: Font shape `JY2/zhhei/bx/it' undefined
-(Font)              using `JY2/zhhei/b/it' instead on input line ....
-LaTeX Font Warning: Font shape `JY2/zhhei/bx/it' undefined
-(Font)              using `JY2/zhhei/b/it' instead on input line ....
-LaTeX Font Warning: Font shape `JY2/zhhei/bx/it' undefined
-(Font)              using `JY2/zhhei/b/it' instead on input line ....
-LaTeX Font Warning: Font shape `JY2/zhhei/bx/it' undefined
-(Font)              using `JY2/zhhei/b/it' instead on input line ....
-LaTeX Font Warning: Font shape `JY2/zhhei/bx/it' undefined
-(Font)              using `JY2/zhhei/b/it' instead on input line ....
-LaTeX Font Warning: Font shape `JY2/zhhei/bx/it' undefined
-(Font)              using `JY2/zhhei/b/it' instead on input line ....
-Underfull \hbox (badness 10000) detected at line 52
-\JY2/zhhei/b/it/14.4 。
-\hbox(12.67198+1.728)x14.4
-.\penalty 10000(for kinsoku)
-.\JY2/zhhei/b/it/14.4 。
-.\glue(refer from jfm) 0.0
-Underfull \hbox (badness 10000) detected at line 52
+Underfull \hbox (badness 10000) detected at line 51
 \JY2/zhhei/b/it/14.4 。
 \hbox(12.67198+1.728)x14.4
 .\penalty 10000(for kinsoku)
@@ -527,7 +463,13 @@ LaTeX Font Warning: Font shape `JY2/zhhei/bx/it' undefined
 (Font)              using `JY2/zhhei/b/it' instead on input line ....
 LaTeX Font Warning: Font shape `JY2/zhhei/bx/it' undefined
 (Font)              using `JY2/zhhei/b/it' instead on input line ....
-Underfull \hbox (badness 10000) detected at line 52
+Underfull \hbox (badness 10000) detected at line 51
+\JY2/zhhei/b/it/14.4 。
+\hbox(12.67198+1.728)x14.4
+.\penalty 10000(for kinsoku)
+.\JY2/zhhei/b/it/14.4 。
+.\glue(refer from jfm) 0.0
+Underfull \hbox (badness 10000) detected at line 51
 \JY2/zhhei/b/it/14.4 。
 \hbox(12.67198+1.728)x14.4
 .\penalty 10000(for kinsoku)
@@ -535,15 +477,41 @@ Underfull \hbox (badness 10000) detected at line 52
 .\glue(refer from jfm) 0.0
 LaTeX Font Warning: Font shape `JY2/zhhei/bx/it' undefined
 (Font)              using `JY2/zhhei/b/it' instead on input line ....
-Underfull \hbox (badness 10000) detected at line 52
-\hbox(0.0+0.0)x14.4
-Underfull \hbox (badness 10000) detected at line 52
+LaTeX Font Warning: Font shape `JY2/zhhei/bx/it' undefined
+(Font)              using `JY2/zhhei/b/it' instead on input line ....
+LaTeX Font Warning: Font shape `JY2/zhhei/bx/it' undefined
+(Font)              using `JY2/zhhei/b/it' instead on input line ....
+LaTeX Font Warning: Font shape `JY2/zhhei/bx/it' undefined
+(Font)              using `JY2/zhhei/b/it' instead on input line ....
+LaTeX Font Warning: Font shape `JY2/zhhei/bx/it' undefined
+(Font)              using `JY2/zhhei/b/it' instead on input line ....
+LaTeX Font Warning: Font shape `JY2/zhhei/bx/it' undefined
+(Font)              using `JY2/zhhei/b/it' instead on input line ....
+LaTeX Font Warning: Font shape `JY2/zhhei/bx/it' undefined
+(Font)              using `JY2/zhhei/b/it' instead on input line ....
+LaTeX Font Warning: Font shape `JY2/zhhei/bx/it' undefined
+(Font)              using `JY2/zhhei/b/it' instead on input line ....
+LaTeX Font Warning: Font shape `JY2/zhhei/bx/it' undefined
+(Font)              using `JY2/zhhei/b/it' instead on input line ....
+LaTeX Font Warning: Font shape `JY2/zhhei/bx/it' undefined
+(Font)              using `JY2/zhhei/b/it' instead on input line ....
+LaTeX Font Warning: Font shape `JY2/zhhei/bx/it' undefined
+(Font)              using `JY2/zhhei/b/it' instead on input line ....
+LaTeX Font Warning: Font shape `JY2/zhhei/bx/it' undefined
+(Font)              using `JY2/zhhei/b/it' instead on input line ....
+Underfull \hbox (badness 10000) detected at line 51
 \JY2/zhhei/b/it/14.4 。
 \hbox(12.67198+1.728)x14.4
 .\penalty 10000(for kinsoku)
 .\JY2/zhhei/b/it/14.4 。
 .\glue(refer from jfm) 0.0
-Underfull \hbox (badness 10000) detected at line 52
+Underfull \hbox (badness 10000) detected at line 51
+\JY2/zhhei/b/it/14.4 。
+\hbox(12.67198+1.728)x14.4
+.\penalty 10000(for kinsoku)
+.\JY2/zhhei/b/it/14.4 。
+.\glue(refer from jfm) 0.0
+Underfull \hbox (badness 10000) detected at line 51
 \JY2/zhhei/b/it/14.4 ，
 \hbox(12.67198+1.728)x14.4
 .\penalty 10000(for kinsoku)
@@ -561,7 +529,7 @@ LaTeX Font Warning: Font shape `JY2/zhhei/bx/it' undefined
 (Font)              using `JY2/zhhei/b/it' instead on input line ....
 LaTeX Font Warning: Font shape `JY2/zhhei/bx/it' undefined
 (Font)              using `JY2/zhhei/b/it' instead on input line ....
-Underfull \hbox (badness 10000) detected at line 52
+Underfull \hbox (badness 10000) detected at line 51
 \JY2/zhhei/b/it/14.4 。
 \hbox(12.67198+1.728)x14.4
 .\penalty 10000(for kinsoku)
@@ -571,14 +539,12 @@ Underfull \hbox (badness 10000) detected at line 52
 ============================================================
 TEST 7: Basic Usage of LXGW Font: \fangsong 
 ============================================================
-Underfull \hbox (badness 10000) detected at line 52
+Underfull \hbox (badness 10000) detected at line 51
 \JY2/zhfs/m/n/14.4 。
 \hbox(12.67198+1.728)x14.4
 .\penalty 10000(for kinsoku)
 .\JY2/zhfs/m/n/14.4 。
 .\glue(refer from jfm) 0.0
-Underfull \hbox (badness 10000) detected at line 52
-\hbox(0.0+0.0)x14.4
 LaTeX Font Warning: Font shape `JY2/zhfs/bx/n' undefined
 (Font)              using `JY2/zhfs/b/n' instead on input line ....
 LaTeX Font Warning: Font shape `JT2/zhfs/b/n' undefined
@@ -607,43 +573,13 @@ LaTeX Font Warning: Font shape `JY2/zhfs/bx/n' undefined
 (Font)              using `JY2/zhfs/b/n' instead on input line ....
 LaTeX Font Warning: Font shape `JY2/zhfs/bx/n' undefined
 (Font)              using `JY2/zhfs/b/n' instead on input line ....
-Underfull \hbox (badness 10000) detected at line 52
+Underfull \hbox (badness 10000) detected at line 51
 \JY2/zhfs/b/n/14.4 。
 \hbox(12.67198+1.728)x14.4
 .\penalty 10000(for kinsoku)
 .\JY2/zhfs/b/n/14.4 。
 .\glue(refer from jfm) 0.0
-Underfull \hbox (badness 10000) detected at line 52
-\JY2/zhfs/b/n/14.4 。
-\hbox(12.67198+1.728)x14.4
-.\penalty 10000(for kinsoku)
-.\JY2/zhfs/b/n/14.4 。
-.\glue(refer from jfm) 0.0
-LaTeX Font Warning: Font shape `JY2/zhfs/bx/n' undefined
-(Font)              using `JY2/zhfs/b/n' instead on input line ....
-LaTeX Font Warning: Font shape `JY2/zhfs/bx/n' undefined
-(Font)              using `JY2/zhfs/b/n' instead on input line ....
-LaTeX Font Warning: Font shape `JY2/zhfs/bx/n' undefined
-(Font)              using `JY2/zhfs/b/n' instead on input line ....
-LaTeX Font Warning: Font shape `JY2/zhfs/bx/n' undefined
-(Font)              using `JY2/zhfs/b/n' instead on input line ....
-LaTeX Font Warning: Font shape `JY2/zhfs/bx/n' undefined
-(Font)              using `JY2/zhfs/b/n' instead on input line ....
-LaTeX Font Warning: Font shape `JY2/zhfs/bx/n' undefined
-(Font)              using `JY2/zhfs/b/n' instead on input line ....
-LaTeX Font Warning: Font shape `JY2/zhfs/bx/n' undefined
-(Font)              using `JY2/zhfs/b/n' instead on input line ....
-LaTeX Font Warning: Font shape `JY2/zhfs/bx/n' undefined
-(Font)              using `JY2/zhfs/b/n' instead on input line ....
-LaTeX Font Warning: Font shape `JY2/zhfs/bx/n' undefined
-(Font)              using `JY2/zhfs/b/n' instead on input line ....
-LaTeX Font Warning: Font shape `JY2/zhfs/bx/n' undefined
-(Font)              using `JY2/zhfs/b/n' instead on input line ....
-LaTeX Font Warning: Font shape `JY2/zhfs/bx/n' undefined
-(Font)              using `JY2/zhfs/b/n' instead on input line ....
-LaTeX Font Warning: Font shape `JY2/zhfs/bx/n' undefined
-(Font)              using `JY2/zhfs/b/n' instead on input line ....
-Underfull \hbox (badness 10000) detected at line 52
+Underfull \hbox (badness 10000) detected at line 51
 \JY2/zhfs/b/n/14.4 。
 \hbox(12.67198+1.728)x14.4
 .\penalty 10000(for kinsoku)
@@ -651,15 +587,41 @@ Underfull \hbox (badness 10000) detected at line 52
 .\glue(refer from jfm) 0.0
 LaTeX Font Warning: Font shape `JY2/zhfs/bx/n' undefined
 (Font)              using `JY2/zhfs/b/n' instead on input line ....
-Underfull \hbox (badness 10000) detected at line 52
-\hbox(0.0+0.0)x14.4
-Underfull \hbox (badness 10000) detected at line 52
+LaTeX Font Warning: Font shape `JY2/zhfs/bx/n' undefined
+(Font)              using `JY2/zhfs/b/n' instead on input line ....
+LaTeX Font Warning: Font shape `JY2/zhfs/bx/n' undefined
+(Font)              using `JY2/zhfs/b/n' instead on input line ....
+LaTeX Font Warning: Font shape `JY2/zhfs/bx/n' undefined
+(Font)              using `JY2/zhfs/b/n' instead on input line ....
+LaTeX Font Warning: Font shape `JY2/zhfs/bx/n' undefined
+(Font)              using `JY2/zhfs/b/n' instead on input line ....
+LaTeX Font Warning: Font shape `JY2/zhfs/bx/n' undefined
+(Font)              using `JY2/zhfs/b/n' instead on input line ....
+LaTeX Font Warning: Font shape `JY2/zhfs/bx/n' undefined
+(Font)              using `JY2/zhfs/b/n' instead on input line ....
+LaTeX Font Warning: Font shape `JY2/zhfs/bx/n' undefined
+(Font)              using `JY2/zhfs/b/n' instead on input line ....
+LaTeX Font Warning: Font shape `JY2/zhfs/bx/n' undefined
+(Font)              using `JY2/zhfs/b/n' instead on input line ....
+LaTeX Font Warning: Font shape `JY2/zhfs/bx/n' undefined
+(Font)              using `JY2/zhfs/b/n' instead on input line ....
+LaTeX Font Warning: Font shape `JY2/zhfs/bx/n' undefined
+(Font)              using `JY2/zhfs/b/n' instead on input line ....
+LaTeX Font Warning: Font shape `JY2/zhfs/bx/n' undefined
+(Font)              using `JY2/zhfs/b/n' instead on input line ....
+Underfull \hbox (badness 10000) detected at line 51
 \JY2/zhfs/b/n/14.4 。
 \hbox(12.67198+1.728)x14.4
 .\penalty 10000(for kinsoku)
 .\JY2/zhfs/b/n/14.4 。
 .\glue(refer from jfm) 0.0
-Underfull \hbox (badness 10000) detected at line 52
+Underfull \hbox (badness 10000) detected at line 51
+\JY2/zhfs/b/n/14.4 。
+\hbox(12.67198+1.728)x14.4
+.\penalty 10000(for kinsoku)
+.\JY2/zhfs/b/n/14.4 。
+.\glue(refer from jfm) 0.0
+Underfull \hbox (badness 10000) detected at line 51
 \JY2/zhfs/b/n/14.4 ，
 \hbox(12.67198+1.728)x14.4
 .\penalty 10000(for kinsoku)
@@ -677,7 +639,7 @@ LaTeX Font Warning: Font shape `JY2/zhfs/bx/n' undefined
 (Font)              using `JY2/zhfs/b/n' instead on input line ....
 LaTeX Font Warning: Font shape `JY2/zhfs/bx/n' undefined
 (Font)              using `JY2/zhfs/b/n' instead on input line ....
-Underfull \hbox (badness 10000) detected at line 52
+Underfull \hbox (badness 10000) detected at line 51
 \JY2/zhfs/b/n/14.4 。
 \hbox(12.67198+1.728)x14.4
 .\penalty 10000(for kinsoku)
@@ -691,14 +653,12 @@ LaTeX Font Warning: Font shape `JT2/zhfs/m/it' undefined
 (Font)              using `JT2/zhfs/m/n' instead on input line ....
 LaTeX Font Warning: Font shape `JY2/zhfs/m/it' undefined
 (Font)              using `JY2/zhfs/m/n' instead on input line ....
-Underfull \hbox (badness 10000) detected at line 52
+Underfull \hbox (badness 10000) detected at line 51
 \JY2/zhfs/m/it/14.4 。
 \hbox(12.67198+1.728)x14.4
 .\penalty 10000(for kinsoku)
 .\JY2/zhfs/m/it/14.4 。
 .\glue(refer from jfm) 0.0
-Underfull \hbox (badness 10000) detected at line 52
-\hbox(0.0+0.0)x14.4
 LaTeX Font Warning: Font shape `JY2/zhfs/bx/it' undefined
 (Font)              using `JY2/zhfs/b/it' instead on input line ....
 LaTeX Font Warning: Font shape `JT2/zhfs/b/it' undefined
@@ -727,43 +687,13 @@ LaTeX Font Warning: Font shape `JY2/zhfs/bx/it' undefined
 (Font)              using `JY2/zhfs/b/it' instead on input line ....
 LaTeX Font Warning: Font shape `JY2/zhfs/bx/it' undefined
 (Font)              using `JY2/zhfs/b/it' instead on input line ....
-Underfull \hbox (badness 10000) detected at line 52
+Underfull \hbox (badness 10000) detected at line 51
 \JY2/zhfs/b/it/14.4 。
 \hbox(12.67198+1.728)x14.4
 .\penalty 10000(for kinsoku)
 .\JY2/zhfs/b/it/14.4 。
 .\glue(refer from jfm) 0.0
-Underfull \hbox (badness 10000) detected at line 52
-\JY2/zhfs/b/it/14.4 。
-\hbox(12.67198+1.728)x14.4
-.\penalty 10000(for kinsoku)
-.\JY2/zhfs/b/it/14.4 。
-.\glue(refer from jfm) 0.0
-LaTeX Font Warning: Font shape `JY2/zhfs/bx/it' undefined
-(Font)              using `JY2/zhfs/b/it' instead on input line ....
-LaTeX Font Warning: Font shape `JY2/zhfs/bx/it' undefined
-(Font)              using `JY2/zhfs/b/it' instead on input line ....
-LaTeX Font Warning: Font shape `JY2/zhfs/bx/it' undefined
-(Font)              using `JY2/zhfs/b/it' instead on input line ....
-LaTeX Font Warning: Font shape `JY2/zhfs/bx/it' undefined
-(Font)              using `JY2/zhfs/b/it' instead on input line ....
-LaTeX Font Warning: Font shape `JY2/zhfs/bx/it' undefined
-(Font)              using `JY2/zhfs/b/it' instead on input line ....
-LaTeX Font Warning: Font shape `JY2/zhfs/bx/it' undefined
-(Font)              using `JY2/zhfs/b/it' instead on input line ....
-LaTeX Font Warning: Font shape `JY2/zhfs/bx/it' undefined
-(Font)              using `JY2/zhfs/b/it' instead on input line ....
-LaTeX Font Warning: Font shape `JY2/zhfs/bx/it' undefined
-(Font)              using `JY2/zhfs/b/it' instead on input line ....
-LaTeX Font Warning: Font shape `JY2/zhfs/bx/it' undefined
-(Font)              using `JY2/zhfs/b/it' instead on input line ....
-LaTeX Font Warning: Font shape `JY2/zhfs/bx/it' undefined
-(Font)              using `JY2/zhfs/b/it' instead on input line ....
-LaTeX Font Warning: Font shape `JY2/zhfs/bx/it' undefined
-(Font)              using `JY2/zhfs/b/it' instead on input line ....
-LaTeX Font Warning: Font shape `JY2/zhfs/bx/it' undefined
-(Font)              using `JY2/zhfs/b/it' instead on input line ....
-Underfull \hbox (badness 10000) detected at line 52
+Underfull \hbox (badness 10000) detected at line 51
 \JY2/zhfs/b/it/14.4 。
 \hbox(12.67198+1.728)x14.4
 .\penalty 10000(for kinsoku)
@@ -771,15 +701,41 @@ Underfull \hbox (badness 10000) detected at line 52
 .\glue(refer from jfm) 0.0
 LaTeX Font Warning: Font shape `JY2/zhfs/bx/it' undefined
 (Font)              using `JY2/zhfs/b/it' instead on input line ....
-Underfull \hbox (badness 10000) detected at line 52
-\hbox(0.0+0.0)x14.4
-Underfull \hbox (badness 10000) detected at line 52
+LaTeX Font Warning: Font shape `JY2/zhfs/bx/it' undefined
+(Font)              using `JY2/zhfs/b/it' instead on input line ....
+LaTeX Font Warning: Font shape `JY2/zhfs/bx/it' undefined
+(Font)              using `JY2/zhfs/b/it' instead on input line ....
+LaTeX Font Warning: Font shape `JY2/zhfs/bx/it' undefined
+(Font)              using `JY2/zhfs/b/it' instead on input line ....
+LaTeX Font Warning: Font shape `JY2/zhfs/bx/it' undefined
+(Font)              using `JY2/zhfs/b/it' instead on input line ....
+LaTeX Font Warning: Font shape `JY2/zhfs/bx/it' undefined
+(Font)              using `JY2/zhfs/b/it' instead on input line ....
+LaTeX Font Warning: Font shape `JY2/zhfs/bx/it' undefined
+(Font)              using `JY2/zhfs/b/it' instead on input line ....
+LaTeX Font Warning: Font shape `JY2/zhfs/bx/it' undefined
+(Font)              using `JY2/zhfs/b/it' instead on input line ....
+LaTeX Font Warning: Font shape `JY2/zhfs/bx/it' undefined
+(Font)              using `JY2/zhfs/b/it' instead on input line ....
+LaTeX Font Warning: Font shape `JY2/zhfs/bx/it' undefined
+(Font)              using `JY2/zhfs/b/it' instead on input line ....
+LaTeX Font Warning: Font shape `JY2/zhfs/bx/it' undefined
+(Font)              using `JY2/zhfs/b/it' instead on input line ....
+LaTeX Font Warning: Font shape `JY2/zhfs/bx/it' undefined
+(Font)              using `JY2/zhfs/b/it' instead on input line ....
+Underfull \hbox (badness 10000) detected at line 51
 \JY2/zhfs/b/it/14.4 。
 \hbox(12.67198+1.728)x14.4
 .\penalty 10000(for kinsoku)
 .\JY2/zhfs/b/it/14.4 。
 .\glue(refer from jfm) 0.0
-Underfull \hbox (badness 10000) detected at line 52
+Underfull \hbox (badness 10000) detected at line 51
+\JY2/zhfs/b/it/14.4 。
+\hbox(12.67198+1.728)x14.4
+.\penalty 10000(for kinsoku)
+.\JY2/zhfs/b/it/14.4 。
+.\glue(refer from jfm) 0.0
+Underfull \hbox (badness 10000) detected at line 51
 \JY2/zhfs/b/it/14.4 ，
 \hbox(12.67198+1.728)x14.4
 .\penalty 10000(for kinsoku)
@@ -797,7 +753,7 @@ LaTeX Font Warning: Font shape `JY2/zhfs/bx/it' undefined
 (Font)              using `JY2/zhfs/b/it' instead on input line ....
 LaTeX Font Warning: Font shape `JY2/zhfs/bx/it' undefined
 (Font)              using `JY2/zhfs/b/it' instead on input line ....
-Underfull \hbox (badness 10000) detected at line 52
+Underfull \hbox (badness 10000) detected at line 51
 \JY2/zhfs/b/it/14.4 。
 \hbox(12.67198+1.728)x14.4
 .\penalty 10000(for kinsoku)
@@ -809,45 +765,7 @@ TEST 9: Basic Usage of LXGW Font: \slshape \fangsong
 ============================================================
 LaTeX Font Warning: Font shape `JY2/zhrm/m/sl' undefined
 (Font)              using `JY2/zhrm/m/it' instead on input line ....
-Underfull \hbox (badness 10000) detected at line 52
-\JY2/zhfs/b/it/14.4 。
-\hbox(12.67198+1.728)x14.4
-.\penalty 10000(for kinsoku)
-.\JY2/zhfs/b/it/14.4 。
-.\glue(refer from jfm) 0.0
-Underfull \hbox (badness 10000) detected at line 52
-\hbox(0.0+0.0)x14.4
-LaTeX Font Warning: Font shape `JY2/zhfs/bx/it' undefined
-(Font)              using `JY2/zhfs/b/it' instead on input line ....
-LaTeX Font Warning: Font shape `JY2/zhfs/bx/it' undefined
-(Font)              using `JY2/zhfs/b/it' instead on input line ....
-LaTeX Font Warning: Font shape `JY2/zhfs/bx/it' undefined
-(Font)              using `JY2/zhfs/b/it' instead on input line ....
-LaTeX Font Warning: Font shape `JY2/zhfs/bx/it' undefined
-(Font)              using `JY2/zhfs/b/it' instead on input line ....
-LaTeX Font Warning: Font shape `JY2/zhfs/bx/it' undefined
-(Font)              using `JY2/zhfs/b/it' instead on input line ....
-LaTeX Font Warning: Font shape `JY2/zhfs/bx/it' undefined
-(Font)              using `JY2/zhfs/b/it' instead on input line ....
-LaTeX Font Warning: Font shape `JY2/zhfs/bx/it' undefined
-(Font)              using `JY2/zhfs/b/it' instead on input line ....
-LaTeX Font Warning: Font shape `JY2/zhfs/bx/it' undefined
-(Font)              using `JY2/zhfs/b/it' instead on input line ....
-LaTeX Font Warning: Font shape `JY2/zhfs/bx/it' undefined
-(Font)              using `JY2/zhfs/b/it' instead on input line ....
-LaTeX Font Warning: Font shape `JY2/zhfs/bx/it' undefined
-(Font)              using `JY2/zhfs/b/it' instead on input line ....
-LaTeX Font Warning: Font shape `JY2/zhfs/bx/it' undefined
-(Font)              using `JY2/zhfs/b/it' instead on input line ....
-LaTeX Font Warning: Font shape `JY2/zhfs/bx/it' undefined
-(Font)              using `JY2/zhfs/b/it' instead on input line ....
-Underfull \hbox (badness 10000) detected at line 52
-\JY2/zhfs/b/it/14.4 。
-\hbox(12.67198+1.728)x14.4
-.\penalty 10000(for kinsoku)
-.\JY2/zhfs/b/it/14.4 。
-.\glue(refer from jfm) 0.0
-Underfull \hbox (badness 10000) detected at line 52
+Underfull \hbox (badness 10000) detected at line 51
 \JY2/zhfs/b/it/14.4 。
 \hbox(12.67198+1.728)x14.4
 .\penalty 10000(for kinsoku)
@@ -877,7 +795,13 @@ LaTeX Font Warning: Font shape `JY2/zhfs/bx/it' undefined
 (Font)              using `JY2/zhfs/b/it' instead on input line ....
 LaTeX Font Warning: Font shape `JY2/zhfs/bx/it' undefined
 (Font)              using `JY2/zhfs/b/it' instead on input line ....
-Underfull \hbox (badness 10000) detected at line 52
+Underfull \hbox (badness 10000) detected at line 51
+\JY2/zhfs/b/it/14.4 。
+\hbox(12.67198+1.728)x14.4
+.\penalty 10000(for kinsoku)
+.\JY2/zhfs/b/it/14.4 。
+.\glue(refer from jfm) 0.0
+Underfull \hbox (badness 10000) detected at line 51
 \JY2/zhfs/b/it/14.4 。
 \hbox(12.67198+1.728)x14.4
 .\penalty 10000(for kinsoku)
@@ -885,15 +809,41 @@ Underfull \hbox (badness 10000) detected at line 52
 .\glue(refer from jfm) 0.0
 LaTeX Font Warning: Font shape `JY2/zhfs/bx/it' undefined
 (Font)              using `JY2/zhfs/b/it' instead on input line ....
-Underfull \hbox (badness 10000) detected at line 52
-\hbox(0.0+0.0)x14.4
-Underfull \hbox (badness 10000) detected at line 52
+LaTeX Font Warning: Font shape `JY2/zhfs/bx/it' undefined
+(Font)              using `JY2/zhfs/b/it' instead on input line ....
+LaTeX Font Warning: Font shape `JY2/zhfs/bx/it' undefined
+(Font)              using `JY2/zhfs/b/it' instead on input line ....
+LaTeX Font Warning: Font shape `JY2/zhfs/bx/it' undefined
+(Font)              using `JY2/zhfs/b/it' instead on input line ....
+LaTeX Font Warning: Font shape `JY2/zhfs/bx/it' undefined
+(Font)              using `JY2/zhfs/b/it' instead on input line ....
+LaTeX Font Warning: Font shape `JY2/zhfs/bx/it' undefined
+(Font)              using `JY2/zhfs/b/it' instead on input line ....
+LaTeX Font Warning: Font shape `JY2/zhfs/bx/it' undefined
+(Font)              using `JY2/zhfs/b/it' instead on input line ....
+LaTeX Font Warning: Font shape `JY2/zhfs/bx/it' undefined
+(Font)              using `JY2/zhfs/b/it' instead on input line ....
+LaTeX Font Warning: Font shape `JY2/zhfs/bx/it' undefined
+(Font)              using `JY2/zhfs/b/it' instead on input line ....
+LaTeX Font Warning: Font shape `JY2/zhfs/bx/it' undefined
+(Font)              using `JY2/zhfs/b/it' instead on input line ....
+LaTeX Font Warning: Font shape `JY2/zhfs/bx/it' undefined
+(Font)              using `JY2/zhfs/b/it' instead on input line ....
+LaTeX Font Warning: Font shape `JY2/zhfs/bx/it' undefined
+(Font)              using `JY2/zhfs/b/it' instead on input line ....
+Underfull \hbox (badness 10000) detected at line 51
 \JY2/zhfs/b/it/14.4 。
 \hbox(12.67198+1.728)x14.4
 .\penalty 10000(for kinsoku)
 .\JY2/zhfs/b/it/14.4 。
 .\glue(refer from jfm) 0.0
-Underfull \hbox (badness 10000) detected at line 52
+Underfull \hbox (badness 10000) detected at line 51
+\JY2/zhfs/b/it/14.4 。
+\hbox(12.67198+1.728)x14.4
+.\penalty 10000(for kinsoku)
+.\JY2/zhfs/b/it/14.4 。
+.\glue(refer from jfm) 0.0
+Underfull \hbox (badness 10000) detected at line 51
 \JY2/zhfs/b/it/14.4 ，
 \hbox(12.67198+1.728)x14.4
 .\penalty 10000(for kinsoku)
@@ -911,7 +861,7 @@ LaTeX Font Warning: Font shape `JY2/zhfs/bx/it' undefined
 (Font)              using `JY2/zhfs/b/it' instead on input line ....
 LaTeX Font Warning: Font shape `JY2/zhfs/bx/it' undefined
 (Font)              using `JY2/zhfs/b/it' instead on input line ....
-Underfull \hbox (badness 10000) detected at line 52
+Underfull \hbox (badness 10000) detected at line 51
 \JY2/zhfs/b/it/14.4 。
 \hbox(12.67198+1.728)x14.4
 .\penalty 10000(for kinsoku)
@@ -921,14 +871,12 @@ Underfull \hbox (badness 10000) detected at line 52
 ============================================================
 TEST 10: Basic Usage of LXGW Font: \kaishu 
 ============================================================
-Underfull \hbox (badness 10000) detected at line 52
+Underfull \hbox (badness 10000) detected at line 51
 \JY2/zhkai/m/n/14.4 。
 \hbox(12.67198+1.728)x14.4
 .\penalty 10000(for kinsoku)
 .\JY2/zhkai/m/n/14.4 。
 .\glue(refer from jfm) 0.0
-Underfull \hbox (badness 10000) detected at line 52
-\hbox(0.0+0.0)x14.4
 LaTeX Font Warning: Font shape `JY2/zhkai/bx/n' undefined
 (Font)              using `JY2/zhkai/b/n' instead on input line ....
 LaTeX Font Warning: Font shape `JT2/zhkai/b/n' undefined
@@ -957,43 +905,13 @@ LaTeX Font Warning: Font shape `JY2/zhkai/bx/n' undefined
 (Font)              using `JY2/zhkai/b/n' instead on input line ....
 LaTeX Font Warning: Font shape `JY2/zhkai/bx/n' undefined
 (Font)              using `JY2/zhkai/b/n' instead on input line ....
-Underfull \hbox (badness 10000) detected at line 52
+Underfull \hbox (badness 10000) detected at line 51
 \JY2/zhkai/b/n/14.4 。
 \hbox(12.67198+1.728)x14.4
 .\penalty 10000(for kinsoku)
 .\JY2/zhkai/b/n/14.4 。
 .\glue(refer from jfm) 0.0
-Underfull \hbox (badness 10000) detected at line 52
-\JY2/zhkai/b/n/14.4 。
-\hbox(12.67198+1.728)x14.4
-.\penalty 10000(for kinsoku)
-.\JY2/zhkai/b/n/14.4 。
-.\glue(refer from jfm) 0.0
-LaTeX Font Warning: Font shape `JY2/zhkai/bx/n' undefined
-(Font)              using `JY2/zhkai/b/n' instead on input line ....
-LaTeX Font Warning: Font shape `JY2/zhkai/bx/n' undefined
-(Font)              using `JY2/zhkai/b/n' instead on input line ....
-LaTeX Font Warning: Font shape `JY2/zhkai/bx/n' undefined
-(Font)              using `JY2/zhkai/b/n' instead on input line ....
-LaTeX Font Warning: Font shape `JY2/zhkai/bx/n' undefined
-(Font)              using `JY2/zhkai/b/n' instead on input line ....
-LaTeX Font Warning: Font shape `JY2/zhkai/bx/n' undefined
-(Font)              using `JY2/zhkai/b/n' instead on input line ....
-LaTeX Font Warning: Font shape `JY2/zhkai/bx/n' undefined
-(Font)              using `JY2/zhkai/b/n' instead on input line ....
-LaTeX Font Warning: Font shape `JY2/zhkai/bx/n' undefined
-(Font)              using `JY2/zhkai/b/n' instead on input line ....
-LaTeX Font Warning: Font shape `JY2/zhkai/bx/n' undefined
-(Font)              using `JY2/zhkai/b/n' instead on input line ....
-LaTeX Font Warning: Font shape `JY2/zhkai/bx/n' undefined
-(Font)              using `JY2/zhkai/b/n' instead on input line ....
-LaTeX Font Warning: Font shape `JY2/zhkai/bx/n' undefined
-(Font)              using `JY2/zhkai/b/n' instead on input line ....
-LaTeX Font Warning: Font shape `JY2/zhkai/bx/n' undefined
-(Font)              using `JY2/zhkai/b/n' instead on input line ....
-LaTeX Font Warning: Font shape `JY2/zhkai/bx/n' undefined
-(Font)              using `JY2/zhkai/b/n' instead on input line ....
-Underfull \hbox (badness 10000) detected at line 52
+Underfull \hbox (badness 10000) detected at line 51
 \JY2/zhkai/b/n/14.4 。
 \hbox(12.67198+1.728)x14.4
 .\penalty 10000(for kinsoku)
@@ -1001,15 +919,41 @@ Underfull \hbox (badness 10000) detected at line 52
 .\glue(refer from jfm) 0.0
 LaTeX Font Warning: Font shape `JY2/zhkai/bx/n' undefined
 (Font)              using `JY2/zhkai/b/n' instead on input line ....
-Underfull \hbox (badness 10000) detected at line 52
-\hbox(0.0+0.0)x14.4
-Underfull \hbox (badness 10000) detected at line 52
+LaTeX Font Warning: Font shape `JY2/zhkai/bx/n' undefined
+(Font)              using `JY2/zhkai/b/n' instead on input line ....
+LaTeX Font Warning: Font shape `JY2/zhkai/bx/n' undefined
+(Font)              using `JY2/zhkai/b/n' instead on input line ....
+LaTeX Font Warning: Font shape `JY2/zhkai/bx/n' undefined
+(Font)              using `JY2/zhkai/b/n' instead on input line ....
+LaTeX Font Warning: Font shape `JY2/zhkai/bx/n' undefined
+(Font)              using `JY2/zhkai/b/n' instead on input line ....
+LaTeX Font Warning: Font shape `JY2/zhkai/bx/n' undefined
+(Font)              using `JY2/zhkai/b/n' instead on input line ....
+LaTeX Font Warning: Font shape `JY2/zhkai/bx/n' undefined
+(Font)              using `JY2/zhkai/b/n' instead on input line ....
+LaTeX Font Warning: Font shape `JY2/zhkai/bx/n' undefined
+(Font)              using `JY2/zhkai/b/n' instead on input line ....
+LaTeX Font Warning: Font shape `JY2/zhkai/bx/n' undefined
+(Font)              using `JY2/zhkai/b/n' instead on input line ....
+LaTeX Font Warning: Font shape `JY2/zhkai/bx/n' undefined
+(Font)              using `JY2/zhkai/b/n' instead on input line ....
+LaTeX Font Warning: Font shape `JY2/zhkai/bx/n' undefined
+(Font)              using `JY2/zhkai/b/n' instead on input line ....
+LaTeX Font Warning: Font shape `JY2/zhkai/bx/n' undefined
+(Font)              using `JY2/zhkai/b/n' instead on input line ....
+Underfull \hbox (badness 10000) detected at line 51
 \JY2/zhkai/b/n/14.4 。
 \hbox(12.67198+1.728)x14.4
 .\penalty 10000(for kinsoku)
 .\JY2/zhkai/b/n/14.4 。
 .\glue(refer from jfm) 0.0
-Underfull \hbox (badness 10000) detected at line 52
+Underfull \hbox (badness 10000) detected at line 51
+\JY2/zhkai/b/n/14.4 。
+\hbox(12.67198+1.728)x14.4
+.\penalty 10000(for kinsoku)
+.\JY2/zhkai/b/n/14.4 。
+.\glue(refer from jfm) 0.0
+Underfull \hbox (badness 10000) detected at line 51
 \JY2/zhkai/b/n/14.4 ，
 \hbox(12.67198+1.728)x14.4
 .\penalty 10000(for kinsoku)
@@ -1027,7 +971,7 @@ LaTeX Font Warning: Font shape `JY2/zhkai/bx/n' undefined
 (Font)              using `JY2/zhkai/b/n' instead on input line ....
 LaTeX Font Warning: Font shape `JY2/zhkai/bx/n' undefined
 (Font)              using `JY2/zhkai/b/n' instead on input line ....
-Underfull \hbox (badness 10000) detected at line 52
+Underfull \hbox (badness 10000) detected at line 51
 \JY2/zhkai/b/n/14.4 。
 \hbox(12.67198+1.728)x14.4
 .\penalty 10000(for kinsoku)
@@ -1041,14 +985,12 @@ LaTeX Font Warning: Font shape `JT2/zhkai/m/it' undefined
 (Font)              using `JT2/zhkai/m/n' instead on input line ....
 LaTeX Font Warning: Font shape `JY2/zhkai/m/it' undefined
 (Font)              using `JY2/zhkai/m/n' instead on input line ....
-Underfull \hbox (badness 10000) detected at line 52
+Underfull \hbox (badness 10000) detected at line 51
 \JY2/zhkai/m/it/14.4 。
 \hbox(12.67198+1.728)x14.4
 .\penalty 10000(for kinsoku)
 .\JY2/zhkai/m/it/14.4 。
 .\glue(refer from jfm) 0.0
-Underfull \hbox (badness 10000) detected at line 52
-\hbox(0.0+0.0)x14.4
 LaTeX Font Warning: Font shape `JY2/zhkai/bx/it' undefined
 (Font)              using `JY2/zhkai/b/it' instead on input line ....
 LaTeX Font Warning: Font shape `JT2/zhkai/b/it' undefined
@@ -1077,43 +1019,13 @@ LaTeX Font Warning: Font shape `JY2/zhkai/bx/it' undefined
 (Font)              using `JY2/zhkai/b/it' instead on input line ....
 LaTeX Font Warning: Font shape `JY2/zhkai/bx/it' undefined
 (Font)              using `JY2/zhkai/b/it' instead on input line ....
-Underfull \hbox (badness 10000) detected at line 52
+Underfull \hbox (badness 10000) detected at line 51
 \JY2/zhkai/b/it/14.4 。
 \hbox(12.67198+1.728)x14.4
 .\penalty 10000(for kinsoku)
 .\JY2/zhkai/b/it/14.4 。
 .\glue(refer from jfm) 0.0
-Underfull \hbox (badness 10000) detected at line 52
-\JY2/zhkai/b/it/14.4 。
-\hbox(12.67198+1.728)x14.4
-.\penalty 10000(for kinsoku)
-.\JY2/zhkai/b/it/14.4 。
-.\glue(refer from jfm) 0.0
-LaTeX Font Warning: Font shape `JY2/zhkai/bx/it' undefined
-(Font)              using `JY2/zhkai/b/it' instead on input line ....
-LaTeX Font Warning: Font shape `JY2/zhkai/bx/it' undefined
-(Font)              using `JY2/zhkai/b/it' instead on input line ....
-LaTeX Font Warning: Font shape `JY2/zhkai/bx/it' undefined
-(Font)              using `JY2/zhkai/b/it' instead on input line ....
-LaTeX Font Warning: Font shape `JY2/zhkai/bx/it' undefined
-(Font)              using `JY2/zhkai/b/it' instead on input line ....
-LaTeX Font Warning: Font shape `JY2/zhkai/bx/it' undefined
-(Font)              using `JY2/zhkai/b/it' instead on input line ....
-LaTeX Font Warning: Font shape `JY2/zhkai/bx/it' undefined
-(Font)              using `JY2/zhkai/b/it' instead on input line ....
-LaTeX Font Warning: Font shape `JY2/zhkai/bx/it' undefined
-(Font)              using `JY2/zhkai/b/it' instead on input line ....
-LaTeX Font Warning: Font shape `JY2/zhkai/bx/it' undefined
-(Font)              using `JY2/zhkai/b/it' instead on input line ....
-LaTeX Font Warning: Font shape `JY2/zhkai/bx/it' undefined
-(Font)              using `JY2/zhkai/b/it' instead on input line ....
-LaTeX Font Warning: Font shape `JY2/zhkai/bx/it' undefined
-(Font)              using `JY2/zhkai/b/it' instead on input line ....
-LaTeX Font Warning: Font shape `JY2/zhkai/bx/it' undefined
-(Font)              using `JY2/zhkai/b/it' instead on input line ....
-LaTeX Font Warning: Font shape `JY2/zhkai/bx/it' undefined
-(Font)              using `JY2/zhkai/b/it' instead on input line ....
-Underfull \hbox (badness 10000) detected at line 52
+Underfull \hbox (badness 10000) detected at line 51
 \JY2/zhkai/b/it/14.4 。
 \hbox(12.67198+1.728)x14.4
 .\penalty 10000(for kinsoku)
@@ -1121,15 +1033,41 @@ Underfull \hbox (badness 10000) detected at line 52
 .\glue(refer from jfm) 0.0
 LaTeX Font Warning: Font shape `JY2/zhkai/bx/it' undefined
 (Font)              using `JY2/zhkai/b/it' instead on input line ....
-Underfull \hbox (badness 10000) detected at line 52
-\hbox(0.0+0.0)x14.4
-Underfull \hbox (badness 10000) detected at line 52
+LaTeX Font Warning: Font shape `JY2/zhkai/bx/it' undefined
+(Font)              using `JY2/zhkai/b/it' instead on input line ....
+LaTeX Font Warning: Font shape `JY2/zhkai/bx/it' undefined
+(Font)              using `JY2/zhkai/b/it' instead on input line ....
+LaTeX Font Warning: Font shape `JY2/zhkai/bx/it' undefined
+(Font)              using `JY2/zhkai/b/it' instead on input line ....
+LaTeX Font Warning: Font shape `JY2/zhkai/bx/it' undefined
+(Font)              using `JY2/zhkai/b/it' instead on input line ....
+LaTeX Font Warning: Font shape `JY2/zhkai/bx/it' undefined
+(Font)              using `JY2/zhkai/b/it' instead on input line ....
+LaTeX Font Warning: Font shape `JY2/zhkai/bx/it' undefined
+(Font)              using `JY2/zhkai/b/it' instead on input line ....
+LaTeX Font Warning: Font shape `JY2/zhkai/bx/it' undefined
+(Font)              using `JY2/zhkai/b/it' instead on input line ....
+LaTeX Font Warning: Font shape `JY2/zhkai/bx/it' undefined
+(Font)              using `JY2/zhkai/b/it' instead on input line ....
+LaTeX Font Warning: Font shape `JY2/zhkai/bx/it' undefined
+(Font)              using `JY2/zhkai/b/it' instead on input line ....
+LaTeX Font Warning: Font shape `JY2/zhkai/bx/it' undefined
+(Font)              using `JY2/zhkai/b/it' instead on input line ....
+LaTeX Font Warning: Font shape `JY2/zhkai/bx/it' undefined
+(Font)              using `JY2/zhkai/b/it' instead on input line ....
+Underfull \hbox (badness 10000) detected at line 51
 \JY2/zhkai/b/it/14.4 。
 \hbox(12.67198+1.728)x14.4
 .\penalty 10000(for kinsoku)
 .\JY2/zhkai/b/it/14.4 。
 .\glue(refer from jfm) 0.0
-Underfull \hbox (badness 10000) detected at line 52
+Underfull \hbox (badness 10000) detected at line 51
+\JY2/zhkai/b/it/14.4 。
+\hbox(12.67198+1.728)x14.4
+.\penalty 10000(for kinsoku)
+.\JY2/zhkai/b/it/14.4 。
+.\glue(refer from jfm) 0.0
+Underfull \hbox (badness 10000) detected at line 51
 \JY2/zhkai/b/it/14.4 ，
 \hbox(12.67198+1.728)x14.4
 .\penalty 10000(for kinsoku)
@@ -1147,7 +1085,7 @@ LaTeX Font Warning: Font shape `JY2/zhkai/bx/it' undefined
 (Font)              using `JY2/zhkai/b/it' instead on input line ....
 LaTeX Font Warning: Font shape `JY2/zhkai/bx/it' undefined
 (Font)              using `JY2/zhkai/b/it' instead on input line ....
-Underfull \hbox (badness 10000) detected at line 52
+Underfull \hbox (badness 10000) detected at line 51
 \JY2/zhkai/b/it/14.4 。
 \hbox(12.67198+1.728)x14.4
 .\penalty 10000(for kinsoku)
@@ -1159,45 +1097,7 @@ TEST 12: Basic Usage of LXGW Font: \slshape \kaishu
 ============================================================
 LaTeX Font Warning: Font shape `JY2/zhrm/m/sl' undefined
 (Font)              using `JY2/zhrm/m/it' instead on input line ....
-Underfull \hbox (badness 10000) detected at line 52
-\JY2/zhkai/b/it/14.4 。
-\hbox(12.67198+1.728)x14.4
-.\penalty 10000(for kinsoku)
-.\JY2/zhkai/b/it/14.4 。
-.\glue(refer from jfm) 0.0
-Underfull \hbox (badness 10000) detected at line 52
-\hbox(0.0+0.0)x14.4
-LaTeX Font Warning: Font shape `JY2/zhkai/bx/it' undefined
-(Font)              using `JY2/zhkai/b/it' instead on input line ....
-LaTeX Font Warning: Font shape `JY2/zhkai/bx/it' undefined
-(Font)              using `JY2/zhkai/b/it' instead on input line ....
-LaTeX Font Warning: Font shape `JY2/zhkai/bx/it' undefined
-(Font)              using `JY2/zhkai/b/it' instead on input line ....
-LaTeX Font Warning: Font shape `JY2/zhkai/bx/it' undefined
-(Font)              using `JY2/zhkai/b/it' instead on input line ....
-LaTeX Font Warning: Font shape `JY2/zhkai/bx/it' undefined
-(Font)              using `JY2/zhkai/b/it' instead on input line ....
-LaTeX Font Warning: Font shape `JY2/zhkai/bx/it' undefined
-(Font)              using `JY2/zhkai/b/it' instead on input line ....
-LaTeX Font Warning: Font shape `JY2/zhkai/bx/it' undefined
-(Font)              using `JY2/zhkai/b/it' instead on input line ....
-LaTeX Font Warning: Font shape `JY2/zhkai/bx/it' undefined
-(Font)              using `JY2/zhkai/b/it' instead on input line ....
-LaTeX Font Warning: Font shape `JY2/zhkai/bx/it' undefined
-(Font)              using `JY2/zhkai/b/it' instead on input line ....
-LaTeX Font Warning: Font shape `JY2/zhkai/bx/it' undefined
-(Font)              using `JY2/zhkai/b/it' instead on input line ....
-LaTeX Font Warning: Font shape `JY2/zhkai/bx/it' undefined
-(Font)              using `JY2/zhkai/b/it' instead on input line ....
-LaTeX Font Warning: Font shape `JY2/zhkai/bx/it' undefined
-(Font)              using `JY2/zhkai/b/it' instead on input line ....
-Underfull \hbox (badness 10000) detected at line 52
-\JY2/zhkai/b/it/14.4 。
-\hbox(12.67198+1.728)x14.4
-.\penalty 10000(for kinsoku)
-.\JY2/zhkai/b/it/14.4 。
-.\glue(refer from jfm) 0.0
-Underfull \hbox (badness 10000) detected at line 52
+Underfull \hbox (badness 10000) detected at line 51
 \JY2/zhkai/b/it/14.4 。
 \hbox(12.67198+1.728)x14.4
 .\penalty 10000(for kinsoku)
@@ -1227,7 +1127,13 @@ LaTeX Font Warning: Font shape `JY2/zhkai/bx/it' undefined
 (Font)              using `JY2/zhkai/b/it' instead on input line ....
 LaTeX Font Warning: Font shape `JY2/zhkai/bx/it' undefined
 (Font)              using `JY2/zhkai/b/it' instead on input line ....
-Underfull \hbox (badness 10000) detected at line 52
+Underfull \hbox (badness 10000) detected at line 51
+\JY2/zhkai/b/it/14.4 。
+\hbox(12.67198+1.728)x14.4
+.\penalty 10000(for kinsoku)
+.\JY2/zhkai/b/it/14.4 。
+.\glue(refer from jfm) 0.0
+Underfull \hbox (badness 10000) detected at line 51
 \JY2/zhkai/b/it/14.4 。
 \hbox(12.67198+1.728)x14.4
 .\penalty 10000(for kinsoku)
@@ -1235,15 +1141,41 @@ Underfull \hbox (badness 10000) detected at line 52
 .\glue(refer from jfm) 0.0
 LaTeX Font Warning: Font shape `JY2/zhkai/bx/it' undefined
 (Font)              using `JY2/zhkai/b/it' instead on input line ....
-Underfull \hbox (badness 10000) detected at line 52
-\hbox(0.0+0.0)x14.4
-Underfull \hbox (badness 10000) detected at line 52
+LaTeX Font Warning: Font shape `JY2/zhkai/bx/it' undefined
+(Font)              using `JY2/zhkai/b/it' instead on input line ....
+LaTeX Font Warning: Font shape `JY2/zhkai/bx/it' undefined
+(Font)              using `JY2/zhkai/b/it' instead on input line ....
+LaTeX Font Warning: Font shape `JY2/zhkai/bx/it' undefined
+(Font)              using `JY2/zhkai/b/it' instead on input line ....
+LaTeX Font Warning: Font shape `JY2/zhkai/bx/it' undefined
+(Font)              using `JY2/zhkai/b/it' instead on input line ....
+LaTeX Font Warning: Font shape `JY2/zhkai/bx/it' undefined
+(Font)              using `JY2/zhkai/b/it' instead on input line ....
+LaTeX Font Warning: Font shape `JY2/zhkai/bx/it' undefined
+(Font)              using `JY2/zhkai/b/it' instead on input line ....
+LaTeX Font Warning: Font shape `JY2/zhkai/bx/it' undefined
+(Font)              using `JY2/zhkai/b/it' instead on input line ....
+LaTeX Font Warning: Font shape `JY2/zhkai/bx/it' undefined
+(Font)              using `JY2/zhkai/b/it' instead on input line ....
+LaTeX Font Warning: Font shape `JY2/zhkai/bx/it' undefined
+(Font)              using `JY2/zhkai/b/it' instead on input line ....
+LaTeX Font Warning: Font shape `JY2/zhkai/bx/it' undefined
+(Font)              using `JY2/zhkai/b/it' instead on input line ....
+LaTeX Font Warning: Font shape `JY2/zhkai/bx/it' undefined
+(Font)              using `JY2/zhkai/b/it' instead on input line ....
+Underfull \hbox (badness 10000) detected at line 51
 \JY2/zhkai/b/it/14.4 。
 \hbox(12.67198+1.728)x14.4
 .\penalty 10000(for kinsoku)
 .\JY2/zhkai/b/it/14.4 。
 .\glue(refer from jfm) 0.0
-Underfull \hbox (badness 10000) detected at line 52
+Underfull \hbox (badness 10000) detected at line 51
+\JY2/zhkai/b/it/14.4 。
+\hbox(12.67198+1.728)x14.4
+.\penalty 10000(for kinsoku)
+.\JY2/zhkai/b/it/14.4 。
+.\glue(refer from jfm) 0.0
+Underfull \hbox (badness 10000) detected at line 51
 \JY2/zhkai/b/it/14.4 ，
 \hbox(12.67198+1.728)x14.4
 .\penalty 10000(for kinsoku)
@@ -1261,7 +1193,7 @@ LaTeX Font Warning: Font shape `JY2/zhkai/bx/it' undefined
 (Font)              using `JY2/zhkai/b/it' instead on input line ....
 LaTeX Font Warning: Font shape `JY2/zhkai/bx/it' undefined
 (Font)              using `JY2/zhkai/b/it' instead on input line ....
-Underfull \hbox (badness 10000) detected at line 52
+Underfull \hbox (badness 10000) detected at line 51
 \JY2/zhkai/b/it/14.4 。
 \hbox(12.67198+1.728)x14.4
 .\penalty 10000(for kinsoku)

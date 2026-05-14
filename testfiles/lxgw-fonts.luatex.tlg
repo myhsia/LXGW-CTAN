@@ -13,58 +13,46 @@ Package fontspec Info:
 (fontspec)             - 'italic' (m/it) with NFSS spec.: <->"[LXGWNeoZhiSong.ttf]:mode=node;script=latn;language=dflt;jfm=zh_CN/quanjiao;slant=0.2;"
 (fontspec)             - 'bold italic' (b/it) with NFSS spec.: <->"[LXGWNeoZhiSong.ttf]:mode=node;script=latn;language=dflt;jfm=zh_CN/quanjiao;embolden=1.5;slant=0.2;"
 (load cache: extra_lmroman12-regular.luc)
-Underfull \hbox (badness 10000) detected at line 52
+Underfull \hbox (badness 10000) detected at line 51
 [][]
 \hbox(12.672+1.728)x14.4, direction TLT
 .\whatsit4=[]
 .\hbox(12.672+1.728)x7.2, direction TLT
 ..\LTJY3/LXGWNeoZhiSong(1)/m/n/14.4 。
-Underfull \hbox (badness 10000) detected at line 52
-[]\TU/lmr/m/n/14.4 ⍰󰀀
-\hbox(0.0+0.0)x14.4, direction TLT
-.\whatsit4=[]
-.\TU/lmr/m/n/14.4 ⍰
-.\TU/lmr/m/n/14.4 󰀀
 (load cache: extra_lmroman12-bold.luc)
 LaTeX Font Info:    Font shape `LTJY3/LXGWNeoZhiSong(1)/bx/n' in size <14.4> not available
 (Font)              Font shape `LTJY3/LXGWNeoZhiSong(1)/b/n' tried instead on input line ....
-Underfull \hbox (badness 10000) detected at line 52
+Underfull \hbox (badness 10000) detected at line 51
 [][]
 \hbox(12.672+1.728)x14.4, direction TLT
 .\whatsit4=[]
 .\hbox(12.672+1.728)x7.2, direction TLT
 ..\LTJY3/LXGWNeoZhiSong(1)/bx/n/14.4 。
-Underfull \hbox (badness 10000) detected at line 52
+Underfull \hbox (badness 10000) detected at line 51
 [][]
 \hbox(12.672+1.728)x14.4, direction TLT
 .\whatsit4=[]
 .\hbox(12.672+1.728)x7.2, direction TLT
 ..\LTJY3/LXGWNeoZhiSong(1)/m/n/14.4 。
-Underfull \hbox (badness 10000) detected at line 52
+Underfull \hbox (badness 10000) detected at line 51
 [][]
 \hbox(12.672+1.728)x14.4, direction TLT
 .\whatsit4=[]
 .\hbox(12.672+1.728)x7.2, direction TLT
 ..\LTJY3/LXGWNeoZhiSong(1)/bx/n/14.4 。
-Underfull \hbox (badness 10000) detected at line 52
-[]\TU/lmr/bx/n/14.4 ⍰󰀀
-\hbox(0.0+0.0)x14.4, direction TLT
-.\whatsit4=[]
-.\TU/lmr/bx/n/14.4 ⍰
-.\TU/lmr/bx/n/14.4 󰀀
-Underfull \hbox (badness 10000) detected at line 52
+Underfull \hbox (badness 10000) detected at line 51
 [][]
 \hbox(12.672+1.728)x14.4, direction TLT
 .\whatsit4=[]
 .\hbox(12.672+1.728)x7.2, direction TLT
 ..\LTJY3/LXGWNeoZhiSong(1)/m/n/14.4 。
-Underfull \hbox (badness 10000) detected at line 52
+Underfull \hbox (badness 10000) detected at line 51
 [][]
 \hbox(12.672+1.728)x14.4, direction TLT
 .\whatsit4=[]
 .\hbox(12.672+1.728)x7.2, direction TLT
 ..\LTJY3/LXGWNeoZhiSong(1)/m/n/14.4 ，
-Underfull \hbox (badness 10000) detected at line 52
+Underfull \hbox (badness 10000) detected at line 51
 [][]
 \hbox(12.672+1.728)x14.4, direction TLT
 .\whatsit4=[]
@@ -75,58 +63,46 @@ Underfull \hbox (badness 10000) detected at line 52
 TEST 2: Basic Usage of LXGW Font: \itshape \songti 
 ============================================================
 (load cache: extra_lmroman10-italic.luc)(load cache: extra_lmroman12-italic.luc)
-Underfull \hbox (badness 10000) detected at line 52
+Underfull \hbox (badness 10000) detected at line 51
 [][]
 \hbox(12.672+1.728)x14.4, direction TLT
 .\whatsit4=[]
 .\hbox(12.672+1.728)x7.2, direction TLT
 ..\LTJY3/LXGWNeoZhiSong(1)/m/it/14.4 。
-Underfull \hbox (badness 10000) detected at line 52
-[]\TU/lmr/m/it/14.4 ⍰󰀀
-\hbox(0.0+0.0)x14.4, direction TLT
-.\whatsit4=[]
-.\TU/lmr/m/it/14.4 ⍰
-.\TU/lmr/m/it/14.4 󰀀
 (load cache: extra_lmroman10-bolditalic.luc)
 LaTeX Font Info:    Font shape `LTJY3/LXGWNeoZhiSong(1)/bx/it' in size <14.4> not available
 (Font)              Font shape `LTJY3/LXGWNeoZhiSong(1)/b/it' tried instead on input line ....
-Underfull \hbox (badness 10000) detected at line 52
+Underfull \hbox (badness 10000) detected at line 51
 [][]
 \hbox(12.672+1.728)x14.4, direction TLT
 .\whatsit4=[]
 .\hbox(12.672+1.728)x7.2, direction TLT
 ..\LTJY3/LXGWNeoZhiSong(1)/bx/it/14.4 。
-Underfull \hbox (badness 10000) detected at line 52
+Underfull \hbox (badness 10000) detected at line 51
 [][]
 \hbox(12.672+1.728)x14.4, direction TLT
 .\whatsit4=[]
 .\hbox(12.672+1.728)x7.2, direction TLT
 ..\LTJY3/LXGWNeoZhiSong(1)/m/it/14.4 。
-Underfull \hbox (badness 10000) detected at line 52
+Underfull \hbox (badness 10000) detected at line 51
 [][]
 \hbox(12.672+1.728)x14.4, direction TLT
 .\whatsit4=[]
 .\hbox(12.672+1.728)x7.2, direction TLT
 ..\LTJY3/LXGWNeoZhiSong(1)/bx/it/14.4 。
-Underfull \hbox (badness 10000) detected at line 52
-[]\TU/lmr/bx/it/14.4 ⍰󰀀
-\hbox(0.0+0.0)x14.4, direction TLT
-.\whatsit4=[]
-.\TU/lmr/bx/it/14.4 ⍰
-.\TU/lmr/bx/it/14.4 󰀀
-Underfull \hbox (badness 10000) detected at line 52
+Underfull \hbox (badness 10000) detected at line 51
 [][]
 \hbox(12.672+1.728)x14.4, direction TLT
 .\whatsit4=[]
 .\hbox(12.672+1.728)x7.2, direction TLT
 ..\LTJY3/LXGWNeoZhiSong(1)/m/it/14.4 。
-Underfull \hbox (badness 10000) detected at line 52
+Underfull \hbox (badness 10000) detected at line 51
 [][]
 \hbox(12.672+1.728)x14.4, direction TLT
 .\whatsit4=[]
 .\hbox(12.672+1.728)x7.2, direction TLT
 ..\LTJY3/LXGWNeoZhiSong(1)/m/it/14.4 ，
-Underfull \hbox (badness 10000) detected at line 52
+Underfull \hbox (badness 10000) detected at line 51
 [][]
 \hbox(12.672+1.728)x14.4, direction TLT
 .\whatsit4=[]
@@ -144,60 +120,48 @@ LaTeX Font Info:    Font shape `LTJY3/LXGWNeoZhiSong(1)/m/sl' in size <10> not a
 (load cache: extra_lmromanslant12-regular.luc)
 LaTeX Font Info:    Font shape `LTJY3/LXGWNeoZhiSong(1)/m/sl' in size <14.4> not available
 (Font)              Font shape `LTJY3/LXGWNeoZhiSong(1)/m/it' tried instead on input line ....
-Underfull \hbox (badness 10000) detected at line 52
+Underfull \hbox (badness 10000) detected at line 51
 [][]
 \hbox(12.672+1.728)x14.4, direction TLT
 .\whatsit4=[]
 .\hbox(12.672+1.728)x7.2, direction TLT
 ..\LTJY3/LXGWNeoZhiSong(1)/m/sl/14.4 。
-Underfull \hbox (badness 10000) detected at line 52
-[]\TU/lmr/m/sl/14.4 ⍰󰀀
-\hbox(0.0+0.0)x14.4, direction TLT
-.\whatsit4=[]
-.\TU/lmr/m/sl/14.4 ⍰
-.\TU/lmr/m/sl/14.4 󰀀
 (load cache: extra_lmromanslant10-bold.luc)
 LaTeX Font Info:    Font shape `LTJY3/LXGWNeoZhiSong(1)/bx/sl' in size <14.4> not available
 (Font)              Font shape `LTJY3/LXGWNeoZhiSong(1)/bx/it' tried instead on input line ....
 LaTeX Font Info:    Font shape `LTJY3/LXGWNeoZhiSong(1)/bx/it' in size <14.4> not available
 (Font)              Font shape `LTJY3/LXGWNeoZhiSong(1)/b/it' tried instead on input line ....
-Underfull \hbox (badness 10000) detected at line 52
+Underfull \hbox (badness 10000) detected at line 51
 [][]
 \hbox(12.672+1.728)x14.4, direction TLT
 .\whatsit4=[]
 .\hbox(12.672+1.728)x7.2, direction TLT
 ..\LTJY3/LXGWNeoZhiSong(1)/bx/sl/14.4 。
-Underfull \hbox (badness 10000) detected at line 52
+Underfull \hbox (badness 10000) detected at line 51
 [][]
 \hbox(12.672+1.728)x14.4, direction TLT
 .\whatsit4=[]
 .\hbox(12.672+1.728)x7.2, direction TLT
 ..\LTJY3/LXGWNeoZhiSong(1)/m/sl/14.4 。
-Underfull \hbox (badness 10000) detected at line 52
+Underfull \hbox (badness 10000) detected at line 51
 [][]
 \hbox(12.672+1.728)x14.4, direction TLT
 .\whatsit4=[]
 .\hbox(12.672+1.728)x7.2, direction TLT
 ..\LTJY3/LXGWNeoZhiSong(1)/bx/sl/14.4 。
-Underfull \hbox (badness 10000) detected at line 52
-[]\TU/lmr/bx/sl/14.4 ⍰󰀀
-\hbox(0.0+0.0)x14.4, direction TLT
-.\whatsit4=[]
-.\TU/lmr/bx/sl/14.4 ⍰
-.\TU/lmr/bx/sl/14.4 󰀀
-Underfull \hbox (badness 10000) detected at line 52
+Underfull \hbox (badness 10000) detected at line 51
 [][]
 \hbox(12.672+1.728)x14.4, direction TLT
 .\whatsit4=[]
 .\hbox(12.672+1.728)x7.2, direction TLT
 ..\LTJY3/LXGWNeoZhiSong(1)/m/sl/14.4 。
-Underfull \hbox (badness 10000) detected at line 52
+Underfull \hbox (badness 10000) detected at line 51
 [][]
 \hbox(12.672+1.728)x14.4, direction TLT
 .\whatsit4=[]
 .\hbox(12.672+1.728)x7.2, direction TLT
 ..\LTJY3/LXGWNeoZhiSong(1)/m/sl/14.4 ，
-Underfull \hbox (badness 10000) detected at line 52
+Underfull \hbox (badness 10000) detected at line 51
 [][]
 \hbox(12.672+1.728)x14.4, direction TLT
 .\whatsit4=[]
@@ -217,57 +181,45 @@ Package fontspec Info:
 (fontspec)             - 'bold' (b/n) with NFSS spec.: <->"[LXGWNeoXiHei.ttf]:mode=node;script=latn;language=dflt;jfm=zh_CN/quanjiao;embolden=1.5;"
 (fontspec)             - 'italic' (m/it) with NFSS spec.: <->"[LXGWNeoXiHei.ttf]:mode=node;script=latn;language=dflt;jfm=zh_CN/quanjiao;slant=0.2;"
 (fontspec)             - 'bold italic' (b/it) with NFSS spec.: <->"[LXGWNeoXiHei.ttf]:mode=node;script=latn;language=dflt;jfm=zh_CN/quanjiao;embolden=1.5;slant=0.2;"
-Underfull \hbox (badness 10000) detected at line 52
+Underfull \hbox (badness 10000) detected at line 51
 [][]
 \hbox(12.672+1.728)x14.4, direction TLT
 .\whatsit4=[]
 .\hbox(12.672+1.728)x7.2, direction TLT
 ..\LTJY3/LXGWNeoXiHei(0)/m/n/14.4 。
-Underfull \hbox (badness 10000) detected at line 52
-[]\TU/lmr/m/n/14.4 ⍰󰀀
-\hbox(0.0+0.0)x14.4, direction TLT
-.\whatsit4=[]
-.\TU/lmr/m/n/14.4 ⍰
-.\TU/lmr/m/n/14.4 󰀀
 LaTeX Font Info:    Font shape `LTJY3/LXGWNeoXiHei(0)/bx/n' in size <14.4> not available
 (Font)              Font shape `LTJY3/LXGWNeoXiHei(0)/b/n' tried instead on input line ....
-Underfull \hbox (badness 10000) detected at line 52
+Underfull \hbox (badness 10000) detected at line 51
 [][]
 \hbox(12.672+1.728)x14.4, direction TLT
 .\whatsit4=[]
 .\hbox(12.672+1.728)x7.2, direction TLT
 ..\LTJY3/LXGWNeoXiHei(0)/bx/n/14.4 。
-Underfull \hbox (badness 10000) detected at line 52
+Underfull \hbox (badness 10000) detected at line 51
 [][]
 \hbox(12.672+1.728)x14.4, direction TLT
 .\whatsit4=[]
 .\hbox(12.672+1.728)x7.2, direction TLT
 ..\LTJY3/LXGWNeoXiHei(0)/m/n/14.4 。
-Underfull \hbox (badness 10000) detected at line 52
+Underfull \hbox (badness 10000) detected at line 51
 [][]
 \hbox(12.672+1.728)x14.4, direction TLT
 .\whatsit4=[]
 .\hbox(12.672+1.728)x7.2, direction TLT
 ..\LTJY3/LXGWNeoXiHei(0)/bx/n/14.4 。
-Underfull \hbox (badness 10000) detected at line 52
-[]\TU/lmr/bx/n/14.4 ⍰󰀀
-\hbox(0.0+0.0)x14.4, direction TLT
-.\whatsit4=[]
-.\TU/lmr/bx/n/14.4 ⍰
-.\TU/lmr/bx/n/14.4 󰀀
-Underfull \hbox (badness 10000) detected at line 52
+Underfull \hbox (badness 10000) detected at line 51
 [][]
 \hbox(12.672+1.728)x14.4, direction TLT
 .\whatsit4=[]
 .\hbox(12.672+1.728)x7.2, direction TLT
 ..\LTJY3/LXGWNeoXiHei(0)/m/n/14.4 。
-Underfull \hbox (badness 10000) detected at line 52
+Underfull \hbox (badness 10000) detected at line 51
 [][]
 \hbox(12.672+1.728)x14.4, direction TLT
 .\whatsit4=[]
 .\hbox(12.672+1.728)x7.2, direction TLT
 ..\LTJY3/LXGWNeoXiHei(0)/m/n/14.4 ，
-Underfull \hbox (badness 10000) detected at line 52
+Underfull \hbox (badness 10000) detected at line 51
 [][]
 \hbox(12.672+1.728)x14.4, direction TLT
 .\whatsit4=[]
@@ -277,57 +229,45 @@ Underfull \hbox (badness 10000) detected at line 52
 ============================================================
 TEST 5: Basic Usage of LXGW Font: \itshape \heiti 
 ============================================================
-Underfull \hbox (badness 10000) detected at line 52
+Underfull \hbox (badness 10000) detected at line 51
 [][]
 \hbox(12.672+1.728)x14.4, direction TLT
 .\whatsit4=[]
 .\hbox(12.672+1.728)x7.2, direction TLT
 ..\LTJY3/LXGWNeoXiHei(0)/m/it/14.4 。
-Underfull \hbox (badness 10000) detected at line 52
-[]\TU/lmr/m/it/14.4 ⍰󰀀
-\hbox(0.0+0.0)x14.4, direction TLT
-.\whatsit4=[]
-.\TU/lmr/m/it/14.4 ⍰
-.\TU/lmr/m/it/14.4 󰀀
 LaTeX Font Info:    Font shape `LTJY3/LXGWNeoXiHei(0)/bx/it' in size <14.4> not available
 (Font)              Font shape `LTJY3/LXGWNeoXiHei(0)/b/it' tried instead on input line ....
-Underfull \hbox (badness 10000) detected at line 52
+Underfull \hbox (badness 10000) detected at line 51
 [][]
 \hbox(12.672+1.728)x14.4, direction TLT
 .\whatsit4=[]
 .\hbox(12.672+1.728)x7.2, direction TLT
 ..\LTJY3/LXGWNeoXiHei(0)/bx/it/14.4 。
-Underfull \hbox (badness 10000) detected at line 52
+Underfull \hbox (badness 10000) detected at line 51
 [][]
 \hbox(12.672+1.728)x14.4, direction TLT
 .\whatsit4=[]
 .\hbox(12.672+1.728)x7.2, direction TLT
 ..\LTJY3/LXGWNeoXiHei(0)/m/it/14.4 。
-Underfull \hbox (badness 10000) detected at line 52
+Underfull \hbox (badness 10000) detected at line 51
 [][]
 \hbox(12.672+1.728)x14.4, direction TLT
 .\whatsit4=[]
 .\hbox(12.672+1.728)x7.2, direction TLT
 ..\LTJY3/LXGWNeoXiHei(0)/bx/it/14.4 。
-Underfull \hbox (badness 10000) detected at line 52
-[]\TU/lmr/bx/it/14.4 ⍰󰀀
-\hbox(0.0+0.0)x14.4, direction TLT
-.\whatsit4=[]
-.\TU/lmr/bx/it/14.4 ⍰
-.\TU/lmr/bx/it/14.4 󰀀
-Underfull \hbox (badness 10000) detected at line 52
+Underfull \hbox (badness 10000) detected at line 51
 [][]
 \hbox(12.672+1.728)x14.4, direction TLT
 .\whatsit4=[]
 .\hbox(12.672+1.728)x7.2, direction TLT
 ..\LTJY3/LXGWNeoXiHei(0)/m/it/14.4 。
-Underfull \hbox (badness 10000) detected at line 52
+Underfull \hbox (badness 10000) detected at line 51
 [][]
 \hbox(12.672+1.728)x14.4, direction TLT
 .\whatsit4=[]
 .\hbox(12.672+1.728)x7.2, direction TLT
 ..\LTJY3/LXGWNeoXiHei(0)/m/it/14.4 ，
-Underfull \hbox (badness 10000) detected at line 52
+Underfull \hbox (badness 10000) detected at line 51
 [][]
 \hbox(12.672+1.728)x14.4, direction TLT
 .\whatsit4=[]
@@ -341,59 +281,47 @@ LaTeX Font Info:    Font shape `LTJY3/LXGWNeoXiHei(0)/m/sl' in size <10> not ava
 (Font)              Font shape `LTJY3/LXGWNeoXiHei(0)/m/it' tried instead on input line ....
 LaTeX Font Info:    Font shape `LTJY3/LXGWNeoXiHei(0)/m/sl' in size <14.4> not available
 (Font)              Font shape `LTJY3/LXGWNeoXiHei(0)/m/it' tried instead on input line ....
-Underfull \hbox (badness 10000) detected at line 52
+Underfull \hbox (badness 10000) detected at line 51
 [][]
 \hbox(12.672+1.728)x14.4, direction TLT
 .\whatsit4=[]
 .\hbox(12.672+1.728)x7.2, direction TLT
 ..\LTJY3/LXGWNeoXiHei(0)/m/sl/14.4 。
-Underfull \hbox (badness 10000) detected at line 52
-[]\TU/lmr/m/sl/14.4 ⍰󰀀
-\hbox(0.0+0.0)x14.4, direction TLT
-.\whatsit4=[]
-.\TU/lmr/m/sl/14.4 ⍰
-.\TU/lmr/m/sl/14.4 󰀀
 LaTeX Font Info:    Font shape `LTJY3/LXGWNeoXiHei(0)/bx/sl' in size <14.4> not available
 (Font)              Font shape `LTJY3/LXGWNeoXiHei(0)/bx/it' tried instead on input line ....
 LaTeX Font Info:    Font shape `LTJY3/LXGWNeoXiHei(0)/bx/it' in size <14.4> not available
 (Font)              Font shape `LTJY3/LXGWNeoXiHei(0)/b/it' tried instead on input line ....
-Underfull \hbox (badness 10000) detected at line 52
+Underfull \hbox (badness 10000) detected at line 51
 [][]
 \hbox(12.672+1.728)x14.4, direction TLT
 .\whatsit4=[]
 .\hbox(12.672+1.728)x7.2, direction TLT
 ..\LTJY3/LXGWNeoXiHei(0)/bx/sl/14.4 。
-Underfull \hbox (badness 10000) detected at line 52
+Underfull \hbox (badness 10000) detected at line 51
 [][]
 \hbox(12.672+1.728)x14.4, direction TLT
 .\whatsit4=[]
 .\hbox(12.672+1.728)x7.2, direction TLT
 ..\LTJY3/LXGWNeoXiHei(0)/m/sl/14.4 。
-Underfull \hbox (badness 10000) detected at line 52
+Underfull \hbox (badness 10000) detected at line 51
 [][]
 \hbox(12.672+1.728)x14.4, direction TLT
 .\whatsit4=[]
 .\hbox(12.672+1.728)x7.2, direction TLT
 ..\LTJY3/LXGWNeoXiHei(0)/bx/sl/14.4 。
-Underfull \hbox (badness 10000) detected at line 52
-[]\TU/lmr/bx/sl/14.4 ⍰󰀀
-\hbox(0.0+0.0)x14.4, direction TLT
-.\whatsit4=[]
-.\TU/lmr/bx/sl/14.4 ⍰
-.\TU/lmr/bx/sl/14.4 󰀀
-Underfull \hbox (badness 10000) detected at line 52
+Underfull \hbox (badness 10000) detected at line 51
 [][]
 \hbox(12.672+1.728)x14.4, direction TLT
 .\whatsit4=[]
 .\hbox(12.672+1.728)x7.2, direction TLT
 ..\LTJY3/LXGWNeoXiHei(0)/m/sl/14.4 。
-Underfull \hbox (badness 10000) detected at line 52
+Underfull \hbox (badness 10000) detected at line 51
 [][]
 \hbox(12.672+1.728)x14.4, direction TLT
 .\whatsit4=[]
 .\hbox(12.672+1.728)x7.2, direction TLT
 ..\LTJY3/LXGWNeoXiHei(0)/m/sl/14.4 ，
-Underfull \hbox (badness 10000) detected at line 52
+Underfull \hbox (badness 10000) detected at line 51
 [][]
 \hbox(12.672+1.728)x14.4, direction TLT
 .\whatsit4=[]
@@ -417,57 +345,45 @@ Package fontspec Info:
 (fontspec)             - 'italic small caps'  (m/scit) with NFSS spec.: <->"[LXGWZhuqueFangsong-Regular.ttf]:mode=node;script=latn;language=dflt;jfm=zh_CN/quanjiao;slant=0.2;+smcp;"
 (fontspec)             - 'bold italic' (b/it) with NFSS spec.: <->"[LXGWZhuqueFangsong-Regular.ttf]:mode=node;script=latn;language=dflt;jfm=zh_CN/quanjiao;embolden=1.5;slant=0.2;"
 (fontspec)             - 'bold italic small caps'  (b/scit) with NFSS spec.: <->"[LXGWZhuqueFangsong-Regular.ttf]:mode=node;script=latn;language=dflt;jfm=zh_CN/quanjiao;embolden=1.5;slant=0.2;+smcp;"
-Underfull \hbox (badness 10000) detected at line 52
+Underfull \hbox (badness 10000) detected at line 51
 [][]
 \hbox(12.672+1.728)x14.4, direction TLT
 .\whatsit4=[]
 .\hbox(12.672+1.728)x7.2, direction TLT
 ..\LTJY3/LXGWZhuqueFangsong-Regular(0)/m/n/14.4 。
-Underfull \hbox (badness 10000) detected at line 52
-[]\TU/lmr/m/n/14.4 ⍰󰀀
-\hbox(0.0+0.0)x14.4, direction TLT
-.\whatsit4=[]
-.\TU/lmr/m/n/14.4 ⍰
-.\TU/lmr/m/n/14.4 󰀀
 LaTeX Font Info:    Font shape `LTJY3/LXGWZhuqueFangsong-Regular(0)/bx/n' in size <14.4> not available
 (Font)              Font shape `LTJY3/LXGWZhuqueFangsong-Regular(0)/b/n' tried instead on input line ....
-Underfull \hbox (badness 10000) detected at line 52
+Underfull \hbox (badness 10000) detected at line 51
 [][]
 \hbox(12.672+1.728)x14.4, direction TLT
 .\whatsit4=[]
 .\hbox(12.672+1.728)x7.2, direction TLT
 ..\LTJY3/LXGWZhuqueFangsong-Regular(0)/bx/n/14.4 。
-Underfull \hbox (badness 10000) detected at line 52
+Underfull \hbox (badness 10000) detected at line 51
 [][]
 \hbox(12.672+1.728)x14.4, direction TLT
 .\whatsit4=[]
 .\hbox(12.672+1.728)x7.2, direction TLT
 ..\LTJY3/LXGWZhuqueFangsong-Regular(0)/m/n/14.4 。
-Underfull \hbox (badness 10000) detected at line 52
+Underfull \hbox (badness 10000) detected at line 51
 [][]
 \hbox(12.672+1.728)x14.4, direction TLT
 .\whatsit4=[]
 .\hbox(12.672+1.728)x7.2, direction TLT
 ..\LTJY3/LXGWZhuqueFangsong-Regular(0)/bx/n/14.4 。
-Underfull \hbox (badness 10000) detected at line 52
-[]\TU/lmr/bx/n/14.4 ⍰󰀀
-\hbox(0.0+0.0)x14.4, direction TLT
-.\whatsit4=[]
-.\TU/lmr/bx/n/14.4 ⍰
-.\TU/lmr/bx/n/14.4 󰀀
-Underfull \hbox (badness 10000) detected at line 52
+Underfull \hbox (badness 10000) detected at line 51
 [][]
 \hbox(12.672+1.728)x14.4, direction TLT
 .\whatsit4=[]
 .\hbox(12.672+1.728)x7.2, direction TLT
 ..\LTJY3/LXGWZhuqueFangsong-Regular(0)/m/n/14.4 。
-Underfull \hbox (badness 10000) detected at line 52
+Underfull \hbox (badness 10000) detected at line 51
 [][]
 \hbox(12.672+1.728)x14.4, direction TLT
 .\whatsit4=[]
 .\hbox(12.672+1.728)x7.2, direction TLT
 ..\LTJY3/LXGWZhuqueFangsong-Regular(0)/m/n/14.4 ，
-Underfull \hbox (badness 10000) detected at line 52
+Underfull \hbox (badness 10000) detected at line 51
 [][]
 \hbox(12.672+1.728)x14.4, direction TLT
 .\whatsit4=[]
@@ -477,57 +393,45 @@ Underfull \hbox (badness 10000) detected at line 52
 ============================================================
 TEST 8: Basic Usage of LXGW Font: \itshape \fangsong 
 ============================================================
-Underfull \hbox (badness 10000) detected at line 52
+Underfull \hbox (badness 10000) detected at line 51
 [][]
 \hbox(12.672+1.728)x14.4, direction TLT
 .\whatsit4=[]
 .\hbox(12.672+1.728)x7.2, direction TLT
 ..\LTJY3/LXGWZhuqueFangsong-Regular(0)/m/it/14.4 。
-Underfull \hbox (badness 10000) detected at line 52
-[]\TU/lmr/m/it/14.4 ⍰󰀀
-\hbox(0.0+0.0)x14.4, direction TLT
-.\whatsit4=[]
-.\TU/lmr/m/it/14.4 ⍰
-.\TU/lmr/m/it/14.4 󰀀
 LaTeX Font Info:    Font shape `LTJY3/LXGWZhuqueFangsong-Regular(0)/bx/it' in size <14.4> not available
 (Font)              Font shape `LTJY3/LXGWZhuqueFangsong-Regular(0)/b/it' tried instead on input line ....
-Underfull \hbox (badness 10000) detected at line 52
+Underfull \hbox (badness 10000) detected at line 51
 [][]
 \hbox(12.672+1.728)x14.4, direction TLT
 .\whatsit4=[]
 .\hbox(12.672+1.728)x7.2, direction TLT
 ..\LTJY3/LXGWZhuqueFangsong-Regular(0)/bx/it/14.4 。
-Underfull \hbox (badness 10000) detected at line 52
+Underfull \hbox (badness 10000) detected at line 51
 [][]
 \hbox(12.672+1.728)x14.4, direction TLT
 .\whatsit4=[]
 .\hbox(12.672+1.728)x7.2, direction TLT
 ..\LTJY3/LXGWZhuqueFangsong-Regular(0)/m/it/14.4 。
-Underfull \hbox (badness 10000) detected at line 52
+Underfull \hbox (badness 10000) detected at line 51
 [][]
 \hbox(12.672+1.728)x14.4, direction TLT
 .\whatsit4=[]
 .\hbox(12.672+1.728)x7.2, direction TLT
 ..\LTJY3/LXGWZhuqueFangsong-Regular(0)/bx/it/14.4 。
-Underfull \hbox (badness 10000) detected at line 52
-[]\TU/lmr/bx/it/14.4 ⍰󰀀
-\hbox(0.0+0.0)x14.4, direction TLT
-.\whatsit4=[]
-.\TU/lmr/bx/it/14.4 ⍰
-.\TU/lmr/bx/it/14.4 󰀀
-Underfull \hbox (badness 10000) detected at line 52
+Underfull \hbox (badness 10000) detected at line 51
 [][]
 \hbox(12.672+1.728)x14.4, direction TLT
 .\whatsit4=[]
 .\hbox(12.672+1.728)x7.2, direction TLT
 ..\LTJY3/LXGWZhuqueFangsong-Regular(0)/m/it/14.4 。
-Underfull \hbox (badness 10000) detected at line 52
+Underfull \hbox (badness 10000) detected at line 51
 [][]
 \hbox(12.672+1.728)x14.4, direction TLT
 .\whatsit4=[]
 .\hbox(12.672+1.728)x7.2, direction TLT
 ..\LTJY3/LXGWZhuqueFangsong-Regular(0)/m/it/14.4 ，
-Underfull \hbox (badness 10000) detected at line 52
+Underfull \hbox (badness 10000) detected at line 51
 [][]
 \hbox(12.672+1.728)x14.4, direction TLT
 .\whatsit4=[]
@@ -541,59 +445,47 @@ LaTeX Font Info:    Font shape `LTJY3/LXGWZhuqueFangsong-Regular(0)/m/sl' in siz
 (Font)              Font shape `LTJY3/LXGWZhuqueFangsong-Regular(0)/m/it' tried instead on input line ....
 LaTeX Font Info:    Font shape `LTJY3/LXGWZhuqueFangsong-Regular(0)/m/sl' in size <14.4> not available
 (Font)              Font shape `LTJY3/LXGWZhuqueFangsong-Regular(0)/m/it' tried instead on input line ....
-Underfull \hbox (badness 10000) detected at line 52
+Underfull \hbox (badness 10000) detected at line 51
 [][]
 \hbox(12.672+1.728)x14.4, direction TLT
 .\whatsit4=[]
 .\hbox(12.672+1.728)x7.2, direction TLT
 ..\LTJY3/LXGWZhuqueFangsong-Regular(0)/m/sl/14.4 。
-Underfull \hbox (badness 10000) detected at line 52
-[]\TU/lmr/m/sl/14.4 ⍰󰀀
-\hbox(0.0+0.0)x14.4, direction TLT
-.\whatsit4=[]
-.\TU/lmr/m/sl/14.4 ⍰
-.\TU/lmr/m/sl/14.4 󰀀
 LaTeX Font Info:    Font shape `LTJY3/LXGWZhuqueFangsong-Regular(0)/bx/sl' in size <14.4> not available
 (Font)              Font shape `LTJY3/LXGWZhuqueFangsong-Regular(0)/bx/it' tried instead on input line ....
 LaTeX Font Info:    Font shape `LTJY3/LXGWZhuqueFangsong-Regular(0)/bx/it' in size <14.4> not available
 (Font)              Font shape `LTJY3/LXGWZhuqueFangsong-Regular(0)/b/it' tried instead on input line ....
-Underfull \hbox (badness 10000) detected at line 52
+Underfull \hbox (badness 10000) detected at line 51
 [][]
 \hbox(12.672+1.728)x14.4, direction TLT
 .\whatsit4=[]
 .\hbox(12.672+1.728)x7.2, direction TLT
 ..\LTJY3/LXGWZhuqueFangsong-Regular(0)/bx/sl/14.4 。
-Underfull \hbox (badness 10000) detected at line 52
+Underfull \hbox (badness 10000) detected at line 51
 [][]
 \hbox(12.672+1.728)x14.4, direction TLT
 .\whatsit4=[]
 .\hbox(12.672+1.728)x7.2, direction TLT
 ..\LTJY3/LXGWZhuqueFangsong-Regular(0)/m/sl/14.4 。
-Underfull \hbox (badness 10000) detected at line 52
+Underfull \hbox (badness 10000) detected at line 51
 [][]
 \hbox(12.672+1.728)x14.4, direction TLT
 .\whatsit4=[]
 .\hbox(12.672+1.728)x7.2, direction TLT
 ..\LTJY3/LXGWZhuqueFangsong-Regular(0)/bx/sl/14.4 。
-Underfull \hbox (badness 10000) detected at line 52
-[]\TU/lmr/bx/sl/14.4 ⍰󰀀
-\hbox(0.0+0.0)x14.4, direction TLT
-.\whatsit4=[]
-.\TU/lmr/bx/sl/14.4 ⍰
-.\TU/lmr/bx/sl/14.4 󰀀
-Underfull \hbox (badness 10000) detected at line 52
+Underfull \hbox (badness 10000) detected at line 51
 [][]
 \hbox(12.672+1.728)x14.4, direction TLT
 .\whatsit4=[]
 .\hbox(12.672+1.728)x7.2, direction TLT
 ..\LTJY3/LXGWZhuqueFangsong-Regular(0)/m/sl/14.4 。
-Underfull \hbox (badness 10000) detected at line 52
+Underfull \hbox (badness 10000) detected at line 51
 [][]
 \hbox(12.672+1.728)x14.4, direction TLT
 .\whatsit4=[]
 .\hbox(12.672+1.728)x7.2, direction TLT
 ..\LTJY3/LXGWZhuqueFangsong-Regular(0)/m/sl/14.4 ，
-Underfull \hbox (badness 10000) detected at line 52
+Underfull \hbox (badness 10000) detected at line 51
 [][]
 \hbox(12.672+1.728)x14.4, direction TLT
 .\whatsit4=[]
@@ -614,57 +506,45 @@ Package fontspec Info:
 (fontspec)             - 'slanted' (m/sl) with NFSS spec.: <->"[LXGWWenKaiGBLite-Regular.ttf]:mode=node;script=latn;language=dflt;jfm=zh_CN/quanjiao;"
 (fontspec)             - 'bold italic' (b/it) with NFSS spec.: <->"[LXGWZhenKaiGB-Regular.ttf]:mode=node;script=latn;language=dflt;jfm=zh_CN/quanjiao;"
 (fontspec)             - 'bold slanted' (b/sl) with NFSS spec.: <->"[LXGWZhenKaiGB-Regular.ttf]:mode=node;script=latn;language=dflt;jfm=zh_CN/quanjiao;"
-Underfull \hbox (badness 10000) detected at line 52
+Underfull \hbox (badness 10000) detected at line 51
 [][]
 \hbox(12.672+1.728)x14.4, direction TLT
 .\whatsit4=[]
 .\hbox(12.672+1.728)x7.2, direction TLT
 ..\LTJY3/LXGWWenKaiGBLite-Regular(0)/m/n/14.4 。
-Underfull \hbox (badness 10000) detected at line 52
-[]\TU/lmr/m/n/14.4 ⍰󰀀
-\hbox(0.0+0.0)x14.4, direction TLT
-.\whatsit4=[]
-.\TU/lmr/m/n/14.4 ⍰
-.\TU/lmr/m/n/14.4 󰀀
 LaTeX Font Info:    Font shape `LTJY3/LXGWWenKaiGBLite-Regular(0)/bx/n' in size <14.4> not available
 (Font)              Font shape `LTJY3/LXGWWenKaiGBLite-Regular(0)/b/n' tried instead on input line ....
-Underfull \hbox (badness 10000) detected at line 52
+Underfull \hbox (badness 10000) detected at line 51
 [][]
 \hbox(12.672+1.728)x14.4, direction TLT
 .\whatsit4=[]
 .\hbox(12.672+1.728)x7.2, direction TLT
 ..\LTJY3/LXGWWenKaiGBLite-Regular(0)/bx/n/14.4 。
-Underfull \hbox (badness 10000) detected at line 52
+Underfull \hbox (badness 10000) detected at line 51
 [][]
 \hbox(12.672+1.728)x14.4, direction TLT
 .\whatsit4=[]
 .\hbox(12.672+1.728)x7.2, direction TLT
 ..\LTJY3/LXGWWenKaiGBLite-Regular(0)/m/n/14.4 。
-Underfull \hbox (badness 10000) detected at line 52
+Underfull \hbox (badness 10000) detected at line 51
 [][]
 \hbox(12.672+1.728)x14.4, direction TLT
 .\whatsit4=[]
 .\hbox(12.672+1.728)x7.2, direction TLT
 ..\LTJY3/LXGWWenKaiGBLite-Regular(0)/bx/n/14.4 。
-Underfull \hbox (badness 10000) detected at line 52
-[]\TU/lmr/bx/n/14.4 ⍰󰀀
-\hbox(0.0+0.0)x14.4, direction TLT
-.\whatsit4=[]
-.\TU/lmr/bx/n/14.4 ⍰
-.\TU/lmr/bx/n/14.4 󰀀
-Underfull \hbox (badness 10000) detected at line 52
+Underfull \hbox (badness 10000) detected at line 51
 [][]
 \hbox(12.672+1.728)x14.4, direction TLT
 .\whatsit4=[]
 .\hbox(12.672+1.728)x7.2, direction TLT
 ..\LTJY3/LXGWWenKaiGBLite-Regular(0)/m/n/14.4 。
-Underfull \hbox (badness 10000) detected at line 52
+Underfull \hbox (badness 10000) detected at line 51
 [][]
 \hbox(12.672+1.728)x14.4, direction TLT
 .\whatsit4=[]
 .\hbox(12.672+1.728)x7.2, direction TLT
 ..\LTJY3/LXGWWenKaiGBLite-Regular(0)/m/n/14.4 ，
-Underfull \hbox (badness 10000) detected at line 52
+Underfull \hbox (badness 10000) detected at line 51
 [][]
 \hbox(12.672+1.728)x14.4, direction TLT
 .\whatsit4=[]
@@ -674,57 +554,45 @@ Underfull \hbox (badness 10000) detected at line 52
 ============================================================
 TEST 11: Basic Usage of LXGW Font: \itshape \kaishu 
 ============================================================
-Underfull \hbox (badness 10000) detected at line 52
+Underfull \hbox (badness 10000) detected at line 51
 [][]
 \hbox(12.672+1.728)x14.4, direction TLT
 .\whatsit4=[]
 .\hbox(12.672+1.728)x7.2, direction TLT
 ..\LTJY3/LXGWWenKaiGBLite-Regular(0)/m/it/14.4 。
-Underfull \hbox (badness 10000) detected at line 52
-[]\TU/lmr/m/it/14.4 ⍰󰀀
-\hbox(0.0+0.0)x14.4, direction TLT
-.\whatsit4=[]
-.\TU/lmr/m/it/14.4 ⍰
-.\TU/lmr/m/it/14.4 󰀀
 LaTeX Font Info:    Font shape `LTJY3/LXGWWenKaiGBLite-Regular(0)/bx/it' in size <14.4> not available
 (Font)              Font shape `LTJY3/LXGWWenKaiGBLite-Regular(0)/b/it' tried instead on input line ....
-Underfull \hbox (badness 10000) detected at line 52
+Underfull \hbox (badness 10000) detected at line 51
 [][]
 \hbox(12.672+1.728)x14.4, direction TLT
 .\whatsit4=[]
 .\hbox(12.672+1.728)x7.2, direction TLT
 ..\LTJY3/LXGWWenKaiGBLite-Regular(0)/bx/it/14.4 。
-Underfull \hbox (badness 10000) detected at line 52
+Underfull \hbox (badness 10000) detected at line 51
 [][]
 \hbox(12.672+1.728)x14.4, direction TLT
 .\whatsit4=[]
 .\hbox(12.672+1.728)x7.2, direction TLT
 ..\LTJY3/LXGWWenKaiGBLite-Regular(0)/m/it/14.4 。
-Underfull \hbox (badness 10000) detected at line 52
+Underfull \hbox (badness 10000) detected at line 51
 [][]
 \hbox(12.672+1.728)x14.4, direction TLT
 .\whatsit4=[]
 .\hbox(12.672+1.728)x7.2, direction TLT
 ..\LTJY3/LXGWWenKaiGBLite-Regular(0)/bx/it/14.4 。
-Underfull \hbox (badness 10000) detected at line 52
-[]\TU/lmr/bx/it/14.4 ⍰󰀀
-\hbox(0.0+0.0)x14.4, direction TLT
-.\whatsit4=[]
-.\TU/lmr/bx/it/14.4 ⍰
-.\TU/lmr/bx/it/14.4 󰀀
-Underfull \hbox (badness 10000) detected at line 52
+Underfull \hbox (badness 10000) detected at line 51
 [][]
 \hbox(12.672+1.728)x14.4, direction TLT
 .\whatsit4=[]
 .\hbox(12.672+1.728)x7.2, direction TLT
 ..\LTJY3/LXGWWenKaiGBLite-Regular(0)/m/it/14.4 。
-Underfull \hbox (badness 10000) detected at line 52
+Underfull \hbox (badness 10000) detected at line 51
 [][]
 \hbox(12.672+1.728)x14.4, direction TLT
 .\whatsit4=[]
 .\hbox(12.672+1.728)x7.2, direction TLT
 ..\LTJY3/LXGWWenKaiGBLite-Regular(0)/m/it/14.4 ，
-Underfull \hbox (badness 10000) detected at line 52
+Underfull \hbox (badness 10000) detected at line 51
 [][]
 \hbox(12.672+1.728)x14.4, direction TLT
 .\whatsit4=[]
@@ -734,57 +602,45 @@ Underfull \hbox (badness 10000) detected at line 52
 ============================================================
 TEST 12: Basic Usage of LXGW Font: \slshape \kaishu 
 ============================================================
-Underfull \hbox (badness 10000) detected at line 52
+Underfull \hbox (badness 10000) detected at line 51
 [][]
 \hbox(12.672+1.728)x14.4, direction TLT
 .\whatsit4=[]
 .\hbox(12.672+1.728)x7.2, direction TLT
 ..\LTJY3/LXGWWenKaiGBLite-Regular(0)/m/sl/14.4 。
-Underfull \hbox (badness 10000) detected at line 52
-[]\TU/lmr/m/sl/14.4 ⍰󰀀
-\hbox(0.0+0.0)x14.4, direction TLT
-.\whatsit4=[]
-.\TU/lmr/m/sl/14.4 ⍰
-.\TU/lmr/m/sl/14.4 󰀀
 LaTeX Font Info:    Font shape `LTJY3/LXGWWenKaiGBLite-Regular(0)/bx/sl' in size <14.4> not available
 (Font)              Font shape `LTJY3/LXGWWenKaiGBLite-Regular(0)/b/sl' tried instead on input line ....
-Underfull \hbox (badness 10000) detected at line 52
+Underfull \hbox (badness 10000) detected at line 51
 [][]
 \hbox(12.672+1.728)x14.4, direction TLT
 .\whatsit4=[]
 .\hbox(12.672+1.728)x7.2, direction TLT
 ..\LTJY3/LXGWWenKaiGBLite-Regular(0)/bx/sl/14.4 。
-Underfull \hbox (badness 10000) detected at line 52
+Underfull \hbox (badness 10000) detected at line 51
 [][]
 \hbox(12.672+1.728)x14.4, direction TLT
 .\whatsit4=[]
 .\hbox(12.672+1.728)x7.2, direction TLT
 ..\LTJY3/LXGWWenKaiGBLite-Regular(0)/m/sl/14.4 。
-Underfull \hbox (badness 10000) detected at line 52
+Underfull \hbox (badness 10000) detected at line 51
 [][]
 \hbox(12.672+1.728)x14.4, direction TLT
 .\whatsit4=[]
 .\hbox(12.672+1.728)x7.2, direction TLT
 ..\LTJY3/LXGWWenKaiGBLite-Regular(0)/bx/sl/14.4 。
-Underfull \hbox (badness 10000) detected at line 52
-[]\TU/lmr/bx/sl/14.4 ⍰󰀀
-\hbox(0.0+0.0)x14.4, direction TLT
-.\whatsit4=[]
-.\TU/lmr/bx/sl/14.4 ⍰
-.\TU/lmr/bx/sl/14.4 󰀀
-Underfull \hbox (badness 10000) detected at line 52
+Underfull \hbox (badness 10000) detected at line 51
 [][]
 \hbox(12.672+1.728)x14.4, direction TLT
 .\whatsit4=[]
 .\hbox(12.672+1.728)x7.2, direction TLT
 ..\LTJY3/LXGWWenKaiGBLite-Regular(0)/m/sl/14.4 。
-Underfull \hbox (badness 10000) detected at line 52
+Underfull \hbox (badness 10000) detected at line 51
 [][]
 \hbox(12.672+1.728)x14.4, direction TLT
 .\whatsit4=[]
 .\hbox(12.672+1.728)x7.2, direction TLT
 ..\LTJY3/LXGWWenKaiGBLite-Regular(0)/m/sl/14.4 ，
-Underfull \hbox (badness 10000) detected at line 52
+Underfull \hbox (badness 10000) detected at line 51
 [][]
 \hbox(12.672+1.728)x14.4, direction TLT
 .\whatsit4=[]

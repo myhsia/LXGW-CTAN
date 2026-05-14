@@ -5,23 +5,22 @@
 \pagestyle{empty}
 
 \ExplSyntaxOn
-\tex_tracinglostchars:D = 0
-\tex_XeTeXcharclass:D "2370 = 1
+
 \NewDocumentCommand \shufa { O{} m }
   {
     \group_begin:
     \tl_map_inline:nn { #2 }
       {
         \mode_leave_vertical: #1
-        \vbox:nn { .3\ccwd } { \hbox_to_wd:nn { \ccwd } { ##1 } }
+        \vbox:nn { .25\ccwd } { \hbox_to_wd:nn { \ccwd } { ##1 } }
       }
     \group_end:
 }
 \def\0{
-  \shufa[\Large]{私ガラスを食べられます。^^^^2370}
+  \shufa[\Large]{私ガラスを食べられます。}
   \shufa[\Large\bfseries]{それは私を傷つけません。}
   \shufa[\Large]{我能吞下玻璃而不伤身体。}\\
-  \shufa[\Large\bfseries]{我能吞下玻璃而不伤身体。^^^^2370}
+  \shufa[\Large\bfseries]{我能吞下玻璃而不伤身体。}
   \shufa[\Large]{我能吞下玻璃而不傷身體。}
   \shufa[\Large]{我可以食玻璃，}
   \shufa[\Large\bfseries]{佢傷唔到我。}
