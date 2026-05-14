@@ -38,10 +38,31 @@ underscore
 xcolor
 #
 # Engines
+## pdfTeX
 cjk
+cjkpunct
 zhmetrics
-luatexja
+## XeTeX
+xeCJK
+fontspec
+xtemplate
+## upTeX
 zhmetrics-uptex
+## LuaTeX
+luatexja
+adobemapping
+luaotfload
+lualibs
+luatexbase
+ctablestack
+atbegshi
+etoolbox
+iftex
+infwarerr
+ltxcmds
+pdftexcmds
+xkeyval
+chinese-jfm
 #
 # Preamble
 ctex
