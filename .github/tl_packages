@@ -10,7 +10,7 @@ xetex
 latex-base-dev
 latex-amsmath-dev
 latex-firstaid-dev
-atex-graphics-dev
+latex-graphics-dev
 l3backend-dev
 l3kernel-dev
 latex-lab-dev
