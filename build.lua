@@ -8,6 +8,7 @@
 --]==========================================]--
 
 module              = "lxgw-fonts"
+abbrev              = "lxgw"
 version             = "v1.522D"
 date                = "2026-06-01"
 maintainer          = "Mingyu Xia"
@@ -55,11 +56,11 @@ uploadconfig = {
 function update_tag(file, content, tagname, tagdate)
   tagname = version
   tagdate = date
-  if string.match(file, module .. ".dtx$") then
+  if string.match(file, abbrev .. ".dtx$") then
     content = string.gsub(content,
-      "%%<++!driver>\\GetIdInfo $Id: " .. module .. ".dtx " ..
-      "v%d+%.%d+%a %d+%-%d+%-%d+ (.-)<(.-)>",
-      "%%<+!driver>\\GetIdInfo $Id: "  .. module .. ".dtx " ..
+      "%%<++!driver>\\GetIdInfo $Id: " .. abbrev .. ".dtx " ..
+      "v%d+%.%d+%a+ %d+%-%d+%-%d+ (.-)<(.-)>",
+      "%%<+!driver>\\GetIdInfo $Id: "  .. abbrev .. ".dtx " ..
       tagname .. " " .. tagdate .. " " .. maintainid .. "<" .. email .. ">")
   end
   return content
