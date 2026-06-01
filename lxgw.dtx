@@ -144,7 +144,7 @@ The Current Designer of this font family is **LXGW** and **TrionesType**.
             \exp_not:n
               {
                 \color_group_begin:
-                \color_select:n { red } \bfseries ##1
+                \color_select:n { red } \bfseries #2 ##1
                 \color_group_end:
               }
           }
@@ -155,7 +155,7 @@ The Current Designer of this font family is **LXGW** and **TrionesType**.
 \DeclareCommandCopy \val \meta
 \newlist{keyval}{itemize}{10}
 \setlist[keyval]{leftmargin = 0pt, labelsep = 0pt}
-\tl_greplace_all:Nnn \LXGWFileDate {/} {-}
+\tl_greplace_all:Nnn \LXGWFileDate { / } { - }
 \def \HoLogo@LXGW#1{^^A
   \tex_XeTeXcharclass:D "004C = 1^^A L
   \tex_XeTeXcharclass:D "0058 = 1^^A X
@@ -462,7 +462,7 @@ https://github.com/lxgw/LxgwZhenKai/releases/latest/download/LXGWZhenKaiGB-Regul
 %   \begin{framed}
 %     \fangsong\0
 %   \end{framed}
-%   \item[{\key[\mdseries\kaishu]{霞鹜文楷, 霞鹜臻楷}}]
+%   \item[{\key[\mdseries\kaishu]{霞鹜文楷, \textbf{霞鹜臻楷}}}]
 %   \val{\file{LXGWWenKaiGBLite-Regular.ttf}, \file{LXGWZhenKaiGB-Regular.ttf}}
 %   \begin{framed}
 %     \kaishu\0

@@ -1,3 +1,3 @@
-Version 1.522C released
-- Updated the Fallback of `Slanted` font, `BoldSlanted` and `BoldSlantedFont` for `\kaishu`
-- Removed the patch of `\makespa` due to the upstream fix of `ctex-kit`.
+Version 1.522D released
+- Updated the fonts `LXGWNeoZhiSong` and `LXGWNeoXiHei` as the upstream
+- Optimized DocStrip namespace: manage the `\ExplFile(Date|Version|Description)` by one `\GetIdInfo`
