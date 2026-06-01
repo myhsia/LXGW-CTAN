@@ -6,6 +6,16 @@ makeindex
 pdftex
 xetex
 #
+# DEV
+latex-base-dev
+latex-amsmath-dev
+latex-firstaid-dev
+atex-graphics-dev
+l3backend-dev
+l3kernel-dev
+latex-lab-dev
+latex-tools-dev
+#
 # l3doc
 l3kernel
 ## Base
