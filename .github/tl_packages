@@ -16,6 +16,7 @@ l3backend-dev
 l3kernel-dev
 latex-lab-dev
 latex-tools-dev
+xelatex-dev
 #
 # l3doc
 l3kernel
