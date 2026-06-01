@@ -128,16 +128,16 @@ The Current Designer of this font family is **LXGW** and **TrionesType**.
 \dim_set:Nn \FrameSep {2pt}
 \tex_tracinglostchars:D = 0
 \tex_XeTeXcharclass:D "2370 = 1
-\DeclareDocumentCommand \key { O { \ttfamily } s m }
+\DeclareDocumentCommand \key { s O { \ttfamily } m }
   {
-    \IfBooleanTF {#2}
+    \IfBooleanTF {#1}
       {
         \color_group_begin:
-        \color_select:n { red } \bfseries #1 #3
+        \color_select:n { red } \bfseries #2 #3
         \color_group_end:
       }
       {
-        \group_begin: #1
+        \group_begin: #2
         \seq_set_from_clist:Nn \l_tmpa_seq {#3}
         \seq_set_map:NNn \l_tmpb_seq \l_tmpa_seq
           {
@@ -447,22 +447,22 @@ https://github.com/lxgw/LxgwZhenKai/releases/latest/download/LXGWZhenKaiGB-Regul
 % }
 % \ExplSyntaxOff
 % \begin{keyval}
-%   \item[\key[\mdseries\songti]{霞鶩新緻宋}]
+%   \item[{\key[\mdseries\songti]{霞鶩新緻宋}}]
 %   \val{\file{LXGWNeoZhiSong.ttf}, \file{LXGWNeoZhiSongScreen.ttf}}
 %   \begin{framed}
 %     \songti\0
 %   \end{framed}
-%   \item[\key[\mdseries\heiti]{霞鶩新晰黑}]
+%   \item[{\key[\mdseries\heiti]{霞鶩新晰黑}}]
 %   \val{\file{LXGWNeoXiHei.ttf}, \file{LXGWNeoXiHeiScreen.ttf}}
 %   \begin{framed}
 %     \heiti\0
 %   \end{framed}
-%   \item[\key[\mdseries\fangsong]{朱雀仿宋}]
+%   \item[{\key[\mdseries\fangsong]{朱雀仿宋}}]
 %   \val{\file{LXGWZhuqueFangsong-Regular.ttf}}
 %   \begin{framed}
 %     \fangsong\0
 %   \end{framed}
-%   \item[\key[\mdseries\kaishu]{霞鹜文楷, 霞鹜臻楷}]
+%   \item[{\key[\mdseries\kaishu]{霞鹜文楷, 霞鹜臻楷}}]
 %   \val{\file{LXGWWenKaiGBLite-Regular.ttf}, \file{LXGWZhenKaiGB-Regular.ttf}}
 %   \begin{framed}
 %     \kaishu\0

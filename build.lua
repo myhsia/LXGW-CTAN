@@ -147,12 +147,10 @@ function bundleunpack(sourcedirs, sources)
   end
   return 0
 end
-
 function docinit_hook()
   cp(ctanreadme, unpackdir, currentdir)
   return 0
 end
-
 function tex(file,dir,cmd)
   dir = dir or "."
   cmd = cmd or typesetexe
