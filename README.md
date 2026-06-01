@@ -33,7 +33,7 @@ This project uses [GitHub Actions](https://github.com/features/actions)
 as a hosted continuous integration service. For each commit, the build status
 is tested using the current release of TeX Live.
 
-_Current build status:_ ![build status](https://github.com/myhsia/lxgw-ctan/actions/workflows/main.yaml/badge.svg?branch=main)
+_Current build status:_ ![build status](https://github.com/myhsia/lxgw-ctan/actions/workflows/test.yaml/badge.svg?branch=test)
 
 Copyright and License
 ---------------------

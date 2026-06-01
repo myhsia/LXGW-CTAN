@@ -1,0 +1,34 @@
+name: Automated testing
+
+on:
+  push:
+    branches:
+      - "**"
+  pull_request:
+
+jobs:
+  l3build:
+    strategy:
+      matrix:
+        os: [ubuntu-latest, macos-latest, windows-latest]
+    runs-on: ${{ matrix.os }}
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v6
+      - name: Install TeX Live
+        uses: zauguin/install-texlive@v4
+        with:
+          package_file: .github/tl_packages
+      - name: Run l3build
+        id: test-lxgw
+        run: l3build check --dev
+      - name: Get short commit SHA
+        if: ${{ !cancelled() && (steps.test-lxgw.outcome == 'failure') }}
+        run: |
+          echo "SHA_SHORT=$(git rev-parse --short=8 HEAD)" >> $GITHUB_ENV
+      - name: Upload test diffs
+        if: ${{ !cancelled() && (steps.test-lxgw.outcome == 'failure') }}
+        uses: actions/upload-artifact@v7
+        with:
+          name: lxgw-diff-${{ env.SHA_SHORT }}-${{ runner.os }}
+          path: build/**/*.diff
