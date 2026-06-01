@@ -23,8 +23,7 @@ File: lxgw.ins
                                   lxgw.ins,                           *
                 the derived files ctex-fontset-lxgw.def,              *
                                   ctex-zhmap-lxgw.tex,                *
-                                  ctex-spa-lxgw.spa,                  *
-                                  ctexpunct-lxgw.tex,                 *
+                                  ctex-spa-lxgw.def,                  *
                    the font files LXGWNeoZhiSong.ttf,                 *
                                   LXGWNeoZhiSongScreen.ttf,           *
                                   LXGWNeoXiHei.ttf,                   *
@@ -73,8 +72,7 @@ File: lxgw.ins
                                   lxgw.ins,                           *
                 the derived files ctex-fontset-lxgw.def,              *
                                   ctex-zhmap-lxgw.tex,                *
-                                  ctex-spa-lxgw.spa,                  *
-                                  ctexpunct-lxgw.tex,                 *
+                                  ctex-spa-lxgw.def,                  *
                    the font files LXGWNeoZhiSong.ttf,                 *
                                   LXGWNeoZhiSongScreen.ttf,           *
                                   LXGWNeoXiHei.ttf,                   *
@@ -91,14 +89,12 @@ File: lxgw.ins
 
 \generate{
   \usedir{tex/latex/lxgw}
-    \file{ctex-fontset-lxgw.def}        {\from{\jobname.dtx}{fontset} }
-    \file{ctex-zhmap-lxgw.tex}          {\from{\jobname.dtx}{zhmap}   }
-    \file{ctex-makespa-lxgw.tex}        {\from{\jobname.dtx}{makespa} }
-    \file{ctexpunct-lxgw.spa}           {\from{\jobname.dtx}{lxgw-spa}}
+    \file{ctex-fontset-lxgw.def}      {\from{\jobname.dtx}{fontset}   }
+    \file{ctex-zhmap-lxgw.tex}        {\from{\jobname.dtx}{zhmap-lxgw}}
+    \file{ctex-spa-lxgw.def}          {\from{\jobname.dtx}{lxgw-spa}  }
   \nopreamble \nopostamble
   \usedir{doc/latex/lxgw}
-    \file{README.md}                    {\from{\jobname.dtx}{readme}  }
-    \file{lxgw-fetch.csv}               {\from{\jobname.dtx}{fetch}   } 
+    \file{README.md}                  {\from{\jobname.dtx}{readme}    }
 }
 
 \endbatchfile

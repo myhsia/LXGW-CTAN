@@ -23,8 +23,7 @@
 %                                   lxgw.ins,                           *
 %                 the derived files ctex-fontset-lxgw.def,              *
 %                                   ctex-zhmap-lxgw.tex,                *
-%                                   ctex-spa-lxgw.spa,                  *
-%                                   ctexpunct-lxgw.tex,                 *
+%                                   ctex-spa-lxgw.def,                  *
 %                    the font files LXGWNeoZhiSong.ttf,                 *
 %                                   LXGWNeoZhiSongScreen.ttf,           *
 %                                   LXGWNeoXiHei.ttf,                   *
@@ -108,8 +107,14 @@ The Current Designer of this font family is **LXGW** and **TrionesType**.
 \fi
 %</internal>
 %
+%<*fontset>
+%<+!driver>\GetIdInfo $Id: westlakethesis.dtx v0.0.1 2026-05-30 myhsia<myhsia@outlook.com>$
+%<fontset>  {lxgw fontset configuration for ctex-kit}
+%<fontset>\ProvidesExplFile {ctex-fontset-lxgw.def}
+%<+!driver>  {\ExplFileDate} {\ExplFileVersion} {\ExplFileDescription}
+%</fontset>
 %<*driver>
-\documentclass[svgnames]{l3doc}
+\documentclass[cs-break = true, svgnames]{l3doc}
 \usepackage[mono = false, osf]{libertine}
 \usepackage[punct = plain, fontset = lxgw, scheme = plain]{ctex}
 \defaultfontfeatures{Extension = .ttf, Scale = .95}
@@ -162,13 +167,16 @@ The Current Designer of this font family is **LXGW** and **TrionesType**.
 \makeindex
 \begin{document}
   \DocInput{\jobname.dtx}
+  \clearpage
+  \PrintIndex
 \end{document}
 %</driver>
 % \fi
 %
-% \title{The \hologo{LXGW} Font Family\thanks{^^A
-%   \url{https://github.com/myhsia/LXGW-CTAN}
-% }\texorpdfstring{\enspace \textbar \enspace\parbox{4em}{^^A
+% \title{\bfseries
+%   The \hologo{LXGW} Font Family\thanks{^^A
+%     \url{https://github.com/myhsia/LXGW-CTAN}
+%   }\texorpdfstring{\enspace \textbar \enspace\parbox{4em}{^^A
 %     \kaishu
 %     \scalebox{\fpeval{4/7}}{落霞与孤鹜齐飞}\\[-.75em]
 %     \scalebox{\fpeval{4/7}}{秋水共长天一色}^^A
@@ -185,7 +193,7 @@ The Current Designer of this font family is **LXGW** and **TrionesType**.
 %   Maintainer: Mingyu Xia\thanks{\mail{xiamingyu@westlake.edu.cn}}^^A
 % }
 %
-% \date{Released 2026-05-20\quad \texttt{v1.522D}}
+% \date{Released \ExplFileDate\quad \texttt{\ExplFileVersion}}
 %
 % \def\Copyright{^^A
 %   \begin{center}
@@ -460,12 +468,6 @@ https://github.com/lxgw/LxgwZhenKai/releases/latest/download/LXGWZhenKaiGB-Regul
 %    \begin{macrocode}
 %<*fontset>
 %    \end{macrocode}
-% Declare the \pkg{ctex-kit} font configuration file with date, version, and
-% description.
-%    \begin{macrocode}
-\ProvidesExplFile {ctex-fontset-lxgw.def} {2026-05-20} {v1.522D}
-  {lxgw fontset configuration for ctex-kit}
-%    \end{macrocode}
 % Load CJK font family, interface, accepts the following 4 branches,
 % provided by \pkg{ctex-kit}.
 %    \begin{macrocode}
@@ -649,17 +651,17 @@ https://github.com/lxgw/LxgwZhenKai/releases/latest/download/LXGWZhenKaiGB-Regul
 %</fontset>
 %    \end{macrocode}
 %
-% \subsection{The \texttt{ctex-spa-make.tex} and
-%   the \texttt{ctexpunct-lxgw.tex} file}\label{subsec:spa}
+% \subsection{The \texttt{ctex-spa-make-lxgw.tex} and
+%   the \texttt{ctex-spa-lxgw.def} file}\label{subsec:spa}
 %
 % The \file{.spa} file of the corresponding font will be used
 % for the \pkg{CJKpunct} package to achieve the punctuation compression,
 % which can ensure the best typeset effect (under the \hologo{pdfTeX} engine).
 % Run the following script, \file{ctex-spa-make.tex}, by executing
 % \begin{verbatim}
-%   xetex ctex-spa-make
+%   xetex ctex-spa-make-lxgw
 % \end{verbatim}
-% in the terminal. Then, one can obtain the \file{ctexpunct-lxgw.tex} file.
+% in the terminal. Then, one can obtain the \file{ctexpunct-lxgw.spa} file.
 % \paragraph{Implementation of the script}
 % Start the optionlist |makespa| for \pkg{l3docstrip}.
 %    \begin{macrocode}
@@ -672,7 +674,7 @@ https://github.com/lxgw/LxgwZhenKai/releases/latest/download/LXGWZhenKaiGB-Regul
 % List all the CJK families with the corresponding font files in terms of
 % ``case-pairs''.
 %    \begin{macrocode}
-\MAKESPA {ctexpunct-lxgw.tex}
+\MAKESPA {ctexpunct-lxgw.spa}
   {
     {lxgwzhsong}      {LXGWNeoZhiSong} ,
     {lxgwzhsongb}     {LXGWNeoZhiSongScreen} ,
@@ -687,7 +689,7 @@ https://github.com/lxgw/LxgwZhenKai/releases/latest/download/LXGWZhenKaiGB-Regul
 %    \begin{macrocode}
 \primitive\end
 %    \end{macrocode}
-% End the optionlist |zhmap| for \pkg{l3docstrip}.
+% End the optionlist |makespa| for \pkg{l3docstrip}.
 %    \begin{macrocode}
 %</makespa>
 %    \end{macrocode}
@@ -709,9 +711,9 @@ https://github.com/lxgw/LxgwZhenKai/releases/latest/download/LXGWZhenKaiGB-Regul
 %
 % \subsection{The \texttt{ctex-zhmap-lxgw.tex} file}\label{subsec:zhmap}
 %
-% Start the optionlist |zhmap| for \pkg{l3docstrip}.
+% Start the optionlist |zhmap-lxgw| for \pkg{l3docstrip}.
 %    \begin{macrocode}
-%<*zhmap>
+%<*zhmap-lxgw>
 %    \end{macrocode}
 % Forked from the |zhmap| optionlist of \file{ctex.dtx}\footnote{^^A
 %   \url{https://github.com/CTeX-org/ctex-kit/blob/master/ctex/ctex.dtx}}.
@@ -771,7 +773,7 @@ https://github.com/lxgw/LxgwZhenKai/releases/latest/download/LXGWZhenKaiGB-Regul
 % Provides the identification information of the font map loader.
 %    \begin{macrocode}
 \ProvidesFile{ctex-zhmap-lxgw.tex}%
-  [2026-06-dd v1.522C lxgw font map loader for DVIPDFMx (CTEX)]
+  [\ExplFileDate\ \ExplFileVersion\ lxgw font map loader for DVIPDFMx (CTEX)]
 %    \end{macrocode}
 % Font map loader for \hologo{pdfTeX} (generate PDF) is disabled since
 % \hologo{pdfTeX} maps too slowly.
@@ -834,10 +836,8 @@ https://github.com/lxgw/LxgwZhenKai/releases/latest/download/LXGWZhenKaiGB-Regul
 \special{pdf:mapline unifssl@Unicode@   UniGB-UTF16-H LXGWZhuqueFangsong-Regular.ttf -s .167}
 \fi
 %    \end{macrocode}
-% End the optionlist |zhmap| for \pkg{l3docstrip}.
+% End the optionlist |zhmap-lxgw| for \pkg{l3docstrip}.
 %    \begin{macrocode}
-%</zhmap>
+%</zhmap-lxgw>
 %    \end{macrocode}
 % \end{implementation}
-% \clearpage
-% \PrintIndex

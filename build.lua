@@ -8,8 +8,8 @@
 --]==========================================]--
 
 module              = "lxgw-fonts"
-date                = "2026-05-20"
 version             = "v1.522D"
+date                = "2026-06-01"
 maintainer          = "Mingyu Xia"
 uploader            = "Mingyu Xia"
 maintainid          = "myhsia"
@@ -30,10 +30,9 @@ excludefiles        = {"*~"}
 installfiles        = {"*.def", "*.tex", "*.spa", "*.ttf", "*.otf"}
 sourcefiles         = {"*.dtx", "*.ins", "*.ttf", "*.otf"}
 textfiles           = {"README.md", "LICENSE", "*.lua"}
-typesetexe          = "latexmk -pdfxe"
+typesetexe          = "latexmk -pdfxe -xelatex=xelatex-dev"
 typesetruns         = 1
 unpacksuppfiles     = {"*.txt"}
-
 uploadconfig = {
   note              = "",
   announcement_file = "announcement.md",
@@ -56,21 +55,17 @@ uploadconfig = {
 function update_tag(file, content, tagname, tagdate)
   tagname = version
   tagdate = date
-  if string.match(file, "%.dtx$") then
+  if string.match(file, module .. ".dtx$") then
     content = string.gsub(content,
-      "\\date{Released " .. "%d+%-%d+%-%d+" ..
-      "\\quad \\texttt{" .. "v([%d%.A-Z]+)" .. "}}",
-      "\\date{Released " ..     tagdate     ..
-      "\\quad \\texttt{" ..     tagname     .. "}}")
-    content = string.gsub(content,
-      "{%d+%-%d+%-%d+} {v([%d%.A-Z]+)}",
-      "{" ..     tagdate     .. "} {" ..    tagname     .. "}")
-    content = string.gsub(content,
-      "%d+%-%d+%-%d+" .. " " .. "v([%d%.A-Z]+)",
-          tagdate     .. " " ..     tagname)
+      "%%<++!driver>\\GetIdInfo $Id: " .. module .. ".dtx " ..
+      "v%d+%.%d+%a %d+%-%d+%-%d+ (.-)<(.-)>",
+      "%%<+!driver>\\GetIdInfo $Id: "  .. module .. ".dtx " ..
+      tagname .. " " .. tagdate .. " " .. maintainid .. "<" .. email .. ">")
   end
   return content
 end
+
+--[== "Hacks" to `l3build` | Do not Modify ==]--
 
 function download(dir, filelist)
   local file = io.open(filelist, "r")
@@ -156,8 +151,6 @@ function docinit_hook()
   cp(ctanreadme, unpackdir, currentdir)
   return 0
 end
-
---[== "Hacks" to `l3build` | Do not Modify ==]--
 
 function tex(file,dir,cmd)
   dir = dir or "."
