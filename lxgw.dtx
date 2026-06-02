@@ -109,7 +109,7 @@ The Current Designer of this font family is **LXGW** and **TrionesType**.
 %</internal>
 %
 %<*fontset>
-%<+!driver>\GetIdInfo $Id: lxgw.dtx v1.522D 2026-06-01 myhsia<myhsia@outlook.com>$
+%<+!driver>\GetIdInfo $Id: lxgw.dtx v1.522E 2026-06-02 myhsia<myhsia@outlook.com>$
 %<fontset>  {lxgw fontset configuration for ctex-kit}
 %<fontset>\ProvidesExplFile {ctex-fontset-lxgw.def}
 %<+!driver>  {\ExplFileDate} {\ExplFileVersion} {\ExplFileDescription}
@@ -120,7 +120,8 @@ The Current Designer of this font family is **LXGW** and **TrionesType**.
 %<*driver>
 \documentclass[cs-break = true, svgnames]{l3doc}
 \usepackage[mono = false, osf]{libertine}
-\usepackage[punct = plain, fontset = lxgw, scheme = plain]{ctex}
+\usepackage[punct  = plain, fontset    = lxgw,
+            scheme = plain, linespread = 1.05]{ctex}
 \defaultfontfeatures{Extension = .ttf, Scale = .95}
 \usepackage{tikz, framed}
 \tikzset{every picture/.append style = {line cap = round}}
@@ -219,7 +220,7 @@ The Current Designer of this font family is **LXGW** and **TrionesType**.
 %       {\songti 霞鶩新緻宋},
 %     \href{https://github.com/lxgw/LxgwNeoXiHei}
 %       {\heiti 霞鶩新晰黑},
-%     \href{https://github.com/lxgw/LxgwWenKaiLite}
+%     \href{https://github.com/lxgw/LxgwWenKaiGB-Lite}
 %       {\kaishu 霞鶩文楷},
 %     \href{https://github.com/lxgw/LxgwZhenKai}
 %       {\kaishu \bfseries 霞鶩臻楷},
@@ -230,7 +231,8 @@ The Current Designer of this font family is **LXGW** and **TrionesType**.
 %     released into public domain by
 %     \href{https://x.com/TrionesType}{\hologo{TrionesType}} since 2021.
 %     They are licensed under the
-%     \href{https://ctan.org/license/ofl}{SIL Open Font License (OFL)}.
+%     \href{https://opensource.org/license/IPA}{IPA Font License}
+%     and~\href{https://ctan.org/license/ofl}{SIL Open Font License}.
 %   }}}
 %   \end{center}}
 %
@@ -307,7 +309,7 @@ The Current Designer of this font family is **LXGW** and **TrionesType**.
 % \begin{abstract}
 %   The \hologo{LXGW} Font Family provides an open-source CJK font family with a
 %   comprehensive character set for Chinese (Simplified/Traditional), Cantonese,
-%   and Japanese. A |fontset| configuration of this font family for the
+%   and~Japanese. A |fontset| configuration of this font family for the
 %   \pkg{ctex-kit} is also provided in this package.
 % \end{abstract}
 %
@@ -316,15 +318,12 @@ The Current Designer of this font family is **LXGW** and **TrionesType**.
 % Users are allowed to use the friendly interface:
 % the |fontset| key in \CTeX\ kit
 % \begin{quote}
-%   |\documentclass[fontset = lxgw]{ctex|^^A
-%   \meta{art\textup\textbar book\textup\textbar rep\textup\textbar beamer}|}|\\
-%   |\usepackage[fontset = lxgw]{ctex}|
+%   "\documentclass[fontset = lxgw]{ctex(art|book|rep|beamer)}"\\
+%   "\usepackage   [fontset = lxgw]{ctex}"
 % \end{quote}
-% with \hologo{XeLaTeX}, \hologo{LuaLaTeX}, \hologo{LaTeX} + \hologo{DVIPDFMx},
-% \hologo{upLaTeX} + \hologo{DVIPDFMx}, and \hologo{ApLaTeX} supported.
-% \hologo{pdfLaTeX} is not supported temporarily since the long mapping time
-% of |zhmap|. Four commands are provided for loading the listed regular and
-% \textbf{bold} font files
+% with engines \hologo{pdfTeX}, \hologo{XeTeX}, \hologo{LuaTeX}, \hologo{upTeX},
+% and~\hologo{ApTeX} supported. Four commands are provided for loading the
+% listed regular and \textbf{bold} font files
 % \begin{function}{\songti, \heiti, \fangsong, \kaishu} \footnotesize
 %   \begin{syntax}
 %   \songti   宋体 (|CJKmainfont|):^^A
@@ -410,7 +409,7 @@ https://github.com/lxgw/LxgwZhenKai/releases/latest/download/LXGWZhenKaiGB-Regul
 %
 % \section{Font Demos}
 %
-% The following lists the Chinese/English name, filename, and demos of the
+% The following lists the Chinese/English name, filename, and~demos of the
 % fonts: Cantonese, Japanese, Chinese (Simplified/Traditional) versions of
 % ``\textbf{I Can Eat Glass}'', and missing character markers are provided with
 % punctuation compression disabled.
@@ -422,7 +421,7 @@ https://github.com/lxgw/LxgwZhenKai/releases/latest/download/LXGWZhenKaiGB-Regul
 %       {
 %         \tikz {
 %           \node [ minimum ~ width  = 1.5\ccwd, outer ~ sep = 0pt,
-%                   draw = DarkGreen!40, thick, font = #1,
+%                   draw = DarkGreen!40, thick,  font = #1,
 %                   minimum ~ height = 1.5\ccwd, inner ~ sep = 0pt ]
 %             (tmp) {##1};
 %           \draw [densely ~ dashed, DarkGreen, opacity = .2]
@@ -808,7 +807,7 @@ https://github.com/lxgw/LxgwZhenKai/releases/latest/download/LXGWZhenKaiGB-Regul
 \else
 %    \end{macrocode}
 % Configure the upright shape of \tn{songti}, \tn{kaishu}, \tn{heiti},
-% and \tn{fangsong} mapping for GBK encoding and UTF8 encoding.
+% and~\tn{fangsong} mapping for GBK encoding and UTF8 encoding.
 %    \begin{macrocode}
 \special{pdf:mapline gbk@UGBK@          UniGB-UTF16-H LXGWNeoZhiSong.ttf}
 \special{pdf:mapline gbksong@UGBK@      UniGB-UTF16-H LXGWNeoZhiSong.ttf}

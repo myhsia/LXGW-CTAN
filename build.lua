@@ -9,8 +9,8 @@
 
 module              = "lxgw-fonts"
 abbrev              = "lxgw"
-version             = "v1.522D"
-date                = "2026-06-01"
+version             = "v1.522E"
+date                = "2026-06-02"
 maintainer          = "Mingyu Xia"
 uploader            = "Mingyu Xia"
 maintainid          = "myhsia"
