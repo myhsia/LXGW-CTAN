@@ -24,7 +24,7 @@ description         = "The `LXGW` Font Family provides an open-source CJK font f
          Do not Modify Unless Necessary
 --]==========================================]--
 
-checkengines        = {"pdftex", "xetex", "luatex", "uptex"}
+checkengines        = {"pdftex", "xetex", "uptex"}
 cleanfiles          = {"*.log", "*.pdf", "*.zip", "*.ttf", "*.otf"}
 ctanzip             = module
 excludefiles        = {"*~"}
