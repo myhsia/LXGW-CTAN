@@ -3,43 +3,43 @@ Don't change this file in any respect.
 ============================================================
 TEST 1: Basic Usage of LXGW Font: \songti 
 ============================================================
-Underfull \hbox (badness 10000) detected at line 51
+Underfull \hbox (badness 10000) detected at line 50
 \JY2/zhsong/m/n/14.4 。
 \hbox(12.67198+1.728)x14.4
 .\penalty 10000(for kinsoku)
 .\JY2/zhsong/m/n/14.4 。
 .\glue(refer from jfm) 0.0
-Underfull \hbox (badness 10000) detected at line 51
+Underfull \hbox (badness 10000) detected at line 50
 \JY2/zhsong/bx/n/14.4 。
 \hbox(12.67198+1.728)x14.4
 .\penalty 10000(for kinsoku)
 .\JY2/zhsong/bx/n/14.4 。
 .\glue(refer from jfm) 0.0
-Underfull \hbox (badness 10000) detected at line 51
+Underfull \hbox (badness 10000) detected at line 50
 \JY2/zhsong/m/n/14.4 。
 \hbox(12.67198+1.728)x14.4
 .\penalty 10000(for kinsoku)
 .\JY2/zhsong/m/n/14.4 。
 .\glue(refer from jfm) 0.0
-Underfull \hbox (badness 10000) detected at line 51
+Underfull \hbox (badness 10000) detected at line 50
 \JY2/zhsong/bx/n/14.4 。
 \hbox(12.67198+1.728)x14.4
 .\penalty 10000(for kinsoku)
 .\JY2/zhsong/bx/n/14.4 。
 .\glue(refer from jfm) 0.0
-Underfull \hbox (badness 10000) detected at line 51
+Underfull \hbox (badness 10000) detected at line 50
 \JY2/zhsong/m/n/14.4 。
 \hbox(12.67198+1.728)x14.4
 .\penalty 10000(for kinsoku)
 .\JY2/zhsong/m/n/14.4 。
 .\glue(refer from jfm) 0.0
-Underfull \hbox (badness 10000) detected at line 51
+Underfull \hbox (badness 10000) detected at line 50
 \JY2/zhsong/m/n/14.4 ，
 \hbox(12.67198+1.728)x14.4
 .\penalty 10000(for kinsoku)
 .\JY2/zhsong/m/n/14.4 ，
 .\glue(refer from jfm) 0.0
-Underfull \hbox (badness 10000) detected at line 51
+Underfull \hbox (badness 10000) detected at line 50
 \JY2/zhsong/bx/n/14.4 。
 \hbox(12.67198+1.728)x14.4
 .\penalty 10000(for kinsoku)
@@ -53,11 +53,11 @@ LaTeX Font Warning: Font shape `JT2/zhsong/m/it' undefined
 (Font)              using `JT2/zhsong/m/n' instead on input line ....
 LaTeX Font Warning: Font shape `JY2/zhsong/m/it' undefined
 (Font)              using `JY2/zhsong/m/n' instead on input line ....
-Underfull \hbox (badness 10000) detected at line 51
-\JY2/zhsong/m/it/14.4 。
+Underfull \hbox (badness 10000) detected at line 50
+\JY2/zhsong/m/n/14.4 。
 \hbox(12.67198+1.728)x14.4
 .\penalty 10000(for kinsoku)
-.\JY2/zhsong/m/it/14.4 。
+.\JY2/zhsong/m/n/14.4 。
 .\glue(refer from jfm) 0.0
 LaTeX Font Warning: Font shape `JY2/zhsong/bx/it' undefined
 (Font)              using `JY2/zhsong/b/it' instead on input line ....
@@ -87,17 +87,17 @@ LaTeX Font Warning: Font shape `JY2/zhsong/bx/it' undefined
 (Font)              using `JY2/zhsong/b/it' instead on input line ....
 LaTeX Font Warning: Font shape `JY2/zhsong/bx/it' undefined
 (Font)              using `JY2/zhsong/b/it' instead on input line ....
-Underfull \hbox (badness 10000) detected at line 51
+Underfull \hbox (badness 10000) detected at line 50
 \JY2/zhsong/b/it/14.4 。
 \hbox(12.67198+1.728)x14.4
 .\penalty 10000(for kinsoku)
 .\JY2/zhsong/b/it/14.4 。
 .\glue(refer from jfm) 0.0
-Underfull \hbox (badness 10000) detected at line 51
-\JY2/zhsong/m/it/14.4 。
+Underfull \hbox (badness 10000) detected at line 50
+\JY2/zhsong/m/n/14.4 。
 \hbox(12.67198+1.728)x14.4
 .\penalty 10000(for kinsoku)
-.\JY2/zhsong/m/it/14.4 。
+.\JY2/zhsong/m/n/14.4 。
 .\glue(refer from jfm) 0.0
 LaTeX Font Warning: Font shape `JY2/zhsong/bx/it' undefined
 (Font)              using `JY2/zhsong/b/it' instead on input line ....
@@ -123,23 +123,23 @@ LaTeX Font Warning: Font shape `JY2/zhsong/bx/it' undefined
 (Font)              using `JY2/zhsong/b/it' instead on input line ....
 LaTeX Font Warning: Font shape `JY2/zhsong/bx/it' undefined
 (Font)              using `JY2/zhsong/b/it' instead on input line ....
-Underfull \hbox (badness 10000) detected at line 51
+Underfull \hbox (badness 10000) detected at line 50
 \JY2/zhsong/b/it/14.4 。
 \hbox(12.67198+1.728)x14.4
 .\penalty 10000(for kinsoku)
 .\JY2/zhsong/b/it/14.4 。
 .\glue(refer from jfm) 0.0
-Underfull \hbox (badness 10000) detected at line 51
-\JY2/zhsong/m/it/14.4 。
+Underfull \hbox (badness 10000) detected at line 50
+\JY2/zhsong/m/n/14.4 。
 \hbox(12.67198+1.728)x14.4
 .\penalty 10000(for kinsoku)
-.\JY2/zhsong/m/it/14.4 。
+.\JY2/zhsong/m/n/14.4 。
 .\glue(refer from jfm) 0.0
-Underfull \hbox (badness 10000) detected at line 51
-\JY2/zhsong/m/it/14.4 ，
+Underfull \hbox (badness 10000) detected at line 50
+\JY2/zhsong/m/n/14.4 ，
 \hbox(12.67198+1.728)x14.4
 .\penalty 10000(for kinsoku)
-.\JY2/zhsong/m/it/14.4 ，
+.\JY2/zhsong/m/n/14.4 ，
 .\glue(refer from jfm) 0.0
 LaTeX Font Warning: Font shape `JY2/zhsong/bx/it' undefined
 (Font)              using `JY2/zhsong/b/it' instead on input line ....
@@ -153,7 +153,7 @@ LaTeX Font Warning: Font shape `JY2/zhsong/bx/it' undefined
 (Font)              using `JY2/zhsong/b/it' instead on input line ....
 LaTeX Font Warning: Font shape `JY2/zhsong/bx/it' undefined
 (Font)              using `JY2/zhsong/b/it' instead on input line ....
-Underfull \hbox (badness 10000) detected at line 51
+Underfull \hbox (badness 10000) detected at line 50
 \JY2/zhsong/b/it/14.4 。
 \hbox(12.67198+1.728)x14.4
 .\penalty 10000(for kinsoku)
@@ -165,7 +165,7 @@ TEST 3: Basic Usage of LXGW Font: \slshape \songti
 ============================================================
 LaTeX Font Warning: Font shape `JY2/zhrm/m/sl' undefined
 (Font)              using `JY2/zhrm/m/it' instead on input line ....
-Underfull \hbox (badness 10000) detected at line 51
+Underfull \hbox (badness 10000) detected at line 50
 \JY2/zhsong/m/it/14.4 。
 \hbox(12.67198+1.728)x14.4
 .\penalty 10000(for kinsoku)
@@ -195,13 +195,13 @@ LaTeX Font Warning: Font shape `JY2/zhsong/bx/it' undefined
 (Font)              using `JY2/zhsong/b/it' instead on input line ....
 LaTeX Font Warning: Font shape `JY2/zhsong/bx/it' undefined
 (Font)              using `JY2/zhsong/b/it' instead on input line ....
-Underfull \hbox (badness 10000) detected at line 51
+Underfull \hbox (badness 10000) detected at line 50
 \JY2/zhsong/b/it/14.4 。
 \hbox(12.67198+1.728)x14.4
 .\penalty 10000(for kinsoku)
 .\JY2/zhsong/b/it/14.4 。
 .\glue(refer from jfm) 0.0
-Underfull \hbox (badness 10000) detected at line 51
+Underfull \hbox (badness 10000) detected at line 50
 \JY2/zhsong/m/it/14.4 。
 \hbox(12.67198+1.728)x14.4
 .\penalty 10000(for kinsoku)
@@ -231,19 +231,19 @@ LaTeX Font Warning: Font shape `JY2/zhsong/bx/it' undefined
 (Font)              using `JY2/zhsong/b/it' instead on input line ....
 LaTeX Font Warning: Font shape `JY2/zhsong/bx/it' undefined
 (Font)              using `JY2/zhsong/b/it' instead on input line ....
-Underfull \hbox (badness 10000) detected at line 51
+Underfull \hbox (badness 10000) detected at line 50
 \JY2/zhsong/b/it/14.4 。
 \hbox(12.67198+1.728)x14.4
 .\penalty 10000(for kinsoku)
 .\JY2/zhsong/b/it/14.4 。
 .\glue(refer from jfm) 0.0
-Underfull \hbox (badness 10000) detected at line 51
+Underfull \hbox (badness 10000) detected at line 50
 \JY2/zhsong/m/it/14.4 。
 \hbox(12.67198+1.728)x14.4
 .\penalty 10000(for kinsoku)
 .\JY2/zhsong/m/it/14.4 。
 .\glue(refer from jfm) 0.0
-Underfull \hbox (badness 10000) detected at line 51
+Underfull \hbox (badness 10000) detected at line 50
 \JY2/zhsong/m/it/14.4 ，
 \hbox(12.67198+1.728)x14.4
 .\penalty 10000(for kinsoku)
@@ -261,7 +261,7 @@ LaTeX Font Warning: Font shape `JY2/zhsong/bx/it' undefined
 (Font)              using `JY2/zhsong/b/it' instead on input line ....
 LaTeX Font Warning: Font shape `JY2/zhsong/bx/it' undefined
 (Font)              using `JY2/zhsong/b/it' instead on input line ....
-Underfull \hbox (badness 10000) detected at line 51
+Underfull \hbox (badness 10000) detected at line 50
 \JY2/zhsong/b/it/14.4 。
 \hbox(12.67198+1.728)x14.4
 .\penalty 10000(for kinsoku)
@@ -271,43 +271,43 @@ Underfull \hbox (badness 10000) detected at line 51
 ============================================================
 TEST 4: Basic Usage of LXGW Font: \heiti 
 ============================================================
-Underfull \hbox (badness 10000) detected at line 51
+Underfull \hbox (badness 10000) detected at line 50
 \JY2/zhhei/m/n/14.4 。
 \hbox(12.67198+1.728)x14.4
 .\penalty 10000(for kinsoku)
 .\JY2/zhhei/m/n/14.4 。
 .\glue(refer from jfm) 0.0
-Underfull \hbox (badness 10000) detected at line 51
+Underfull \hbox (badness 10000) detected at line 50
 \JY2/zhhei/bx/n/14.4 。
 \hbox(12.67198+1.728)x14.4
 .\penalty 10000(for kinsoku)
 .\JY2/zhhei/bx/n/14.4 。
 .\glue(refer from jfm) 0.0
-Underfull \hbox (badness 10000) detected at line 51
+Underfull \hbox (badness 10000) detected at line 50
 \JY2/zhhei/bx/n/14.4 。
 \hbox(12.67198+1.728)x14.4
 .\penalty 10000(for kinsoku)
 .\JY2/zhhei/bx/n/14.4 。
 .\glue(refer from jfm) 0.0
-Underfull \hbox (badness 10000) detected at line 51
+Underfull \hbox (badness 10000) detected at line 50
 \JY2/zhhei/bx/n/14.4 。
 \hbox(12.67198+1.728)x14.4
 .\penalty 10000(for kinsoku)
 .\JY2/zhhei/bx/n/14.4 。
 .\glue(refer from jfm) 0.0
-Underfull \hbox (badness 10000) detected at line 51
+Underfull \hbox (badness 10000) detected at line 50
 \JY2/zhhei/bx/n/14.4 。
 \hbox(12.67198+1.728)x14.4
 .\penalty 10000(for kinsoku)
 .\JY2/zhhei/bx/n/14.4 。
 .\glue(refer from jfm) 0.0
-Underfull \hbox (badness 10000) detected at line 51
+Underfull \hbox (badness 10000) detected at line 50
 \JY2/zhhei/bx/n/14.4 ，
 \hbox(12.67198+1.728)x14.4
 .\penalty 10000(for kinsoku)
 .\JY2/zhhei/bx/n/14.4 ，
 .\glue(refer from jfm) 0.0
-Underfull \hbox (badness 10000) detected at line 51
+Underfull \hbox (badness 10000) detected at line 50
 \JY2/zhhei/bx/n/14.4 。
 \hbox(12.67198+1.728)x14.4
 .\penalty 10000(for kinsoku)
@@ -321,11 +321,11 @@ LaTeX Font Warning: Font shape `JT2/zhhei/m/it' undefined
 (Font)              using `JT2/zhhei/m/n' instead on input line ....
 LaTeX Font Warning: Font shape `JY2/zhhei/m/it' undefined
 (Font)              using `JY2/zhhei/m/n' instead on input line ....
-Underfull \hbox (badness 10000) detected at line 51
-\JY2/zhhei/m/it/14.4 。
+Underfull \hbox (badness 10000) detected at line 50
+\JY2/zhhei/bx/n/14.4 。
 \hbox(12.67198+1.728)x14.4
 .\penalty 10000(for kinsoku)
-.\JY2/zhhei/m/it/14.4 。
+.\JY2/zhhei/bx/n/14.4 。
 .\glue(refer from jfm) 0.0
 LaTeX Font Warning: Font shape `JY2/zhhei/bx/it' undefined
 (Font)              using `JY2/zhhei/b/it' instead on input line ....
@@ -355,13 +355,13 @@ LaTeX Font Warning: Font shape `JY2/zhhei/bx/it' undefined
 (Font)              using `JY2/zhhei/b/it' instead on input line ....
 LaTeX Font Warning: Font shape `JY2/zhhei/bx/it' undefined
 (Font)              using `JY2/zhhei/b/it' instead on input line ....
-Underfull \hbox (badness 10000) detected at line 51
+Underfull \hbox (badness 10000) detected at line 50
 \JY2/zhhei/b/it/14.4 。
 \hbox(12.67198+1.728)x14.4
 .\penalty 10000(for kinsoku)
 .\JY2/zhhei/b/it/14.4 。
 .\glue(refer from jfm) 0.0
-Underfull \hbox (badness 10000) detected at line 51
+Underfull \hbox (badness 10000) detected at line 50
 \JY2/zhhei/b/it/14.4 。
 \hbox(12.67198+1.728)x14.4
 .\penalty 10000(for kinsoku)
@@ -391,19 +391,19 @@ LaTeX Font Warning: Font shape `JY2/zhhei/bx/it' undefined
 (Font)              using `JY2/zhhei/b/it' instead on input line ....
 LaTeX Font Warning: Font shape `JY2/zhhei/bx/it' undefined
 (Font)              using `JY2/zhhei/b/it' instead on input line ....
-Underfull \hbox (badness 10000) detected at line 51
+Underfull \hbox (badness 10000) detected at line 50
 \JY2/zhhei/b/it/14.4 。
 \hbox(12.67198+1.728)x14.4
 .\penalty 10000(for kinsoku)
 .\JY2/zhhei/b/it/14.4 。
 .\glue(refer from jfm) 0.0
-Underfull \hbox (badness 10000) detected at line 51
+Underfull \hbox (badness 10000) detected at line 50
 \JY2/zhhei/b/it/14.4 。
 \hbox(12.67198+1.728)x14.4
 .\penalty 10000(for kinsoku)
 .\JY2/zhhei/b/it/14.4 。
 .\glue(refer from jfm) 0.0
-Underfull \hbox (badness 10000) detected at line 51
+Underfull \hbox (badness 10000) detected at line 50
 \JY2/zhhei/b/it/14.4 ，
 \hbox(12.67198+1.728)x14.4
 .\penalty 10000(for kinsoku)
@@ -421,7 +421,7 @@ LaTeX Font Warning: Font shape `JY2/zhhei/bx/it' undefined
 (Font)              using `JY2/zhhei/b/it' instead on input line ....
 LaTeX Font Warning: Font shape `JY2/zhhei/bx/it' undefined
 (Font)              using `JY2/zhhei/b/it' instead on input line ....
-Underfull \hbox (badness 10000) detected at line 51
+Underfull \hbox (badness 10000) detected at line 50
 \JY2/zhhei/b/it/14.4 。
 \hbox(12.67198+1.728)x14.4
 .\penalty 10000(for kinsoku)
@@ -433,11 +433,11 @@ TEST 6: Basic Usage of LXGW Font: \slshape \heiti
 ============================================================
 LaTeX Font Warning: Font shape `JY2/zhrm/m/sl' undefined
 (Font)              using `JY2/zhrm/m/it' instead on input line ....
-Underfull \hbox (badness 10000) detected at line 51
-\JY2/zhhei/b/it/14.4 。
+Underfull \hbox (badness 10000) detected at line 50
+\JY2/zhhei/m/it/14.4 。
 \hbox(12.67198+1.728)x14.4
 .\penalty 10000(for kinsoku)
-.\JY2/zhhei/b/it/14.4 。
+.\JY2/zhhei/m/it/14.4 。
 .\glue(refer from jfm) 0.0
 LaTeX Font Warning: Font shape `JY2/zhhei/bx/it' undefined
 (Font)              using `JY2/zhhei/b/it' instead on input line ....
@@ -463,59 +463,17 @@ LaTeX Font Warning: Font shape `JY2/zhhei/bx/it' undefined
 (Font)              using `JY2/zhhei/b/it' instead on input line ....
 LaTeX Font Warning: Font shape `JY2/zhhei/bx/it' undefined
 (Font)              using `JY2/zhhei/b/it' instead on input line ....
-Underfull \hbox (badness 10000) detected at line 51
-\JY2/zhhei/b/it/14.4 。
+Underfull \hbox (badness 10000) detected at line 50
+\JY2/zhhei/m/it/14.4 。
 \hbox(12.67198+1.728)x14.4
 .\penalty 10000(for kinsoku)
-.\JY2/zhhei/b/it/14.4 。
+.\JY2/zhhei/m/it/14.4 。
 .\glue(refer from jfm) 0.0
-Underfull \hbox (badness 10000) detected at line 51
-\JY2/zhhei/b/it/14.4 。
+Underfull \hbox (badness 10000) detected at line 50
+\JY2/zhhei/m/it/14.4 。
 \hbox(12.67198+1.728)x14.4
 .\penalty 10000(for kinsoku)
-.\JY2/zhhei/b/it/14.4 。
-.\glue(refer from jfm) 0.0
-LaTeX Font Warning: Font shape `JY2/zhhei/bx/it' undefined
-(Font)              using `JY2/zhhei/b/it' instead on input line ....
-LaTeX Font Warning: Font shape `JY2/zhhei/bx/it' undefined
-(Font)              using `JY2/zhhei/b/it' instead on input line ....
-LaTeX Font Warning: Font shape `JY2/zhhei/bx/it' undefined
-(Font)              using `JY2/zhhei/b/it' instead on input line ....
-LaTeX Font Warning: Font shape `JY2/zhhei/bx/it' undefined
-(Font)              using `JY2/zhhei/b/it' instead on input line ....
-LaTeX Font Warning: Font shape `JY2/zhhei/bx/it' undefined
-(Font)              using `JY2/zhhei/b/it' instead on input line ....
-LaTeX Font Warning: Font shape `JY2/zhhei/bx/it' undefined
-(Font)              using `JY2/zhhei/b/it' instead on input line ....
-LaTeX Font Warning: Font shape `JY2/zhhei/bx/it' undefined
-(Font)              using `JY2/zhhei/b/it' instead on input line ....
-LaTeX Font Warning: Font shape `JY2/zhhei/bx/it' undefined
-(Font)              using `JY2/zhhei/b/it' instead on input line ....
-LaTeX Font Warning: Font shape `JY2/zhhei/bx/it' undefined
-(Font)              using `JY2/zhhei/b/it' instead on input line ....
-LaTeX Font Warning: Font shape `JY2/zhhei/bx/it' undefined
-(Font)              using `JY2/zhhei/b/it' instead on input line ....
-LaTeX Font Warning: Font shape `JY2/zhhei/bx/it' undefined
-(Font)              using `JY2/zhhei/b/it' instead on input line ....
-LaTeX Font Warning: Font shape `JY2/zhhei/bx/it' undefined
-(Font)              using `JY2/zhhei/b/it' instead on input line ....
-Underfull \hbox (badness 10000) detected at line 51
-\JY2/zhhei/b/it/14.4 。
-\hbox(12.67198+1.728)x14.4
-.\penalty 10000(for kinsoku)
-.\JY2/zhhei/b/it/14.4 。
-.\glue(refer from jfm) 0.0
-Underfull \hbox (badness 10000) detected at line 51
-\JY2/zhhei/b/it/14.4 。
-\hbox(12.67198+1.728)x14.4
-.\penalty 10000(for kinsoku)
-.\JY2/zhhei/b/it/14.4 。
-.\glue(refer from jfm) 0.0
-Underfull \hbox (badness 10000) detected at line 51
-\JY2/zhhei/b/it/14.4 ，
-\hbox(12.67198+1.728)x14.4
-.\penalty 10000(for kinsoku)
-.\JY2/zhhei/b/it/14.4 ，
+.\JY2/zhhei/m/it/14.4 。
 .\glue(refer from jfm) 0.0
 LaTeX Font Warning: Font shape `JY2/zhhei/bx/it' undefined
 (Font)              using `JY2/zhhei/b/it' instead on input line ....
@@ -529,17 +487,59 @@ LaTeX Font Warning: Font shape `JY2/zhhei/bx/it' undefined
 (Font)              using `JY2/zhhei/b/it' instead on input line ....
 LaTeX Font Warning: Font shape `JY2/zhhei/bx/it' undefined
 (Font)              using `JY2/zhhei/b/it' instead on input line ....
-Underfull \hbox (badness 10000) detected at line 51
-\JY2/zhhei/b/it/14.4 。
+LaTeX Font Warning: Font shape `JY2/zhhei/bx/it' undefined
+(Font)              using `JY2/zhhei/b/it' instead on input line ....
+LaTeX Font Warning: Font shape `JY2/zhhei/bx/it' undefined
+(Font)              using `JY2/zhhei/b/it' instead on input line ....
+LaTeX Font Warning: Font shape `JY2/zhhei/bx/it' undefined
+(Font)              using `JY2/zhhei/b/it' instead on input line ....
+LaTeX Font Warning: Font shape `JY2/zhhei/bx/it' undefined
+(Font)              using `JY2/zhhei/b/it' instead on input line ....
+LaTeX Font Warning: Font shape `JY2/zhhei/bx/it' undefined
+(Font)              using `JY2/zhhei/b/it' instead on input line ....
+LaTeX Font Warning: Font shape `JY2/zhhei/bx/it' undefined
+(Font)              using `JY2/zhhei/b/it' instead on input line ....
+Underfull \hbox (badness 10000) detected at line 50
+\JY2/zhhei/m/it/14.4 。
 \hbox(12.67198+1.728)x14.4
 .\penalty 10000(for kinsoku)
-.\JY2/zhhei/b/it/14.4 。
+.\JY2/zhhei/m/it/14.4 。
+.\glue(refer from jfm) 0.0
+Underfull \hbox (badness 10000) detected at line 50
+\JY2/zhhei/m/it/14.4 。
+\hbox(12.67198+1.728)x14.4
+.\penalty 10000(for kinsoku)
+.\JY2/zhhei/m/it/14.4 。
+.\glue(refer from jfm) 0.0
+Underfull \hbox (badness 10000) detected at line 50
+\JY2/zhhei/m/it/14.4 ，
+\hbox(12.67198+1.728)x14.4
+.\penalty 10000(for kinsoku)
+.\JY2/zhhei/m/it/14.4 ，
+.\glue(refer from jfm) 0.0
+LaTeX Font Warning: Font shape `JY2/zhhei/bx/it' undefined
+(Font)              using `JY2/zhhei/b/it' instead on input line ....
+LaTeX Font Warning: Font shape `JY2/zhhei/bx/it' undefined
+(Font)              using `JY2/zhhei/b/it' instead on input line ....
+LaTeX Font Warning: Font shape `JY2/zhhei/bx/it' undefined
+(Font)              using `JY2/zhhei/b/it' instead on input line ....
+LaTeX Font Warning: Font shape `JY2/zhhei/bx/it' undefined
+(Font)              using `JY2/zhhei/b/it' instead on input line ....
+LaTeX Font Warning: Font shape `JY2/zhhei/bx/it' undefined
+(Font)              using `JY2/zhhei/b/it' instead on input line ....
+LaTeX Font Warning: Font shape `JY2/zhhei/bx/it' undefined
+(Font)              using `JY2/zhhei/b/it' instead on input line ....
+Underfull \hbox (badness 10000) detected at line 50
+\JY2/zhhei/m/it/14.4 。
+\hbox(12.67198+1.728)x14.4
+.\penalty 10000(for kinsoku)
+.\JY2/zhhei/m/it/14.4 。
 .\glue(refer from jfm) 0.0
 ============================================================
 ============================================================
 TEST 7: Basic Usage of LXGW Font: \fangsong 
 ============================================================
-Underfull \hbox (badness 10000) detected at line 51
+Underfull \hbox (badness 10000) detected at line 50
 \JY2/zhfs/m/n/14.4 。
 \hbox(12.67198+1.728)x14.4
 .\penalty 10000(for kinsoku)
@@ -573,13 +573,13 @@ LaTeX Font Warning: Font shape `JY2/zhfs/bx/n' undefined
 (Font)              using `JY2/zhfs/b/n' instead on input line ....
 LaTeX Font Warning: Font shape `JY2/zhfs/bx/n' undefined
 (Font)              using `JY2/zhfs/b/n' instead on input line ....
-Underfull \hbox (badness 10000) detected at line 51
+Underfull \hbox (badness 10000) detected at line 50
 \JY2/zhfs/b/n/14.4 。
 \hbox(12.67198+1.728)x14.4
 .\penalty 10000(for kinsoku)
 .\JY2/zhfs/b/n/14.4 。
 .\glue(refer from jfm) 0.0
-Underfull \hbox (badness 10000) detected at line 51
+Underfull \hbox (badness 10000) detected at line 50
 \JY2/zhfs/b/n/14.4 。
 \hbox(12.67198+1.728)x14.4
 .\penalty 10000(for kinsoku)
@@ -609,19 +609,19 @@ LaTeX Font Warning: Font shape `JY2/zhfs/bx/n' undefined
 (Font)              using `JY2/zhfs/b/n' instead on input line ....
 LaTeX Font Warning: Font shape `JY2/zhfs/bx/n' undefined
 (Font)              using `JY2/zhfs/b/n' instead on input line ....
-Underfull \hbox (badness 10000) detected at line 51
+Underfull \hbox (badness 10000) detected at line 50
 \JY2/zhfs/b/n/14.4 。
 \hbox(12.67198+1.728)x14.4
 .\penalty 10000(for kinsoku)
 .\JY2/zhfs/b/n/14.4 。
 .\glue(refer from jfm) 0.0
-Underfull \hbox (badness 10000) detected at line 51
+Underfull \hbox (badness 10000) detected at line 50
 \JY2/zhfs/b/n/14.4 。
 \hbox(12.67198+1.728)x14.4
 .\penalty 10000(for kinsoku)
 .\JY2/zhfs/b/n/14.4 。
 .\glue(refer from jfm) 0.0
-Underfull \hbox (badness 10000) detected at line 51
+Underfull \hbox (badness 10000) detected at line 50
 \JY2/zhfs/b/n/14.4 ，
 \hbox(12.67198+1.728)x14.4
 .\penalty 10000(for kinsoku)
@@ -639,7 +639,7 @@ LaTeX Font Warning: Font shape `JY2/zhfs/bx/n' undefined
 (Font)              using `JY2/zhfs/b/n' instead on input line ....
 LaTeX Font Warning: Font shape `JY2/zhfs/bx/n' undefined
 (Font)              using `JY2/zhfs/b/n' instead on input line ....
-Underfull \hbox (badness 10000) detected at line 51
+Underfull \hbox (badness 10000) detected at line 50
 \JY2/zhfs/b/n/14.4 。
 \hbox(12.67198+1.728)x14.4
 .\penalty 10000(for kinsoku)
@@ -653,11 +653,11 @@ LaTeX Font Warning: Font shape `JT2/zhfs/m/it' undefined
 (Font)              using `JT2/zhfs/m/n' instead on input line ....
 LaTeX Font Warning: Font shape `JY2/zhfs/m/it' undefined
 (Font)              using `JY2/zhfs/m/n' instead on input line ....
-Underfull \hbox (badness 10000) detected at line 51
-\JY2/zhfs/m/it/14.4 。
+Underfull \hbox (badness 10000) detected at line 50
+\JY2/zhfs/b/n/14.4 。
 \hbox(12.67198+1.728)x14.4
 .\penalty 10000(for kinsoku)
-.\JY2/zhfs/m/it/14.4 。
+.\JY2/zhfs/b/n/14.4 。
 .\glue(refer from jfm) 0.0
 LaTeX Font Warning: Font shape `JY2/zhfs/bx/it' undefined
 (Font)              using `JY2/zhfs/b/it' instead on input line ....
@@ -687,13 +687,13 @@ LaTeX Font Warning: Font shape `JY2/zhfs/bx/it' undefined
 (Font)              using `JY2/zhfs/b/it' instead on input line ....
 LaTeX Font Warning: Font shape `JY2/zhfs/bx/it' undefined
 (Font)              using `JY2/zhfs/b/it' instead on input line ....
-Underfull \hbox (badness 10000) detected at line 51
+Underfull \hbox (badness 10000) detected at line 50
 \JY2/zhfs/b/it/14.4 。
 \hbox(12.67198+1.728)x14.4
 .\penalty 10000(for kinsoku)
 .\JY2/zhfs/b/it/14.4 。
 .\glue(refer from jfm) 0.0
-Underfull \hbox (badness 10000) detected at line 51
+Underfull \hbox (badness 10000) detected at line 50
 \JY2/zhfs/b/it/14.4 。
 \hbox(12.67198+1.728)x14.4
 .\penalty 10000(for kinsoku)
@@ -723,19 +723,19 @@ LaTeX Font Warning: Font shape `JY2/zhfs/bx/it' undefined
 (Font)              using `JY2/zhfs/b/it' instead on input line ....
 LaTeX Font Warning: Font shape `JY2/zhfs/bx/it' undefined
 (Font)              using `JY2/zhfs/b/it' instead on input line ....
-Underfull \hbox (badness 10000) detected at line 51
+Underfull \hbox (badness 10000) detected at line 50
 \JY2/zhfs/b/it/14.4 。
 \hbox(12.67198+1.728)x14.4
 .\penalty 10000(for kinsoku)
 .\JY2/zhfs/b/it/14.4 。
 .\glue(refer from jfm) 0.0
-Underfull \hbox (badness 10000) detected at line 51
+Underfull \hbox (badness 10000) detected at line 50
 \JY2/zhfs/b/it/14.4 。
 \hbox(12.67198+1.728)x14.4
 .\penalty 10000(for kinsoku)
 .\JY2/zhfs/b/it/14.4 。
 .\glue(refer from jfm) 0.0
-Underfull \hbox (badness 10000) detected at line 51
+Underfull \hbox (badness 10000) detected at line 50
 \JY2/zhfs/b/it/14.4 ，
 \hbox(12.67198+1.728)x14.4
 .\penalty 10000(for kinsoku)
@@ -753,7 +753,7 @@ LaTeX Font Warning: Font shape `JY2/zhfs/bx/it' undefined
 (Font)              using `JY2/zhfs/b/it' instead on input line ....
 LaTeX Font Warning: Font shape `JY2/zhfs/bx/it' undefined
 (Font)              using `JY2/zhfs/b/it' instead on input line ....
-Underfull \hbox (badness 10000) detected at line 51
+Underfull \hbox (badness 10000) detected at line 50
 \JY2/zhfs/b/it/14.4 。
 \hbox(12.67198+1.728)x14.4
 .\penalty 10000(for kinsoku)
@@ -765,11 +765,11 @@ TEST 9: Basic Usage of LXGW Font: \slshape \fangsong
 ============================================================
 LaTeX Font Warning: Font shape `JY2/zhrm/m/sl' undefined
 (Font)              using `JY2/zhrm/m/it' instead on input line ....
-Underfull \hbox (badness 10000) detected at line 51
-\JY2/zhfs/b/it/14.4 。
+Underfull \hbox (badness 10000) detected at line 50
+\JY2/zhfs/m/it/14.4 。
 \hbox(12.67198+1.728)x14.4
 .\penalty 10000(for kinsoku)
-.\JY2/zhfs/b/it/14.4 。
+.\JY2/zhfs/m/it/14.4 。
 .\glue(refer from jfm) 0.0
 LaTeX Font Warning: Font shape `JY2/zhfs/bx/it' undefined
 (Font)              using `JY2/zhfs/b/it' instead on input line ....
@@ -795,59 +795,17 @@ LaTeX Font Warning: Font shape `JY2/zhfs/bx/it' undefined
 (Font)              using `JY2/zhfs/b/it' instead on input line ....
 LaTeX Font Warning: Font shape `JY2/zhfs/bx/it' undefined
 (Font)              using `JY2/zhfs/b/it' instead on input line ....
-Underfull \hbox (badness 10000) detected at line 51
-\JY2/zhfs/b/it/14.4 。
+Underfull \hbox (badness 10000) detected at line 50
+\JY2/zhfs/m/it/14.4 。
 \hbox(12.67198+1.728)x14.4
 .\penalty 10000(for kinsoku)
-.\JY2/zhfs/b/it/14.4 。
+.\JY2/zhfs/m/it/14.4 。
 .\glue(refer from jfm) 0.0
-Underfull \hbox (badness 10000) detected at line 51
-\JY2/zhfs/b/it/14.4 。
+Underfull \hbox (badness 10000) detected at line 50
+\JY2/zhfs/m/it/14.4 。
 \hbox(12.67198+1.728)x14.4
 .\penalty 10000(for kinsoku)
-.\JY2/zhfs/b/it/14.4 。
-.\glue(refer from jfm) 0.0
-LaTeX Font Warning: Font shape `JY2/zhfs/bx/it' undefined
-(Font)              using `JY2/zhfs/b/it' instead on input line ....
-LaTeX Font Warning: Font shape `JY2/zhfs/bx/it' undefined
-(Font)              using `JY2/zhfs/b/it' instead on input line ....
-LaTeX Font Warning: Font shape `JY2/zhfs/bx/it' undefined
-(Font)              using `JY2/zhfs/b/it' instead on input line ....
-LaTeX Font Warning: Font shape `JY2/zhfs/bx/it' undefined
-(Font)              using `JY2/zhfs/b/it' instead on input line ....
-LaTeX Font Warning: Font shape `JY2/zhfs/bx/it' undefined
-(Font)              using `JY2/zhfs/b/it' instead on input line ....
-LaTeX Font Warning: Font shape `JY2/zhfs/bx/it' undefined
-(Font)              using `JY2/zhfs/b/it' instead on input line ....
-LaTeX Font Warning: Font shape `JY2/zhfs/bx/it' undefined
-(Font)              using `JY2/zhfs/b/it' instead on input line ....
-LaTeX Font Warning: Font shape `JY2/zhfs/bx/it' undefined
-(Font)              using `JY2/zhfs/b/it' instead on input line ....
-LaTeX Font Warning: Font shape `JY2/zhfs/bx/it' undefined
-(Font)              using `JY2/zhfs/b/it' instead on input line ....
-LaTeX Font Warning: Font shape `JY2/zhfs/bx/it' undefined
-(Font)              using `JY2/zhfs/b/it' instead on input line ....
-LaTeX Font Warning: Font shape `JY2/zhfs/bx/it' undefined
-(Font)              using `JY2/zhfs/b/it' instead on input line ....
-LaTeX Font Warning: Font shape `JY2/zhfs/bx/it' undefined
-(Font)              using `JY2/zhfs/b/it' instead on input line ....
-Underfull \hbox (badness 10000) detected at line 51
-\JY2/zhfs/b/it/14.4 。
-\hbox(12.67198+1.728)x14.4
-.\penalty 10000(for kinsoku)
-.\JY2/zhfs/b/it/14.4 。
-.\glue(refer from jfm) 0.0
-Underfull \hbox (badness 10000) detected at line 51
-\JY2/zhfs/b/it/14.4 。
-\hbox(12.67198+1.728)x14.4
-.\penalty 10000(for kinsoku)
-.\JY2/zhfs/b/it/14.4 。
-.\glue(refer from jfm) 0.0
-Underfull \hbox (badness 10000) detected at line 51
-\JY2/zhfs/b/it/14.4 ，
-\hbox(12.67198+1.728)x14.4
-.\penalty 10000(for kinsoku)
-.\JY2/zhfs/b/it/14.4 ，
+.\JY2/zhfs/m/it/14.4 。
 .\glue(refer from jfm) 0.0
 LaTeX Font Warning: Font shape `JY2/zhfs/bx/it' undefined
 (Font)              using `JY2/zhfs/b/it' instead on input line ....
@@ -861,17 +819,59 @@ LaTeX Font Warning: Font shape `JY2/zhfs/bx/it' undefined
 (Font)              using `JY2/zhfs/b/it' instead on input line ....
 LaTeX Font Warning: Font shape `JY2/zhfs/bx/it' undefined
 (Font)              using `JY2/zhfs/b/it' instead on input line ....
-Underfull \hbox (badness 10000) detected at line 51
-\JY2/zhfs/b/it/14.4 。
+LaTeX Font Warning: Font shape `JY2/zhfs/bx/it' undefined
+(Font)              using `JY2/zhfs/b/it' instead on input line ....
+LaTeX Font Warning: Font shape `JY2/zhfs/bx/it' undefined
+(Font)              using `JY2/zhfs/b/it' instead on input line ....
+LaTeX Font Warning: Font shape `JY2/zhfs/bx/it' undefined
+(Font)              using `JY2/zhfs/b/it' instead on input line ....
+LaTeX Font Warning: Font shape `JY2/zhfs/bx/it' undefined
+(Font)              using `JY2/zhfs/b/it' instead on input line ....
+LaTeX Font Warning: Font shape `JY2/zhfs/bx/it' undefined
+(Font)              using `JY2/zhfs/b/it' instead on input line ....
+LaTeX Font Warning: Font shape `JY2/zhfs/bx/it' undefined
+(Font)              using `JY2/zhfs/b/it' instead on input line ....
+Underfull \hbox (badness 10000) detected at line 50
+\JY2/zhfs/m/it/14.4 。
 \hbox(12.67198+1.728)x14.4
 .\penalty 10000(for kinsoku)
-.\JY2/zhfs/b/it/14.4 。
+.\JY2/zhfs/m/it/14.4 。
+.\glue(refer from jfm) 0.0
+Underfull \hbox (badness 10000) detected at line 50
+\JY2/zhfs/m/it/14.4 。
+\hbox(12.67198+1.728)x14.4
+.\penalty 10000(for kinsoku)
+.\JY2/zhfs/m/it/14.4 。
+.\glue(refer from jfm) 0.0
+Underfull \hbox (badness 10000) detected at line 50
+\JY2/zhfs/m/it/14.4 ，
+\hbox(12.67198+1.728)x14.4
+.\penalty 10000(for kinsoku)
+.\JY2/zhfs/m/it/14.4 ，
+.\glue(refer from jfm) 0.0
+LaTeX Font Warning: Font shape `JY2/zhfs/bx/it' undefined
+(Font)              using `JY2/zhfs/b/it' instead on input line ....
+LaTeX Font Warning: Font shape `JY2/zhfs/bx/it' undefined
+(Font)              using `JY2/zhfs/b/it' instead on input line ....
+LaTeX Font Warning: Font shape `JY2/zhfs/bx/it' undefined
+(Font)              using `JY2/zhfs/b/it' instead on input line ....
+LaTeX Font Warning: Font shape `JY2/zhfs/bx/it' undefined
+(Font)              using `JY2/zhfs/b/it' instead on input line ....
+LaTeX Font Warning: Font shape `JY2/zhfs/bx/it' undefined
+(Font)              using `JY2/zhfs/b/it' instead on input line ....
+LaTeX Font Warning: Font shape `JY2/zhfs/bx/it' undefined
+(Font)              using `JY2/zhfs/b/it' instead on input line ....
+Underfull \hbox (badness 10000) detected at line 50
+\JY2/zhfs/m/it/14.4 。
+\hbox(12.67198+1.728)x14.4
+.\penalty 10000(for kinsoku)
+.\JY2/zhfs/m/it/14.4 。
 .\glue(refer from jfm) 0.0
 ============================================================
 ============================================================
 TEST 10: Basic Usage of LXGW Font: \kaishu 
 ============================================================
-Underfull \hbox (badness 10000) detected at line 51
+Underfull \hbox (badness 10000) detected at line 50
 \JY2/zhkai/m/n/14.4 。
 \hbox(12.67198+1.728)x14.4
 .\penalty 10000(for kinsoku)
@@ -905,13 +905,13 @@ LaTeX Font Warning: Font shape `JY2/zhkai/bx/n' undefined
 (Font)              using `JY2/zhkai/b/n' instead on input line ....
 LaTeX Font Warning: Font shape `JY2/zhkai/bx/n' undefined
 (Font)              using `JY2/zhkai/b/n' instead on input line ....
-Underfull \hbox (badness 10000) detected at line 51
+Underfull \hbox (badness 10000) detected at line 50
 \JY2/zhkai/b/n/14.4 。
 \hbox(12.67198+1.728)x14.4
 .\penalty 10000(for kinsoku)
 .\JY2/zhkai/b/n/14.4 。
 .\glue(refer from jfm) 0.0
-Underfull \hbox (badness 10000) detected at line 51
+Underfull \hbox (badness 10000) detected at line 50
 \JY2/zhkai/b/n/14.4 。
 \hbox(12.67198+1.728)x14.4
 .\penalty 10000(for kinsoku)
@@ -941,19 +941,19 @@ LaTeX Font Warning: Font shape `JY2/zhkai/bx/n' undefined
 (Font)              using `JY2/zhkai/b/n' instead on input line ....
 LaTeX Font Warning: Font shape `JY2/zhkai/bx/n' undefined
 (Font)              using `JY2/zhkai/b/n' instead on input line ....
-Underfull \hbox (badness 10000) detected at line 51
+Underfull \hbox (badness 10000) detected at line 50
 \JY2/zhkai/b/n/14.4 。
 \hbox(12.67198+1.728)x14.4
 .\penalty 10000(for kinsoku)
 .\JY2/zhkai/b/n/14.4 。
 .\glue(refer from jfm) 0.0
-Underfull \hbox (badness 10000) detected at line 51
+Underfull \hbox (badness 10000) detected at line 50
 \JY2/zhkai/b/n/14.4 。
 \hbox(12.67198+1.728)x14.4
 .\penalty 10000(for kinsoku)
 .\JY2/zhkai/b/n/14.4 。
 .\glue(refer from jfm) 0.0
-Underfull \hbox (badness 10000) detected at line 51
+Underfull \hbox (badness 10000) detected at line 50
 \JY2/zhkai/b/n/14.4 ，
 \hbox(12.67198+1.728)x14.4
 .\penalty 10000(for kinsoku)
@@ -971,12 +971,2219 @@ LaTeX Font Warning: Font shape `JY2/zhkai/bx/n' undefined
 (Font)              using `JY2/zhkai/b/n' instead on input line ....
 LaTeX Font Warning: Font shape `JY2/zhkai/bx/n' undefined
 (Font)              using `JY2/zhkai/b/n' instead on input line ....
-Underfull \hbox (badness 10000) detected at line 51
+Underfull \hbox (badness 10000) detected at line 50
 \JY2/zhkai/b/n/14.4 。
 \hbox(12.67198+1.728)x14.4
 .\penalty 10000(for kinsoku)
 .\JY2/zhkai/b/n/14.4 。
 .\glue(refer from jfm) 0.0
+Completed box being shipped out [1]
+\vbox(461.45076+0.0)x603.45328
+.\hbox(0.0+0.0)x0.0
+..\special{pdf:mapline upserif-h UniGB-UTF16-H LXGWNeoZhiSong.ttf}
+..\special{pdf:mapline upserif-v UniGB-UTF16-V LXGWNeoZhiSong.ttf}
+..\special{pdf:mapline upserifb-h UniGB-UTF16-H LXGWNeoZhiSongScreen.ttf}
+..\special{pdf:mapline upserifb-v UniGB-UTF16-V LXGWNeoZhiSongScreen.ttf}
+..\special{pdf:mapline upserifit-h UniGB-UTF16-H LXGWWenKaiGBLite-Regular.ttf}
+..\special{pdf:mapline upserifit-v UniGB-UTF16-V LXGWWenKaiGBLite-Regular.ttf}
+..\special{pdf:mapline upsans-h UniGB-UTF16-H LXGWNeoXiHei.ttf}
+..\special{pdf:mapline upsans-v UniGB-UTF16-V LXGWNeoXiHei.ttf}
+..\special{pdf:mapline upsansb-h UniGB-UTF16-H LXGWNeoXiHeiScreen.ttf}
+..\special{pdf:mapline upsansb-v UniGB-UTF16-V LXGWNeoXiHeiScreen.ttf}
+..\special{pdf:mapline upmono-h UniGB-UTF16-H LXGWZhuqueFangsong-Regular.ttf}
+..\special{pdf:mapline upmono-v UniGB-UTF16-V LXGWZhuqueFangsong-Regular.ttf}
+.\glue -35.55386
+.\vbox(497.00462+0.0)x556.47656, shifted 46.97672
+..\vbox(12.0+0.0)x556.47656, glue set 12.0fil
+...\glue 0.0 plus 1.0fil
+...\hbox(0.0+0.0)x556.47656
+....\hbox(0.0+0.0)x556.47656
+..\glue 25.0
+..\glue(\lineskip) 0.0
+..\vbox(430.00462+0.0)x556.47656, glue set >20000.0fil
+...\write-{}
+...\glue(\topskip) 0.0
+...\hbox(12.67198+1.728)x556.47656, glue set 38.07678fil
+....\hbox(0.0+0.0)x0.0
+....\hbox(12.67198+1.728)x14.4
+.....\JY2/zhsong/m/it/14.4 私
+....\glue(\kanjiskip) 0.0 plus 0.65768
+....\hbox(12.67198+1.728)x14.4
+.....\JY2/zhsong/m/it/14.4 ガ
+....\glue(\kanjiskip) 0.0 plus 0.65768
+....\hbox(12.67198+1.728)x14.4
+.....\JY2/zhsong/m/it/14.4 ラ
+....\glue(\kanjiskip) 0.0 plus 0.65768
+....\hbox(12.67198+1.728)x14.4
+.....\JY2/zhsong/m/it/14.4 ス
+....\glue(\kanjiskip) 0.0 plus 0.65768
+....\hbox(12.67198+1.728)x14.4
+.....\JY2/zhsong/m/it/14.4 を
+....\glue(\kanjiskip) 0.0 plus 0.65768
+....\hbox(12.67198+1.728)x14.4
+.....\JY2/zhsong/m/it/14.4 食
+....\glue(\kanjiskip) 0.0 plus 0.65768
+....\hbox(12.67198+1.728)x14.4
+.....\JY2/zhsong/m/it/14.4 べ
+....\glue(\kanjiskip) 0.0 plus 0.65768
+....\hbox(12.67198+1.728)x14.4
+.....\JY2/zhsong/m/it/14.4 ら
+....\glue(\kanjiskip) 0.0 plus 0.65768
+....\hbox(12.67198+1.728)x14.4
+.....\JY2/zhsong/m/it/14.4 れ
+....\glue(\kanjiskip) 0.0 plus 0.65768
+....\hbox(12.67198+1.728)x14.4
+.....\JY2/zhsong/m/it/14.4 ま
+....\glue(\kanjiskip) 0.0 plus 0.65768
+....\hbox(12.67198+1.728)x14.4
+.....\JY2/zhsong/m/it/14.4 す
+....\glue(\kanjiskip) 0.0 plus 0.65768
+....\hbox(12.67198+1.728)x14.4
+.....\penalty 10000(for kinsoku)
+.....\JY2/zhsong/m/it/14.4 。
+.....\glue(refer from jfm) 0.0
+....\hbox(12.67198+1.728)x14.4
+.....\JY2/zhsong/b/it/14.4 そ
+....\glue(\kanjiskip) 0.0 plus 0.65768
+....\hbox(12.67198+1.728)x14.4
+.....\JY2/zhsong/b/it/14.4 れ
+....\glue(\kanjiskip) 0.0 plus 0.65768
+....\hbox(12.67198+1.728)x14.4
+.....\JY2/zhsong/b/it/14.4 は
+....\glue(\kanjiskip) 0.0 plus 0.65768
+....\hbox(12.67198+1.728)x14.4
+.....\JY2/zhsong/b/it/14.4 私
+....\glue(\kanjiskip) 0.0 plus 0.65768
+....\hbox(12.67198+1.728)x14.4
+.....\JY2/zhsong/b/it/14.4 を
+....\glue(\kanjiskip) 0.0 plus 0.65768
+....\hbox(12.67198+1.728)x14.4
+.....\JY2/zhsong/b/it/14.4 傷
+....\glue(\kanjiskip) 0.0 plus 0.65768
+....\hbox(12.67198+1.728)x14.4
+.....\JY2/zhsong/b/it/14.4 つ
+....\glue(\kanjiskip) 0.0 plus 0.65768
+....\hbox(12.67198+1.728)x14.4
+.....\JY2/zhsong/b/it/14.4 け
+....\glue(\kanjiskip) 0.0 plus 0.65768
+....\hbox(12.67198+1.728)x14.4
+.....\JY2/zhsong/b/it/14.4 ま
+....\glue(\kanjiskip) 0.0 plus 0.65768
+....\hbox(12.67198+1.728)x14.4
+.....\JY2/zhsong/b/it/14.4 せ
+....\glue(\kanjiskip) 0.0 plus 0.65768
+....\hbox(12.67198+1.728)x14.4
+.....\JY2/zhsong/b/it/14.4 ん
+....\glue(\kanjiskip) 0.0 plus 0.65768
+....\hbox(12.67198+1.728)x14.4
+.....\penalty 10000(for kinsoku)
+.....\JY2/zhsong/b/it/14.4 。
+.....\glue(refer from jfm) 0.0
+....\hbox(12.67198+1.728)x14.4
+.....\JY2/zhsong/m/it/14.4 我
+....\glue(\kanjiskip) 0.0 plus 0.65768
+....\hbox(12.67198+1.728)x14.4
+.....\JY2/zhsong/m/it/14.4 能
+....\glue(\kanjiskip) 0.0 plus 0.65768
+....\hbox(12.67198+1.728)x14.4
+.....\JY2/zhsong/m/it/14.4 吞
+....\glue(\kanjiskip) 0.0 plus 0.65768
+....\hbox(12.67198+1.728)x14.4
+.....\JY2/zhsong/m/it/14.4 下
+....\glue(\kanjiskip) 0.0 plus 0.65768
+....\hbox(12.67198+1.728)x14.4
+.....\JY2/zhsong/m/it/14.4 玻
+....\glue(\kanjiskip) 0.0 plus 0.65768
+....\hbox(12.67198+1.728)x14.4
+.....\JY2/zhsong/m/it/14.4 璃
+....\glue(\kanjiskip) 0.0 plus 0.65768
+....\hbox(12.67198+1.728)x14.4
+.....\JY2/zhsong/m/it/14.4 而
+....\glue(\kanjiskip) 0.0 plus 0.65768
+....\hbox(12.67198+1.728)x14.4
+.....\JY2/zhsong/m/it/14.4 不
+....\glue(\kanjiskip) 0.0 plus 0.65768
+....\hbox(12.67198+1.728)x14.4
+.....\JY2/zhsong/m/it/14.4 伤
+....\glue(\kanjiskip) 0.0 plus 0.65768
+....\hbox(12.67198+1.728)x14.4
+.....\JY2/zhsong/m/it/14.4 身
+....\glue(\kanjiskip) 0.0 plus 0.65768
+....\hbox(12.67198+1.728)x14.4
+.....\JY2/zhsong/m/it/14.4 体
+....\glue(\kanjiskip) 0.0 plus 0.65768
+....\hbox(12.67198+1.728)x14.4
+.....\penalty 10000(for kinsoku)
+.....\JY2/zhsong/m/it/14.4 。
+.....\glue(refer from jfm) 0.0
+....\penalty 10000
+....\glue 0.0 plus 1.0fil
+....\penalty -10000
+....\glue(\rightskip) 0.0
+...\penalty 300
+...\glue(\baselineskip) 9.00008
+...\hbox(12.67198+1.728)x556.47656, glue set 23.67679fil
+....\hbox(0.0+0.0)x0.0
+....\hbox(12.67198+1.728)x14.4
+.....\JY2/zhsong/b/it/14.4 我
+....\glue(\kanjiskip) 0.0 plus 0.65768
+....\hbox(12.67198+1.728)x14.4
+.....\JY2/zhsong/b/it/14.4 能
+....\glue(\kanjiskip) 0.0 plus 0.65768
+....\hbox(12.67198+1.728)x14.4
+.....\JY2/zhsong/b/it/14.4 吞
+....\glue(\kanjiskip) 0.0 plus 0.65768
+....\hbox(12.67198+1.728)x14.4
+.....\JY2/zhsong/b/it/14.4 下
+....\glue(\kanjiskip) 0.0 plus 0.65768
+....\hbox(12.67198+1.728)x14.4
+.....\JY2/zhsong/b/it/14.4 玻
+....\glue(\kanjiskip) 0.0 plus 0.65768
+....\hbox(12.67198+1.728)x14.4
+.....\JY2/zhsong/b/it/14.4 璃
+....\glue(\kanjiskip) 0.0 plus 0.65768
+....\hbox(12.67198+1.728)x14.4
+.....\JY2/zhsong/b/it/14.4 而
+....\glue(\kanjiskip) 0.0 plus 0.65768
+....\hbox(12.67198+1.728)x14.4
+.....\JY2/zhsong/b/it/14.4 不
+....\glue(\kanjiskip) 0.0 plus 0.65768
+....\hbox(12.67198+1.728)x14.4
+.....\JY2/zhsong/b/it/14.4 伤
+....\glue(\kanjiskip) 0.0 plus 0.65768
+....\hbox(12.67198+1.728)x14.4
+.....\JY2/zhsong/b/it/14.4 身
+....\glue(\kanjiskip) 0.0 plus 0.65768
+....\hbox(12.67198+1.728)x14.4
+.....\JY2/zhsong/b/it/14.4 体
+....\glue(\kanjiskip) 0.0 plus 0.65768
+....\hbox(12.67198+1.728)x14.4
+.....\penalty 10000(for kinsoku)
+.....\JY2/zhsong/b/it/14.4 。
+.....\glue(refer from jfm) 0.0
+....\hbox(12.67198+1.728)x14.4
+.....\JY2/zhsong/m/it/14.4 我
+....\glue(\kanjiskip) 0.0 plus 0.65768
+....\hbox(12.67198+1.728)x14.4
+.....\JY2/zhsong/m/it/14.4 能
+....\glue(\kanjiskip) 0.0 plus 0.65768
+....\hbox(12.67198+1.728)x14.4
+.....\JY2/zhsong/m/it/14.4 吞
+....\glue(\kanjiskip) 0.0 plus 0.65768
+....\hbox(12.67198+1.728)x14.4
+.....\JY2/zhsong/m/it/14.4 下
+....\glue(\kanjiskip) 0.0 plus 0.65768
+....\hbox(12.67198+1.728)x14.4
+.....\JY2/zhsong/m/it/14.4 玻
+....\glue(\kanjiskip) 0.0 plus 0.65768
+....\hbox(12.67198+1.728)x14.4
+.....\JY2/zhsong/m/it/14.4 璃
+....\glue(\kanjiskip) 0.0 plus 0.65768
+....\hbox(12.67198+1.728)x14.4
+.....\JY2/zhsong/m/it/14.4 而
+....\glue(\kanjiskip) 0.0 plus 0.65768
+....\hbox(12.67198+1.728)x14.4
+.....\JY2/zhsong/m/it/14.4 不
+....\glue(\kanjiskip) 0.0 plus 0.65768
+....\hbox(12.67198+1.728)x14.4
+.....\JY2/zhsong/m/it/14.4 傷
+....\glue(\kanjiskip) 0.0 plus 0.65768
+....\hbox(12.67198+1.728)x14.4
+.....\JY2/zhsong/m/it/14.4 身
+....\glue(\kanjiskip) 0.0 plus 0.65768
+....\hbox(12.67198+1.728)x14.4
+.....\JY2/zhsong/m/it/14.4 體
+....\glue(\kanjiskip) 0.0 plus 0.65768
+....\hbox(12.67198+1.728)x14.4
+.....\penalty 10000(for kinsoku)
+.....\JY2/zhsong/m/it/14.4 。
+.....\glue(refer from jfm) 0.0
+....\hbox(12.67198+1.728)x14.4
+.....\JY2/zhsong/m/it/14.4 我
+....\glue(\kanjiskip) 0.0 plus 0.65768
+....\hbox(12.67198+1.728)x14.4
+.....\JY2/zhsong/m/it/14.4 可
+....\glue(\kanjiskip) 0.0 plus 0.65768
+....\hbox(12.67198+1.728)x14.4
+.....\JY2/zhsong/m/it/14.4 以
+....\glue(\kanjiskip) 0.0 plus 0.65768
+....\hbox(12.67198+1.728)x14.4
+.....\JY2/zhsong/m/it/14.4 食
+....\glue(\kanjiskip) 0.0 plus 0.65768
+....\hbox(12.67198+1.728)x14.4
+.....\JY2/zhsong/m/it/14.4 玻
+....\glue(\kanjiskip) 0.0 plus 0.65768
+....\hbox(12.67198+1.728)x14.4
+.....\JY2/zhsong/m/it/14.4 璃
+....\glue(\kanjiskip) 0.0 plus 0.65768
+....\hbox(12.67198+1.728)x14.4
+.....\penalty 10000(for kinsoku)
+.....\JY2/zhsong/m/it/14.4 ，
+.....\glue(refer from jfm) 0.0
+....\hbox(12.67198+1.728)x14.4
+.....\JY2/zhsong/b/it/14.4 佢
+....\glue(\kanjiskip) 0.0 plus 0.65768
+....\hbox(12.67198+1.728)x14.4
+.....\JY2/zhsong/b/it/14.4 傷
+....\glue(\kanjiskip) 0.0 plus 0.65768
+....\hbox(12.67198+1.728)x14.4
+.....\JY2/zhsong/b/it/14.4 唔
+....\glue(\kanjiskip) 0.0 plus 0.65768
+....\hbox(12.67198+1.728)x14.4
+.....\JY2/zhsong/b/it/14.4 到
+....\glue(\kanjiskip) 0.0 plus 0.65768
+....\hbox(12.67198+1.728)x14.4
+.....\JY2/zhsong/b/it/14.4 我
+....\glue(\kanjiskip) 0.0 plus 0.65768
+....\hbox(12.67198+1.728)x14.4
+.....\penalty 10000(for kinsoku)
+.....\JY2/zhsong/b/it/14.4 。
+.....\glue(refer from jfm) 0.0
+....\penalty 10000
+....\glue(\parfillskip) 0.0 plus 1.0fil
+....\glue(\rightskip) 0.0
+...\glue(\parskip) 0.0 plus 1.0
+...\glue(\parskip) 0.0
+...\glue(\baselineskip) 9.00008
+...\hbox(12.67198+1.728)x556.47656, glue set 38.07678fil
+....\hbox(0.0+0.0)x0.0
+....\hbox(12.67198+1.728)x14.4
+.....\JY2/zhsong/m/it/14.4 私
+....\glue(\kanjiskip) 0.0 plus 0.65768
+....\hbox(12.67198+1.728)x14.4
+.....\JY2/zhsong/m/it/14.4 ガ
+....\glue(\kanjiskip) 0.0 plus 0.65768
+....\hbox(12.67198+1.728)x14.4
+.....\JY2/zhsong/m/it/14.4 ラ
+....\glue(\kanjiskip) 0.0 plus 0.65768
+....\hbox(12.67198+1.728)x14.4
+.....\JY2/zhsong/m/it/14.4 ス
+....\glue(\kanjiskip) 0.0 plus 0.65768
+....\hbox(12.67198+1.728)x14.4
+.....\JY2/zhsong/m/it/14.4 を
+....\glue(\kanjiskip) 0.0 plus 0.65768
+....\hbox(12.67198+1.728)x14.4
+.....\JY2/zhsong/m/it/14.4 食
+....\glue(\kanjiskip) 0.0 plus 0.65768
+....\hbox(12.67198+1.728)x14.4
+.....\JY2/zhsong/m/it/14.4 べ
+....\glue(\kanjiskip) 0.0 plus 0.65768
+....\hbox(12.67198+1.728)x14.4
+.....\JY2/zhsong/m/it/14.4 ら
+....\glue(\kanjiskip) 0.0 plus 0.65768
+....\hbox(12.67198+1.728)x14.4
+.....\JY2/zhsong/m/it/14.4 れ
+....\glue(\kanjiskip) 0.0 plus 0.65768
+....\hbox(12.67198+1.728)x14.4
+.....\JY2/zhsong/m/it/14.4 ま
+....\glue(\kanjiskip) 0.0 plus 0.65768
+....\hbox(12.67198+1.728)x14.4
+.....\JY2/zhsong/m/it/14.4 す
+....\glue(\kanjiskip) 0.0 plus 0.65768
+....\hbox(12.67198+1.728)x14.4
+.....\penalty 10000(for kinsoku)
+.....\JY2/zhsong/m/it/14.4 。
+.....\glue(refer from jfm) 0.0
+....\hbox(12.67198+1.728)x14.4
+.....\JY2/zhsong/b/it/14.4 そ
+....\glue(\kanjiskip) 0.0 plus 0.65768
+....\hbox(12.67198+1.728)x14.4
+.....\JY2/zhsong/b/it/14.4 れ
+....\glue(\kanjiskip) 0.0 plus 0.65768
+....\hbox(12.67198+1.728)x14.4
+.....\JY2/zhsong/b/it/14.4 は
+....\glue(\kanjiskip) 0.0 plus 0.65768
+....\hbox(12.67198+1.728)x14.4
+.....\JY2/zhsong/b/it/14.4 私
+....\glue(\kanjiskip) 0.0 plus 0.65768
+....\hbox(12.67198+1.728)x14.4
+.....\JY2/zhsong/b/it/14.4 を
+....\glue(\kanjiskip) 0.0 plus 0.65768
+....\hbox(12.67198+1.728)x14.4
+.....\JY2/zhsong/b/it/14.4 傷
+....\glue(\kanjiskip) 0.0 plus 0.65768
+....\hbox(12.67198+1.728)x14.4
+.....\JY2/zhsong/b/it/14.4 つ
+....\glue(\kanjiskip) 0.0 plus 0.65768
+....\hbox(12.67198+1.728)x14.4
+.....\JY2/zhsong/b/it/14.4 け
+....\glue(\kanjiskip) 0.0 plus 0.65768
+....\hbox(12.67198+1.728)x14.4
+.....\JY2/zhsong/b/it/14.4 ま
+....\glue(\kanjiskip) 0.0 plus 0.65768
+....\hbox(12.67198+1.728)x14.4
+.....\JY2/zhsong/b/it/14.4 せ
+....\glue(\kanjiskip) 0.0 plus 0.65768
+....\hbox(12.67198+1.728)x14.4
+.....\JY2/zhsong/b/it/14.4 ん
+....\glue(\kanjiskip) 0.0 plus 0.65768
+....\hbox(12.67198+1.728)x14.4
+.....\penalty 10000(for kinsoku)
+.....\JY2/zhsong/b/it/14.4 。
+.....\glue(refer from jfm) 0.0
+....\hbox(12.67198+1.728)x14.4
+.....\JY2/zhsong/m/it/14.4 我
+....\glue(\kanjiskip) 0.0 plus 0.65768
+....\hbox(12.67198+1.728)x14.4
+.....\JY2/zhsong/m/it/14.4 能
+....\glue(\kanjiskip) 0.0 plus 0.65768
+....\hbox(12.67198+1.728)x14.4
+.....\JY2/zhsong/m/it/14.4 吞
+....\glue(\kanjiskip) 0.0 plus 0.65768
+....\hbox(12.67198+1.728)x14.4
+.....\JY2/zhsong/m/it/14.4 下
+....\glue(\kanjiskip) 0.0 plus 0.65768
+....\hbox(12.67198+1.728)x14.4
+.....\JY2/zhsong/m/it/14.4 玻
+....\glue(\kanjiskip) 0.0 plus 0.65768
+....\hbox(12.67198+1.728)x14.4
+.....\JY2/zhsong/m/it/14.4 璃
+....\glue(\kanjiskip) 0.0 plus 0.65768
+....\hbox(12.67198+1.728)x14.4
+.....\JY2/zhsong/m/it/14.4 而
+....\glue(\kanjiskip) 0.0 plus 0.65768
+....\hbox(12.67198+1.728)x14.4
+.....\JY2/zhsong/m/it/14.4 不
+....\glue(\kanjiskip) 0.0 plus 0.65768
+....\hbox(12.67198+1.728)x14.4
+.....\JY2/zhsong/m/it/14.4 伤
+....\glue(\kanjiskip) 0.0 plus 0.65768
+....\hbox(12.67198+1.728)x14.4
+.....\JY2/zhsong/m/it/14.4 身
+....\glue(\kanjiskip) 0.0 plus 0.65768
+....\hbox(12.67198+1.728)x14.4
+.....\JY2/zhsong/m/it/14.4 体
+....\glue(\kanjiskip) 0.0 plus 0.65768
+....\hbox(12.67198+1.728)x14.4
+.....\penalty 10000(for kinsoku)
+.....\JY2/zhsong/m/it/14.4 。
+.....\glue(refer from jfm) 0.0
+....\penalty 10000
+....\glue 0.0 plus 1.0fil
+....\penalty -10000
+....\glue(\rightskip) 0.0
+...\penalty 300
+...\glue(\baselineskip) 9.00008
+...\hbox(12.67198+1.728)x556.47656, glue set 23.67679fil
+....\hbox(0.0+0.0)x0.0
+....\hbox(12.67198+1.728)x14.4
+.....\JY2/zhsong/b/it/14.4 我
+....\glue(\kanjiskip) 0.0 plus 0.65768
+....\hbox(12.67198+1.728)x14.4
+.....\JY2/zhsong/b/it/14.4 能
+....\glue(\kanjiskip) 0.0 plus 0.65768
+....\hbox(12.67198+1.728)x14.4
+.....\JY2/zhsong/b/it/14.4 吞
+....\glue(\kanjiskip) 0.0 plus 0.65768
+....\hbox(12.67198+1.728)x14.4
+.....\JY2/zhsong/b/it/14.4 下
+....\glue(\kanjiskip) 0.0 plus 0.65768
+....\hbox(12.67198+1.728)x14.4
+.....\JY2/zhsong/b/it/14.4 玻
+....\glue(\kanjiskip) 0.0 plus 0.65768
+....\hbox(12.67198+1.728)x14.4
+.....\JY2/zhsong/b/it/14.4 璃
+....\glue(\kanjiskip) 0.0 plus 0.65768
+....\hbox(12.67198+1.728)x14.4
+.....\JY2/zhsong/b/it/14.4 而
+....\glue(\kanjiskip) 0.0 plus 0.65768
+....\hbox(12.67198+1.728)x14.4
+.....\JY2/zhsong/b/it/14.4 不
+....\glue(\kanjiskip) 0.0 plus 0.65768
+....\hbox(12.67198+1.728)x14.4
+.....\JY2/zhsong/b/it/14.4 伤
+....\glue(\kanjiskip) 0.0 plus 0.65768
+....\hbox(12.67198+1.728)x14.4
+.....\JY2/zhsong/b/it/14.4 身
+....\glue(\kanjiskip) 0.0 plus 0.65768
+....\hbox(12.67198+1.728)x14.4
+.....\JY2/zhsong/b/it/14.4 体
+....\glue(\kanjiskip) 0.0 plus 0.65768
+....\hbox(12.67198+1.728)x14.4
+.....\penalty 10000(for kinsoku)
+.....\JY2/zhsong/b/it/14.4 。
+.....\glue(refer from jfm) 0.0
+....\hbox(12.67198+1.728)x14.4
+.....\JY2/zhsong/m/it/14.4 我
+....\glue(\kanjiskip) 0.0 plus 0.65768
+....\hbox(12.67198+1.728)x14.4
+.....\JY2/zhsong/m/it/14.4 能
+....\glue(\kanjiskip) 0.0 plus 0.65768
+....\hbox(12.67198+1.728)x14.4
+.....\JY2/zhsong/m/it/14.4 吞
+....\glue(\kanjiskip) 0.0 plus 0.65768
+....\hbox(12.67198+1.728)x14.4
+.....\JY2/zhsong/m/it/14.4 下
+....\glue(\kanjiskip) 0.0 plus 0.65768
+....\hbox(12.67198+1.728)x14.4
+.....\JY2/zhsong/m/it/14.4 玻
+....\glue(\kanjiskip) 0.0 plus 0.65768
+....\hbox(12.67198+1.728)x14.4
+.....\JY2/zhsong/m/it/14.4 璃
+....\glue(\kanjiskip) 0.0 plus 0.65768
+....\hbox(12.67198+1.728)x14.4
+.....\JY2/zhsong/m/it/14.4 而
+....\glue(\kanjiskip) 0.0 plus 0.65768
+....\hbox(12.67198+1.728)x14.4
+.....\JY2/zhsong/m/it/14.4 不
+....\glue(\kanjiskip) 0.0 plus 0.65768
+....\hbox(12.67198+1.728)x14.4
+.....\JY2/zhsong/m/it/14.4 傷
+....\glue(\kanjiskip) 0.0 plus 0.65768
+....\hbox(12.67198+1.728)x14.4
+.....\JY2/zhsong/m/it/14.4 身
+....\glue(\kanjiskip) 0.0 plus 0.65768
+....\hbox(12.67198+1.728)x14.4
+.....\JY2/zhsong/m/it/14.4 體
+....\glue(\kanjiskip) 0.0 plus 0.65768
+....\hbox(12.67198+1.728)x14.4
+.....\penalty 10000(for kinsoku)
+.....\JY2/zhsong/m/it/14.4 。
+.....\glue(refer from jfm) 0.0
+....\hbox(12.67198+1.728)x14.4
+.....\JY2/zhsong/m/it/14.4 我
+....\glue(\kanjiskip) 0.0 plus 0.65768
+....\hbox(12.67198+1.728)x14.4
+.....\JY2/zhsong/m/it/14.4 可
+....\glue(\kanjiskip) 0.0 plus 0.65768
+....\hbox(12.67198+1.728)x14.4
+.....\JY2/zhsong/m/it/14.4 以
+....\glue(\kanjiskip) 0.0 plus 0.65768
+....\hbox(12.67198+1.728)x14.4
+.....\JY2/zhsong/m/it/14.4 食
+....\glue(\kanjiskip) 0.0 plus 0.65768
+....\hbox(12.67198+1.728)x14.4
+.....\JY2/zhsong/m/it/14.4 玻
+....\glue(\kanjiskip) 0.0 plus 0.65768
+....\hbox(12.67198+1.728)x14.4
+.....\JY2/zhsong/m/it/14.4 璃
+....\glue(\kanjiskip) 0.0 plus 0.65768
+....\hbox(12.67198+1.728)x14.4
+.....\penalty 10000(for kinsoku)
+.....\JY2/zhsong/m/it/14.4 ，
+.....\glue(refer from jfm) 0.0
+....\hbox(12.67198+1.728)x14.4
+.....\JY2/zhsong/b/it/14.4 佢
+....\glue(\kanjiskip) 0.0 plus 0.65768
+....\hbox(12.67198+1.728)x14.4
+.....\JY2/zhsong/b/it/14.4 傷
+....\glue(\kanjiskip) 0.0 plus 0.65768
+....\hbox(12.67198+1.728)x14.4
+.....\JY2/zhsong/b/it/14.4 唔
+....\glue(\kanjiskip) 0.0 plus 0.65768
+....\hbox(12.67198+1.728)x14.4
+.....\JY2/zhsong/b/it/14.4 到
+....\glue(\kanjiskip) 0.0 plus 0.65768
+....\hbox(12.67198+1.728)x14.4
+.....\JY2/zhsong/b/it/14.4 我
+....\glue(\kanjiskip) 0.0 plus 0.65768
+....\hbox(12.67198+1.728)x14.4
+.....\penalty 10000(for kinsoku)
+.....\JY2/zhsong/b/it/14.4 。
+.....\glue(refer from jfm) 0.0
+....\penalty 10000
+....\glue(\parfillskip) 0.0 plus 1.0fil
+....\glue(\rightskip) 0.0
+...\glue(\parskip) 0.0 plus 1.0
+...\glue(\parskip) 0.0
+...\glue(\baselineskip) 9.00008
+...\hbox(12.67198+1.728)x556.47656, glue set 38.07678fil
+....\hbox(0.0+0.0)x0.0
+....\hbox(12.67198+1.728)x14.4
+.....\JY2/zhsong/m/it/14.4 私
+....\glue(\kanjiskip) 0.0 plus 0.65768
+....\hbox(12.67198+1.728)x14.4
+.....\JY2/zhsong/m/it/14.4 ガ
+....\glue(\kanjiskip) 0.0 plus 0.65768
+....\hbox(12.67198+1.728)x14.4
+.....\JY2/zhsong/m/it/14.4 ラ
+....\glue(\kanjiskip) 0.0 plus 0.65768
+....\hbox(12.67198+1.728)x14.4
+.....\JY2/zhsong/m/it/14.4 ス
+....\glue(\kanjiskip) 0.0 plus 0.65768
+....\hbox(12.67198+1.728)x14.4
+.....\JY2/zhsong/m/it/14.4 を
+....\glue(\kanjiskip) 0.0 plus 0.65768
+....\hbox(12.67198+1.728)x14.4
+.....\JY2/zhsong/m/it/14.4 食
+....\glue(\kanjiskip) 0.0 plus 0.65768
+....\hbox(12.67198+1.728)x14.4
+.....\JY2/zhsong/m/it/14.4 べ
+....\glue(\kanjiskip) 0.0 plus 0.65768
+....\hbox(12.67198+1.728)x14.4
+.....\JY2/zhsong/m/it/14.4 ら
+....\glue(\kanjiskip) 0.0 plus 0.65768
+....\hbox(12.67198+1.728)x14.4
+.....\JY2/zhsong/m/it/14.4 れ
+....\glue(\kanjiskip) 0.0 plus 0.65768
+....\hbox(12.67198+1.728)x14.4
+.....\JY2/zhsong/m/it/14.4 ま
+....\glue(\kanjiskip) 0.0 plus 0.65768
+....\hbox(12.67198+1.728)x14.4
+.....\JY2/zhsong/m/it/14.4 す
+....\glue(\kanjiskip) 0.0 plus 0.65768
+....\hbox(12.67198+1.728)x14.4
+.....\penalty 10000(for kinsoku)
+.....\JY2/zhsong/m/it/14.4 。
+.....\glue(refer from jfm) 0.0
+....\hbox(12.67198+1.728)x14.4
+.....\JY2/zhsong/b/it/14.4 そ
+....\glue(\kanjiskip) 0.0 plus 0.65768
+....\hbox(12.67198+1.728)x14.4
+.....\JY2/zhsong/b/it/14.4 れ
+....\glue(\kanjiskip) 0.0 plus 0.65768
+....\hbox(12.67198+1.728)x14.4
+.....\JY2/zhsong/b/it/14.4 は
+....\glue(\kanjiskip) 0.0 plus 0.65768
+....\hbox(12.67198+1.728)x14.4
+.....\JY2/zhsong/b/it/14.4 私
+....\glue(\kanjiskip) 0.0 plus 0.65768
+....\hbox(12.67198+1.728)x14.4
+.....\JY2/zhsong/b/it/14.4 を
+....\glue(\kanjiskip) 0.0 plus 0.65768
+....\hbox(12.67198+1.728)x14.4
+.....\JY2/zhsong/b/it/14.4 傷
+....\glue(\kanjiskip) 0.0 plus 0.65768
+....\hbox(12.67198+1.728)x14.4
+.....\JY2/zhsong/b/it/14.4 つ
+....\glue(\kanjiskip) 0.0 plus 0.65768
+....\hbox(12.67198+1.728)x14.4
+.....\JY2/zhsong/b/it/14.4 け
+....\glue(\kanjiskip) 0.0 plus 0.65768
+....\hbox(12.67198+1.728)x14.4
+.....\JY2/zhsong/b/it/14.4 ま
+....\glue(\kanjiskip) 0.0 plus 0.65768
+....\hbox(12.67198+1.728)x14.4
+.....\JY2/zhsong/b/it/14.4 せ
+....\glue(\kanjiskip) 0.0 plus 0.65768
+....\hbox(12.67198+1.728)x14.4
+.....\JY2/zhsong/b/it/14.4 ん
+....\glue(\kanjiskip) 0.0 plus 0.65768
+....\hbox(12.67198+1.728)x14.4
+.....\penalty 10000(for kinsoku)
+.....\JY2/zhsong/b/it/14.4 。
+.....\glue(refer from jfm) 0.0
+....\hbox(12.67198+1.728)x14.4
+.....\JY2/zhsong/m/it/14.4 我
+....\glue(\kanjiskip) 0.0 plus 0.65768
+....\hbox(12.67198+1.728)x14.4
+.....\JY2/zhsong/m/it/14.4 能
+....\glue(\kanjiskip) 0.0 plus 0.65768
+....\hbox(12.67198+1.728)x14.4
+.....\JY2/zhsong/m/it/14.4 吞
+....\glue(\kanjiskip) 0.0 plus 0.65768
+....\hbox(12.67198+1.728)x14.4
+.....\JY2/zhsong/m/it/14.4 下
+....\glue(\kanjiskip) 0.0 plus 0.65768
+....\hbox(12.67198+1.728)x14.4
+.....\JY2/zhsong/m/it/14.4 玻
+....\glue(\kanjiskip) 0.0 plus 0.65768
+....\hbox(12.67198+1.728)x14.4
+.....\JY2/zhsong/m/it/14.4 璃
+....\glue(\kanjiskip) 0.0 plus 0.65768
+....\hbox(12.67198+1.728)x14.4
+.....\JY2/zhsong/m/it/14.4 而
+....\glue(\kanjiskip) 0.0 plus 0.65768
+....\hbox(12.67198+1.728)x14.4
+.....\JY2/zhsong/m/it/14.4 不
+....\glue(\kanjiskip) 0.0 plus 0.65768
+....\hbox(12.67198+1.728)x14.4
+.....\JY2/zhsong/m/it/14.4 伤
+....\glue(\kanjiskip) 0.0 plus 0.65768
+....\hbox(12.67198+1.728)x14.4
+.....\JY2/zhsong/m/it/14.4 身
+....\glue(\kanjiskip) 0.0 plus 0.65768
+....\hbox(12.67198+1.728)x14.4
+.....\JY2/zhsong/m/it/14.4 体
+....\glue(\kanjiskip) 0.0 plus 0.65768
+....\hbox(12.67198+1.728)x14.4
+.....\penalty 10000(for kinsoku)
+.....\JY2/zhsong/m/it/14.4 。
+.....\glue(refer from jfm) 0.0
+....\penalty 10000
+....\glue 0.0 plus 1.0fil
+....\penalty -10000
+....\glue(\rightskip) 0.0
+...\penalty 300
+...\glue(\baselineskip) 9.00008
+...\hbox(12.67198+1.728)x556.47656, glue set 23.67679fil
+....\hbox(0.0+0.0)x0.0
+....\hbox(12.67198+1.728)x14.4
+.....\JY2/zhsong/b/it/14.4 我
+....\glue(\kanjiskip) 0.0 plus 0.65768
+....\hbox(12.67198+1.728)x14.4
+.....\JY2/zhsong/b/it/14.4 能
+....\glue(\kanjiskip) 0.0 plus 0.65768
+....\hbox(12.67198+1.728)x14.4
+.....\JY2/zhsong/b/it/14.4 吞
+....\glue(\kanjiskip) 0.0 plus 0.65768
+....\hbox(12.67198+1.728)x14.4
+.....\JY2/zhsong/b/it/14.4 下
+....\glue(\kanjiskip) 0.0 plus 0.65768
+....\hbox(12.67198+1.728)x14.4
+.....\JY2/zhsong/b/it/14.4 玻
+....\glue(\kanjiskip) 0.0 plus 0.65768
+....\hbox(12.67198+1.728)x14.4
+.....\JY2/zhsong/b/it/14.4 璃
+....\glue(\kanjiskip) 0.0 plus 0.65768
+....\hbox(12.67198+1.728)x14.4
+.....\JY2/zhsong/b/it/14.4 而
+....\glue(\kanjiskip) 0.0 plus 0.65768
+....\hbox(12.67198+1.728)x14.4
+.....\JY2/zhsong/b/it/14.4 不
+....\glue(\kanjiskip) 0.0 plus 0.65768
+....\hbox(12.67198+1.728)x14.4
+.....\JY2/zhsong/b/it/14.4 伤
+....\glue(\kanjiskip) 0.0 plus 0.65768
+....\hbox(12.67198+1.728)x14.4
+.....\JY2/zhsong/b/it/14.4 身
+....\glue(\kanjiskip) 0.0 plus 0.65768
+....\hbox(12.67198+1.728)x14.4
+.....\JY2/zhsong/b/it/14.4 体
+....\glue(\kanjiskip) 0.0 plus 0.65768
+....\hbox(12.67198+1.728)x14.4
+.....\penalty 10000(for kinsoku)
+.....\JY2/zhsong/b/it/14.4 。
+.....\glue(refer from jfm) 0.0
+....\hbox(12.67198+1.728)x14.4
+.....\JY2/zhsong/m/it/14.4 我
+....\glue(\kanjiskip) 0.0 plus 0.65768
+....\hbox(12.67198+1.728)x14.4
+.....\JY2/zhsong/m/it/14.4 能
+....\glue(\kanjiskip) 0.0 plus 0.65768
+....\hbox(12.67198+1.728)x14.4
+.....\JY2/zhsong/m/it/14.4 吞
+....\glue(\kanjiskip) 0.0 plus 0.65768
+....\hbox(12.67198+1.728)x14.4
+.....\JY2/zhsong/m/it/14.4 下
+....\glue(\kanjiskip) 0.0 plus 0.65768
+....\hbox(12.67198+1.728)x14.4
+.....\JY2/zhsong/m/it/14.4 玻
+....\glue(\kanjiskip) 0.0 plus 0.65768
+....\hbox(12.67198+1.728)x14.4
+.....\JY2/zhsong/m/it/14.4 璃
+....\glue(\kanjiskip) 0.0 plus 0.65768
+....\hbox(12.67198+1.728)x14.4
+.....\JY2/zhsong/m/it/14.4 而
+....\glue(\kanjiskip) 0.0 plus 0.65768
+....\hbox(12.67198+1.728)x14.4
+.....\JY2/zhsong/m/it/14.4 不
+....\glue(\kanjiskip) 0.0 plus 0.65768
+....\hbox(12.67198+1.728)x14.4
+.....\JY2/zhsong/m/it/14.4 傷
+....\glue(\kanjiskip) 0.0 plus 0.65768
+....\hbox(12.67198+1.728)x14.4
+.....\JY2/zhsong/m/it/14.4 身
+....\glue(\kanjiskip) 0.0 plus 0.65768
+....\hbox(12.67198+1.728)x14.4
+.....\JY2/zhsong/m/it/14.4 體
+....\glue(\kanjiskip) 0.0 plus 0.65768
+....\hbox(12.67198+1.728)x14.4
+.....\penalty 10000(for kinsoku)
+.....\JY2/zhsong/m/it/14.4 。
+.....\glue(refer from jfm) 0.0
+....\hbox(12.67198+1.728)x14.4
+.....\JY2/zhsong/m/it/14.4 我
+....\glue(\kanjiskip) 0.0 plus 0.65768
+....\hbox(12.67198+1.728)x14.4
+.....\JY2/zhsong/m/it/14.4 可
+....\glue(\kanjiskip) 0.0 plus 0.65768
+....\hbox(12.67198+1.728)x14.4
+.....\JY2/zhsong/m/it/14.4 以
+....\glue(\kanjiskip) 0.0 plus 0.65768
+....\hbox(12.67198+1.728)x14.4
+.....\JY2/zhsong/m/it/14.4 食
+....\glue(\kanjiskip) 0.0 plus 0.65768
+....\hbox(12.67198+1.728)x14.4
+.....\JY2/zhsong/m/it/14.4 玻
+....\glue(\kanjiskip) 0.0 plus 0.65768
+....\hbox(12.67198+1.728)x14.4
+.....\JY2/zhsong/m/it/14.4 璃
+....\glue(\kanjiskip) 0.0 plus 0.65768
+....\hbox(12.67198+1.728)x14.4
+.....\penalty 10000(for kinsoku)
+.....\JY2/zhsong/m/it/14.4 ，
+.....\glue(refer from jfm) 0.0
+....\hbox(12.67198+1.728)x14.4
+.....\JY2/zhsong/b/it/14.4 佢
+....\glue(\kanjiskip) 0.0 plus 0.65768
+....\hbox(12.67198+1.728)x14.4
+.....\JY2/zhsong/b/it/14.4 傷
+....\glue(\kanjiskip) 0.0 plus 0.65768
+....\hbox(12.67198+1.728)x14.4
+.....\JY2/zhsong/b/it/14.4 唔
+....\glue(\kanjiskip) 0.0 plus 0.65768
+....\hbox(12.67198+1.728)x14.4
+.....\JY2/zhsong/b/it/14.4 到
+....\glue(\kanjiskip) 0.0 plus 0.65768
+....\hbox(12.67198+1.728)x14.4
+.....\JY2/zhsong/b/it/14.4 我
+....\glue(\kanjiskip) 0.0 plus 0.65768
+....\hbox(12.67198+1.728)x14.4
+.....\penalty 10000(for kinsoku)
+.....\JY2/zhsong/b/it/14.4 。
+.....\glue(refer from jfm) 0.0
+....\penalty 10000
+....\glue(\parfillskip) 0.0 plus 1.0fil
+....\glue(\rightskip) 0.0
+...\glue(\parskip) 0.0 plus 1.0
+...\glue(\parskip) 0.0
+...\glue(\baselineskip) 9.00008
+...\hbox(12.67198+1.728)x556.47656, glue set 38.07678fil
+....\hbox(0.0+0.0)x0.0
+....\hbox(12.67198+1.728)x14.4
+.....\JY2/zhhei/m/it/14.4 私
+....\glue(\kanjiskip) 0.0 plus 0.65768
+....\hbox(12.67198+1.728)x14.4
+.....\JY2/zhhei/m/it/14.4 ガ
+....\glue(\kanjiskip) 0.0 plus 0.65768
+....\hbox(12.67198+1.728)x14.4
+.....\JY2/zhhei/m/it/14.4 ラ
+....\glue(\kanjiskip) 0.0 plus 0.65768
+....\hbox(12.67198+1.728)x14.4
+.....\JY2/zhhei/m/it/14.4 ス
+....\glue(\kanjiskip) 0.0 plus 0.65768
+....\hbox(12.67198+1.728)x14.4
+.....\JY2/zhhei/m/it/14.4 を
+....\glue(\kanjiskip) 0.0 plus 0.65768
+....\hbox(12.67198+1.728)x14.4
+.....\JY2/zhhei/m/it/14.4 食
+....\glue(\kanjiskip) 0.0 plus 0.65768
+....\hbox(12.67198+1.728)x14.4
+.....\JY2/zhhei/m/it/14.4 べ
+....\glue(\kanjiskip) 0.0 plus 0.65768
+....\hbox(12.67198+1.728)x14.4
+.....\JY2/zhhei/m/it/14.4 ら
+....\glue(\kanjiskip) 0.0 plus 0.65768
+....\hbox(12.67198+1.728)x14.4
+.....\JY2/zhhei/m/it/14.4 れ
+....\glue(\kanjiskip) 0.0 plus 0.65768
+....\hbox(12.67198+1.728)x14.4
+.....\JY2/zhhei/m/it/14.4 ま
+....\glue(\kanjiskip) 0.0 plus 0.65768
+....\hbox(12.67198+1.728)x14.4
+.....\JY2/zhhei/m/it/14.4 す
+....\glue(\kanjiskip) 0.0 plus 0.65768
+....\hbox(12.67198+1.728)x14.4
+.....\penalty 10000(for kinsoku)
+.....\JY2/zhhei/m/it/14.4 。
+.....\glue(refer from jfm) 0.0
+....\hbox(12.67198+1.728)x14.4
+.....\JY2/zhhei/m/it/14.4 そ
+....\glue(\kanjiskip) 0.0 plus 0.65768
+....\hbox(12.67198+1.728)x14.4
+.....\JY2/zhhei/m/it/14.4 れ
+....\glue(\kanjiskip) 0.0 plus 0.65768
+....\hbox(12.67198+1.728)x14.4
+.....\JY2/zhhei/m/it/14.4 は
+....\glue(\kanjiskip) 0.0 plus 0.65768
+....\hbox(12.67198+1.728)x14.4
+.....\JY2/zhhei/m/it/14.4 私
+....\glue(\kanjiskip) 0.0 plus 0.65768
+....\hbox(12.67198+1.728)x14.4
+.....\JY2/zhhei/m/it/14.4 を
+....\glue(\kanjiskip) 0.0 plus 0.65768
+....\hbox(12.67198+1.728)x14.4
+.....\JY2/zhhei/m/it/14.4 傷
+....\glue(\kanjiskip) 0.0 plus 0.65768
+....\hbox(12.67198+1.728)x14.4
+.....\JY2/zhhei/m/it/14.4 つ
+....\glue(\kanjiskip) 0.0 plus 0.65768
+....\hbox(12.67198+1.728)x14.4
+.....\JY2/zhhei/m/it/14.4 け
+....\glue(\kanjiskip) 0.0 plus 0.65768
+....\hbox(12.67198+1.728)x14.4
+.....\JY2/zhhei/m/it/14.4 ま
+....\glue(\kanjiskip) 0.0 plus 0.65768
+....\hbox(12.67198+1.728)x14.4
+.....\JY2/zhhei/m/it/14.4 せ
+....\glue(\kanjiskip) 0.0 plus 0.65768
+....\hbox(12.67198+1.728)x14.4
+.....\JY2/zhhei/m/it/14.4 ん
+....\glue(\kanjiskip) 0.0 plus 0.65768
+....\hbox(12.67198+1.728)x14.4
+.....\penalty 10000(for kinsoku)
+.....\JY2/zhhei/m/it/14.4 。
+.....\glue(refer from jfm) 0.0
+....\hbox(12.67198+1.728)x14.4
+.....\JY2/zhhei/m/it/14.4 我
+....\glue(\kanjiskip) 0.0 plus 0.65768
+....\hbox(12.67198+1.728)x14.4
+.....\JY2/zhhei/m/it/14.4 能
+....\glue(\kanjiskip) 0.0 plus 0.65768
+....\hbox(12.67198+1.728)x14.4
+.....\JY2/zhhei/m/it/14.4 吞
+....\glue(\kanjiskip) 0.0 plus 0.65768
+....\hbox(12.67198+1.728)x14.4
+.....\JY2/zhhei/m/it/14.4 下
+....\glue(\kanjiskip) 0.0 plus 0.65768
+....\hbox(12.67198+1.728)x14.4
+.....\JY2/zhhei/m/it/14.4 玻
+....\glue(\kanjiskip) 0.0 plus 0.65768
+....\hbox(12.67198+1.728)x14.4
+.....\JY2/zhhei/m/it/14.4 璃
+....\glue(\kanjiskip) 0.0 plus 0.65768
+....\hbox(12.67198+1.728)x14.4
+.....\JY2/zhhei/m/it/14.4 而
+....\glue(\kanjiskip) 0.0 plus 0.65768
+....\hbox(12.67198+1.728)x14.4
+.....\JY2/zhhei/m/it/14.4 不
+....\glue(\kanjiskip) 0.0 plus 0.65768
+....\hbox(12.67198+1.728)x14.4
+.....\JY2/zhhei/m/it/14.4 伤
+....\glue(\kanjiskip) 0.0 plus 0.65768
+....\hbox(12.67198+1.728)x14.4
+.....\JY2/zhhei/m/it/14.4 身
+....\glue(\kanjiskip) 0.0 plus 0.65768
+....\hbox(12.67198+1.728)x14.4
+.....\JY2/zhhei/m/it/14.4 体
+....\glue(\kanjiskip) 0.0 plus 0.65768
+....\hbox(12.67198+1.728)x14.4
+.....\penalty 10000(for kinsoku)
+.....\JY2/zhhei/m/it/14.4 。
+.....\glue(refer from jfm) 0.0
+....\penalty 10000
+....\glue 0.0 plus 1.0fil
+....\penalty -10000
+....\glue(\rightskip) 0.0
+...\penalty 300
+...\glue(\baselineskip) 9.00008
+...\hbox(12.67198+1.728)x556.47656, glue set 23.67679fil
+....\hbox(0.0+0.0)x0.0
+....\hbox(12.67198+1.728)x14.4
+.....\JY2/zhhei/m/it/14.4 我
+....\glue(\kanjiskip) 0.0 plus 0.65768
+....\hbox(12.67198+1.728)x14.4
+.....\JY2/zhhei/m/it/14.4 能
+....\glue(\kanjiskip) 0.0 plus 0.65768
+....\hbox(12.67198+1.728)x14.4
+.....\JY2/zhhei/m/it/14.4 吞
+....\glue(\kanjiskip) 0.0 plus 0.65768
+....\hbox(12.67198+1.728)x14.4
+.....\JY2/zhhei/m/it/14.4 下
+....\glue(\kanjiskip) 0.0 plus 0.65768
+....\hbox(12.67198+1.728)x14.4
+.....\JY2/zhhei/m/it/14.4 玻
+....\glue(\kanjiskip) 0.0 plus 0.65768
+....\hbox(12.67198+1.728)x14.4
+.....\JY2/zhhei/m/it/14.4 璃
+....\glue(\kanjiskip) 0.0 plus 0.65768
+....\hbox(12.67198+1.728)x14.4
+.....\JY2/zhhei/m/it/14.4 而
+....\glue(\kanjiskip) 0.0 plus 0.65768
+....\hbox(12.67198+1.728)x14.4
+.....\JY2/zhhei/m/it/14.4 不
+....\glue(\kanjiskip) 0.0 plus 0.65768
+....\hbox(12.67198+1.728)x14.4
+.....\JY2/zhhei/m/it/14.4 伤
+....\glue(\kanjiskip) 0.0 plus 0.65768
+....\hbox(12.67198+1.728)x14.4
+.....\JY2/zhhei/m/it/14.4 身
+....\glue(\kanjiskip) 0.0 plus 0.65768
+....\hbox(12.67198+1.728)x14.4
+.....\JY2/zhhei/m/it/14.4 体
+....\glue(\kanjiskip) 0.0 plus 0.65768
+....\hbox(12.67198+1.728)x14.4
+.....\penalty 10000(for kinsoku)
+.....\JY2/zhhei/m/it/14.4 。
+.....\glue(refer from jfm) 0.0
+....\hbox(12.67198+1.728)x14.4
+.....\JY2/zhhei/m/it/14.4 我
+....\glue(\kanjiskip) 0.0 plus 0.65768
+....\hbox(12.67198+1.728)x14.4
+.....\JY2/zhhei/m/it/14.4 能
+....\glue(\kanjiskip) 0.0 plus 0.65768
+....\hbox(12.67198+1.728)x14.4
+.....\JY2/zhhei/m/it/14.4 吞
+....\glue(\kanjiskip) 0.0 plus 0.65768
+....\hbox(12.67198+1.728)x14.4
+.....\JY2/zhhei/m/it/14.4 下
+....\glue(\kanjiskip) 0.0 plus 0.65768
+....\hbox(12.67198+1.728)x14.4
+.....\JY2/zhhei/m/it/14.4 玻
+....\glue(\kanjiskip) 0.0 plus 0.65768
+....\hbox(12.67198+1.728)x14.4
+.....\JY2/zhhei/m/it/14.4 璃
+....\glue(\kanjiskip) 0.0 plus 0.65768
+....\hbox(12.67198+1.728)x14.4
+.....\JY2/zhhei/m/it/14.4 而
+....\glue(\kanjiskip) 0.0 plus 0.65768
+....\hbox(12.67198+1.728)x14.4
+.....\JY2/zhhei/m/it/14.4 不
+....\glue(\kanjiskip) 0.0 plus 0.65768
+....\hbox(12.67198+1.728)x14.4
+.....\JY2/zhhei/m/it/14.4 傷
+....\glue(\kanjiskip) 0.0 plus 0.65768
+....\hbox(12.67198+1.728)x14.4
+.....\JY2/zhhei/m/it/14.4 身
+....\glue(\kanjiskip) 0.0 plus 0.65768
+....\hbox(12.67198+1.728)x14.4
+.....\JY2/zhhei/m/it/14.4 體
+....\glue(\kanjiskip) 0.0 plus 0.65768
+....\hbox(12.67198+1.728)x14.4
+.....\penalty 10000(for kinsoku)
+.....\JY2/zhhei/m/it/14.4 。
+.....\glue(refer from jfm) 0.0
+....\hbox(12.67198+1.728)x14.4
+.....\JY2/zhhei/m/it/14.4 我
+....\glue(\kanjiskip) 0.0 plus 0.65768
+....\hbox(12.67198+1.728)x14.4
+.....\JY2/zhhei/m/it/14.4 可
+....\glue(\kanjiskip) 0.0 plus 0.65768
+....\hbox(12.67198+1.728)x14.4
+.....\JY2/zhhei/m/it/14.4 以
+....\glue(\kanjiskip) 0.0 plus 0.65768
+....\hbox(12.67198+1.728)x14.4
+.....\JY2/zhhei/m/it/14.4 食
+....\glue(\kanjiskip) 0.0 plus 0.65768
+....\hbox(12.67198+1.728)x14.4
+.....\JY2/zhhei/m/it/14.4 玻
+....\glue(\kanjiskip) 0.0 plus 0.65768
+....\hbox(12.67198+1.728)x14.4
+.....\JY2/zhhei/m/it/14.4 璃
+....\glue(\kanjiskip) 0.0 plus 0.65768
+....\hbox(12.67198+1.728)x14.4
+.....\penalty 10000(for kinsoku)
+.....\JY2/zhhei/m/it/14.4 ，
+.....\glue(refer from jfm) 0.0
+....\hbox(12.67198+1.728)x14.4
+.....\JY2/zhhei/m/it/14.4 佢
+....\glue(\kanjiskip) 0.0 plus 0.65768
+....\hbox(12.67198+1.728)x14.4
+.....\JY2/zhhei/m/it/14.4 傷
+....\glue(\kanjiskip) 0.0 plus 0.65768
+....\hbox(12.67198+1.728)x14.4
+.....\JY2/zhhei/m/it/14.4 唔
+....\glue(\kanjiskip) 0.0 plus 0.65768
+....\hbox(12.67198+1.728)x14.4
+.....\JY2/zhhei/m/it/14.4 到
+....\glue(\kanjiskip) 0.0 plus 0.65768
+....\hbox(12.67198+1.728)x14.4
+.....\JY2/zhhei/m/it/14.4 我
+....\glue(\kanjiskip) 0.0 plus 0.65768
+....\hbox(12.67198+1.728)x14.4
+.....\penalty 10000(for kinsoku)
+.....\JY2/zhhei/m/it/14.4 。
+.....\glue(refer from jfm) 0.0
+....\penalty 10000
+....\glue(\parfillskip) 0.0 plus 1.0fil
+....\glue(\rightskip) 0.0
+...\glue(\parskip) 0.0 plus 1.0
+...\glue(\parskip) 0.0
+...\glue(\baselineskip) 9.00008
+...\hbox(12.67198+1.728)x556.47656, glue set 38.07678fil
+....\hbox(0.0+0.0)x0.0
+....\hbox(12.67198+1.728)x14.4
+.....\JY2/zhhei/m/it/14.4 私
+....\glue(\kanjiskip) 0.0 plus 0.65768
+....\hbox(12.67198+1.728)x14.4
+.....\JY2/zhhei/m/it/14.4 ガ
+....\glue(\kanjiskip) 0.0 plus 0.65768
+....\hbox(12.67198+1.728)x14.4
+.....\JY2/zhhei/m/it/14.4 ラ
+....\glue(\kanjiskip) 0.0 plus 0.65768
+....\hbox(12.67198+1.728)x14.4
+.....\JY2/zhhei/m/it/14.4 ス
+....\glue(\kanjiskip) 0.0 plus 0.65768
+....\hbox(12.67198+1.728)x14.4
+.....\JY2/zhhei/m/it/14.4 を
+....\glue(\kanjiskip) 0.0 plus 0.65768
+....\hbox(12.67198+1.728)x14.4
+.....\JY2/zhhei/m/it/14.4 食
+....\glue(\kanjiskip) 0.0 plus 0.65768
+....\hbox(12.67198+1.728)x14.4
+.....\JY2/zhhei/m/it/14.4 べ
+....\glue(\kanjiskip) 0.0 plus 0.65768
+....\hbox(12.67198+1.728)x14.4
+.....\JY2/zhhei/m/it/14.4 ら
+....\glue(\kanjiskip) 0.0 plus 0.65768
+....\hbox(12.67198+1.728)x14.4
+.....\JY2/zhhei/m/it/14.4 れ
+....\glue(\kanjiskip) 0.0 plus 0.65768
+....\hbox(12.67198+1.728)x14.4
+.....\JY2/zhhei/m/it/14.4 ま
+....\glue(\kanjiskip) 0.0 plus 0.65768
+....\hbox(12.67198+1.728)x14.4
+.....\JY2/zhhei/m/it/14.4 す
+....\glue(\kanjiskip) 0.0 plus 0.65768
+....\hbox(12.67198+1.728)x14.4
+.....\penalty 10000(for kinsoku)
+.....\JY2/zhhei/m/it/14.4 。
+.....\glue(refer from jfm) 0.0
+....\hbox(12.67198+1.728)x14.4
+.....\JY2/zhhei/m/it/14.4 そ
+....\glue(\kanjiskip) 0.0 plus 0.65768
+....\hbox(12.67198+1.728)x14.4
+.....\JY2/zhhei/m/it/14.4 れ
+....\glue(\kanjiskip) 0.0 plus 0.65768
+....\hbox(12.67198+1.728)x14.4
+.....\JY2/zhhei/m/it/14.4 は
+....\glue(\kanjiskip) 0.0 plus 0.65768
+....\hbox(12.67198+1.728)x14.4
+.....\JY2/zhhei/m/it/14.4 私
+....\glue(\kanjiskip) 0.0 plus 0.65768
+....\hbox(12.67198+1.728)x14.4
+.....\JY2/zhhei/m/it/14.4 を
+....\glue(\kanjiskip) 0.0 plus 0.65768
+....\hbox(12.67198+1.728)x14.4
+.....\JY2/zhhei/m/it/14.4 傷
+....\glue(\kanjiskip) 0.0 plus 0.65768
+....\hbox(12.67198+1.728)x14.4
+.....\JY2/zhhei/m/it/14.4 つ
+....\glue(\kanjiskip) 0.0 plus 0.65768
+....\hbox(12.67198+1.728)x14.4
+.....\JY2/zhhei/m/it/14.4 け
+....\glue(\kanjiskip) 0.0 plus 0.65768
+....\hbox(12.67198+1.728)x14.4
+.....\JY2/zhhei/m/it/14.4 ま
+....\glue(\kanjiskip) 0.0 plus 0.65768
+....\hbox(12.67198+1.728)x14.4
+.....\JY2/zhhei/m/it/14.4 せ
+....\glue(\kanjiskip) 0.0 plus 0.65768
+....\hbox(12.67198+1.728)x14.4
+.....\JY2/zhhei/m/it/14.4 ん
+....\glue(\kanjiskip) 0.0 plus 0.65768
+....\hbox(12.67198+1.728)x14.4
+.....\penalty 10000(for kinsoku)
+.....\JY2/zhhei/m/it/14.4 。
+.....\glue(refer from jfm) 0.0
+....\hbox(12.67198+1.728)x14.4
+.....\JY2/zhhei/m/it/14.4 我
+....\glue(\kanjiskip) 0.0 plus 0.65768
+....\hbox(12.67198+1.728)x14.4
+.....\JY2/zhhei/m/it/14.4 能
+....\glue(\kanjiskip) 0.0 plus 0.65768
+....\hbox(12.67198+1.728)x14.4
+.....\JY2/zhhei/m/it/14.4 吞
+....\glue(\kanjiskip) 0.0 plus 0.65768
+....\hbox(12.67198+1.728)x14.4
+.....\JY2/zhhei/m/it/14.4 下
+....\glue(\kanjiskip) 0.0 plus 0.65768
+....\hbox(12.67198+1.728)x14.4
+.....\JY2/zhhei/m/it/14.4 玻
+....\glue(\kanjiskip) 0.0 plus 0.65768
+....\hbox(12.67198+1.728)x14.4
+.....\JY2/zhhei/m/it/14.4 璃
+....\glue(\kanjiskip) 0.0 plus 0.65768
+....\hbox(12.67198+1.728)x14.4
+.....\JY2/zhhei/m/it/14.4 而
+....\glue(\kanjiskip) 0.0 plus 0.65768
+....\hbox(12.67198+1.728)x14.4
+.....\JY2/zhhei/m/it/14.4 不
+....\glue(\kanjiskip) 0.0 plus 0.65768
+....\hbox(12.67198+1.728)x14.4
+.....\JY2/zhhei/m/it/14.4 伤
+....\glue(\kanjiskip) 0.0 plus 0.65768
+....\hbox(12.67198+1.728)x14.4
+.....\JY2/zhhei/m/it/14.4 身
+....\glue(\kanjiskip) 0.0 plus 0.65768
+....\hbox(12.67198+1.728)x14.4
+.....\JY2/zhhei/m/it/14.4 体
+....\glue(\kanjiskip) 0.0 plus 0.65768
+....\hbox(12.67198+1.728)x14.4
+.....\penalty 10000(for kinsoku)
+.....\JY2/zhhei/m/it/14.4 。
+.....\glue(refer from jfm) 0.0
+....\penalty 10000
+....\glue 0.0 plus 1.0fil
+....\penalty -10000
+....\glue(\rightskip) 0.0
+...\penalty 300
+...\glue(\baselineskip) 9.00008
+...\hbox(12.67198+1.728)x556.47656, glue set 23.67679fil
+....\hbox(0.0+0.0)x0.0
+....\hbox(12.67198+1.728)x14.4
+.....\JY2/zhhei/m/it/14.4 我
+....\glue(\kanjiskip) 0.0 plus 0.65768
+....\hbox(12.67198+1.728)x14.4
+.....\JY2/zhhei/m/it/14.4 能
+....\glue(\kanjiskip) 0.0 plus 0.65768
+....\hbox(12.67198+1.728)x14.4
+.....\JY2/zhhei/m/it/14.4 吞
+....\glue(\kanjiskip) 0.0 plus 0.65768
+....\hbox(12.67198+1.728)x14.4
+.....\JY2/zhhei/m/it/14.4 下
+....\glue(\kanjiskip) 0.0 plus 0.65768
+....\hbox(12.67198+1.728)x14.4
+.....\JY2/zhhei/m/it/14.4 玻
+....\glue(\kanjiskip) 0.0 plus 0.65768
+....\hbox(12.67198+1.728)x14.4
+.....\JY2/zhhei/m/it/14.4 璃
+....\glue(\kanjiskip) 0.0 plus 0.65768
+....\hbox(12.67198+1.728)x14.4
+.....\JY2/zhhei/m/it/14.4 而
+....\glue(\kanjiskip) 0.0 plus 0.65768
+....\hbox(12.67198+1.728)x14.4
+.....\JY2/zhhei/m/it/14.4 不
+....\glue(\kanjiskip) 0.0 plus 0.65768
+....\hbox(12.67198+1.728)x14.4
+.....\JY2/zhhei/m/it/14.4 伤
+....\glue(\kanjiskip) 0.0 plus 0.65768
+....\hbox(12.67198+1.728)x14.4
+.....\JY2/zhhei/m/it/14.4 身
+....\glue(\kanjiskip) 0.0 plus 0.65768
+....\hbox(12.67198+1.728)x14.4
+.....\JY2/zhhei/m/it/14.4 体
+....\glue(\kanjiskip) 0.0 plus 0.65768
+....\hbox(12.67198+1.728)x14.4
+.....\penalty 10000(for kinsoku)
+.....\JY2/zhhei/m/it/14.4 。
+.....\glue(refer from jfm) 0.0
+....\hbox(12.67198+1.728)x14.4
+.....\JY2/zhhei/m/it/14.4 我
+....\glue(\kanjiskip) 0.0 plus 0.65768
+....\hbox(12.67198+1.728)x14.4
+.....\JY2/zhhei/m/it/14.4 能
+....\glue(\kanjiskip) 0.0 plus 0.65768
+....\hbox(12.67198+1.728)x14.4
+.....\JY2/zhhei/m/it/14.4 吞
+....\glue(\kanjiskip) 0.0 plus 0.65768
+....\hbox(12.67198+1.728)x14.4
+.....\JY2/zhhei/m/it/14.4 下
+....\glue(\kanjiskip) 0.0 plus 0.65768
+....\hbox(12.67198+1.728)x14.4
+.....\JY2/zhhei/m/it/14.4 玻
+....\glue(\kanjiskip) 0.0 plus 0.65768
+....\hbox(12.67198+1.728)x14.4
+.....\JY2/zhhei/m/it/14.4 璃
+....\glue(\kanjiskip) 0.0 plus 0.65768
+....\hbox(12.67198+1.728)x14.4
+.....\JY2/zhhei/m/it/14.4 而
+....\glue(\kanjiskip) 0.0 plus 0.65768
+....\hbox(12.67198+1.728)x14.4
+.....\JY2/zhhei/m/it/14.4 不
+....\glue(\kanjiskip) 0.0 plus 0.65768
+....\hbox(12.67198+1.728)x14.4
+.....\JY2/zhhei/m/it/14.4 傷
+....\glue(\kanjiskip) 0.0 plus 0.65768
+....\hbox(12.67198+1.728)x14.4
+.....\JY2/zhhei/m/it/14.4 身
+....\glue(\kanjiskip) 0.0 plus 0.65768
+....\hbox(12.67198+1.728)x14.4
+.....\JY2/zhhei/m/it/14.4 體
+....\glue(\kanjiskip) 0.0 plus 0.65768
+....\hbox(12.67198+1.728)x14.4
+.....\penalty 10000(for kinsoku)
+.....\JY2/zhhei/m/it/14.4 。
+.....\glue(refer from jfm) 0.0
+....\hbox(12.67198+1.728)x14.4
+.....\JY2/zhhei/m/it/14.4 我
+....\glue(\kanjiskip) 0.0 plus 0.65768
+....\hbox(12.67198+1.728)x14.4
+.....\JY2/zhhei/m/it/14.4 可
+....\glue(\kanjiskip) 0.0 plus 0.65768
+....\hbox(12.67198+1.728)x14.4
+.....\JY2/zhhei/m/it/14.4 以
+....\glue(\kanjiskip) 0.0 plus 0.65768
+....\hbox(12.67198+1.728)x14.4
+.....\JY2/zhhei/m/it/14.4 食
+....\glue(\kanjiskip) 0.0 plus 0.65768
+....\hbox(12.67198+1.728)x14.4
+.....\JY2/zhhei/m/it/14.4 玻
+....\glue(\kanjiskip) 0.0 plus 0.65768
+....\hbox(12.67198+1.728)x14.4
+.....\JY2/zhhei/m/it/14.4 璃
+....\glue(\kanjiskip) 0.0 plus 0.65768
+....\hbox(12.67198+1.728)x14.4
+.....\penalty 10000(for kinsoku)
+.....\JY2/zhhei/m/it/14.4 ，
+.....\glue(refer from jfm) 0.0
+....\hbox(12.67198+1.728)x14.4
+.....\JY2/zhhei/m/it/14.4 佢
+....\glue(\kanjiskip) 0.0 plus 0.65768
+....\hbox(12.67198+1.728)x14.4
+.....\JY2/zhhei/m/it/14.4 傷
+....\glue(\kanjiskip) 0.0 plus 0.65768
+....\hbox(12.67198+1.728)x14.4
+.....\JY2/zhhei/m/it/14.4 唔
+....\glue(\kanjiskip) 0.0 plus 0.65768
+....\hbox(12.67198+1.728)x14.4
+.....\JY2/zhhei/m/it/14.4 到
+....\glue(\kanjiskip) 0.0 plus 0.65768
+....\hbox(12.67198+1.728)x14.4
+.....\JY2/zhhei/m/it/14.4 我
+....\glue(\kanjiskip) 0.0 plus 0.65768
+....\hbox(12.67198+1.728)x14.4
+.....\penalty 10000(for kinsoku)
+.....\JY2/zhhei/m/it/14.4 。
+.....\glue(refer from jfm) 0.0
+....\penalty 10000
+....\glue(\parfillskip) 0.0 plus 1.0fil
+....\glue(\rightskip) 0.0
+...\glue(\parskip) 0.0 plus 1.0
+...\glue(\parskip) 0.0
+...\glue(\baselineskip) 9.00008
+...\hbox(12.67198+1.728)x556.47656, glue set 38.07678fil
+....\hbox(0.0+0.0)x0.0
+....\hbox(12.67198+1.728)x14.4
+.....\JY2/zhhei/m/it/14.4 私
+....\glue(\kanjiskip) 0.0 plus 0.65768
+....\hbox(12.67198+1.728)x14.4
+.....\JY2/zhhei/m/it/14.4 ガ
+....\glue(\kanjiskip) 0.0 plus 0.65768
+....\hbox(12.67198+1.728)x14.4
+.....\JY2/zhhei/m/it/14.4 ラ
+....\glue(\kanjiskip) 0.0 plus 0.65768
+....\hbox(12.67198+1.728)x14.4
+.....\JY2/zhhei/m/it/14.4 ス
+....\glue(\kanjiskip) 0.0 plus 0.65768
+....\hbox(12.67198+1.728)x14.4
+.....\JY2/zhhei/m/it/14.4 を
+....\glue(\kanjiskip) 0.0 plus 0.65768
+....\hbox(12.67198+1.728)x14.4
+.....\JY2/zhhei/m/it/14.4 食
+....\glue(\kanjiskip) 0.0 plus 0.65768
+....\hbox(12.67198+1.728)x14.4
+.....\JY2/zhhei/m/it/14.4 べ
+....\glue(\kanjiskip) 0.0 plus 0.65768
+....\hbox(12.67198+1.728)x14.4
+.....\JY2/zhhei/m/it/14.4 ら
+....\glue(\kanjiskip) 0.0 plus 0.65768
+....\hbox(12.67198+1.728)x14.4
+.....\JY2/zhhei/m/it/14.4 れ
+....\glue(\kanjiskip) 0.0 plus 0.65768
+....\hbox(12.67198+1.728)x14.4
+.....\JY2/zhhei/m/it/14.4 ま
+....\glue(\kanjiskip) 0.0 plus 0.65768
+....\hbox(12.67198+1.728)x14.4
+.....\JY2/zhhei/m/it/14.4 す
+....\glue(\kanjiskip) 0.0 plus 0.65768
+....\hbox(12.67198+1.728)x14.4
+.....\penalty 10000(for kinsoku)
+.....\JY2/zhhei/m/it/14.4 。
+.....\glue(refer from jfm) 0.0
+....\hbox(12.67198+1.728)x14.4
+.....\JY2/zhhei/m/it/14.4 そ
+....\glue(\kanjiskip) 0.0 plus 0.65768
+....\hbox(12.67198+1.728)x14.4
+.....\JY2/zhhei/m/it/14.4 れ
+....\glue(\kanjiskip) 0.0 plus 0.65768
+....\hbox(12.67198+1.728)x14.4
+.....\JY2/zhhei/m/it/14.4 は
+....\glue(\kanjiskip) 0.0 plus 0.65768
+....\hbox(12.67198+1.728)x14.4
+.....\JY2/zhhei/m/it/14.4 私
+....\glue(\kanjiskip) 0.0 plus 0.65768
+....\hbox(12.67198+1.728)x14.4
+.....\JY2/zhhei/m/it/14.4 を
+....\glue(\kanjiskip) 0.0 plus 0.65768
+....\hbox(12.67198+1.728)x14.4
+.....\JY2/zhhei/m/it/14.4 傷
+....\glue(\kanjiskip) 0.0 plus 0.65768
+....\hbox(12.67198+1.728)x14.4
+.....\JY2/zhhei/m/it/14.4 つ
+....\glue(\kanjiskip) 0.0 plus 0.65768
+....\hbox(12.67198+1.728)x14.4
+.....\JY2/zhhei/m/it/14.4 け
+....\glue(\kanjiskip) 0.0 plus 0.65768
+....\hbox(12.67198+1.728)x14.4
+.....\JY2/zhhei/m/it/14.4 ま
+....\glue(\kanjiskip) 0.0 plus 0.65768
+....\hbox(12.67198+1.728)x14.4
+.....\JY2/zhhei/m/it/14.4 せ
+....\glue(\kanjiskip) 0.0 plus 0.65768
+....\hbox(12.67198+1.728)x14.4
+.....\JY2/zhhei/m/it/14.4 ん
+....\glue(\kanjiskip) 0.0 plus 0.65768
+....\hbox(12.67198+1.728)x14.4
+.....\penalty 10000(for kinsoku)
+.....\JY2/zhhei/m/it/14.4 。
+.....\glue(refer from jfm) 0.0
+....\hbox(12.67198+1.728)x14.4
+.....\JY2/zhhei/m/it/14.4 我
+....\glue(\kanjiskip) 0.0 plus 0.65768
+....\hbox(12.67198+1.728)x14.4
+.....\JY2/zhhei/m/it/14.4 能
+....\glue(\kanjiskip) 0.0 plus 0.65768
+....\hbox(12.67198+1.728)x14.4
+.....\JY2/zhhei/m/it/14.4 吞
+....\glue(\kanjiskip) 0.0 plus 0.65768
+....\hbox(12.67198+1.728)x14.4
+.....\JY2/zhhei/m/it/14.4 下
+....\glue(\kanjiskip) 0.0 plus 0.65768
+....\hbox(12.67198+1.728)x14.4
+.....\JY2/zhhei/m/it/14.4 玻
+....\glue(\kanjiskip) 0.0 plus 0.65768
+....\hbox(12.67198+1.728)x14.4
+.....\JY2/zhhei/m/it/14.4 璃
+....\glue(\kanjiskip) 0.0 plus 0.65768
+....\hbox(12.67198+1.728)x14.4
+.....\JY2/zhhei/m/it/14.4 而
+....\glue(\kanjiskip) 0.0 plus 0.65768
+....\hbox(12.67198+1.728)x14.4
+.....\JY2/zhhei/m/it/14.4 不
+....\glue(\kanjiskip) 0.0 plus 0.65768
+....\hbox(12.67198+1.728)x14.4
+.....\JY2/zhhei/m/it/14.4 伤
+....\glue(\kanjiskip) 0.0 plus 0.65768
+....\hbox(12.67198+1.728)x14.4
+.....\JY2/zhhei/m/it/14.4 身
+....\glue(\kanjiskip) 0.0 plus 0.65768
+....\hbox(12.67198+1.728)x14.4
+.....\JY2/zhhei/m/it/14.4 体
+....\glue(\kanjiskip) 0.0 plus 0.65768
+....\hbox(12.67198+1.728)x14.4
+.....\penalty 10000(for kinsoku)
+.....\JY2/zhhei/m/it/14.4 。
+.....\glue(refer from jfm) 0.0
+....\penalty 10000
+....\glue 0.0 plus 1.0fil
+....\penalty -10000
+....\glue(\rightskip) 0.0
+...\penalty 300
+...\glue(\baselineskip) 9.00008
+...\hbox(12.67198+1.728)x556.47656, glue set 23.67679fil
+....\hbox(0.0+0.0)x0.0
+....\hbox(12.67198+1.728)x14.4
+.....\JY2/zhhei/m/it/14.4 我
+....\glue(\kanjiskip) 0.0 plus 0.65768
+....\hbox(12.67198+1.728)x14.4
+.....\JY2/zhhei/m/it/14.4 能
+....\glue(\kanjiskip) 0.0 plus 0.65768
+....\hbox(12.67198+1.728)x14.4
+.....\JY2/zhhei/m/it/14.4 吞
+....\glue(\kanjiskip) 0.0 plus 0.65768
+....\hbox(12.67198+1.728)x14.4
+.....\JY2/zhhei/m/it/14.4 下
+....\glue(\kanjiskip) 0.0 plus 0.65768
+....\hbox(12.67198+1.728)x14.4
+.....\JY2/zhhei/m/it/14.4 玻
+....\glue(\kanjiskip) 0.0 plus 0.65768
+....\hbox(12.67198+1.728)x14.4
+.....\JY2/zhhei/m/it/14.4 璃
+....\glue(\kanjiskip) 0.0 plus 0.65768
+....\hbox(12.67198+1.728)x14.4
+.....\JY2/zhhei/m/it/14.4 而
+....\glue(\kanjiskip) 0.0 plus 0.65768
+....\hbox(12.67198+1.728)x14.4
+.....\JY2/zhhei/m/it/14.4 不
+....\glue(\kanjiskip) 0.0 plus 0.65768
+....\hbox(12.67198+1.728)x14.4
+.....\JY2/zhhei/m/it/14.4 伤
+....\glue(\kanjiskip) 0.0 plus 0.65768
+....\hbox(12.67198+1.728)x14.4
+.....\JY2/zhhei/m/it/14.4 身
+....\glue(\kanjiskip) 0.0 plus 0.65768
+....\hbox(12.67198+1.728)x14.4
+.....\JY2/zhhei/m/it/14.4 体
+....\glue(\kanjiskip) 0.0 plus 0.65768
+....\hbox(12.67198+1.728)x14.4
+.....\penalty 10000(for kinsoku)
+.....\JY2/zhhei/m/it/14.4 。
+.....\glue(refer from jfm) 0.0
+....\hbox(12.67198+1.728)x14.4
+.....\JY2/zhhei/m/it/14.4 我
+....\glue(\kanjiskip) 0.0 plus 0.65768
+....\hbox(12.67198+1.728)x14.4
+.....\JY2/zhhei/m/it/14.4 能
+....\glue(\kanjiskip) 0.0 plus 0.65768
+....\hbox(12.67198+1.728)x14.4
+.....\JY2/zhhei/m/it/14.4 吞
+....\glue(\kanjiskip) 0.0 plus 0.65768
+....\hbox(12.67198+1.728)x14.4
+.....\JY2/zhhei/m/it/14.4 下
+....\glue(\kanjiskip) 0.0 plus 0.65768
+....\hbox(12.67198+1.728)x14.4
+.....\JY2/zhhei/m/it/14.4 玻
+....\glue(\kanjiskip) 0.0 plus 0.65768
+....\hbox(12.67198+1.728)x14.4
+.....\JY2/zhhei/m/it/14.4 璃
+....\glue(\kanjiskip) 0.0 plus 0.65768
+....\hbox(12.67198+1.728)x14.4
+.....\JY2/zhhei/m/it/14.4 而
+....\glue(\kanjiskip) 0.0 plus 0.65768
+....\hbox(12.67198+1.728)x14.4
+.....\JY2/zhhei/m/it/14.4 不
+....\glue(\kanjiskip) 0.0 plus 0.65768
+....\hbox(12.67198+1.728)x14.4
+.....\JY2/zhhei/m/it/14.4 傷
+....\glue(\kanjiskip) 0.0 plus 0.65768
+....\hbox(12.67198+1.728)x14.4
+.....\JY2/zhhei/m/it/14.4 身
+....\glue(\kanjiskip) 0.0 plus 0.65768
+....\hbox(12.67198+1.728)x14.4
+.....\JY2/zhhei/m/it/14.4 體
+....\glue(\kanjiskip) 0.0 plus 0.65768
+....\hbox(12.67198+1.728)x14.4
+.....\penalty 10000(for kinsoku)
+.....\JY2/zhhei/m/it/14.4 。
+.....\glue(refer from jfm) 0.0
+....\hbox(12.67198+1.728)x14.4
+.....\JY2/zhhei/m/it/14.4 我
+....\glue(\kanjiskip) 0.0 plus 0.65768
+....\hbox(12.67198+1.728)x14.4
+.....\JY2/zhhei/m/it/14.4 可
+....\glue(\kanjiskip) 0.0 plus 0.65768
+....\hbox(12.67198+1.728)x14.4
+.....\JY2/zhhei/m/it/14.4 以
+....\glue(\kanjiskip) 0.0 plus 0.65768
+....\hbox(12.67198+1.728)x14.4
+.....\JY2/zhhei/m/it/14.4 食
+....\glue(\kanjiskip) 0.0 plus 0.65768
+....\hbox(12.67198+1.728)x14.4
+.....\JY2/zhhei/m/it/14.4 玻
+....\glue(\kanjiskip) 0.0 plus 0.65768
+....\hbox(12.67198+1.728)x14.4
+.....\JY2/zhhei/m/it/14.4 璃
+....\glue(\kanjiskip) 0.0 plus 0.65768
+....\hbox(12.67198+1.728)x14.4
+.....\penalty 10000(for kinsoku)
+.....\JY2/zhhei/m/it/14.4 ，
+.....\glue(refer from jfm) 0.0
+....\hbox(12.67198+1.728)x14.4
+.....\JY2/zhhei/m/it/14.4 佢
+....\glue(\kanjiskip) 0.0 plus 0.65768
+....\hbox(12.67198+1.728)x14.4
+.....\JY2/zhhei/m/it/14.4 傷
+....\glue(\kanjiskip) 0.0 plus 0.65768
+....\hbox(12.67198+1.728)x14.4
+.....\JY2/zhhei/m/it/14.4 唔
+....\glue(\kanjiskip) 0.0 plus 0.65768
+....\hbox(12.67198+1.728)x14.4
+.....\JY2/zhhei/m/it/14.4 到
+....\glue(\kanjiskip) 0.0 plus 0.65768
+....\hbox(12.67198+1.728)x14.4
+.....\JY2/zhhei/m/it/14.4 我
+....\glue(\kanjiskip) 0.0 plus 0.65768
+....\hbox(12.67198+1.728)x14.4
+.....\penalty 10000(for kinsoku)
+.....\JY2/zhhei/m/it/14.4 。
+.....\glue(refer from jfm) 0.0
+....\penalty 10000
+....\glue(\parfillskip) 0.0 plus 1.0fil
+....\glue(\rightskip) 0.0
+...\glue(\parskip) 0.0 plus 1.0
+...\glue(\parskip) 0.0
+...\glue(\baselineskip) 9.00008
+...\hbox(12.67198+1.728)x556.47656, glue set 38.07678fil
+....\hbox(0.0+0.0)x0.0
+....\hbox(12.67198+1.728)x14.4
+.....\JY2/zhfs/m/it/14.4 私
+....\glue(\kanjiskip) 0.0 plus 0.65768
+....\hbox(12.67198+1.728)x14.4
+.....\JY2/zhfs/m/it/14.4 ガ
+....\glue(\kanjiskip) 0.0 plus 0.65768
+....\hbox(12.67198+1.728)x14.4
+.....\JY2/zhfs/m/it/14.4 ラ
+....\glue(\kanjiskip) 0.0 plus 0.65768
+....\hbox(12.67198+1.728)x14.4
+.....\JY2/zhfs/m/it/14.4 ス
+....\glue(\kanjiskip) 0.0 plus 0.65768
+....\hbox(12.67198+1.728)x14.4
+.....\JY2/zhfs/m/it/14.4 を
+....\glue(\kanjiskip) 0.0 plus 0.65768
+....\hbox(12.67198+1.728)x14.4
+.....\JY2/zhfs/m/it/14.4 食
+....\glue(\kanjiskip) 0.0 plus 0.65768
+....\hbox(12.67198+1.728)x14.4
+.....\JY2/zhfs/m/it/14.4 べ
+....\glue(\kanjiskip) 0.0 plus 0.65768
+....\hbox(12.67198+1.728)x14.4
+.....\JY2/zhfs/m/it/14.4 ら
+....\glue(\kanjiskip) 0.0 plus 0.65768
+....\hbox(12.67198+1.728)x14.4
+.....\JY2/zhfs/m/it/14.4 れ
+....\glue(\kanjiskip) 0.0 plus 0.65768
+....\hbox(12.67198+1.728)x14.4
+.....\JY2/zhfs/m/it/14.4 ま
+....\glue(\kanjiskip) 0.0 plus 0.65768
+....\hbox(12.67198+1.728)x14.4
+.....\JY2/zhfs/m/it/14.4 す
+....\glue(\kanjiskip) 0.0 plus 0.65768
+....\hbox(12.67198+1.728)x14.4
+.....\penalty 10000(for kinsoku)
+.....\JY2/zhfs/m/it/14.4 。
+.....\glue(refer from jfm) 0.0
+....\hbox(12.67198+1.728)x14.4
+.....\JY2/zhfs/m/it/14.4 そ
+....\glue(\kanjiskip) 0.0 plus 0.65768
+....\hbox(12.67198+1.728)x14.4
+.....\JY2/zhfs/m/it/14.4 れ
+....\glue(\kanjiskip) 0.0 plus 0.65768
+....\hbox(12.67198+1.728)x14.4
+.....\JY2/zhfs/m/it/14.4 は
+....\glue(\kanjiskip) 0.0 plus 0.65768
+....\hbox(12.67198+1.728)x14.4
+.....\JY2/zhfs/m/it/14.4 私
+....\glue(\kanjiskip) 0.0 plus 0.65768
+....\hbox(12.67198+1.728)x14.4
+.....\JY2/zhfs/m/it/14.4 を
+....\glue(\kanjiskip) 0.0 plus 0.65768
+....\hbox(12.67198+1.728)x14.4
+.....\JY2/zhfs/m/it/14.4 傷
+....\glue(\kanjiskip) 0.0 plus 0.65768
+....\hbox(12.67198+1.728)x14.4
+.....\JY2/zhfs/m/it/14.4 つ
+....\glue(\kanjiskip) 0.0 plus 0.65768
+....\hbox(12.67198+1.728)x14.4
+.....\JY2/zhfs/m/it/14.4 け
+....\glue(\kanjiskip) 0.0 plus 0.65768
+....\hbox(12.67198+1.728)x14.4
+.....\JY2/zhfs/m/it/14.4 ま
+....\glue(\kanjiskip) 0.0 plus 0.65768
+....\hbox(12.67198+1.728)x14.4
+.....\JY2/zhfs/m/it/14.4 せ
+....\glue(\kanjiskip) 0.0 plus 0.65768
+....\hbox(12.67198+1.728)x14.4
+.....\JY2/zhfs/m/it/14.4 ん
+....\glue(\kanjiskip) 0.0 plus 0.65768
+....\hbox(12.67198+1.728)x14.4
+.....\penalty 10000(for kinsoku)
+.....\JY2/zhfs/m/it/14.4 。
+.....\glue(refer from jfm) 0.0
+....\hbox(12.67198+1.728)x14.4
+.....\JY2/zhfs/m/it/14.4 我
+....\glue(\kanjiskip) 0.0 plus 0.65768
+....\hbox(12.67198+1.728)x14.4
+.....\JY2/zhfs/m/it/14.4 能
+....\glue(\kanjiskip) 0.0 plus 0.65768
+....\hbox(12.67198+1.728)x14.4
+.....\JY2/zhfs/m/it/14.4 吞
+....\glue(\kanjiskip) 0.0 plus 0.65768
+....\hbox(12.67198+1.728)x14.4
+.....\JY2/zhfs/m/it/14.4 下
+....\glue(\kanjiskip) 0.0 plus 0.65768
+....\hbox(12.67198+1.728)x14.4
+.....\JY2/zhfs/m/it/14.4 玻
+....\glue(\kanjiskip) 0.0 plus 0.65768
+....\hbox(12.67198+1.728)x14.4
+.....\JY2/zhfs/m/it/14.4 璃
+....\glue(\kanjiskip) 0.0 plus 0.65768
+....\hbox(12.67198+1.728)x14.4
+.....\JY2/zhfs/m/it/14.4 而
+....\glue(\kanjiskip) 0.0 plus 0.65768
+....\hbox(12.67198+1.728)x14.4
+.....\JY2/zhfs/m/it/14.4 不
+....\glue(\kanjiskip) 0.0 plus 0.65768
+....\hbox(12.67198+1.728)x14.4
+.....\JY2/zhfs/m/it/14.4 伤
+....\glue(\kanjiskip) 0.0 plus 0.65768
+....\hbox(12.67198+1.728)x14.4
+.....\JY2/zhfs/m/it/14.4 身
+....\glue(\kanjiskip) 0.0 plus 0.65768
+....\hbox(12.67198+1.728)x14.4
+.....\JY2/zhfs/m/it/14.4 体
+....\glue(\kanjiskip) 0.0 plus 0.65768
+....\hbox(12.67198+1.728)x14.4
+.....\penalty 10000(for kinsoku)
+.....\JY2/zhfs/m/it/14.4 。
+.....\glue(refer from jfm) 0.0
+....\penalty 10000
+....\glue 0.0 plus 1.0fil
+....\penalty -10000
+....\glue(\rightskip) 0.0
+...\penalty 300
+...\glue(\baselineskip) 9.00008
+...\hbox(12.67198+1.728)x556.47656, glue set 23.67679fil
+....\hbox(0.0+0.0)x0.0
+....\hbox(12.67198+1.728)x14.4
+.....\JY2/zhfs/m/it/14.4 我
+....\glue(\kanjiskip) 0.0 plus 0.65768
+....\hbox(12.67198+1.728)x14.4
+.....\JY2/zhfs/m/it/14.4 能
+....\glue(\kanjiskip) 0.0 plus 0.65768
+....\hbox(12.67198+1.728)x14.4
+.....\JY2/zhfs/m/it/14.4 吞
+....\glue(\kanjiskip) 0.0 plus 0.65768
+....\hbox(12.67198+1.728)x14.4
+.....\JY2/zhfs/m/it/14.4 下
+....\glue(\kanjiskip) 0.0 plus 0.65768
+....\hbox(12.67198+1.728)x14.4
+.....\JY2/zhfs/m/it/14.4 玻
+....\glue(\kanjiskip) 0.0 plus 0.65768
+....\hbox(12.67198+1.728)x14.4
+.....\JY2/zhfs/m/it/14.4 璃
+....\glue(\kanjiskip) 0.0 plus 0.65768
+....\hbox(12.67198+1.728)x14.4
+.....\JY2/zhfs/m/it/14.4 而
+....\glue(\kanjiskip) 0.0 plus 0.65768
+....\hbox(12.67198+1.728)x14.4
+.....\JY2/zhfs/m/it/14.4 不
+....\glue(\kanjiskip) 0.0 plus 0.65768
+....\hbox(12.67198+1.728)x14.4
+.....\JY2/zhfs/m/it/14.4 伤
+....\glue(\kanjiskip) 0.0 plus 0.65768
+....\hbox(12.67198+1.728)x14.4
+.....\JY2/zhfs/m/it/14.4 身
+....\glue(\kanjiskip) 0.0 plus 0.65768
+....\hbox(12.67198+1.728)x14.4
+.....\JY2/zhfs/m/it/14.4 体
+....\glue(\kanjiskip) 0.0 plus 0.65768
+....\hbox(12.67198+1.728)x14.4
+.....\penalty 10000(for kinsoku)
+.....\JY2/zhfs/m/it/14.4 。
+.....\glue(refer from jfm) 0.0
+....\hbox(12.67198+1.728)x14.4
+.....\JY2/zhfs/m/it/14.4 我
+....\glue(\kanjiskip) 0.0 plus 0.65768
+....\hbox(12.67198+1.728)x14.4
+.....\JY2/zhfs/m/it/14.4 能
+....\glue(\kanjiskip) 0.0 plus 0.65768
+....\hbox(12.67198+1.728)x14.4
+.....\JY2/zhfs/m/it/14.4 吞
+....\glue(\kanjiskip) 0.0 plus 0.65768
+....\hbox(12.67198+1.728)x14.4
+.....\JY2/zhfs/m/it/14.4 下
+....\glue(\kanjiskip) 0.0 plus 0.65768
+....\hbox(12.67198+1.728)x14.4
+.....\JY2/zhfs/m/it/14.4 玻
+....\glue(\kanjiskip) 0.0 plus 0.65768
+....\hbox(12.67198+1.728)x14.4
+.....\JY2/zhfs/m/it/14.4 璃
+....\glue(\kanjiskip) 0.0 plus 0.65768
+....\hbox(12.67198+1.728)x14.4
+.....\JY2/zhfs/m/it/14.4 而
+....\glue(\kanjiskip) 0.0 plus 0.65768
+....\hbox(12.67198+1.728)x14.4
+.....\JY2/zhfs/m/it/14.4 不
+....\glue(\kanjiskip) 0.0 plus 0.65768
+....\hbox(12.67198+1.728)x14.4
+.....\JY2/zhfs/m/it/14.4 傷
+....\glue(\kanjiskip) 0.0 plus 0.65768
+....\hbox(12.67198+1.728)x14.4
+.....\JY2/zhfs/m/it/14.4 身
+....\glue(\kanjiskip) 0.0 plus 0.65768
+....\hbox(12.67198+1.728)x14.4
+.....\JY2/zhfs/m/it/14.4 體
+....\glue(\kanjiskip) 0.0 plus 0.65768
+....\hbox(12.67198+1.728)x14.4
+.....\penalty 10000(for kinsoku)
+.....\JY2/zhfs/m/it/14.4 。
+.....\glue(refer from jfm) 0.0
+....\hbox(12.67198+1.728)x14.4
+.....\JY2/zhfs/m/it/14.4 我
+....\glue(\kanjiskip) 0.0 plus 0.65768
+....\hbox(12.67198+1.728)x14.4
+.....\JY2/zhfs/m/it/14.4 可
+....\glue(\kanjiskip) 0.0 plus 0.65768
+....\hbox(12.67198+1.728)x14.4
+.....\JY2/zhfs/m/it/14.4 以
+....\glue(\kanjiskip) 0.0 plus 0.65768
+....\hbox(12.67198+1.728)x14.4
+.....\JY2/zhfs/m/it/14.4 食
+....\glue(\kanjiskip) 0.0 plus 0.65768
+....\hbox(12.67198+1.728)x14.4
+.....\JY2/zhfs/m/it/14.4 玻
+....\glue(\kanjiskip) 0.0 plus 0.65768
+....\hbox(12.67198+1.728)x14.4
+.....\JY2/zhfs/m/it/14.4 璃
+....\glue(\kanjiskip) 0.0 plus 0.65768
+....\hbox(12.67198+1.728)x14.4
+.....\penalty 10000(for kinsoku)
+.....\JY2/zhfs/m/it/14.4 ，
+.....\glue(refer from jfm) 0.0
+....\hbox(12.67198+1.728)x14.4
+.....\JY2/zhfs/m/it/14.4 佢
+....\glue(\kanjiskip) 0.0 plus 0.65768
+....\hbox(12.67198+1.728)x14.4
+.....\JY2/zhfs/m/it/14.4 傷
+....\glue(\kanjiskip) 0.0 plus 0.65768
+....\hbox(12.67198+1.728)x14.4
+.....\JY2/zhfs/m/it/14.4 唔
+....\glue(\kanjiskip) 0.0 plus 0.65768
+....\hbox(12.67198+1.728)x14.4
+.....\JY2/zhfs/m/it/14.4 到
+....\glue(\kanjiskip) 0.0 plus 0.65768
+....\hbox(12.67198+1.728)x14.4
+.....\JY2/zhfs/m/it/14.4 我
+....\glue(\kanjiskip) 0.0 plus 0.65768
+....\hbox(12.67198+1.728)x14.4
+.....\penalty 10000(for kinsoku)
+.....\JY2/zhfs/m/it/14.4 。
+.....\glue(refer from jfm) 0.0
+....\penalty 10000
+....\glue(\parfillskip) 0.0 plus 1.0fil
+....\glue(\rightskip) 0.0
+...\glue(\parskip) 0.0 plus 1.0
+...\glue(\parskip) 0.0
+...\glue(\baselineskip) 9.00008
+...\hbox(12.67198+1.728)x556.47656, glue set 38.07678fil
+....\hbox(0.0+0.0)x0.0
+....\hbox(12.67198+1.728)x14.4
+.....\JY2/zhfs/m/it/14.4 私
+....\glue(\kanjiskip) 0.0 plus 0.65768
+....\hbox(12.67198+1.728)x14.4
+.....\JY2/zhfs/m/it/14.4 ガ
+....\glue(\kanjiskip) 0.0 plus 0.65768
+....\hbox(12.67198+1.728)x14.4
+.....\JY2/zhfs/m/it/14.4 ラ
+....\glue(\kanjiskip) 0.0 plus 0.65768
+....\hbox(12.67198+1.728)x14.4
+.....\JY2/zhfs/m/it/14.4 ス
+....\glue(\kanjiskip) 0.0 plus 0.65768
+....\hbox(12.67198+1.728)x14.4
+.....\JY2/zhfs/m/it/14.4 を
+....\glue(\kanjiskip) 0.0 plus 0.65768
+....\hbox(12.67198+1.728)x14.4
+.....\JY2/zhfs/m/it/14.4 食
+....\glue(\kanjiskip) 0.0 plus 0.65768
+....\hbox(12.67198+1.728)x14.4
+.....\JY2/zhfs/m/it/14.4 べ
+....\glue(\kanjiskip) 0.0 plus 0.65768
+....\hbox(12.67198+1.728)x14.4
+.....\JY2/zhfs/m/it/14.4 ら
+....\glue(\kanjiskip) 0.0 plus 0.65768
+....\hbox(12.67198+1.728)x14.4
+.....\JY2/zhfs/m/it/14.4 れ
+....\glue(\kanjiskip) 0.0 plus 0.65768
+....\hbox(12.67198+1.728)x14.4
+.....\JY2/zhfs/m/it/14.4 ま
+....\glue(\kanjiskip) 0.0 plus 0.65768
+....\hbox(12.67198+1.728)x14.4
+.....\JY2/zhfs/m/it/14.4 す
+....\glue(\kanjiskip) 0.0 plus 0.65768
+....\hbox(12.67198+1.728)x14.4
+.....\penalty 10000(for kinsoku)
+.....\JY2/zhfs/m/it/14.4 。
+.....\glue(refer from jfm) 0.0
+....\hbox(12.67198+1.728)x14.4
+.....\JY2/zhfs/m/it/14.4 そ
+....\glue(\kanjiskip) 0.0 plus 0.65768
+....\hbox(12.67198+1.728)x14.4
+.....\JY2/zhfs/m/it/14.4 れ
+....\glue(\kanjiskip) 0.0 plus 0.65768
+....\hbox(12.67198+1.728)x14.4
+.....\JY2/zhfs/m/it/14.4 は
+....\glue(\kanjiskip) 0.0 plus 0.65768
+....\hbox(12.67198+1.728)x14.4
+.....\JY2/zhfs/m/it/14.4 私
+....\glue(\kanjiskip) 0.0 plus 0.65768
+....\hbox(12.67198+1.728)x14.4
+.....\JY2/zhfs/m/it/14.4 を
+....\glue(\kanjiskip) 0.0 plus 0.65768
+....\hbox(12.67198+1.728)x14.4
+.....\JY2/zhfs/m/it/14.4 傷
+....\glue(\kanjiskip) 0.0 plus 0.65768
+....\hbox(12.67198+1.728)x14.4
+.....\JY2/zhfs/m/it/14.4 つ
+....\glue(\kanjiskip) 0.0 plus 0.65768
+....\hbox(12.67198+1.728)x14.4
+.....\JY2/zhfs/m/it/14.4 け
+....\glue(\kanjiskip) 0.0 plus 0.65768
+....\hbox(12.67198+1.728)x14.4
+.....\JY2/zhfs/m/it/14.4 ま
+....\glue(\kanjiskip) 0.0 plus 0.65768
+....\hbox(12.67198+1.728)x14.4
+.....\JY2/zhfs/m/it/14.4 せ
+....\glue(\kanjiskip) 0.0 plus 0.65768
+....\hbox(12.67198+1.728)x14.4
+.....\JY2/zhfs/m/it/14.4 ん
+....\glue(\kanjiskip) 0.0 plus 0.65768
+....\hbox(12.67198+1.728)x14.4
+.....\penalty 10000(for kinsoku)
+.....\JY2/zhfs/m/it/14.4 。
+.....\glue(refer from jfm) 0.0
+....\hbox(12.67198+1.728)x14.4
+.....\JY2/zhfs/m/it/14.4 我
+....\glue(\kanjiskip) 0.0 plus 0.65768
+....\hbox(12.67198+1.728)x14.4
+.....\JY2/zhfs/m/it/14.4 能
+....\glue(\kanjiskip) 0.0 plus 0.65768
+....\hbox(12.67198+1.728)x14.4
+.....\JY2/zhfs/m/it/14.4 吞
+....\glue(\kanjiskip) 0.0 plus 0.65768
+....\hbox(12.67198+1.728)x14.4
+.....\JY2/zhfs/m/it/14.4 下
+....\glue(\kanjiskip) 0.0 plus 0.65768
+....\hbox(12.67198+1.728)x14.4
+.....\JY2/zhfs/m/it/14.4 玻
+....\glue(\kanjiskip) 0.0 plus 0.65768
+....\hbox(12.67198+1.728)x14.4
+.....\JY2/zhfs/m/it/14.4 璃
+....\glue(\kanjiskip) 0.0 plus 0.65768
+....\hbox(12.67198+1.728)x14.4
+.....\JY2/zhfs/m/it/14.4 而
+....\glue(\kanjiskip) 0.0 plus 0.65768
+....\hbox(12.67198+1.728)x14.4
+.....\JY2/zhfs/m/it/14.4 不
+....\glue(\kanjiskip) 0.0 plus 0.65768
+....\hbox(12.67198+1.728)x14.4
+.....\JY2/zhfs/m/it/14.4 伤
+....\glue(\kanjiskip) 0.0 plus 0.65768
+....\hbox(12.67198+1.728)x14.4
+.....\JY2/zhfs/m/it/14.4 身
+....\glue(\kanjiskip) 0.0 plus 0.65768
+....\hbox(12.67198+1.728)x14.4
+.....\JY2/zhfs/m/it/14.4 体
+....\glue(\kanjiskip) 0.0 plus 0.65768
+....\hbox(12.67198+1.728)x14.4
+.....\penalty 10000(for kinsoku)
+.....\JY2/zhfs/m/it/14.4 。
+.....\glue(refer from jfm) 0.0
+....\penalty 10000
+....\glue 0.0 plus 1.0fil
+....\penalty -10000
+....\glue(\rightskip) 0.0
+...\penalty 300
+...\glue(\baselineskip) 9.00008
+...\hbox(12.67198+1.728)x556.47656, glue set 23.67679fil
+....\hbox(0.0+0.0)x0.0
+....\hbox(12.67198+1.728)x14.4
+.....\JY2/zhfs/m/it/14.4 我
+....\glue(\kanjiskip) 0.0 plus 0.65768
+....\hbox(12.67198+1.728)x14.4
+.....\JY2/zhfs/m/it/14.4 能
+....\glue(\kanjiskip) 0.0 plus 0.65768
+....\hbox(12.67198+1.728)x14.4
+.....\JY2/zhfs/m/it/14.4 吞
+....\glue(\kanjiskip) 0.0 plus 0.65768
+....\hbox(12.67198+1.728)x14.4
+.....\JY2/zhfs/m/it/14.4 下
+....\glue(\kanjiskip) 0.0 plus 0.65768
+....\hbox(12.67198+1.728)x14.4
+.....\JY2/zhfs/m/it/14.4 玻
+....\glue(\kanjiskip) 0.0 plus 0.65768
+....\hbox(12.67198+1.728)x14.4
+.....\JY2/zhfs/m/it/14.4 璃
+....\glue(\kanjiskip) 0.0 plus 0.65768
+....\hbox(12.67198+1.728)x14.4
+.....\JY2/zhfs/m/it/14.4 而
+....\glue(\kanjiskip) 0.0 plus 0.65768
+....\hbox(12.67198+1.728)x14.4
+.....\JY2/zhfs/m/it/14.4 不
+....\glue(\kanjiskip) 0.0 plus 0.65768
+....\hbox(12.67198+1.728)x14.4
+.....\JY2/zhfs/m/it/14.4 伤
+....\glue(\kanjiskip) 0.0 plus 0.65768
+....\hbox(12.67198+1.728)x14.4
+.....\JY2/zhfs/m/it/14.4 身
+....\glue(\kanjiskip) 0.0 plus 0.65768
+....\hbox(12.67198+1.728)x14.4
+.....\JY2/zhfs/m/it/14.4 体
+....\glue(\kanjiskip) 0.0 plus 0.65768
+....\hbox(12.67198+1.728)x14.4
+.....\penalty 10000(for kinsoku)
+.....\JY2/zhfs/m/it/14.4 。
+.....\glue(refer from jfm) 0.0
+....\hbox(12.67198+1.728)x14.4
+.....\JY2/zhfs/m/it/14.4 我
+....\glue(\kanjiskip) 0.0 plus 0.65768
+....\hbox(12.67198+1.728)x14.4
+.....\JY2/zhfs/m/it/14.4 能
+....\glue(\kanjiskip) 0.0 plus 0.65768
+....\hbox(12.67198+1.728)x14.4
+.....\JY2/zhfs/m/it/14.4 吞
+....\glue(\kanjiskip) 0.0 plus 0.65768
+....\hbox(12.67198+1.728)x14.4
+.....\JY2/zhfs/m/it/14.4 下
+....\glue(\kanjiskip) 0.0 plus 0.65768
+....\hbox(12.67198+1.728)x14.4
+.....\JY2/zhfs/m/it/14.4 玻
+....\glue(\kanjiskip) 0.0 plus 0.65768
+....\hbox(12.67198+1.728)x14.4
+.....\JY2/zhfs/m/it/14.4 璃
+....\glue(\kanjiskip) 0.0 plus 0.65768
+....\hbox(12.67198+1.728)x14.4
+.....\JY2/zhfs/m/it/14.4 而
+....\glue(\kanjiskip) 0.0 plus 0.65768
+....\hbox(12.67198+1.728)x14.4
+.....\JY2/zhfs/m/it/14.4 不
+....\glue(\kanjiskip) 0.0 plus 0.65768
+....\hbox(12.67198+1.728)x14.4
+.....\JY2/zhfs/m/it/14.4 傷
+....\glue(\kanjiskip) 0.0 plus 0.65768
+....\hbox(12.67198+1.728)x14.4
+.....\JY2/zhfs/m/it/14.4 身
+....\glue(\kanjiskip) 0.0 plus 0.65768
+....\hbox(12.67198+1.728)x14.4
+.....\JY2/zhfs/m/it/14.4 體
+....\glue(\kanjiskip) 0.0 plus 0.65768
+....\hbox(12.67198+1.728)x14.4
+.....\penalty 10000(for kinsoku)
+.....\JY2/zhfs/m/it/14.4 。
+.....\glue(refer from jfm) 0.0
+....\hbox(12.67198+1.728)x14.4
+.....\JY2/zhfs/m/it/14.4 我
+....\glue(\kanjiskip) 0.0 plus 0.65768
+....\hbox(12.67198+1.728)x14.4
+.....\JY2/zhfs/m/it/14.4 可
+....\glue(\kanjiskip) 0.0 plus 0.65768
+....\hbox(12.67198+1.728)x14.4
+.....\JY2/zhfs/m/it/14.4 以
+....\glue(\kanjiskip) 0.0 plus 0.65768
+....\hbox(12.67198+1.728)x14.4
+.....\JY2/zhfs/m/it/14.4 食
+....\glue(\kanjiskip) 0.0 plus 0.65768
+....\hbox(12.67198+1.728)x14.4
+.....\JY2/zhfs/m/it/14.4 玻
+....\glue(\kanjiskip) 0.0 plus 0.65768
+....\hbox(12.67198+1.728)x14.4
+.....\JY2/zhfs/m/it/14.4 璃
+....\glue(\kanjiskip) 0.0 plus 0.65768
+....\hbox(12.67198+1.728)x14.4
+.....\penalty 10000(for kinsoku)
+.....\JY2/zhfs/m/it/14.4 ，
+.....\glue(refer from jfm) 0.0
+....\hbox(12.67198+1.728)x14.4
+.....\JY2/zhfs/m/it/14.4 佢
+....\glue(\kanjiskip) 0.0 plus 0.65768
+....\hbox(12.67198+1.728)x14.4
+.....\JY2/zhfs/m/it/14.4 傷
+....\glue(\kanjiskip) 0.0 plus 0.65768
+....\hbox(12.67198+1.728)x14.4
+.....\JY2/zhfs/m/it/14.4 唔
+....\glue(\kanjiskip) 0.0 plus 0.65768
+....\hbox(12.67198+1.728)x14.4
+.....\JY2/zhfs/m/it/14.4 到
+....\glue(\kanjiskip) 0.0 plus 0.65768
+....\hbox(12.67198+1.728)x14.4
+.....\JY2/zhfs/m/it/14.4 我
+....\glue(\kanjiskip) 0.0 plus 0.65768
+....\hbox(12.67198+1.728)x14.4
+.....\penalty 10000(for kinsoku)
+.....\JY2/zhfs/m/it/14.4 。
+.....\glue(refer from jfm) 0.0
+....\penalty 10000
+....\glue(\parfillskip) 0.0 plus 1.0fil
+....\glue(\rightskip) 0.0
+...\glue(\parskip) 0.0 plus 1.0
+...\glue(\parskip) 0.0
+...\glue(\baselineskip) 9.00008
+...\hbox(12.67198+1.728)x556.47656, glue set 38.07678fil
+....\hbox(0.0+0.0)x0.0
+....\hbox(12.67198+1.728)x14.4
+.....\JY2/zhfs/m/it/14.4 私
+....\glue(\kanjiskip) 0.0 plus 0.65768
+....\hbox(12.67198+1.728)x14.4
+.....\JY2/zhfs/m/it/14.4 ガ
+....\glue(\kanjiskip) 0.0 plus 0.65768
+....\hbox(12.67198+1.728)x14.4
+.....\JY2/zhfs/m/it/14.4 ラ
+....\glue(\kanjiskip) 0.0 plus 0.65768
+....\hbox(12.67198+1.728)x14.4
+.....\JY2/zhfs/m/it/14.4 ス
+....\glue(\kanjiskip) 0.0 plus 0.65768
+....\hbox(12.67198+1.728)x14.4
+.....\JY2/zhfs/m/it/14.4 を
+....\glue(\kanjiskip) 0.0 plus 0.65768
+....\hbox(12.67198+1.728)x14.4
+.....\JY2/zhfs/m/it/14.4 食
+....\glue(\kanjiskip) 0.0 plus 0.65768
+....\hbox(12.67198+1.728)x14.4
+.....\JY2/zhfs/m/it/14.4 べ
+....\glue(\kanjiskip) 0.0 plus 0.65768
+....\hbox(12.67198+1.728)x14.4
+.....\JY2/zhfs/m/it/14.4 ら
+....\glue(\kanjiskip) 0.0 plus 0.65768
+....\hbox(12.67198+1.728)x14.4
+.....\JY2/zhfs/m/it/14.4 れ
+....\glue(\kanjiskip) 0.0 plus 0.65768
+....\hbox(12.67198+1.728)x14.4
+.....\JY2/zhfs/m/it/14.4 ま
+....\glue(\kanjiskip) 0.0 plus 0.65768
+....\hbox(12.67198+1.728)x14.4
+.....\JY2/zhfs/m/it/14.4 す
+....\glue(\kanjiskip) 0.0 plus 0.65768
+....\hbox(12.67198+1.728)x14.4
+.....\penalty 10000(for kinsoku)
+.....\JY2/zhfs/m/it/14.4 。
+.....\glue(refer from jfm) 0.0
+....\hbox(12.67198+1.728)x14.4
+.....\JY2/zhfs/m/it/14.4 そ
+....\glue(\kanjiskip) 0.0 plus 0.65768
+....\hbox(12.67198+1.728)x14.4
+.....\JY2/zhfs/m/it/14.4 れ
+....\glue(\kanjiskip) 0.0 plus 0.65768
+....\hbox(12.67198+1.728)x14.4
+.....\JY2/zhfs/m/it/14.4 は
+....\glue(\kanjiskip) 0.0 plus 0.65768
+....\hbox(12.67198+1.728)x14.4
+.....\JY2/zhfs/m/it/14.4 私
+....\glue(\kanjiskip) 0.0 plus 0.65768
+....\hbox(12.67198+1.728)x14.4
+.....\JY2/zhfs/m/it/14.4 を
+....\glue(\kanjiskip) 0.0 plus 0.65768
+....\hbox(12.67198+1.728)x14.4
+.....\JY2/zhfs/m/it/14.4 傷
+....\glue(\kanjiskip) 0.0 plus 0.65768
+....\hbox(12.67198+1.728)x14.4
+.....\JY2/zhfs/m/it/14.4 つ
+....\glue(\kanjiskip) 0.0 plus 0.65768
+....\hbox(12.67198+1.728)x14.4
+.....\JY2/zhfs/m/it/14.4 け
+....\glue(\kanjiskip) 0.0 plus 0.65768
+....\hbox(12.67198+1.728)x14.4
+.....\JY2/zhfs/m/it/14.4 ま
+....\glue(\kanjiskip) 0.0 plus 0.65768
+....\hbox(12.67198+1.728)x14.4
+.....\JY2/zhfs/m/it/14.4 せ
+....\glue(\kanjiskip) 0.0 plus 0.65768
+....\hbox(12.67198+1.728)x14.4
+.....\JY2/zhfs/m/it/14.4 ん
+....\glue(\kanjiskip) 0.0 plus 0.65768
+....\hbox(12.67198+1.728)x14.4
+.....\penalty 10000(for kinsoku)
+.....\JY2/zhfs/m/it/14.4 。
+.....\glue(refer from jfm) 0.0
+....\hbox(12.67198+1.728)x14.4
+.....\JY2/zhfs/m/it/14.4 我
+....\glue(\kanjiskip) 0.0 plus 0.65768
+....\hbox(12.67198+1.728)x14.4
+.....\JY2/zhfs/m/it/14.4 能
+....\glue(\kanjiskip) 0.0 plus 0.65768
+....\hbox(12.67198+1.728)x14.4
+.....\JY2/zhfs/m/it/14.4 吞
+....\glue(\kanjiskip) 0.0 plus 0.65768
+....\hbox(12.67198+1.728)x14.4
+.....\JY2/zhfs/m/it/14.4 下
+....\glue(\kanjiskip) 0.0 plus 0.65768
+....\hbox(12.67198+1.728)x14.4
+.....\JY2/zhfs/m/it/14.4 玻
+....\glue(\kanjiskip) 0.0 plus 0.65768
+....\hbox(12.67198+1.728)x14.4
+.....\JY2/zhfs/m/it/14.4 璃
+....\glue(\kanjiskip) 0.0 plus 0.65768
+....\hbox(12.67198+1.728)x14.4
+.....\JY2/zhfs/m/it/14.4 而
+....\glue(\kanjiskip) 0.0 plus 0.65768
+....\hbox(12.67198+1.728)x14.4
+.....\JY2/zhfs/m/it/14.4 不
+....\glue(\kanjiskip) 0.0 plus 0.65768
+....\hbox(12.67198+1.728)x14.4
+.....\JY2/zhfs/m/it/14.4 伤
+....\glue(\kanjiskip) 0.0 plus 0.65768
+....\hbox(12.67198+1.728)x14.4
+.....\JY2/zhfs/m/it/14.4 身
+....\glue(\kanjiskip) 0.0 plus 0.65768
+....\hbox(12.67198+1.728)x14.4
+.....\JY2/zhfs/m/it/14.4 体
+....\glue(\kanjiskip) 0.0 plus 0.65768
+....\hbox(12.67198+1.728)x14.4
+.....\penalty 10000(for kinsoku)
+.....\JY2/zhfs/m/it/14.4 。
+.....\glue(refer from jfm) 0.0
+....\penalty 10000
+....\glue 0.0 plus 1.0fil
+....\penalty -10000
+....\glue(\rightskip) 0.0
+...\penalty 300
+...\glue(\baselineskip) 9.00008
+...\hbox(12.67198+1.728)x556.47656, glue set 23.67679fil
+....\hbox(0.0+0.0)x0.0
+....\hbox(12.67198+1.728)x14.4
+.....\JY2/zhfs/m/it/14.4 我
+....\glue(\kanjiskip) 0.0 plus 0.65768
+....\hbox(12.67198+1.728)x14.4
+.....\JY2/zhfs/m/it/14.4 能
+....\glue(\kanjiskip) 0.0 plus 0.65768
+....\hbox(12.67198+1.728)x14.4
+.....\JY2/zhfs/m/it/14.4 吞
+....\glue(\kanjiskip) 0.0 plus 0.65768
+....\hbox(12.67198+1.728)x14.4
+.....\JY2/zhfs/m/it/14.4 下
+....\glue(\kanjiskip) 0.0 plus 0.65768
+....\hbox(12.67198+1.728)x14.4
+.....\JY2/zhfs/m/it/14.4 玻
+....\glue(\kanjiskip) 0.0 plus 0.65768
+....\hbox(12.67198+1.728)x14.4
+.....\JY2/zhfs/m/it/14.4 璃
+....\glue(\kanjiskip) 0.0 plus 0.65768
+....\hbox(12.67198+1.728)x14.4
+.....\JY2/zhfs/m/it/14.4 而
+....\glue(\kanjiskip) 0.0 plus 0.65768
+....\hbox(12.67198+1.728)x14.4
+.....\JY2/zhfs/m/it/14.4 不
+....\glue(\kanjiskip) 0.0 plus 0.65768
+....\hbox(12.67198+1.728)x14.4
+.....\JY2/zhfs/m/it/14.4 伤
+....\glue(\kanjiskip) 0.0 plus 0.65768
+....\hbox(12.67198+1.728)x14.4
+.....\JY2/zhfs/m/it/14.4 身
+....\glue(\kanjiskip) 0.0 plus 0.65768
+....\hbox(12.67198+1.728)x14.4
+.....\JY2/zhfs/m/it/14.4 体
+....\glue(\kanjiskip) 0.0 plus 0.65768
+....\hbox(12.67198+1.728)x14.4
+.....\penalty 10000(for kinsoku)
+.....\JY2/zhfs/m/it/14.4 。
+.....\glue(refer from jfm) 0.0
+....\hbox(12.67198+1.728)x14.4
+.....\JY2/zhfs/m/it/14.4 我
+....\glue(\kanjiskip) 0.0 plus 0.65768
+....\hbox(12.67198+1.728)x14.4
+.....\JY2/zhfs/m/it/14.4 能
+....\glue(\kanjiskip) 0.0 plus 0.65768
+....\hbox(12.67198+1.728)x14.4
+.....\JY2/zhfs/m/it/14.4 吞
+....\glue(\kanjiskip) 0.0 plus 0.65768
+....\hbox(12.67198+1.728)x14.4
+.....\JY2/zhfs/m/it/14.4 下
+....\glue(\kanjiskip) 0.0 plus 0.65768
+....\hbox(12.67198+1.728)x14.4
+.....\JY2/zhfs/m/it/14.4 玻
+....\glue(\kanjiskip) 0.0 plus 0.65768
+....\hbox(12.67198+1.728)x14.4
+.....\JY2/zhfs/m/it/14.4 璃
+....\glue(\kanjiskip) 0.0 plus 0.65768
+....\hbox(12.67198+1.728)x14.4
+.....\JY2/zhfs/m/it/14.4 而
+....\glue(\kanjiskip) 0.0 plus 0.65768
+....\hbox(12.67198+1.728)x14.4
+.....\JY2/zhfs/m/it/14.4 不
+....\glue(\kanjiskip) 0.0 plus 0.65768
+....\hbox(12.67198+1.728)x14.4
+.....\JY2/zhfs/m/it/14.4 傷
+....\glue(\kanjiskip) 0.0 plus 0.65768
+....\hbox(12.67198+1.728)x14.4
+.....\JY2/zhfs/m/it/14.4 身
+....\glue(\kanjiskip) 0.0 plus 0.65768
+....\hbox(12.67198+1.728)x14.4
+.....\JY2/zhfs/m/it/14.4 體
+....\glue(\kanjiskip) 0.0 plus 0.65768
+....\hbox(12.67198+1.728)x14.4
+.....\penalty 10000(for kinsoku)
+.....\JY2/zhfs/m/it/14.4 。
+.....\glue(refer from jfm) 0.0
+....\hbox(12.67198+1.728)x14.4
+.....\JY2/zhfs/m/it/14.4 我
+....\glue(\kanjiskip) 0.0 plus 0.65768
+....\hbox(12.67198+1.728)x14.4
+.....\JY2/zhfs/m/it/14.4 可
+....\glue(\kanjiskip) 0.0 plus 0.65768
+....\hbox(12.67198+1.728)x14.4
+.....\JY2/zhfs/m/it/14.4 以
+....\glue(\kanjiskip) 0.0 plus 0.65768
+....\hbox(12.67198+1.728)x14.4
+.....\JY2/zhfs/m/it/14.4 食
+....\glue(\kanjiskip) 0.0 plus 0.65768
+....\hbox(12.67198+1.728)x14.4
+.....\JY2/zhfs/m/it/14.4 玻
+....\glue(\kanjiskip) 0.0 plus 0.65768
+....\hbox(12.67198+1.728)x14.4
+.....\JY2/zhfs/m/it/14.4 璃
+....\glue(\kanjiskip) 0.0 plus 0.65768
+....\hbox(12.67198+1.728)x14.4
+.....\penalty 10000(for kinsoku)
+.....\JY2/zhfs/m/it/14.4 ，
+.....\glue(refer from jfm) 0.0
+....\hbox(12.67198+1.728)x14.4
+.....\JY2/zhfs/m/it/14.4 佢
+....\glue(\kanjiskip) 0.0 plus 0.65768
+....\hbox(12.67198+1.728)x14.4
+.....\JY2/zhfs/m/it/14.4 傷
+....\glue(\kanjiskip) 0.0 plus 0.65768
+....\hbox(12.67198+1.728)x14.4
+.....\JY2/zhfs/m/it/14.4 唔
+....\glue(\kanjiskip) 0.0 plus 0.65768
+....\hbox(12.67198+1.728)x14.4
+.....\JY2/zhfs/m/it/14.4 到
+....\glue(\kanjiskip) 0.0 plus 0.65768
+....\hbox(12.67198+1.728)x14.4
+.....\JY2/zhfs/m/it/14.4 我
+....\glue(\kanjiskip) 0.0 plus 0.65768
+....\hbox(12.67198+1.728)x14.4
+.....\penalty 10000(for kinsoku)
+.....\JY2/zhfs/m/it/14.4 。
+.....\glue(refer from jfm) 0.0
+....\penalty 10000
+....\glue(\parfillskip) 0.0 plus 1.0fil
+....\glue(\rightskip) 0.0
+...\glue -1.728
+...\glue 0.0 plus 0.0001fil
+..\glue(\baselineskip) 30.0
+..\hbox(0.0+0.0)x556.47656
+...\hbox(0.0+0.0)x556.47656
+.\kern 0.0
 ============================================================
 ============================================================
 TEST 11: Basic Usage of LXGW Font: \itshape \kaishu 
@@ -985,11 +3192,11 @@ LaTeX Font Warning: Font shape `JT2/zhkai/m/it' undefined
 (Font)              using `JT2/zhkai/m/n' instead on input line ....
 LaTeX Font Warning: Font shape `JY2/zhkai/m/it' undefined
 (Font)              using `JY2/zhkai/m/n' instead on input line ....
-Underfull \hbox (badness 10000) detected at line 51
-\JY2/zhkai/m/it/14.4 。
+Underfull \hbox (badness 10000) detected at line 50
+\JY2/zhkai/b/n/14.4 。
 \hbox(12.67198+1.728)x14.4
 .\penalty 10000(for kinsoku)
-.\JY2/zhkai/m/it/14.4 。
+.\JY2/zhkai/b/n/14.4 。
 .\glue(refer from jfm) 0.0
 LaTeX Font Warning: Font shape `JY2/zhkai/bx/it' undefined
 (Font)              using `JY2/zhkai/b/it' instead on input line ....
@@ -1019,13 +3226,13 @@ LaTeX Font Warning: Font shape `JY2/zhkai/bx/it' undefined
 (Font)              using `JY2/zhkai/b/it' instead on input line ....
 LaTeX Font Warning: Font shape `JY2/zhkai/bx/it' undefined
 (Font)              using `JY2/zhkai/b/it' instead on input line ....
-Underfull \hbox (badness 10000) detected at line 51
+Underfull \hbox (badness 10000) detected at line 50
 \JY2/zhkai/b/it/14.4 。
 \hbox(12.67198+1.728)x14.4
 .\penalty 10000(for kinsoku)
 .\JY2/zhkai/b/it/14.4 。
 .\glue(refer from jfm) 0.0
-Underfull \hbox (badness 10000) detected at line 51
+Underfull \hbox (badness 10000) detected at line 50
 \JY2/zhkai/b/it/14.4 。
 \hbox(12.67198+1.728)x14.4
 .\penalty 10000(for kinsoku)
@@ -1055,19 +3262,19 @@ LaTeX Font Warning: Font shape `JY2/zhkai/bx/it' undefined
 (Font)              using `JY2/zhkai/b/it' instead on input line ....
 LaTeX Font Warning: Font shape `JY2/zhkai/bx/it' undefined
 (Font)              using `JY2/zhkai/b/it' instead on input line ....
-Underfull \hbox (badness 10000) detected at line 51
+Underfull \hbox (badness 10000) detected at line 50
 \JY2/zhkai/b/it/14.4 。
 \hbox(12.67198+1.728)x14.4
 .\penalty 10000(for kinsoku)
 .\JY2/zhkai/b/it/14.4 。
 .\glue(refer from jfm) 0.0
-Underfull \hbox (badness 10000) detected at line 51
+Underfull \hbox (badness 10000) detected at line 50
 \JY2/zhkai/b/it/14.4 。
 \hbox(12.67198+1.728)x14.4
 .\penalty 10000(for kinsoku)
 .\JY2/zhkai/b/it/14.4 。
 .\glue(refer from jfm) 0.0
-Underfull \hbox (badness 10000) detected at line 51
+Underfull \hbox (badness 10000) detected at line 50
 \JY2/zhkai/b/it/14.4 ，
 \hbox(12.67198+1.728)x14.4
 .\penalty 10000(for kinsoku)
@@ -1085,7 +3292,7 @@ LaTeX Font Warning: Font shape `JY2/zhkai/bx/it' undefined
 (Font)              using `JY2/zhkai/b/it' instead on input line ....
 LaTeX Font Warning: Font shape `JY2/zhkai/bx/it' undefined
 (Font)              using `JY2/zhkai/b/it' instead on input line ....
-Underfull \hbox (badness 10000) detected at line 51
+Underfull \hbox (badness 10000) detected at line 50
 \JY2/zhkai/b/it/14.4 。
 \hbox(12.67198+1.728)x14.4
 .\penalty 10000(for kinsoku)
@@ -1097,11 +3304,11 @@ TEST 12: Basic Usage of LXGW Font: \slshape \kaishu
 ============================================================
 LaTeX Font Warning: Font shape `JY2/zhrm/m/sl' undefined
 (Font)              using `JY2/zhrm/m/it' instead on input line ....
-Underfull \hbox (badness 10000) detected at line 51
-\JY2/zhkai/b/it/14.4 。
+Underfull \hbox (badness 10000) detected at line 50
+\JY2/zhkai/m/it/14.4 。
 \hbox(12.67198+1.728)x14.4
 .\penalty 10000(for kinsoku)
-.\JY2/zhkai/b/it/14.4 。
+.\JY2/zhkai/m/it/14.4 。
 .\glue(refer from jfm) 0.0
 LaTeX Font Warning: Font shape `JY2/zhkai/bx/it' undefined
 (Font)              using `JY2/zhkai/b/it' instead on input line ....
@@ -1127,59 +3334,17 @@ LaTeX Font Warning: Font shape `JY2/zhkai/bx/it' undefined
 (Font)              using `JY2/zhkai/b/it' instead on input line ....
 LaTeX Font Warning: Font shape `JY2/zhkai/bx/it' undefined
 (Font)              using `JY2/zhkai/b/it' instead on input line ....
-Underfull \hbox (badness 10000) detected at line 51
-\JY2/zhkai/b/it/14.4 。
+Underfull \hbox (badness 10000) detected at line 50
+\JY2/zhkai/m/it/14.4 。
 \hbox(12.67198+1.728)x14.4
 .\penalty 10000(for kinsoku)
-.\JY2/zhkai/b/it/14.4 。
+.\JY2/zhkai/m/it/14.4 。
 .\glue(refer from jfm) 0.0
-Underfull \hbox (badness 10000) detected at line 51
-\JY2/zhkai/b/it/14.4 。
+Underfull \hbox (badness 10000) detected at line 50
+\JY2/zhkai/m/it/14.4 。
 \hbox(12.67198+1.728)x14.4
 .\penalty 10000(for kinsoku)
-.\JY2/zhkai/b/it/14.4 。
-.\glue(refer from jfm) 0.0
-LaTeX Font Warning: Font shape `JY2/zhkai/bx/it' undefined
-(Font)              using `JY2/zhkai/b/it' instead on input line ....
-LaTeX Font Warning: Font shape `JY2/zhkai/bx/it' undefined
-(Font)              using `JY2/zhkai/b/it' instead on input line ....
-LaTeX Font Warning: Font shape `JY2/zhkai/bx/it' undefined
-(Font)              using `JY2/zhkai/b/it' instead on input line ....
-LaTeX Font Warning: Font shape `JY2/zhkai/bx/it' undefined
-(Font)              using `JY2/zhkai/b/it' instead on input line ....
-LaTeX Font Warning: Font shape `JY2/zhkai/bx/it' undefined
-(Font)              using `JY2/zhkai/b/it' instead on input line ....
-LaTeX Font Warning: Font shape `JY2/zhkai/bx/it' undefined
-(Font)              using `JY2/zhkai/b/it' instead on input line ....
-LaTeX Font Warning: Font shape `JY2/zhkai/bx/it' undefined
-(Font)              using `JY2/zhkai/b/it' instead on input line ....
-LaTeX Font Warning: Font shape `JY2/zhkai/bx/it' undefined
-(Font)              using `JY2/zhkai/b/it' instead on input line ....
-LaTeX Font Warning: Font shape `JY2/zhkai/bx/it' undefined
-(Font)              using `JY2/zhkai/b/it' instead on input line ....
-LaTeX Font Warning: Font shape `JY2/zhkai/bx/it' undefined
-(Font)              using `JY2/zhkai/b/it' instead on input line ....
-LaTeX Font Warning: Font shape `JY2/zhkai/bx/it' undefined
-(Font)              using `JY2/zhkai/b/it' instead on input line ....
-LaTeX Font Warning: Font shape `JY2/zhkai/bx/it' undefined
-(Font)              using `JY2/zhkai/b/it' instead on input line ....
-Underfull \hbox (badness 10000) detected at line 51
-\JY2/zhkai/b/it/14.4 。
-\hbox(12.67198+1.728)x14.4
-.\penalty 10000(for kinsoku)
-.\JY2/zhkai/b/it/14.4 。
-.\glue(refer from jfm) 0.0
-Underfull \hbox (badness 10000) detected at line 51
-\JY2/zhkai/b/it/14.4 。
-\hbox(12.67198+1.728)x14.4
-.\penalty 10000(for kinsoku)
-.\JY2/zhkai/b/it/14.4 。
-.\glue(refer from jfm) 0.0
-Underfull \hbox (badness 10000) detected at line 51
-\JY2/zhkai/b/it/14.4 ，
-\hbox(12.67198+1.728)x14.4
-.\penalty 10000(for kinsoku)
-.\JY2/zhkai/b/it/14.4 ，
+.\JY2/zhkai/m/it/14.4 。
 .\glue(refer from jfm) 0.0
 LaTeX Font Warning: Font shape `JY2/zhkai/bx/it' undefined
 (Font)              using `JY2/zhkai/b/it' instead on input line ....
@@ -1193,10 +3358,52 @@ LaTeX Font Warning: Font shape `JY2/zhkai/bx/it' undefined
 (Font)              using `JY2/zhkai/b/it' instead on input line ....
 LaTeX Font Warning: Font shape `JY2/zhkai/bx/it' undefined
 (Font)              using `JY2/zhkai/b/it' instead on input line ....
-Underfull \hbox (badness 10000) detected at line 51
-\JY2/zhkai/b/it/14.4 。
+LaTeX Font Warning: Font shape `JY2/zhkai/bx/it' undefined
+(Font)              using `JY2/zhkai/b/it' instead on input line ....
+LaTeX Font Warning: Font shape `JY2/zhkai/bx/it' undefined
+(Font)              using `JY2/zhkai/b/it' instead on input line ....
+LaTeX Font Warning: Font shape `JY2/zhkai/bx/it' undefined
+(Font)              using `JY2/zhkai/b/it' instead on input line ....
+LaTeX Font Warning: Font shape `JY2/zhkai/bx/it' undefined
+(Font)              using `JY2/zhkai/b/it' instead on input line ....
+LaTeX Font Warning: Font shape `JY2/zhkai/bx/it' undefined
+(Font)              using `JY2/zhkai/b/it' instead on input line ....
+LaTeX Font Warning: Font shape `JY2/zhkai/bx/it' undefined
+(Font)              using `JY2/zhkai/b/it' instead on input line ....
+Underfull \hbox (badness 10000) detected at line 50
+\JY2/zhkai/m/it/14.4 。
 \hbox(12.67198+1.728)x14.4
 .\penalty 10000(for kinsoku)
-.\JY2/zhkai/b/it/14.4 。
+.\JY2/zhkai/m/it/14.4 。
+.\glue(refer from jfm) 0.0
+Underfull \hbox (badness 10000) detected at line 50
+\JY2/zhkai/m/it/14.4 。
+\hbox(12.67198+1.728)x14.4
+.\penalty 10000(for kinsoku)
+.\JY2/zhkai/m/it/14.4 。
+.\glue(refer from jfm) 0.0
+Underfull \hbox (badness 10000) detected at line 50
+\JY2/zhkai/m/it/14.4 ，
+\hbox(12.67198+1.728)x14.4
+.\penalty 10000(for kinsoku)
+.\JY2/zhkai/m/it/14.4 ，
+.\glue(refer from jfm) 0.0
+LaTeX Font Warning: Font shape `JY2/zhkai/bx/it' undefined
+(Font)              using `JY2/zhkai/b/it' instead on input line ....
+LaTeX Font Warning: Font shape `JY2/zhkai/bx/it' undefined
+(Font)              using `JY2/zhkai/b/it' instead on input line ....
+LaTeX Font Warning: Font shape `JY2/zhkai/bx/it' undefined
+(Font)              using `JY2/zhkai/b/it' instead on input line ....
+LaTeX Font Warning: Font shape `JY2/zhkai/bx/it' undefined
+(Font)              using `JY2/zhkai/b/it' instead on input line ....
+LaTeX Font Warning: Font shape `JY2/zhkai/bx/it' undefined
+(Font)              using `JY2/zhkai/b/it' instead on input line ....
+LaTeX Font Warning: Font shape `JY2/zhkai/bx/it' undefined
+(Font)              using `JY2/zhkai/b/it' instead on input line ....
+Underfull \hbox (badness 10000) detected at line 50
+\JY2/zhkai/m/it/14.4 。
+\hbox(12.67198+1.728)x14.4
+.\penalty 10000(for kinsoku)
+.\JY2/zhkai/m/it/14.4 。
 .\glue(refer from jfm) 0.0
 ============================================================

@@ -23,7 +23,8 @@
 %                                   lxgw.ins,                           *
 %                 the derived files ctex-fontset-lxgw.def,              *
 %                                   ctex-zhmap-lxgw.tex,                *
-%                                   ctex-spa-lxgw.def,                  *
+%                                   ctex-spa-make-lxgw.tex,             *
+%                                   ctexspa-lxgw.def,                   *
 %                    the font files LXGWNeoZhiSong.ttf,                 *
 %                                   LXGWNeoZhiSongScreen.ttf,           *
 %                                   LXGWNeoXiHei.ttf,                   *
@@ -483,32 +484,20 @@ https://github.com/lxgw/LxgwZhenKai/releases/latest/download/LXGWZhenKaiGB-Regul
 %    \begin{macrocode}
 %<*fontset>
 %    \end{macrocode}
-% Load CJK font family, interface, accepts the following 4 branches,
-% provided by \pkg{ctex-kit}.
+% Load CJK font family, the interface provided by \pkg{ctex-kit} accepts the
+% following 3 branches.
 %    \begin{macrocode}
-\ctex_fontset_case:nnnn
+\ctex_fontset_case:nnn
 %    \end{macrocode}
-% \DescribeOption{\hologo{pdfTeX} (generate PDF)}
-% This branch is no longer supported here, and a
-% \underline{|fontset-unavailable|} error will raise.
-%    \begin{macrocode}
-  { \ctex_fontset_error:n { lxgw } }
-%    \end{macrocode}
-% \begin{texnote}
-% For some fontset that supports this branch, line |4| -- |5| should be
-% replaced as a line
-% \begin{verbatim}
-%   \ctex_fontset_case:nnn
-% \end{verbatim}
-% \end{texnote}
-% \DescribeOption{\hologo{pdfTeX} (generate DVI)}
-% For those use \hologo{LaTeX} + \hologo{DVIPDFMx}.
+% \DescribeOption{\hologo{pdfTeX}}
+% For those \hologo{pdfTeX} or \hologo{LaTeX} + \hologo{DVIPDFMx}.
 %    \begin{macrocode}
   {
 %    \end{macrocode}
-% Load the \file{.spa} file for the \pkg{CJKpunct} package.
+% Load the \file{.spa} file for the \pkg{CJKpunct} package
+% under \hologo{pdfTeX}.
 %    \begin{macrocode}
-    \ctex_file_input:n { ctexpunct-lxgw.spa }
+    \ctex_file_input:n { ctexspa-lxgw.def }
 %    \end{macrocode}
 % Case choice controlled by the |zhmap| key of \pkg{ctex-kit}.
 %    \begin{macrocode}
@@ -517,11 +506,11 @@ https://github.com/lxgw/LxgwZhenKai/releases/latest/download/LXGWZhenKaiGB-Regul
 % \begin{arguments}
 %   \item Content of this argument will be outputted to the input stream when
 %   |zhmap = zhmCJK|
-%   \begin{verbatim}[commandchars = \\\{\}]
-%     \color{gray}\cs{cs_gset_eq:NN} \cs{ctex_zhmap_case:nnn} \cs{use_i:nnn}
-%   \end{verbatim}
-% The \hologo{LXGW} font family uses the |UniGB-UTF16-H| cmap (Character To
-% Glyph Index Mapping Table).
+%   \begin{quote}
+%     \color{gray}|\cs_gset_eq:NN \ctex_zhmap_case:nnn \use_i:nnn|
+%   \end{quote}
+% The \hologo{LXGW} font family uses the |UniGB-UTF16-H| \textbf{C}haracter To
+% Glyph Index \textbf{Map}ping Table.
 %    \begin{macrocode}
       {
         \setCJKmainfont { LXGWNeoZhiSong.ttf              }
@@ -667,17 +656,17 @@ https://github.com/lxgw/LxgwZhenKai/releases/latest/download/LXGWZhenKaiGB-Regul
 %    \end{macrocode}
 %
 % \subsection{The \texttt{ctex-spa-make-lxgw.tex} and
-%   the \texttt{ctex-spa-lxgw.def} file}\label{subsec:spa}
+%   the \texttt{ctexspa-lxgw.def} file}\label{subsec:spa}
 %
 % The \file{.spa} file of the corresponding font will be used
 % for the \pkg{CJKpunct} package to achieve the punctuation compression,
 % which can ensure the best typeset effect (under the \hologo{pdfTeX} engine).
-% Run the following script, \file{ctex-spa-make.tex}, by executing
+% Run the following script, \file{ctex-spa-make-lxgw.tex} by executing
 % \begin{verbatim}
 %   xetex ctex-spa-make-lxgw
 % \end{verbatim}
 % in the terminal. Then, one can obtain the \file{ctexpunct-lxgw.spa} file.
-% \paragraph{Implementation of the script}
+%
 % Start the optionlist |makespa| for \pkg{l3docstrip}.
 %    \begin{macrocode}
 %<*makespa>
@@ -790,14 +779,11 @@ https://github.com/lxgw/LxgwZhenKai/releases/latest/download/LXGWZhenKaiGB-Regul
 \ProvidesFile{ctex-zhmap-lxgw.tex}%
   [\LXGWFileDate\ \LXGWFileVersion\ lxgw font map loader for DVIPDFMx (CTEX)]
 %    \end{macrocode}
-% Font map loader for \hologo{pdfTeX} (generate PDF) is disabled since
-% \hologo{pdfTeX} maps too slowly.
+% Font map loader for \hologo{pdfTeX} (generate PDF).
 %    \begin{macrocode}
 \ifzhmappdf
 %    \end{macrocode}
-% \iffalse
 %    \begin{macrocode}
-\iffalse
   \pdfmapline{=gbk@UGBK@          <LXGWNeoZhiSong.ttf}
   \pdfmapline{=gbksong@UGBK@      <LXGWNeoZhiSong.ttf}
   \pdfmapline{=gbkkai@UGBK@       <LXGWWenKaiGBLite-Regular.ttf}
@@ -816,9 +802,7 @@ https://github.com/lxgw/LxgwZhenKai/releases/latest/download/LXGWZhenKaiGB-Regul
   \pdfmapline{=unikaisl@Unicode@  <LXGWWenKaiGBLite-Regular.ttf}
   \pdfmapline{=uniheisl@Unicode@  <LXGWNeoXiHei.ttf}
   \pdfmapline{=unifssl@Unicode@   <LXGWZhuqueFangsong-Regular.ttf}
-\fi
 %    \end{macrocode}
-% \fi
 % Configuration for \hologo{pdfTeX} (generate DVI).
 %    \begin{macrocode}
 \else

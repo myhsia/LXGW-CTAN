@@ -1,0 +1,4767 @@
+This is a generated file for the l3build validation system.
+Don't change this file in any respect.
+============================================================
+TEST 1: Basic Usage of LXGW Font: \songti 
+============================================================
+Package fontspec Info: 
+(fontspec)             Font family 'LXGWNeoZhiSong(1)' created for font 'LXGWNeoZhiSong' with options [NFSSEncoding=LTJY3,JFM=zh_CN/quanjiao,Extension={.ttf},AutoFakeBold,AutoFakeSlant,LTJFONTUID=4].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.: <->"[LXGWNeoZhiSong.ttf]:mode=node;script=latn;language=dflt;jfm=zh_CN/quanjiao;"
+(fontspec)             - 'bold' (b/n) with NFSS spec.: <->"[LXGWNeoZhiSong.ttf]:mode=node;script=latn;language=dflt;jfm=zh_CN/quanjiao;embolden=1.5;"
+(fontspec)             - 'italic' (m/it) with NFSS spec.: <->"[LXGWNeoZhiSong.ttf]:mode=node;script=latn;language=dflt;jfm=zh_CN/quanjiao;slant=0.2;"
+(fontspec)             - 'bold italic' (b/it) with NFSS spec.: <->"[LXGWNeoZhiSong.ttf]:mode=node;script=latn;language=dflt;jfm=zh_CN/quanjiao;embolden=1.5;slant=0.2;"
+Underfull \hbox (badness 10000) detected at line 50
+[][]
+\hbox(12.672+1.728)x14.4, direction TLT
+.\whatsit4=[]
+.\hbox(12.672+1.728)x7.2, direction TLT
+..\LTJY3/LXGWNeoZhiSong(1)/m/n/14.4 。
+LaTeX Font Info:    Font shape `LTJY3/LXGWNeoZhiSong(1)/bx/n' in size <14.4> not available
+(Font)              Font shape `LTJY3/LXGWNeoZhiSong(1)/b/n' tried instead on input line ....
+Underfull \hbox (badness 10000) detected at line 50
+[][]
+\hbox(12.672+1.728)x14.4, direction TLT
+.\whatsit4=[]
+.\hbox(12.672+1.728)x7.2, direction TLT
+..\LTJY3/LXGWNeoZhiSong(1)/bx/n/14.4 。
+Underfull \hbox (badness 10000) detected at line 50
+[][]
+\hbox(12.672+1.728)x14.4, direction TLT
+.\whatsit4=[]
+.\hbox(12.672+1.728)x7.2, direction TLT
+..\LTJY3/LXGWNeoZhiSong(1)/m/n/14.4 。
+Underfull \hbox (badness 10000) detected at line 50
+[][]
+\hbox(12.672+1.728)x14.4, direction TLT
+.\whatsit4=[]
+.\hbox(12.672+1.728)x7.2, direction TLT
+..\LTJY3/LXGWNeoZhiSong(1)/bx/n/14.4 。
+Underfull \hbox (badness 10000) detected at line 50
+[][]
+\hbox(12.672+1.728)x14.4, direction TLT
+.\whatsit4=[]
+.\hbox(12.672+1.728)x7.2, direction TLT
+..\LTJY3/LXGWNeoZhiSong(1)/m/n/14.4 。
+Underfull \hbox (badness 10000) detected at line 50
+[][]
+\hbox(12.672+1.728)x14.4, direction TLT
+.\whatsit4=[]
+.\hbox(12.672+1.728)x7.2, direction TLT
+..\LTJY3/LXGWNeoZhiSong(1)/m/n/14.4 ，
+Underfull \hbox (badness 10000) detected at line 50
+[][]
+\hbox(12.672+1.728)x14.4, direction TLT
+.\whatsit4=[]
+.\hbox(12.672+1.728)x7.2, direction TLT
+..\LTJY3/LXGWNeoZhiSong(1)/bx/n/14.4 。
+============================================================
+============================================================
+TEST 2: Basic Usage of LXGW Font: \itshape \songti 
+============================================================
+(load cache: extra_lmroman12-italic.luc)
+Underfull \hbox (badness 10000) detected at line 50
+[][]
+\hbox(12.672+1.728)x14.4, direction TLT
+.\whatsit4=[]
+.\hbox(12.672+1.728)x7.2, direction TLT
+..\LTJY3/LXGWNeoZhiSong(1)/m/it/14.4 。
+(load cache: extra_lmroman10-bolditalic.luc)
+LaTeX Font Info:    Font shape `LTJY3/LXGWNeoZhiSong(1)/bx/it' in size <14.4> not available
+(Font)              Font shape `LTJY3/LXGWNeoZhiSong(1)/b/it' tried instead on input line ....
+Underfull \hbox (badness 10000) detected at line 50
+[][]
+\hbox(12.672+1.728)x14.4, direction TLT
+.\whatsit4=[]
+.\hbox(12.672+1.728)x7.2, direction TLT
+..\LTJY3/LXGWNeoZhiSong(1)/bx/it/14.4 。
+Underfull \hbox (badness 10000) detected at line 50
+[][]
+\hbox(12.672+1.728)x14.4, direction TLT
+.\whatsit4=[]
+.\hbox(12.672+1.728)x7.2, direction TLT
+..\LTJY3/LXGWNeoZhiSong(1)/m/it/14.4 。
+Underfull \hbox (badness 10000) detected at line 50
+[][]
+\hbox(12.672+1.728)x14.4, direction TLT
+.\whatsit4=[]
+.\hbox(12.672+1.728)x7.2, direction TLT
+..\LTJY3/LXGWNeoZhiSong(1)/bx/it/14.4 。
+Underfull \hbox (badness 10000) detected at line 50
+[][]
+\hbox(12.672+1.728)x14.4, direction TLT
+.\whatsit4=[]
+.\hbox(12.672+1.728)x7.2, direction TLT
+..\LTJY3/LXGWNeoZhiSong(1)/m/it/14.4 。
+Underfull \hbox (badness 10000) detected at line 50
+[][]
+\hbox(12.672+1.728)x14.4, direction TLT
+.\whatsit4=[]
+.\hbox(12.672+1.728)x7.2, direction TLT
+..\LTJY3/LXGWNeoZhiSong(1)/m/it/14.4 ，
+Underfull \hbox (badness 10000) detected at line 50
+[][]
+\hbox(12.672+1.728)x14.4, direction TLT
+.\whatsit4=[]
+.\hbox(12.672+1.728)x7.2, direction TLT
+..\LTJY3/LXGWNeoZhiSong(1)/bx/it/14.4 。
+============================================================
+============================================================
+TEST 3: Basic Usage of LXGW Font: \slshape \songti 
+============================================================
+(load cache: extra_lmromanslant12-regular.luc)
+LaTeX Font Info:    Font shape `LTJY3/LXGWNeoZhiSong(0)/m/sl' in size <14.4> not available
+(Font)              Font shape `LTJY3/LXGWNeoZhiSong(0)/m/it' tried instead on input line ....
+LaTeX Font Info:    Font shape `LTJY3/LXGWNeoZhiSong(1)/m/sl' in size <14.4> not available
+(Font)              Font shape `LTJY3/LXGWNeoZhiSong(1)/m/it' tried instead on input line ....
+Underfull \hbox (badness 10000) detected at line 50
+[][]
+\hbox(12.672+1.728)x14.4, direction TLT
+.\whatsit4=[]
+.\hbox(12.672+1.728)x7.2, direction TLT
+..\LTJY3/LXGWNeoZhiSong(1)/m/sl/14.4 。
+(load cache: extra_lmromanslant10-bold.luc)
+LaTeX Font Info:    Font shape `LTJY3/LXGWNeoZhiSong(1)/bx/sl' in size <14.4> not available
+(Font)              Font shape `LTJY3/LXGWNeoZhiSong(1)/bx/it' tried instead on input line ....
+LaTeX Font Info:    Font shape `LTJY3/LXGWNeoZhiSong(1)/bx/it' in size <14.4> not available
+(Font)              Font shape `LTJY3/LXGWNeoZhiSong(1)/b/it' tried instead on input line ....
+Underfull \hbox (badness 10000) detected at line 50
+[][]
+\hbox(12.672+1.728)x14.4, direction TLT
+.\whatsit4=[]
+.\hbox(12.672+1.728)x7.2, direction TLT
+..\LTJY3/LXGWNeoZhiSong(1)/bx/sl/14.4 。
+Underfull \hbox (badness 10000) detected at line 50
+[][]
+\hbox(12.672+1.728)x14.4, direction TLT
+.\whatsit4=[]
+.\hbox(12.672+1.728)x7.2, direction TLT
+..\LTJY3/LXGWNeoZhiSong(1)/m/sl/14.4 。
+Underfull \hbox (badness 10000) detected at line 50
+[][]
+\hbox(12.672+1.728)x14.4, direction TLT
+.\whatsit4=[]
+.\hbox(12.672+1.728)x7.2, direction TLT
+..\LTJY3/LXGWNeoZhiSong(1)/bx/sl/14.4 。
+Underfull \hbox (badness 10000) detected at line 50
+[][]
+\hbox(12.672+1.728)x14.4, direction TLT
+.\whatsit4=[]
+.\hbox(12.672+1.728)x7.2, direction TLT
+..\LTJY3/LXGWNeoZhiSong(1)/m/sl/14.4 。
+Underfull \hbox (badness 10000) detected at line 50
+[][]
+\hbox(12.672+1.728)x14.4, direction TLT
+.\whatsit4=[]
+.\hbox(12.672+1.728)x7.2, direction TLT
+..\LTJY3/LXGWNeoZhiSong(1)/m/sl/14.4 ，
+Underfull \hbox (badness 10000) detected at line 50
+[][]
+\hbox(12.672+1.728)x14.4, direction TLT
+.\whatsit4=[]
+.\hbox(12.672+1.728)x7.2, direction TLT
+..\LTJY3/LXGWNeoZhiSong(1)/bx/sl/14.4 。
+============================================================
+============================================================
+TEST 4: Basic Usage of LXGW Font: \heiti 
+============================================================
+(load cache: extra_lxgwneoxihei.luc)(load cache: extra_lxgwneoxihei.lua.gz)(load cache: ../extra_lxgwneoxihei.lua.gz)(load cache: ../extra_lxgwneoxihei.luc)
+Package fontspec Info: 
+(fontspec)             Font family 'LXGWNeoXiHei(0)' created for font 'LXGWNeoXiHei' with options [NFSSEncoding=LTJY3,JFM=zh_CN/quanjiao,Extension={.ttf},AutoFakeBold,AutoFakeSlant,LTJFONTUID=5].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.: <->"[LXGWNeoXiHei.ttf]:mode=node;script=latn;language=dflt;jfm=zh_CN/quanjiao;"
+(fontspec)             - 'bold' (b/n) with NFSS spec.: <->"[LXGWNeoXiHei.ttf]:mode=node;script=latn;language=dflt;jfm=zh_CN/quanjiao;embolden=1.5;"
+(fontspec)             - 'italic' (m/it) with NFSS spec.: <->"[LXGWNeoXiHei.ttf]:mode=node;script=latn;language=dflt;jfm=zh_CN/quanjiao;slant=0.2;"
+(fontspec)             - 'bold italic' (b/it) with NFSS spec.: <->"[LXGWNeoXiHei.ttf]:mode=node;script=latn;language=dflt;jfm=zh_CN/quanjiao;embolden=1.5;slant=0.2;"
+Underfull \hbox (badness 10000) detected at line 50
+[][]
+\hbox(12.672+1.728)x14.4, direction TLT
+.\whatsit4=[]
+.\hbox(12.672+1.728)x7.2, direction TLT
+..\LTJY3/LXGWNeoXiHei(0)/m/n/14.4 。
+LaTeX Font Info:    Font shape `LTJY3/LXGWNeoXiHei(0)/bx/n' in size <14.4> not available
+(Font)              Font shape `LTJY3/LXGWNeoXiHei(0)/b/n' tried instead on input line ....
+Underfull \hbox (badness 10000) detected at line 50
+[][]
+\hbox(12.672+1.728)x14.4, direction TLT
+.\whatsit4=[]
+.\hbox(12.672+1.728)x7.2, direction TLT
+..\LTJY3/LXGWNeoXiHei(0)/bx/n/14.4 。
+Underfull \hbox (badness 10000) detected at line 50
+[][]
+\hbox(12.672+1.728)x14.4, direction TLT
+.\whatsit4=[]
+.\hbox(12.672+1.728)x7.2, direction TLT
+..\LTJY3/LXGWNeoXiHei(0)/m/n/14.4 。
+Underfull \hbox (badness 10000) detected at line 50
+[][]
+\hbox(12.672+1.728)x14.4, direction TLT
+.\whatsit4=[]
+.\hbox(12.672+1.728)x7.2, direction TLT
+..\LTJY3/LXGWNeoXiHei(0)/bx/n/14.4 。
+Underfull \hbox (badness 10000) detected at line 50
+[][]
+\hbox(12.672+1.728)x14.4, direction TLT
+.\whatsit4=[]
+.\hbox(12.672+1.728)x7.2, direction TLT
+..\LTJY3/LXGWNeoXiHei(0)/m/n/14.4 。
+Underfull \hbox (badness 10000) detected at line 50
+[][]
+\hbox(12.672+1.728)x14.4, direction TLT
+.\whatsit4=[]
+.\hbox(12.672+1.728)x7.2, direction TLT
+..\LTJY3/LXGWNeoXiHei(0)/m/n/14.4 ，
+Underfull \hbox (badness 10000) detected at line 50
+[][]
+\hbox(12.672+1.728)x14.4, direction TLT
+.\whatsit4=[]
+.\hbox(12.672+1.728)x7.2, direction TLT
+..\LTJY3/LXGWNeoXiHei(0)/bx/n/14.4 。
+============================================================
+============================================================
+TEST 5: Basic Usage of LXGW Font: \itshape \heiti 
+============================================================
+Underfull \hbox (badness 10000) detected at line 50
+[][]
+\hbox(12.672+1.728)x14.4, direction TLT
+.\whatsit4=[]
+.\hbox(12.672+1.728)x7.2, direction TLT
+..\LTJY3/LXGWNeoXiHei(0)/m/it/14.4 。
+LaTeX Font Info:    Font shape `LTJY3/LXGWNeoXiHei(0)/bx/it' in size <14.4> not available
+(Font)              Font shape `LTJY3/LXGWNeoXiHei(0)/b/it' tried instead on input line ....
+Underfull \hbox (badness 10000) detected at line 50
+[][]
+\hbox(12.672+1.728)x14.4, direction TLT
+.\whatsit4=[]
+.\hbox(12.672+1.728)x7.2, direction TLT
+..\LTJY3/LXGWNeoXiHei(0)/bx/it/14.4 。
+Underfull \hbox (badness 10000) detected at line 50
+[][]
+\hbox(12.672+1.728)x14.4, direction TLT
+.\whatsit4=[]
+.\hbox(12.672+1.728)x7.2, direction TLT
+..\LTJY3/LXGWNeoXiHei(0)/m/it/14.4 。
+Underfull \hbox (badness 10000) detected at line 50
+[][]
+\hbox(12.672+1.728)x14.4, direction TLT
+.\whatsit4=[]
+.\hbox(12.672+1.728)x7.2, direction TLT
+..\LTJY3/LXGWNeoXiHei(0)/bx/it/14.4 。
+Underfull \hbox (badness 10000) detected at line 50
+[][]
+\hbox(12.672+1.728)x14.4, direction TLT
+.\whatsit4=[]
+.\hbox(12.672+1.728)x7.2, direction TLT
+..\LTJY3/LXGWNeoXiHei(0)/m/it/14.4 。
+Underfull \hbox (badness 10000) detected at line 50
+[][]
+\hbox(12.672+1.728)x14.4, direction TLT
+.\whatsit4=[]
+.\hbox(12.672+1.728)x7.2, direction TLT
+..\LTJY3/LXGWNeoXiHei(0)/m/it/14.4 ，
+Underfull \hbox (badness 10000) detected at line 50
+[][]
+\hbox(12.672+1.728)x14.4, direction TLT
+.\whatsit4=[]
+.\hbox(12.672+1.728)x7.2, direction TLT
+..\LTJY3/LXGWNeoXiHei(0)/bx/it/14.4 。
+============================================================
+============================================================
+TEST 6: Basic Usage of LXGW Font: \slshape \heiti 
+============================================================
+LaTeX Font Info:    Font shape `LTJY3/LXGWNeoXiHei(0)/m/sl' in size <14.4> not available
+(Font)              Font shape `LTJY3/LXGWNeoXiHei(0)/m/it' tried instead on input line ....
+Underfull \hbox (badness 10000) detected at line 50
+[][]
+\hbox(12.672+1.728)x14.4, direction TLT
+.\whatsit4=[]
+.\hbox(12.672+1.728)x7.2, direction TLT
+..\LTJY3/LXGWNeoXiHei(0)/m/sl/14.4 。
+LaTeX Font Info:    Font shape `LTJY3/LXGWNeoXiHei(0)/bx/sl' in size <14.4> not available
+(Font)              Font shape `LTJY3/LXGWNeoXiHei(0)/bx/it' tried instead on input line ....
+LaTeX Font Info:    Font shape `LTJY3/LXGWNeoXiHei(0)/bx/it' in size <14.4> not available
+(Font)              Font shape `LTJY3/LXGWNeoXiHei(0)/b/it' tried instead on input line ....
+Underfull \hbox (badness 10000) detected at line 50
+[][]
+\hbox(12.672+1.728)x14.4, direction TLT
+.\whatsit4=[]
+.\hbox(12.672+1.728)x7.2, direction TLT
+..\LTJY3/LXGWNeoXiHei(0)/bx/sl/14.4 。
+Underfull \hbox (badness 10000) detected at line 50
+[][]
+\hbox(12.672+1.728)x14.4, direction TLT
+.\whatsit4=[]
+.\hbox(12.672+1.728)x7.2, direction TLT
+..\LTJY3/LXGWNeoXiHei(0)/m/sl/14.4 。
+Underfull \hbox (badness 10000) detected at line 50
+[][]
+\hbox(12.672+1.728)x14.4, direction TLT
+.\whatsit4=[]
+.\hbox(12.672+1.728)x7.2, direction TLT
+..\LTJY3/LXGWNeoXiHei(0)/bx/sl/14.4 。
+Underfull \hbox (badness 10000) detected at line 50
+[][]
+\hbox(12.672+1.728)x14.4, direction TLT
+.\whatsit4=[]
+.\hbox(12.672+1.728)x7.2, direction TLT
+..\LTJY3/LXGWNeoXiHei(0)/m/sl/14.4 。
+Underfull \hbox (badness 10000) detected at line 50
+[][]
+\hbox(12.672+1.728)x14.4, direction TLT
+.\whatsit4=[]
+.\hbox(12.672+1.728)x7.2, direction TLT
+..\LTJY3/LXGWNeoXiHei(0)/m/sl/14.4 ，
+Underfull \hbox (badness 10000) detected at line 50
+[][]
+\hbox(12.672+1.728)x14.4, direction TLT
+.\whatsit4=[]
+.\hbox(12.672+1.728)x7.2, direction TLT
+..\LTJY3/LXGWNeoXiHei(0)/bx/sl/14.4 。
+============================================================
+============================================================
+TEST 7: Basic Usage of LXGW Font: \fangsong 
+============================================================
+(load cache: extra_zhuquefangsong-regular.luc)(load cache: extra_zhuquefangsong-regular.lua.gz)(load cache: ../extra_zhuquefangsong-regular.lua.gz)(load cache: ../extra_zhuquefangsong-regular.luc)
+Package fontspec Info: 
+(fontspec)             Font family 'LXGWZhuqueFangsong-Regular(0)' created for font 'LXGWZhuqueFangsong-Regular' with options [NFSSEncoding=LTJY3,JFM=zh_CN/quanjiao,Extension={.ttf},AutoFakeBold,AutoFakeSlant,LTJFONTUID=6].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.: <->"[LXGWZhuqueFangsong-Regular.ttf]:mode=node;script=latn;language=dflt;jfm=zh_CN/quanjiao;"
+(fontspec)             - 'small caps'  (m/sc) with NFSS spec.: <->"[LXGWZhuqueFangsong-Regular.ttf]:mode=node;script=latn;language=dflt;jfm=zh_CN/quanjiao;+smcp;"
+(fontspec)             - 'bold' (b/n) with NFSS spec.: <->"[LXGWZhuqueFangsong-Regular.ttf]:mode=node;script=latn;language=dflt;jfm=zh_CN/quanjiao;embolden=1.5;"
+(fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.: <->"[LXGWZhuqueFangsong-Regular.ttf]:mode=node;script=latn;language=dflt;jfm=zh_CN/quanjiao;embolden=1.5;+smcp;"
+(fontspec)             - 'italic' (m/it) with NFSS spec.: <->"[LXGWZhuqueFangsong-Regular.ttf]:mode=node;script=latn;language=dflt;jfm=zh_CN/quanjiao;slant=0.2;"
+(fontspec)             - 'italic small caps'  (m/scit) with NFSS spec.: <->"[LXGWZhuqueFangsong-Regular.ttf]:mode=node;script=latn;language=dflt;jfm=zh_CN/quanjiao;slant=0.2;+smcp;"
+(fontspec)             - 'bold italic' (b/it) with NFSS spec.: <->"[LXGWZhuqueFangsong-Regular.ttf]:mode=node;script=latn;language=dflt;jfm=zh_CN/quanjiao;embolden=1.5;slant=0.2;"
+(fontspec)             - 'bold italic small caps'  (b/scit) with NFSS spec.: <->"[LXGWZhuqueFangsong-Regular.ttf]:mode=node;script=latn;language=dflt;jfm=zh_CN/quanjiao;embolden=1.5;slant=0.2;+smcp;"
+Underfull \hbox (badness 10000) detected at line 50
+[][]
+\hbox(12.672+1.728)x14.4, direction TLT
+.\whatsit4=[]
+.\hbox(12.672+1.728)x7.2, direction TLT
+..\LTJY3/LXGWZhuqueFangsong-Regular(0)/m/n/14.4 。
+LaTeX Font Info:    Font shape `LTJY3/LXGWZhuqueFangsong-Regular(0)/bx/n' in size <14.4> not available
+(Font)              Font shape `LTJY3/LXGWZhuqueFangsong-Regular(0)/b/n' tried instead on input line ....
+Underfull \hbox (badness 10000) detected at line 50
+[][]
+\hbox(12.672+1.728)x14.4, direction TLT
+.\whatsit4=[]
+.\hbox(12.672+1.728)x7.2, direction TLT
+..\LTJY3/LXGWZhuqueFangsong-Regular(0)/bx/n/14.4 。
+Underfull \hbox (badness 10000) detected at line 50
+[][]
+\hbox(12.672+1.728)x14.4, direction TLT
+.\whatsit4=[]
+.\hbox(12.672+1.728)x7.2, direction TLT
+..\LTJY3/LXGWZhuqueFangsong-Regular(0)/m/n/14.4 。
+Underfull \hbox (badness 10000) detected at line 50
+[][]
+\hbox(12.672+1.728)x14.4, direction TLT
+.\whatsit4=[]
+.\hbox(12.672+1.728)x7.2, direction TLT
+..\LTJY3/LXGWZhuqueFangsong-Regular(0)/bx/n/14.4 。
+Underfull \hbox (badness 10000) detected at line 50
+[][]
+\hbox(12.672+1.728)x14.4, direction TLT
+.\whatsit4=[]
+.\hbox(12.672+1.728)x7.2, direction TLT
+..\LTJY3/LXGWZhuqueFangsong-Regular(0)/m/n/14.4 。
+Underfull \hbox (badness 10000) detected at line 50
+[][]
+\hbox(12.672+1.728)x14.4, direction TLT
+.\whatsit4=[]
+.\hbox(12.672+1.728)x7.2, direction TLT
+..\LTJY3/LXGWZhuqueFangsong-Regular(0)/m/n/14.4 ，
+Underfull \hbox (badness 10000) detected at line 50
+[][]
+\hbox(12.672+1.728)x14.4, direction TLT
+.\whatsit4=[]
+.\hbox(12.672+1.728)x7.2, direction TLT
+..\LTJY3/LXGWZhuqueFangsong-Regular(0)/bx/n/14.4 。
+============================================================
+============================================================
+TEST 8: Basic Usage of LXGW Font: \itshape \fangsong 
+============================================================
+Underfull \hbox (badness 10000) detected at line 50
+[][]
+\hbox(12.672+1.728)x14.4, direction TLT
+.\whatsit4=[]
+.\hbox(12.672+1.728)x7.2, direction TLT
+..\LTJY3/LXGWZhuqueFangsong-Regular(0)/m/it/14.4 。
+LaTeX Font Info:    Font shape `LTJY3/LXGWZhuqueFangsong-Regular(0)/bx/it' in size <14.4> not available
+(Font)              Font shape `LTJY3/LXGWZhuqueFangsong-Regular(0)/b/it' tried instead on input line ....
+Underfull \hbox (badness 10000) detected at line 50
+[][]
+\hbox(12.672+1.728)x14.4, direction TLT
+.\whatsit4=[]
+.\hbox(12.672+1.728)x7.2, direction TLT
+..\LTJY3/LXGWZhuqueFangsong-Regular(0)/bx/it/14.4 。
+Underfull \hbox (badness 10000) detected at line 50
+[][]
+\hbox(12.672+1.728)x14.4, direction TLT
+.\whatsit4=[]
+.\hbox(12.672+1.728)x7.2, direction TLT
+..\LTJY3/LXGWZhuqueFangsong-Regular(0)/m/it/14.4 。
+Underfull \hbox (badness 10000) detected at line 50
+[][]
+\hbox(12.672+1.728)x14.4, direction TLT
+.\whatsit4=[]
+.\hbox(12.672+1.728)x7.2, direction TLT
+..\LTJY3/LXGWZhuqueFangsong-Regular(0)/bx/it/14.4 。
+Underfull \hbox (badness 10000) detected at line 50
+[][]
+\hbox(12.672+1.728)x14.4, direction TLT
+.\whatsit4=[]
+.\hbox(12.672+1.728)x7.2, direction TLT
+..\LTJY3/LXGWZhuqueFangsong-Regular(0)/m/it/14.4 。
+Underfull \hbox (badness 10000) detected at line 50
+[][]
+\hbox(12.672+1.728)x14.4, direction TLT
+.\whatsit4=[]
+.\hbox(12.672+1.728)x7.2, direction TLT
+..\LTJY3/LXGWZhuqueFangsong-Regular(0)/m/it/14.4 ，
+Underfull \hbox (badness 10000) detected at line 50
+[][]
+\hbox(12.672+1.728)x14.4, direction TLT
+.\whatsit4=[]
+.\hbox(12.672+1.728)x7.2, direction TLT
+..\LTJY3/LXGWZhuqueFangsong-Regular(0)/bx/it/14.4 。
+============================================================
+============================================================
+TEST 9: Basic Usage of LXGW Font: \slshape \fangsong 
+============================================================
+LaTeX Font Info:    Font shape `LTJY3/LXGWZhuqueFangsong-Regular(0)/m/sl' in size <14.4> not available
+(Font)              Font shape `LTJY3/LXGWZhuqueFangsong-Regular(0)/m/it' tried instead on input line ....
+Underfull \hbox (badness 10000) detected at line 50
+[][]
+\hbox(12.672+1.728)x14.4, direction TLT
+.\whatsit4=[]
+.\hbox(12.672+1.728)x7.2, direction TLT
+..\LTJY3/LXGWZhuqueFangsong-Regular(0)/m/sl/14.4 。
+LaTeX Font Info:    Font shape `LTJY3/LXGWZhuqueFangsong-Regular(0)/bx/sl' in size <14.4> not available
+(Font)              Font shape `LTJY3/LXGWZhuqueFangsong-Regular(0)/bx/it' tried instead on input line ....
+LaTeX Font Info:    Font shape `LTJY3/LXGWZhuqueFangsong-Regular(0)/bx/it' in size <14.4> not available
+(Font)              Font shape `LTJY3/LXGWZhuqueFangsong-Regular(0)/b/it' tried instead on input line ....
+Underfull \hbox (badness 10000) detected at line 50
+[][]
+\hbox(12.672+1.728)x14.4, direction TLT
+.\whatsit4=[]
+.\hbox(12.672+1.728)x7.2, direction TLT
+..\LTJY3/LXGWZhuqueFangsong-Regular(0)/bx/sl/14.4 。
+Underfull \hbox (badness 10000) detected at line 50
+[][]
+\hbox(12.672+1.728)x14.4, direction TLT
+.\whatsit4=[]
+.\hbox(12.672+1.728)x7.2, direction TLT
+..\LTJY3/LXGWZhuqueFangsong-Regular(0)/m/sl/14.4 。
+Underfull \hbox (badness 10000) detected at line 50
+[][]
+\hbox(12.672+1.728)x14.4, direction TLT
+.\whatsit4=[]
+.\hbox(12.672+1.728)x7.2, direction TLT
+..\LTJY3/LXGWZhuqueFangsong-Regular(0)/bx/sl/14.4 。
+Underfull \hbox (badness 10000) detected at line 50
+[][]
+\hbox(12.672+1.728)x14.4, direction TLT
+.\whatsit4=[]
+.\hbox(12.672+1.728)x7.2, direction TLT
+..\LTJY3/LXGWZhuqueFangsong-Regular(0)/m/sl/14.4 。
+Underfull \hbox (badness 10000) detected at line 50
+[][]
+\hbox(12.672+1.728)x14.4, direction TLT
+.\whatsit4=[]
+.\hbox(12.672+1.728)x7.2, direction TLT
+..\LTJY3/LXGWZhuqueFangsong-Regular(0)/m/sl/14.4 ，
+Underfull \hbox (badness 10000) detected at line 50
+[][]
+\hbox(12.672+1.728)x14.4, direction TLT
+.\whatsit4=[]
+.\hbox(12.672+1.728)x7.2, direction TLT
+..\LTJY3/LXGWZhuqueFangsong-Regular(0)/bx/sl/14.4 。
+============================================================
+============================================================
+TEST 10: Basic Usage of LXGW Font: \kaishu 
+============================================================
+Package fontspec Info: 
+(fontspec)             Font family 'LXGWWenKaiGBLite-Regular(0)' created for font 'LXGWWenKaiGBLite-Regular' with options [NFSSEncoding=LTJY3,JFM=zh_CN/quanjiao,Extension={.ttf},BoldFont={LXGWZhenKaiGB-Regular},SlantedFont={LXGWWenKaiGBLite-Regular},ItalicFont={LXGWWenKaiGBLite-Regular},BoldSlantedFont={LXGWZhenKaiGB-Regular},BoldItalicFont={LXGWZhenKaiGB-Regular},LTJFONTUID=7].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.: <->"[LXGWWenKaiGBLite-Regular.ttf]:mode=node;script=latn;language=dflt;jfm=zh_CN/quanjiao;"
+(fontspec)             - 'bold' (b/n) with NFSS spec.: <->"[LXGWZhenKaiGB-Regular.ttf]:mode=node;script=latn;language=dflt;jfm=zh_CN/quanjiao;"
+(fontspec)             - 'italic' (m/it) with NFSS spec.: <->"[LXGWWenKaiGBLite-Regular.ttf]:mode=node;script=latn;language=dflt;jfm=zh_CN/quanjiao;"
+(fontspec)             - 'slanted' (m/sl) with NFSS spec.: <->"[LXGWWenKaiGBLite-Regular.ttf]:mode=node;script=latn;language=dflt;jfm=zh_CN/quanjiao;"
+(fontspec)             - 'bold italic' (b/it) with NFSS spec.: <->"[LXGWZhenKaiGB-Regular.ttf]:mode=node;script=latn;language=dflt;jfm=zh_CN/quanjiao;"
+(fontspec)             - 'bold slanted' (b/sl) with NFSS spec.: <->"[LXGWZhenKaiGB-Regular.ttf]:mode=node;script=latn;language=dflt;jfm=zh_CN/quanjiao;"
+Underfull \hbox (badness 10000) detected at line 50
+[][]
+\hbox(12.672+1.728)x14.4, direction TLT
+.\whatsit4=[]
+.\hbox(12.672+1.728)x7.2, direction TLT
+..\LTJY3/LXGWWenKaiGBLite-Regular(0)/m/n/14.4 。
+LaTeX Font Info:    Font shape `LTJY3/LXGWWenKaiGBLite-Regular(0)/bx/n' in size <14.4> not available
+(Font)              Font shape `LTJY3/LXGWWenKaiGBLite-Regular(0)/b/n' tried instead on input line ....
+Underfull \hbox (badness 10000) detected at line 50
+[][]
+\hbox(12.672+1.728)x14.4, direction TLT
+.\whatsit4=[]
+.\hbox(12.672+1.728)x7.2, direction TLT
+..\LTJY3/LXGWWenKaiGBLite-Regular(0)/bx/n/14.4 。
+Underfull \hbox (badness 10000) detected at line 50
+[][]
+\hbox(12.672+1.728)x14.4, direction TLT
+.\whatsit4=[]
+.\hbox(12.672+1.728)x7.2, direction TLT
+..\LTJY3/LXGWWenKaiGBLite-Regular(0)/m/n/14.4 。
+Underfull \hbox (badness 10000) detected at line 50
+[][]
+\hbox(12.672+1.728)x14.4, direction TLT
+.\whatsit4=[]
+.\hbox(12.672+1.728)x7.2, direction TLT
+..\LTJY3/LXGWWenKaiGBLite-Regular(0)/bx/n/14.4 。
+Underfull \hbox (badness 10000) detected at line 50
+[][]
+\hbox(12.672+1.728)x14.4, direction TLT
+.\whatsit4=[]
+.\hbox(12.672+1.728)x7.2, direction TLT
+..\LTJY3/LXGWWenKaiGBLite-Regular(0)/m/n/14.4 。
+Underfull \hbox (badness 10000) detected at line 50
+[][]
+\hbox(12.672+1.728)x14.4, direction TLT
+.\whatsit4=[]
+.\hbox(12.672+1.728)x7.2, direction TLT
+..\LTJY3/LXGWWenKaiGBLite-Regular(0)/m/n/14.4 ，
+Underfull \hbox (badness 10000) detected at line 50
+[][]
+\hbox(12.672+1.728)x14.4, direction TLT
+.\whatsit4=[]
+.\hbox(12.672+1.728)x7.2, direction TLT
+..\LTJY3/LXGWWenKaiGBLite-Regular(0)/bx/n/14.4 。
+Completed box being shipped out [1]
+\vbox(461.45076+0.0)x603.45328, direction TLT
+.\whatsit4=[]
+.\glue -35.55386
+.\vbox(497.00462+0.0)x556.47656, shifted 46.97672, direction TLT
+..\whatsit4=[]
+..\vbox(12.0+0.0)x556.47656, glue set 12.0fil, direction TLT
+...\whatsit4=[]
+...\glue 0.0 plus 1.0fil
+...\hbox(0.0+0.0)x556.47656, direction TLT
+....\whatsit4=[]
+....\hbox(0.0+0.0)x556.47656, direction TLT
+.....\whatsit4=[]
+..\glue 25.0
+..\glue(\lineskip) 0.0
+..\vbox(430.00462+0.0)x556.47656, glue set >20000.0fil, direction TLT
+...\whatsit4=[]
+...\write-{}
+...\glue(\topskip) 0.0
+...\hbox(12.672+1.728)x556.47656, glue set 38.07678fil, direction TLT
+....\whatsit4=[]
+....\localpar
+.....\localinterlinepenalty=0
+.....\localbrokenpenalty=0
+.....\localleftbox=null
+.....\localrightbox=null
+....\hbox(0.0+0.0)x0.0, direction TLT
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\norule(12.672+1.728)x0.0
+.....\LTJY3/LXGWNeoZhiSong(1)/m/n/14.4 私
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\norule(12.672+1.728)x0.0
+.....\LTJY3/LXGWNeoZhiSong(1)/m/n/14.4 ガ
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\norule(12.672+1.728)x0.0
+.....\LTJY3/LXGWNeoZhiSong(1)/m/n/14.4 ラ
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\norule(12.672+1.728)x0.0
+.....\LTJY3/LXGWNeoZhiSong(1)/m/n/14.4 ス
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\norule(12.672+1.728)x0.0
+.....\LTJY3/LXGWNeoZhiSong(1)/m/n/14.4 を
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\norule(12.672+1.728)x0.0
+.....\LTJY3/LXGWNeoZhiSong(1)/m/n/14.4 食
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\norule(12.672+1.728)x0.0
+.....\LTJY3/LXGWNeoZhiSong(1)/m/n/14.4 べ
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\norule(12.672+1.728)x0.0
+.....\LTJY3/LXGWNeoZhiSong(1)/m/n/14.4 ら
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\norule(12.672+1.728)x0.0
+.....\LTJY3/LXGWNeoZhiSong(1)/m/n/14.4 れ
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\norule(12.672+1.728)x0.0
+.....\LTJY3/LXGWNeoZhiSong(1)/m/n/14.4 ま
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\norule(12.672+1.728)x0.0
+.....\LTJY3/LXGWNeoZhiSong(1)/m/n/14.4 す
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\hbox(12.672+1.728)x7.2, direction TLT
+......\LTJY3/LXGWNeoZhiSong(1)/m/n/14.4 。
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\norule(12.672+1.728)x0.0
+.....\LTJY3/LXGWNeoZhiSong(1)/bx/n/14.4 そ
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\norule(12.672+1.728)x0.0
+.....\LTJY3/LXGWNeoZhiSong(1)/bx/n/14.4 れ
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\norule(12.672+1.728)x0.0
+.....\LTJY3/LXGWNeoZhiSong(1)/bx/n/14.4 は
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\norule(12.672+1.728)x0.0
+.....\LTJY3/LXGWNeoZhiSong(1)/bx/n/14.4 私
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\norule(12.672+1.728)x0.0
+.....\LTJY3/LXGWNeoZhiSong(1)/bx/n/14.4 を
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\norule(12.672+1.728)x0.0
+.....\LTJY3/LXGWNeoZhiSong(1)/bx/n/14.4 傷
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\norule(12.672+1.728)x0.0
+.....\LTJY3/LXGWNeoZhiSong(1)/bx/n/14.4 つ
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\norule(12.672+1.728)x0.0
+.....\LTJY3/LXGWNeoZhiSong(1)/bx/n/14.4 け
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\norule(12.672+1.728)x0.0
+.....\LTJY3/LXGWNeoZhiSong(1)/bx/n/14.4 ま
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\norule(12.672+1.728)x0.0
+.....\LTJY3/LXGWNeoZhiSong(1)/bx/n/14.4 せ
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\norule(12.672+1.728)x0.0
+.....\LTJY3/LXGWNeoZhiSong(1)/bx/n/14.4 ん
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\hbox(12.672+1.728)x7.2, direction TLT
+......\LTJY3/LXGWNeoZhiSong(1)/bx/n/14.4 。
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\norule(12.672+1.728)x0.0
+.....\LTJY3/LXGWNeoZhiSong(1)/m/n/14.4 我
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\norule(12.672+1.728)x0.0
+.....\LTJY3/LXGWNeoZhiSong(1)/m/n/14.4 能
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\norule(12.672+1.728)x0.0
+.....\LTJY3/LXGWNeoZhiSong(1)/m/n/14.4 吞
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\norule(12.672+1.728)x0.0
+.....\LTJY3/LXGWNeoZhiSong(1)/m/n/14.4 下
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\norule(12.672+1.728)x0.0
+.....\LTJY3/LXGWNeoZhiSong(1)/m/n/14.4 玻
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\norule(12.672+1.728)x0.0
+.....\LTJY3/LXGWNeoZhiSong(1)/m/n/14.4 璃
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\norule(12.672+1.728)x0.0
+.....\LTJY3/LXGWNeoZhiSong(1)/m/n/14.4 而
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\norule(12.672+1.728)x0.0
+.....\LTJY3/LXGWNeoZhiSong(1)/m/n/14.4 不
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\norule(12.672+1.728)x0.0
+.....\LTJY3/LXGWNeoZhiSong(1)/m/n/14.4 伤
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\norule(12.672+1.728)x0.0
+.....\LTJY3/LXGWNeoZhiSong(1)/m/n/14.4 身
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\norule(12.672+1.728)x0.0
+.....\LTJY3/LXGWNeoZhiSong(1)/m/n/14.4 体
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\hbox(12.672+1.728)x7.2, direction TLT
+......\LTJY3/LXGWNeoZhiSong(1)/m/n/14.4 。
+....\penalty 10000
+....\glue 0.0 plus 1.0fil
+....\penalty -10000
+....\glue(\rightskip) 0.0
+...\penalty 300
+...\glue(\baselineskip) 9.00006
+...\hbox(12.672+1.728)x556.47656, glue set 23.67679fil, direction TLT
+....\whatsit4=[]
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\norule(12.672+1.728)x0.0
+.....\LTJY3/LXGWNeoZhiSong(1)/bx/n/14.4 我
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\norule(12.672+1.728)x0.0
+.....\LTJY3/LXGWNeoZhiSong(1)/bx/n/14.4 能
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\norule(12.672+1.728)x0.0
+.....\LTJY3/LXGWNeoZhiSong(1)/bx/n/14.4 吞
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\norule(12.672+1.728)x0.0
+.....\LTJY3/LXGWNeoZhiSong(1)/bx/n/14.4 下
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\norule(12.672+1.728)x0.0
+.....\LTJY3/LXGWNeoZhiSong(1)/bx/n/14.4 玻
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\norule(12.672+1.728)x0.0
+.....\LTJY3/LXGWNeoZhiSong(1)/bx/n/14.4 璃
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\norule(12.672+1.728)x0.0
+.....\LTJY3/LXGWNeoZhiSong(1)/bx/n/14.4 而
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\norule(12.672+1.728)x0.0
+.....\LTJY3/LXGWNeoZhiSong(1)/bx/n/14.4 不
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\norule(12.672+1.728)x0.0
+.....\LTJY3/LXGWNeoZhiSong(1)/bx/n/14.4 伤
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\norule(12.672+1.728)x0.0
+.....\LTJY3/LXGWNeoZhiSong(1)/bx/n/14.4 身
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\norule(12.672+1.728)x0.0
+.....\LTJY3/LXGWNeoZhiSong(1)/bx/n/14.4 体
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\hbox(12.672+1.728)x7.2, direction TLT
+......\LTJY3/LXGWNeoZhiSong(1)/bx/n/14.4 。
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\norule(12.672+1.728)x0.0
+.....\LTJY3/LXGWNeoZhiSong(1)/m/n/14.4 我
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\norule(12.672+1.728)x0.0
+.....\LTJY3/LXGWNeoZhiSong(1)/m/n/14.4 能
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\norule(12.672+1.728)x0.0
+.....\LTJY3/LXGWNeoZhiSong(1)/m/n/14.4 吞
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\norule(12.672+1.728)x0.0
+.....\LTJY3/LXGWNeoZhiSong(1)/m/n/14.4 下
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\norule(12.672+1.728)x0.0
+.....\LTJY3/LXGWNeoZhiSong(1)/m/n/14.4 玻
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\norule(12.672+1.728)x0.0
+.....\LTJY3/LXGWNeoZhiSong(1)/m/n/14.4 璃
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\norule(12.672+1.728)x0.0
+.....\LTJY3/LXGWNeoZhiSong(1)/m/n/14.4 而
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\norule(12.672+1.728)x0.0
+.....\LTJY3/LXGWNeoZhiSong(1)/m/n/14.4 不
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\norule(12.672+1.728)x0.0
+.....\LTJY3/LXGWNeoZhiSong(1)/m/n/14.4 傷
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\norule(12.672+1.728)x0.0
+.....\LTJY3/LXGWNeoZhiSong(1)/m/n/14.4 身
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\norule(12.672+1.728)x0.0
+.....\LTJY3/LXGWNeoZhiSong(1)/m/n/14.4 體
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\hbox(12.672+1.728)x7.2, direction TLT
+......\LTJY3/LXGWNeoZhiSong(1)/m/n/14.4 。
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\norule(12.672+1.728)x0.0
+.....\LTJY3/LXGWNeoZhiSong(1)/m/n/14.4 我
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\norule(12.672+1.728)x0.0
+.....\LTJY3/LXGWNeoZhiSong(1)/m/n/14.4 可
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\norule(12.672+1.728)x0.0
+.....\LTJY3/LXGWNeoZhiSong(1)/m/n/14.4 以
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\norule(12.672+1.728)x0.0
+.....\LTJY3/LXGWNeoZhiSong(1)/m/n/14.4 食
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\norule(12.672+1.728)x0.0
+.....\LTJY3/LXGWNeoZhiSong(1)/m/n/14.4 玻
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\norule(12.672+1.728)x0.0
+.....\LTJY3/LXGWNeoZhiSong(1)/m/n/14.4 璃
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\hbox(12.672+1.728)x7.2, direction TLT
+......\LTJY3/LXGWNeoZhiSong(1)/m/n/14.4 ，
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\norule(12.672+1.728)x0.0
+.....\LTJY3/LXGWNeoZhiSong(1)/bx/n/14.4 佢
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\norule(12.672+1.728)x0.0
+.....\LTJY3/LXGWNeoZhiSong(1)/bx/n/14.4 傷
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\norule(12.672+1.728)x0.0
+.....\LTJY3/LXGWNeoZhiSong(1)/bx/n/14.4 唔
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\norule(12.672+1.728)x0.0
+.....\LTJY3/LXGWNeoZhiSong(1)/bx/n/14.4 到
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\norule(12.672+1.728)x0.0
+.....\LTJY3/LXGWNeoZhiSong(1)/bx/n/14.4 我
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\hbox(12.672+1.728)x7.2, direction TLT
+......\LTJY3/LXGWNeoZhiSong(1)/bx/n/14.4 。
+....\penalty 10000
+....\glue(\parfillskip) 0.0 plus 1.0fil
+....\glue(\rightskip) 0.0
+...\glue(\parskip) 0.0 plus 1.0
+...\glue(\parskip) 0.0
+...\glue(\baselineskip) 9.00006
+...\hbox(12.672+1.728)x556.47656, glue set 38.07678fil, direction TLT
+....\whatsit4=[]
+....\localpar
+.....\localinterlinepenalty=0
+.....\localbrokenpenalty=0
+.....\localleftbox=null
+.....\localrightbox=null
+....\hbox(0.0+0.0)x0.0, direction TLT
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\norule(12.672+1.728)x0.0
+.....\LTJY3/LXGWNeoZhiSong(1)/m/sl/14.4 私
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\norule(12.672+1.728)x0.0
+.....\LTJY3/LXGWNeoZhiSong(1)/m/sl/14.4 ガ
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\norule(12.672+1.728)x0.0
+.....\LTJY3/LXGWNeoZhiSong(1)/m/sl/14.4 ラ
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\norule(12.672+1.728)x0.0
+.....\LTJY3/LXGWNeoZhiSong(1)/m/sl/14.4 ス
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\norule(12.672+1.728)x0.0
+.....\LTJY3/LXGWNeoZhiSong(1)/m/sl/14.4 を
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\norule(12.672+1.728)x0.0
+.....\LTJY3/LXGWNeoZhiSong(1)/m/sl/14.4 食
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\norule(12.672+1.728)x0.0
+.....\LTJY3/LXGWNeoZhiSong(1)/m/sl/14.4 べ
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\norule(12.672+1.728)x0.0
+.....\LTJY3/LXGWNeoZhiSong(1)/m/sl/14.4 ら
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\norule(12.672+1.728)x0.0
+.....\LTJY3/LXGWNeoZhiSong(1)/m/sl/14.4 れ
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\norule(12.672+1.728)x0.0
+.....\LTJY3/LXGWNeoZhiSong(1)/m/sl/14.4 ま
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\norule(12.672+1.728)x0.0
+.....\LTJY3/LXGWNeoZhiSong(1)/m/sl/14.4 す
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\hbox(12.672+1.728)x7.2, direction TLT
+......\LTJY3/LXGWNeoZhiSong(1)/m/sl/14.4 。
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\norule(12.672+1.728)x0.0
+.....\LTJY3/LXGWNeoZhiSong(1)/bx/sl/14.4 そ
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\norule(12.672+1.728)x0.0
+.....\LTJY3/LXGWNeoZhiSong(1)/bx/sl/14.4 れ
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\norule(12.672+1.728)x0.0
+.....\LTJY3/LXGWNeoZhiSong(1)/bx/sl/14.4 は
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\norule(12.672+1.728)x0.0
+.....\LTJY3/LXGWNeoZhiSong(1)/bx/sl/14.4 私
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\norule(12.672+1.728)x0.0
+.....\LTJY3/LXGWNeoZhiSong(1)/bx/sl/14.4 を
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\norule(12.672+1.728)x0.0
+.....\LTJY3/LXGWNeoZhiSong(1)/bx/sl/14.4 傷
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\norule(12.672+1.728)x0.0
+.....\LTJY3/LXGWNeoZhiSong(1)/bx/sl/14.4 つ
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\norule(12.672+1.728)x0.0
+.....\LTJY3/LXGWNeoZhiSong(1)/bx/sl/14.4 け
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\norule(12.672+1.728)x0.0
+.....\LTJY3/LXGWNeoZhiSong(1)/bx/sl/14.4 ま
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\norule(12.672+1.728)x0.0
+.....\LTJY3/LXGWNeoZhiSong(1)/bx/sl/14.4 せ
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\norule(12.672+1.728)x0.0
+.....\LTJY3/LXGWNeoZhiSong(1)/bx/sl/14.4 ん
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\hbox(12.672+1.728)x7.2, direction TLT
+......\LTJY3/LXGWNeoZhiSong(1)/bx/sl/14.4 。
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\norule(12.672+1.728)x0.0
+.....\LTJY3/LXGWNeoZhiSong(1)/m/sl/14.4 我
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\norule(12.672+1.728)x0.0
+.....\LTJY3/LXGWNeoZhiSong(1)/m/sl/14.4 能
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\norule(12.672+1.728)x0.0
+.....\LTJY3/LXGWNeoZhiSong(1)/m/sl/14.4 吞
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\norule(12.672+1.728)x0.0
+.....\LTJY3/LXGWNeoZhiSong(1)/m/sl/14.4 下
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\norule(12.672+1.728)x0.0
+.....\LTJY3/LXGWNeoZhiSong(1)/m/sl/14.4 玻
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\norule(12.672+1.728)x0.0
+.....\LTJY3/LXGWNeoZhiSong(1)/m/sl/14.4 璃
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\norule(12.672+1.728)x0.0
+.....\LTJY3/LXGWNeoZhiSong(1)/m/sl/14.4 而
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\norule(12.672+1.728)x0.0
+.....\LTJY3/LXGWNeoZhiSong(1)/m/sl/14.4 不
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\norule(12.672+1.728)x0.0
+.....\LTJY3/LXGWNeoZhiSong(1)/m/sl/14.4 伤
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\norule(12.672+1.728)x0.0
+.....\LTJY3/LXGWNeoZhiSong(1)/m/sl/14.4 身
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\norule(12.672+1.728)x0.0
+.....\LTJY3/LXGWNeoZhiSong(1)/m/sl/14.4 体
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\hbox(12.672+1.728)x7.2, direction TLT
+......\LTJY3/LXGWNeoZhiSong(1)/m/sl/14.4 。
+....\penalty 10000
+....\glue 0.0 plus 1.0fil
+....\penalty -10000
+....\glue(\rightskip) 0.0
+...\penalty 300
+...\glue(\baselineskip) 9.00006
+...\hbox(12.672+1.728)x556.47656, glue set 23.67679fil, direction TLT
+....\whatsit4=[]
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\norule(12.672+1.728)x0.0
+.....\LTJY3/LXGWNeoZhiSong(1)/bx/sl/14.4 我
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\norule(12.672+1.728)x0.0
+.....\LTJY3/LXGWNeoZhiSong(1)/bx/sl/14.4 能
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\norule(12.672+1.728)x0.0
+.....\LTJY3/LXGWNeoZhiSong(1)/bx/sl/14.4 吞
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\norule(12.672+1.728)x0.0
+.....\LTJY3/LXGWNeoZhiSong(1)/bx/sl/14.4 下
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\norule(12.672+1.728)x0.0
+.....\LTJY3/LXGWNeoZhiSong(1)/bx/sl/14.4 玻
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\norule(12.672+1.728)x0.0
+.....\LTJY3/LXGWNeoZhiSong(1)/bx/sl/14.4 璃
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\norule(12.672+1.728)x0.0
+.....\LTJY3/LXGWNeoZhiSong(1)/bx/sl/14.4 而
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\norule(12.672+1.728)x0.0
+.....\LTJY3/LXGWNeoZhiSong(1)/bx/sl/14.4 不
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\norule(12.672+1.728)x0.0
+.....\LTJY3/LXGWNeoZhiSong(1)/bx/sl/14.4 伤
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\norule(12.672+1.728)x0.0
+.....\LTJY3/LXGWNeoZhiSong(1)/bx/sl/14.4 身
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\norule(12.672+1.728)x0.0
+.....\LTJY3/LXGWNeoZhiSong(1)/bx/sl/14.4 体
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\hbox(12.672+1.728)x7.2, direction TLT
+......\LTJY3/LXGWNeoZhiSong(1)/bx/sl/14.4 。
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\norule(12.672+1.728)x0.0
+.....\LTJY3/LXGWNeoZhiSong(1)/m/sl/14.4 我
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\norule(12.672+1.728)x0.0
+.....\LTJY3/LXGWNeoZhiSong(1)/m/sl/14.4 能
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\norule(12.672+1.728)x0.0
+.....\LTJY3/LXGWNeoZhiSong(1)/m/sl/14.4 吞
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\norule(12.672+1.728)x0.0
+.....\LTJY3/LXGWNeoZhiSong(1)/m/sl/14.4 下
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\norule(12.672+1.728)x0.0
+.....\LTJY3/LXGWNeoZhiSong(1)/m/sl/14.4 玻
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\norule(12.672+1.728)x0.0
+.....\LTJY3/LXGWNeoZhiSong(1)/m/sl/14.4 璃
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\norule(12.672+1.728)x0.0
+.....\LTJY3/LXGWNeoZhiSong(1)/m/sl/14.4 而
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\norule(12.672+1.728)x0.0
+.....\LTJY3/LXGWNeoZhiSong(1)/m/sl/14.4 不
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\norule(12.672+1.728)x0.0
+.....\LTJY3/LXGWNeoZhiSong(1)/m/sl/14.4 傷
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\norule(12.672+1.728)x0.0
+.....\LTJY3/LXGWNeoZhiSong(1)/m/sl/14.4 身
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\norule(12.672+1.728)x0.0
+.....\LTJY3/LXGWNeoZhiSong(1)/m/sl/14.4 體
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\hbox(12.672+1.728)x7.2, direction TLT
+......\LTJY3/LXGWNeoZhiSong(1)/m/sl/14.4 。
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\norule(12.672+1.728)x0.0
+.....\LTJY3/LXGWNeoZhiSong(1)/m/sl/14.4 我
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\norule(12.672+1.728)x0.0
+.....\LTJY3/LXGWNeoZhiSong(1)/m/sl/14.4 可
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\norule(12.672+1.728)x0.0
+.....\LTJY3/LXGWNeoZhiSong(1)/m/sl/14.4 以
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\norule(12.672+1.728)x0.0
+.....\LTJY3/LXGWNeoZhiSong(1)/m/sl/14.4 食
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\norule(12.672+1.728)x0.0
+.....\LTJY3/LXGWNeoZhiSong(1)/m/sl/14.4 玻
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\norule(12.672+1.728)x0.0
+.....\LTJY3/LXGWNeoZhiSong(1)/m/sl/14.4 璃
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\hbox(12.672+1.728)x7.2, direction TLT
+......\LTJY3/LXGWNeoZhiSong(1)/m/sl/14.4 ，
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\norule(12.672+1.728)x0.0
+.....\LTJY3/LXGWNeoZhiSong(1)/bx/sl/14.4 佢
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\norule(12.672+1.728)x0.0
+.....\LTJY3/LXGWNeoZhiSong(1)/bx/sl/14.4 傷
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\norule(12.672+1.728)x0.0
+.....\LTJY3/LXGWNeoZhiSong(1)/bx/sl/14.4 唔
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\norule(12.672+1.728)x0.0
+.....\LTJY3/LXGWNeoZhiSong(1)/bx/sl/14.4 到
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\norule(12.672+1.728)x0.0
+.....\LTJY3/LXGWNeoZhiSong(1)/bx/sl/14.4 我
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\hbox(12.672+1.728)x7.2, direction TLT
+......\LTJY3/LXGWNeoZhiSong(1)/bx/sl/14.4 。
+....\penalty 10000
+....\glue(\parfillskip) 0.0 plus 1.0fil
+....\glue(\rightskip) 0.0
+...\glue(\parskip) 0.0 plus 1.0
+...\glue(\parskip) 0.0
+...\glue(\baselineskip) 9.00006
+...\hbox(12.672+1.728)x556.47656, glue set 38.07678fil, direction TLT
+....\whatsit4=[]
+....\localpar
+.....\localinterlinepenalty=0
+.....\localbrokenpenalty=0
+.....\localleftbox=null
+.....\localrightbox=null
+....\hbox(0.0+0.0)x0.0, direction TLT
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\norule(12.672+1.728)x0.0
+.....\LTJY3/LXGWNeoZhiSong(1)/m/sl/14.4 私
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\norule(12.672+1.728)x0.0
+.....\LTJY3/LXGWNeoZhiSong(1)/m/sl/14.4 ガ
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\norule(12.672+1.728)x0.0
+.....\LTJY3/LXGWNeoZhiSong(1)/m/sl/14.4 ラ
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\norule(12.672+1.728)x0.0
+.....\LTJY3/LXGWNeoZhiSong(1)/m/sl/14.4 ス
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\norule(12.672+1.728)x0.0
+.....\LTJY3/LXGWNeoZhiSong(1)/m/sl/14.4 を
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\norule(12.672+1.728)x0.0
+.....\LTJY3/LXGWNeoZhiSong(1)/m/sl/14.4 食
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\norule(12.672+1.728)x0.0
+.....\LTJY3/LXGWNeoZhiSong(1)/m/sl/14.4 べ
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\norule(12.672+1.728)x0.0
+.....\LTJY3/LXGWNeoZhiSong(1)/m/sl/14.4 ら
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\norule(12.672+1.728)x0.0
+.....\LTJY3/LXGWNeoZhiSong(1)/m/sl/14.4 れ
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\norule(12.672+1.728)x0.0
+.....\LTJY3/LXGWNeoZhiSong(1)/m/sl/14.4 ま
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\norule(12.672+1.728)x0.0
+.....\LTJY3/LXGWNeoZhiSong(1)/m/sl/14.4 す
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\hbox(12.672+1.728)x7.2, direction TLT
+......\LTJY3/LXGWNeoZhiSong(1)/m/sl/14.4 。
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\norule(12.672+1.728)x0.0
+.....\LTJY3/LXGWNeoZhiSong(1)/bx/sl/14.4 そ
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\norule(12.672+1.728)x0.0
+.....\LTJY3/LXGWNeoZhiSong(1)/bx/sl/14.4 れ
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\norule(12.672+1.728)x0.0
+.....\LTJY3/LXGWNeoZhiSong(1)/bx/sl/14.4 は
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\norule(12.672+1.728)x0.0
+.....\LTJY3/LXGWNeoZhiSong(1)/bx/sl/14.4 私
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\norule(12.672+1.728)x0.0
+.....\LTJY3/LXGWNeoZhiSong(1)/bx/sl/14.4 を
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\norule(12.672+1.728)x0.0
+.....\LTJY3/LXGWNeoZhiSong(1)/bx/sl/14.4 傷
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\norule(12.672+1.728)x0.0
+.....\LTJY3/LXGWNeoZhiSong(1)/bx/sl/14.4 つ
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\norule(12.672+1.728)x0.0
+.....\LTJY3/LXGWNeoZhiSong(1)/bx/sl/14.4 け
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\norule(12.672+1.728)x0.0
+.....\LTJY3/LXGWNeoZhiSong(1)/bx/sl/14.4 ま
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\norule(12.672+1.728)x0.0
+.....\LTJY3/LXGWNeoZhiSong(1)/bx/sl/14.4 せ
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\norule(12.672+1.728)x0.0
+.....\LTJY3/LXGWNeoZhiSong(1)/bx/sl/14.4 ん
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\hbox(12.672+1.728)x7.2, direction TLT
+......\LTJY3/LXGWNeoZhiSong(1)/bx/sl/14.4 。
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\norule(12.672+1.728)x0.0
+.....\LTJY3/LXGWNeoZhiSong(1)/m/sl/14.4 我
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\norule(12.672+1.728)x0.0
+.....\LTJY3/LXGWNeoZhiSong(1)/m/sl/14.4 能
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\norule(12.672+1.728)x0.0
+.....\LTJY3/LXGWNeoZhiSong(1)/m/sl/14.4 吞
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\norule(12.672+1.728)x0.0
+.....\LTJY3/LXGWNeoZhiSong(1)/m/sl/14.4 下
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\norule(12.672+1.728)x0.0
+.....\LTJY3/LXGWNeoZhiSong(1)/m/sl/14.4 玻
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\norule(12.672+1.728)x0.0
+.....\LTJY3/LXGWNeoZhiSong(1)/m/sl/14.4 璃
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\norule(12.672+1.728)x0.0
+.....\LTJY3/LXGWNeoZhiSong(1)/m/sl/14.4 而
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\norule(12.672+1.728)x0.0
+.....\LTJY3/LXGWNeoZhiSong(1)/m/sl/14.4 不
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\norule(12.672+1.728)x0.0
+.....\LTJY3/LXGWNeoZhiSong(1)/m/sl/14.4 伤
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\norule(12.672+1.728)x0.0
+.....\LTJY3/LXGWNeoZhiSong(1)/m/sl/14.4 身
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\norule(12.672+1.728)x0.0
+.....\LTJY3/LXGWNeoZhiSong(1)/m/sl/14.4 体
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\hbox(12.672+1.728)x7.2, direction TLT
+......\LTJY3/LXGWNeoZhiSong(1)/m/sl/14.4 。
+....\penalty 10000
+....\glue 0.0 plus 1.0fil
+....\penalty -10000
+....\glue(\rightskip) 0.0
+...\penalty 300
+...\glue(\baselineskip) 9.00006
+...\hbox(12.672+1.728)x556.47656, glue set 23.67679fil, direction TLT
+....\whatsit4=[]
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\norule(12.672+1.728)x0.0
+.....\LTJY3/LXGWNeoZhiSong(1)/bx/sl/14.4 我
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\norule(12.672+1.728)x0.0
+.....\LTJY3/LXGWNeoZhiSong(1)/bx/sl/14.4 能
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\norule(12.672+1.728)x0.0
+.....\LTJY3/LXGWNeoZhiSong(1)/bx/sl/14.4 吞
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\norule(12.672+1.728)x0.0
+.....\LTJY3/LXGWNeoZhiSong(1)/bx/sl/14.4 下
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\norule(12.672+1.728)x0.0
+.....\LTJY3/LXGWNeoZhiSong(1)/bx/sl/14.4 玻
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\norule(12.672+1.728)x0.0
+.....\LTJY3/LXGWNeoZhiSong(1)/bx/sl/14.4 璃
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\norule(12.672+1.728)x0.0
+.....\LTJY3/LXGWNeoZhiSong(1)/bx/sl/14.4 而
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\norule(12.672+1.728)x0.0
+.....\LTJY3/LXGWNeoZhiSong(1)/bx/sl/14.4 不
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\norule(12.672+1.728)x0.0
+.....\LTJY3/LXGWNeoZhiSong(1)/bx/sl/14.4 伤
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\norule(12.672+1.728)x0.0
+.....\LTJY3/LXGWNeoZhiSong(1)/bx/sl/14.4 身
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\norule(12.672+1.728)x0.0
+.....\LTJY3/LXGWNeoZhiSong(1)/bx/sl/14.4 体
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\hbox(12.672+1.728)x7.2, direction TLT
+......\LTJY3/LXGWNeoZhiSong(1)/bx/sl/14.4 。
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\norule(12.672+1.728)x0.0
+.....\LTJY3/LXGWNeoZhiSong(1)/m/sl/14.4 我
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\norule(12.672+1.728)x0.0
+.....\LTJY3/LXGWNeoZhiSong(1)/m/sl/14.4 能
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\norule(12.672+1.728)x0.0
+.....\LTJY3/LXGWNeoZhiSong(1)/m/sl/14.4 吞
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\norule(12.672+1.728)x0.0
+.....\LTJY3/LXGWNeoZhiSong(1)/m/sl/14.4 下
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\norule(12.672+1.728)x0.0
+.....\LTJY3/LXGWNeoZhiSong(1)/m/sl/14.4 玻
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\norule(12.672+1.728)x0.0
+.....\LTJY3/LXGWNeoZhiSong(1)/m/sl/14.4 璃
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\norule(12.672+1.728)x0.0
+.....\LTJY3/LXGWNeoZhiSong(1)/m/sl/14.4 而
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\norule(12.672+1.728)x0.0
+.....\LTJY3/LXGWNeoZhiSong(1)/m/sl/14.4 不
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\norule(12.672+1.728)x0.0
+.....\LTJY3/LXGWNeoZhiSong(1)/m/sl/14.4 傷
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\norule(12.672+1.728)x0.0
+.....\LTJY3/LXGWNeoZhiSong(1)/m/sl/14.4 身
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\norule(12.672+1.728)x0.0
+.....\LTJY3/LXGWNeoZhiSong(1)/m/sl/14.4 體
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\hbox(12.672+1.728)x7.2, direction TLT
+......\LTJY3/LXGWNeoZhiSong(1)/m/sl/14.4 。
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\norule(12.672+1.728)x0.0
+.....\LTJY3/LXGWNeoZhiSong(1)/m/sl/14.4 我
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\norule(12.672+1.728)x0.0
+.....\LTJY3/LXGWNeoZhiSong(1)/m/sl/14.4 可
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\norule(12.672+1.728)x0.0
+.....\LTJY3/LXGWNeoZhiSong(1)/m/sl/14.4 以
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\norule(12.672+1.728)x0.0
+.....\LTJY3/LXGWNeoZhiSong(1)/m/sl/14.4 食
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\norule(12.672+1.728)x0.0
+.....\LTJY3/LXGWNeoZhiSong(1)/m/sl/14.4 玻
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\norule(12.672+1.728)x0.0
+.....\LTJY3/LXGWNeoZhiSong(1)/m/sl/14.4 璃
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\hbox(12.672+1.728)x7.2, direction TLT
+......\LTJY3/LXGWNeoZhiSong(1)/m/sl/14.4 ，
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\norule(12.672+1.728)x0.0
+.....\LTJY3/LXGWNeoZhiSong(1)/bx/sl/14.4 佢
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\norule(12.672+1.728)x0.0
+.....\LTJY3/LXGWNeoZhiSong(1)/bx/sl/14.4 傷
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\norule(12.672+1.728)x0.0
+.....\LTJY3/LXGWNeoZhiSong(1)/bx/sl/14.4 唔
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\norule(12.672+1.728)x0.0
+.....\LTJY3/LXGWNeoZhiSong(1)/bx/sl/14.4 到
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\norule(12.672+1.728)x0.0
+.....\LTJY3/LXGWNeoZhiSong(1)/bx/sl/14.4 我
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\hbox(12.672+1.728)x7.2, direction TLT
+......\LTJY3/LXGWNeoZhiSong(1)/bx/sl/14.4 。
+....\penalty 10000
+....\glue(\parfillskip) 0.0 plus 1.0fil
+....\glue(\rightskip) 0.0
+...\glue(\parskip) 0.0 plus 1.0
+...\glue(\parskip) 0.0
+...\glue(\baselineskip) 9.00006
+...\hbox(12.672+1.728)x556.47656, glue set 38.07678fil, direction TLT
+....\whatsit4=[]
+....\localpar
+.....\localinterlinepenalty=0
+.....\localbrokenpenalty=0
+.....\localleftbox=null
+.....\localrightbox=null
+....\hbox(0.0+0.0)x0.0, direction TLT
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\norule(12.672+1.728)x0.0
+.....\LTJY3/LXGWNeoXiHei(0)/m/n/14.4 私
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\norule(12.672+1.728)x0.0
+.....\LTJY3/LXGWNeoXiHei(0)/m/n/14.4 ガ
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\norule(12.672+1.728)x0.0
+.....\LTJY3/LXGWNeoXiHei(0)/m/n/14.4 ラ
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\norule(12.672+1.728)x0.0
+.....\LTJY3/LXGWNeoXiHei(0)/m/n/14.4 ス
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\norule(12.672+1.728)x0.0
+.....\LTJY3/LXGWNeoXiHei(0)/m/n/14.4 を
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\norule(12.672+1.728)x0.0
+.....\LTJY3/LXGWNeoXiHei(0)/m/n/14.4 食
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\norule(12.672+1.728)x0.0
+.....\LTJY3/LXGWNeoXiHei(0)/m/n/14.4 べ
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\norule(12.672+1.728)x0.0
+.....\LTJY3/LXGWNeoXiHei(0)/m/n/14.4 ら
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\norule(12.672+1.728)x0.0
+.....\LTJY3/LXGWNeoXiHei(0)/m/n/14.4 れ
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\norule(12.672+1.728)x0.0
+.....\LTJY3/LXGWNeoXiHei(0)/m/n/14.4 ま
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\norule(12.672+1.728)x0.0
+.....\LTJY3/LXGWNeoXiHei(0)/m/n/14.4 す
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\hbox(12.672+1.728)x7.2, direction TLT
+......\LTJY3/LXGWNeoXiHei(0)/m/n/14.4 。
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\norule(12.672+1.728)x0.0
+.....\LTJY3/LXGWNeoXiHei(0)/bx/n/14.4 そ
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\norule(12.672+1.728)x0.0
+.....\LTJY3/LXGWNeoXiHei(0)/bx/n/14.4 れ
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\norule(12.672+1.728)x0.0
+.....\LTJY3/LXGWNeoXiHei(0)/bx/n/14.4 は
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\norule(12.672+1.728)x0.0
+.....\LTJY3/LXGWNeoXiHei(0)/bx/n/14.4 私
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\norule(12.672+1.728)x0.0
+.....\LTJY3/LXGWNeoXiHei(0)/bx/n/14.4 を
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\norule(12.672+1.728)x0.0
+.....\LTJY3/LXGWNeoXiHei(0)/bx/n/14.4 傷
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\norule(12.672+1.728)x0.0
+.....\LTJY3/LXGWNeoXiHei(0)/bx/n/14.4 つ
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\norule(12.672+1.728)x0.0
+.....\LTJY3/LXGWNeoXiHei(0)/bx/n/14.4 け
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\norule(12.672+1.728)x0.0
+.....\LTJY3/LXGWNeoXiHei(0)/bx/n/14.4 ま
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\norule(12.672+1.728)x0.0
+.....\LTJY3/LXGWNeoXiHei(0)/bx/n/14.4 せ
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\norule(12.672+1.728)x0.0
+.....\LTJY3/LXGWNeoXiHei(0)/bx/n/14.4 ん
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\hbox(12.672+1.728)x7.2, direction TLT
+......\LTJY3/LXGWNeoXiHei(0)/bx/n/14.4 。
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\norule(12.672+1.728)x0.0
+.....\LTJY3/LXGWNeoXiHei(0)/m/n/14.4 我
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\norule(12.672+1.728)x0.0
+.....\LTJY3/LXGWNeoXiHei(0)/m/n/14.4 能
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\norule(12.672+1.728)x0.0
+.....\LTJY3/LXGWNeoXiHei(0)/m/n/14.4 吞
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\norule(12.672+1.728)x0.0
+.....\LTJY3/LXGWNeoXiHei(0)/m/n/14.4 下
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\norule(12.672+1.728)x0.0
+.....\LTJY3/LXGWNeoXiHei(0)/m/n/14.4 玻
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\norule(12.672+1.728)x0.0
+.....\LTJY3/LXGWNeoXiHei(0)/m/n/14.4 璃
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\norule(12.672+1.728)x0.0
+.....\LTJY3/LXGWNeoXiHei(0)/m/n/14.4 而
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\norule(12.672+1.728)x0.0
+.....\LTJY3/LXGWNeoXiHei(0)/m/n/14.4 不
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\norule(12.672+1.728)x0.0
+.....\LTJY3/LXGWNeoXiHei(0)/m/n/14.4 伤
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\norule(12.672+1.728)x0.0
+.....\LTJY3/LXGWNeoXiHei(0)/m/n/14.4 身
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\norule(12.672+1.728)x0.0
+.....\LTJY3/LXGWNeoXiHei(0)/m/n/14.4 体
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\hbox(12.672+1.728)x7.2, direction TLT
+......\LTJY3/LXGWNeoXiHei(0)/m/n/14.4 。
+....\penalty 10000
+....\glue 0.0 plus 1.0fil
+....\penalty -10000
+....\glue(\rightskip) 0.0
+...\penalty 300
+...\glue(\baselineskip) 9.00006
+...\hbox(12.672+1.728)x556.47656, glue set 23.67679fil, direction TLT
+....\whatsit4=[]
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\norule(12.672+1.728)x0.0
+.....\LTJY3/LXGWNeoXiHei(0)/bx/n/14.4 我
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\norule(12.672+1.728)x0.0
+.....\LTJY3/LXGWNeoXiHei(0)/bx/n/14.4 能
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\norule(12.672+1.728)x0.0
+.....\LTJY3/LXGWNeoXiHei(0)/bx/n/14.4 吞
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\norule(12.672+1.728)x0.0
+.....\LTJY3/LXGWNeoXiHei(0)/bx/n/14.4 下
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\norule(12.672+1.728)x0.0
+.....\LTJY3/LXGWNeoXiHei(0)/bx/n/14.4 玻
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\norule(12.672+1.728)x0.0
+.....\LTJY3/LXGWNeoXiHei(0)/bx/n/14.4 璃
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\norule(12.672+1.728)x0.0
+.....\LTJY3/LXGWNeoXiHei(0)/bx/n/14.4 而
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\norule(12.672+1.728)x0.0
+.....\LTJY3/LXGWNeoXiHei(0)/bx/n/14.4 不
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\norule(12.672+1.728)x0.0
+.....\LTJY3/LXGWNeoXiHei(0)/bx/n/14.4 伤
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\norule(12.672+1.728)x0.0
+.....\LTJY3/LXGWNeoXiHei(0)/bx/n/14.4 身
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\norule(12.672+1.728)x0.0
+.....\LTJY3/LXGWNeoXiHei(0)/bx/n/14.4 体
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\hbox(12.672+1.728)x7.2, direction TLT
+......\LTJY3/LXGWNeoXiHei(0)/bx/n/14.4 。
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\norule(12.672+1.728)x0.0
+.....\LTJY3/LXGWNeoXiHei(0)/m/n/14.4 我
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\norule(12.672+1.728)x0.0
+.....\LTJY3/LXGWNeoXiHei(0)/m/n/14.4 能
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\norule(12.672+1.728)x0.0
+.....\LTJY3/LXGWNeoXiHei(0)/m/n/14.4 吞
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\norule(12.672+1.728)x0.0
+.....\LTJY3/LXGWNeoXiHei(0)/m/n/14.4 下
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\norule(12.672+1.728)x0.0
+.....\LTJY3/LXGWNeoXiHei(0)/m/n/14.4 玻
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\norule(12.672+1.728)x0.0
+.....\LTJY3/LXGWNeoXiHei(0)/m/n/14.4 璃
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\norule(12.672+1.728)x0.0
+.....\LTJY3/LXGWNeoXiHei(0)/m/n/14.4 而
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\norule(12.672+1.728)x0.0
+.....\LTJY3/LXGWNeoXiHei(0)/m/n/14.4 不
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\norule(12.672+1.728)x0.0
+.....\LTJY3/LXGWNeoXiHei(0)/m/n/14.4 傷
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\norule(12.672+1.728)x0.0
+.....\LTJY3/LXGWNeoXiHei(0)/m/n/14.4 身
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\norule(12.672+1.728)x0.0
+.....\LTJY3/LXGWNeoXiHei(0)/m/n/14.4 體
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\hbox(12.672+1.728)x7.2, direction TLT
+......\LTJY3/LXGWNeoXiHei(0)/m/n/14.4 。
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\norule(12.672+1.728)x0.0
+.....\LTJY3/LXGWNeoXiHei(0)/m/n/14.4 我
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\norule(12.672+1.728)x0.0
+.....\LTJY3/LXGWNeoXiHei(0)/m/n/14.4 可
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\norule(12.672+1.728)x0.0
+.....\LTJY3/LXGWNeoXiHei(0)/m/n/14.4 以
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\norule(12.672+1.728)x0.0
+.....\LTJY3/LXGWNeoXiHei(0)/m/n/14.4 食
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\norule(12.672+1.728)x0.0
+.....\LTJY3/LXGWNeoXiHei(0)/m/n/14.4 玻
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\norule(12.672+1.728)x0.0
+.....\LTJY3/LXGWNeoXiHei(0)/m/n/14.4 璃
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\hbox(12.672+1.728)x7.2, direction TLT
+......\LTJY3/LXGWNeoXiHei(0)/m/n/14.4 ，
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\norule(12.672+1.728)x0.0
+.....\LTJY3/LXGWNeoXiHei(0)/bx/n/14.4 佢
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\norule(12.672+1.728)x0.0
+.....\LTJY3/LXGWNeoXiHei(0)/bx/n/14.4 傷
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\norule(12.672+1.728)x0.0
+.....\LTJY3/LXGWNeoXiHei(0)/bx/n/14.4 唔
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\norule(12.672+1.728)x0.0
+.....\LTJY3/LXGWNeoXiHei(0)/bx/n/14.4 到
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\norule(12.672+1.728)x0.0
+.....\LTJY3/LXGWNeoXiHei(0)/bx/n/14.4 我
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\hbox(12.672+1.728)x7.2, direction TLT
+......\LTJY3/LXGWNeoXiHei(0)/bx/n/14.4 。
+....\penalty 10000
+....\glue(\parfillskip) 0.0 plus 1.0fil
+....\glue(\rightskip) 0.0
+...\glue(\parskip) 0.0 plus 1.0
+...\glue(\parskip) 0.0
+...\glue(\baselineskip) 9.00006
+...\hbox(12.672+1.728)x556.47656, glue set 38.07678fil, direction TLT
+....\whatsit4=[]
+....\localpar
+.....\localinterlinepenalty=0
+.....\localbrokenpenalty=0
+.....\localleftbox=null
+.....\localrightbox=null
+....\hbox(0.0+0.0)x0.0, direction TLT
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\norule(12.672+1.728)x0.0
+.....\LTJY3/LXGWNeoXiHei(0)/m/sl/14.4 私
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\norule(12.672+1.728)x0.0
+.....\LTJY3/LXGWNeoXiHei(0)/m/sl/14.4 ガ
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\norule(12.672+1.728)x0.0
+.....\LTJY3/LXGWNeoXiHei(0)/m/sl/14.4 ラ
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\norule(12.672+1.728)x0.0
+.....\LTJY3/LXGWNeoXiHei(0)/m/sl/14.4 ス
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\norule(12.672+1.728)x0.0
+.....\LTJY3/LXGWNeoXiHei(0)/m/sl/14.4 を
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\norule(12.672+1.728)x0.0
+.....\LTJY3/LXGWNeoXiHei(0)/m/sl/14.4 食
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\norule(12.672+1.728)x0.0
+.....\LTJY3/LXGWNeoXiHei(0)/m/sl/14.4 べ
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\norule(12.672+1.728)x0.0
+.....\LTJY3/LXGWNeoXiHei(0)/m/sl/14.4 ら
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\norule(12.672+1.728)x0.0
+.....\LTJY3/LXGWNeoXiHei(0)/m/sl/14.4 れ
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\norule(12.672+1.728)x0.0
+.....\LTJY3/LXGWNeoXiHei(0)/m/sl/14.4 ま
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\norule(12.672+1.728)x0.0
+.....\LTJY3/LXGWNeoXiHei(0)/m/sl/14.4 す
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\hbox(12.672+1.728)x7.2, direction TLT
+......\LTJY3/LXGWNeoXiHei(0)/m/sl/14.4 。
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\norule(12.672+1.728)x0.0
+.....\LTJY3/LXGWNeoXiHei(0)/bx/sl/14.4 そ
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\norule(12.672+1.728)x0.0
+.....\LTJY3/LXGWNeoXiHei(0)/bx/sl/14.4 れ
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\norule(12.672+1.728)x0.0
+.....\LTJY3/LXGWNeoXiHei(0)/bx/sl/14.4 は
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\norule(12.672+1.728)x0.0
+.....\LTJY3/LXGWNeoXiHei(0)/bx/sl/14.4 私
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\norule(12.672+1.728)x0.0
+.....\LTJY3/LXGWNeoXiHei(0)/bx/sl/14.4 を
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\norule(12.672+1.728)x0.0
+.....\LTJY3/LXGWNeoXiHei(0)/bx/sl/14.4 傷
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\norule(12.672+1.728)x0.0
+.....\LTJY3/LXGWNeoXiHei(0)/bx/sl/14.4 つ
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\norule(12.672+1.728)x0.0
+.....\LTJY3/LXGWNeoXiHei(0)/bx/sl/14.4 け
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\norule(12.672+1.728)x0.0
+.....\LTJY3/LXGWNeoXiHei(0)/bx/sl/14.4 ま
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\norule(12.672+1.728)x0.0
+.....\LTJY3/LXGWNeoXiHei(0)/bx/sl/14.4 せ
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\norule(12.672+1.728)x0.0
+.....\LTJY3/LXGWNeoXiHei(0)/bx/sl/14.4 ん
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\hbox(12.672+1.728)x7.2, direction TLT
+......\LTJY3/LXGWNeoXiHei(0)/bx/sl/14.4 。
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\norule(12.672+1.728)x0.0
+.....\LTJY3/LXGWNeoXiHei(0)/m/sl/14.4 我
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\norule(12.672+1.728)x0.0
+.....\LTJY3/LXGWNeoXiHei(0)/m/sl/14.4 能
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\norule(12.672+1.728)x0.0
+.....\LTJY3/LXGWNeoXiHei(0)/m/sl/14.4 吞
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\norule(12.672+1.728)x0.0
+.....\LTJY3/LXGWNeoXiHei(0)/m/sl/14.4 下
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\norule(12.672+1.728)x0.0
+.....\LTJY3/LXGWNeoXiHei(0)/m/sl/14.4 玻
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\norule(12.672+1.728)x0.0
+.....\LTJY3/LXGWNeoXiHei(0)/m/sl/14.4 璃
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\norule(12.672+1.728)x0.0
+.....\LTJY3/LXGWNeoXiHei(0)/m/sl/14.4 而
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\norule(12.672+1.728)x0.0
+.....\LTJY3/LXGWNeoXiHei(0)/m/sl/14.4 不
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\norule(12.672+1.728)x0.0
+.....\LTJY3/LXGWNeoXiHei(0)/m/sl/14.4 伤
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\norule(12.672+1.728)x0.0
+.....\LTJY3/LXGWNeoXiHei(0)/m/sl/14.4 身
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\norule(12.672+1.728)x0.0
+.....\LTJY3/LXGWNeoXiHei(0)/m/sl/14.4 体
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\hbox(12.672+1.728)x7.2, direction TLT
+......\LTJY3/LXGWNeoXiHei(0)/m/sl/14.4 。
+....\penalty 10000
+....\glue 0.0 plus 1.0fil
+....\penalty -10000
+....\glue(\rightskip) 0.0
+...\penalty 300
+...\glue(\baselineskip) 9.00006
+...\hbox(12.672+1.728)x556.47656, glue set 23.67679fil, direction TLT
+....\whatsit4=[]
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\norule(12.672+1.728)x0.0
+.....\LTJY3/LXGWNeoXiHei(0)/bx/sl/14.4 我
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\norule(12.672+1.728)x0.0
+.....\LTJY3/LXGWNeoXiHei(0)/bx/sl/14.4 能
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\norule(12.672+1.728)x0.0
+.....\LTJY3/LXGWNeoXiHei(0)/bx/sl/14.4 吞
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\norule(12.672+1.728)x0.0
+.....\LTJY3/LXGWNeoXiHei(0)/bx/sl/14.4 下
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\norule(12.672+1.728)x0.0
+.....\LTJY3/LXGWNeoXiHei(0)/bx/sl/14.4 玻
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\norule(12.672+1.728)x0.0
+.....\LTJY3/LXGWNeoXiHei(0)/bx/sl/14.4 璃
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\norule(12.672+1.728)x0.0
+.....\LTJY3/LXGWNeoXiHei(0)/bx/sl/14.4 而
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\norule(12.672+1.728)x0.0
+.....\LTJY3/LXGWNeoXiHei(0)/bx/sl/14.4 不
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\norule(12.672+1.728)x0.0
+.....\LTJY3/LXGWNeoXiHei(0)/bx/sl/14.4 伤
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\norule(12.672+1.728)x0.0
+.....\LTJY3/LXGWNeoXiHei(0)/bx/sl/14.4 身
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\norule(12.672+1.728)x0.0
+.....\LTJY3/LXGWNeoXiHei(0)/bx/sl/14.4 体
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\hbox(12.672+1.728)x7.2, direction TLT
+......\LTJY3/LXGWNeoXiHei(0)/bx/sl/14.4 。
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\norule(12.672+1.728)x0.0
+.....\LTJY3/LXGWNeoXiHei(0)/m/sl/14.4 我
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\norule(12.672+1.728)x0.0
+.....\LTJY3/LXGWNeoXiHei(0)/m/sl/14.4 能
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\norule(12.672+1.728)x0.0
+.....\LTJY3/LXGWNeoXiHei(0)/m/sl/14.4 吞
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\norule(12.672+1.728)x0.0
+.....\LTJY3/LXGWNeoXiHei(0)/m/sl/14.4 下
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\norule(12.672+1.728)x0.0
+.....\LTJY3/LXGWNeoXiHei(0)/m/sl/14.4 玻
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\norule(12.672+1.728)x0.0
+.....\LTJY3/LXGWNeoXiHei(0)/m/sl/14.4 璃
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\norule(12.672+1.728)x0.0
+.....\LTJY3/LXGWNeoXiHei(0)/m/sl/14.4 而
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\norule(12.672+1.728)x0.0
+.....\LTJY3/LXGWNeoXiHei(0)/m/sl/14.4 不
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\norule(12.672+1.728)x0.0
+.....\LTJY3/LXGWNeoXiHei(0)/m/sl/14.4 傷
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\norule(12.672+1.728)x0.0
+.....\LTJY3/LXGWNeoXiHei(0)/m/sl/14.4 身
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\norule(12.672+1.728)x0.0
+.....\LTJY3/LXGWNeoXiHei(0)/m/sl/14.4 體
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\hbox(12.672+1.728)x7.2, direction TLT
+......\LTJY3/LXGWNeoXiHei(0)/m/sl/14.4 。
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\norule(12.672+1.728)x0.0
+.....\LTJY3/LXGWNeoXiHei(0)/m/sl/14.4 我
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\norule(12.672+1.728)x0.0
+.....\LTJY3/LXGWNeoXiHei(0)/m/sl/14.4 可
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\norule(12.672+1.728)x0.0
+.....\LTJY3/LXGWNeoXiHei(0)/m/sl/14.4 以
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\norule(12.672+1.728)x0.0
+.....\LTJY3/LXGWNeoXiHei(0)/m/sl/14.4 食
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\norule(12.672+1.728)x0.0
+.....\LTJY3/LXGWNeoXiHei(0)/m/sl/14.4 玻
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\norule(12.672+1.728)x0.0
+.....\LTJY3/LXGWNeoXiHei(0)/m/sl/14.4 璃
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\hbox(12.672+1.728)x7.2, direction TLT
+......\LTJY3/LXGWNeoXiHei(0)/m/sl/14.4 ，
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\norule(12.672+1.728)x0.0
+.....\LTJY3/LXGWNeoXiHei(0)/bx/sl/14.4 佢
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\norule(12.672+1.728)x0.0
+.....\LTJY3/LXGWNeoXiHei(0)/bx/sl/14.4 傷
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\norule(12.672+1.728)x0.0
+.....\LTJY3/LXGWNeoXiHei(0)/bx/sl/14.4 唔
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\norule(12.672+1.728)x0.0
+.....\LTJY3/LXGWNeoXiHei(0)/bx/sl/14.4 到
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\norule(12.672+1.728)x0.0
+.....\LTJY3/LXGWNeoXiHei(0)/bx/sl/14.4 我
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\hbox(12.672+1.728)x7.2, direction TLT
+......\LTJY3/LXGWNeoXiHei(0)/bx/sl/14.4 。
+....\penalty 10000
+....\glue(\parfillskip) 0.0 plus 1.0fil
+....\glue(\rightskip) 0.0
+...\glue(\parskip) 0.0 plus 1.0
+...\glue(\parskip) 0.0
+...\glue(\baselineskip) 9.00006
+...\hbox(12.672+1.728)x556.47656, glue set 38.07678fil, direction TLT
+....\whatsit4=[]
+....\localpar
+.....\localinterlinepenalty=0
+.....\localbrokenpenalty=0
+.....\localleftbox=null
+.....\localrightbox=null
+....\hbox(0.0+0.0)x0.0, direction TLT
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\norule(12.672+1.728)x0.0
+.....\LTJY3/LXGWNeoXiHei(0)/m/sl/14.4 私
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\norule(12.672+1.728)x0.0
+.....\LTJY3/LXGWNeoXiHei(0)/m/sl/14.4 ガ
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\norule(12.672+1.728)x0.0
+.....\LTJY3/LXGWNeoXiHei(0)/m/sl/14.4 ラ
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\norule(12.672+1.728)x0.0
+.....\LTJY3/LXGWNeoXiHei(0)/m/sl/14.4 ス
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\norule(12.672+1.728)x0.0
+.....\LTJY3/LXGWNeoXiHei(0)/m/sl/14.4 を
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\norule(12.672+1.728)x0.0
+.....\LTJY3/LXGWNeoXiHei(0)/m/sl/14.4 食
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\norule(12.672+1.728)x0.0
+.....\LTJY3/LXGWNeoXiHei(0)/m/sl/14.4 べ
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\norule(12.672+1.728)x0.0
+.....\LTJY3/LXGWNeoXiHei(0)/m/sl/14.4 ら
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\norule(12.672+1.728)x0.0
+.....\LTJY3/LXGWNeoXiHei(0)/m/sl/14.4 れ
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\norule(12.672+1.728)x0.0
+.....\LTJY3/LXGWNeoXiHei(0)/m/sl/14.4 ま
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\norule(12.672+1.728)x0.0
+.....\LTJY3/LXGWNeoXiHei(0)/m/sl/14.4 す
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\hbox(12.672+1.728)x7.2, direction TLT
+......\LTJY3/LXGWNeoXiHei(0)/m/sl/14.4 。
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\norule(12.672+1.728)x0.0
+.....\LTJY3/LXGWNeoXiHei(0)/bx/sl/14.4 そ
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\norule(12.672+1.728)x0.0
+.....\LTJY3/LXGWNeoXiHei(0)/bx/sl/14.4 れ
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\norule(12.672+1.728)x0.0
+.....\LTJY3/LXGWNeoXiHei(0)/bx/sl/14.4 は
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\norule(12.672+1.728)x0.0
+.....\LTJY3/LXGWNeoXiHei(0)/bx/sl/14.4 私
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\norule(12.672+1.728)x0.0
+.....\LTJY3/LXGWNeoXiHei(0)/bx/sl/14.4 を
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\norule(12.672+1.728)x0.0
+.....\LTJY3/LXGWNeoXiHei(0)/bx/sl/14.4 傷
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\norule(12.672+1.728)x0.0
+.....\LTJY3/LXGWNeoXiHei(0)/bx/sl/14.4 つ
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\norule(12.672+1.728)x0.0
+.....\LTJY3/LXGWNeoXiHei(0)/bx/sl/14.4 け
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\norule(12.672+1.728)x0.0
+.....\LTJY3/LXGWNeoXiHei(0)/bx/sl/14.4 ま
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\norule(12.672+1.728)x0.0
+.....\LTJY3/LXGWNeoXiHei(0)/bx/sl/14.4 せ
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\norule(12.672+1.728)x0.0
+.....\LTJY3/LXGWNeoXiHei(0)/bx/sl/14.4 ん
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\hbox(12.672+1.728)x7.2, direction TLT
+......\LTJY3/LXGWNeoXiHei(0)/bx/sl/14.4 。
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\norule(12.672+1.728)x0.0
+.....\LTJY3/LXGWNeoXiHei(0)/m/sl/14.4 我
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\norule(12.672+1.728)x0.0
+.....\LTJY3/LXGWNeoXiHei(0)/m/sl/14.4 能
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\norule(12.672+1.728)x0.0
+.....\LTJY3/LXGWNeoXiHei(0)/m/sl/14.4 吞
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\norule(12.672+1.728)x0.0
+.....\LTJY3/LXGWNeoXiHei(0)/m/sl/14.4 下
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\norule(12.672+1.728)x0.0
+.....\LTJY3/LXGWNeoXiHei(0)/m/sl/14.4 玻
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\norule(12.672+1.728)x0.0
+.....\LTJY3/LXGWNeoXiHei(0)/m/sl/14.4 璃
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\norule(12.672+1.728)x0.0
+.....\LTJY3/LXGWNeoXiHei(0)/m/sl/14.4 而
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\norule(12.672+1.728)x0.0
+.....\LTJY3/LXGWNeoXiHei(0)/m/sl/14.4 不
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\norule(12.672+1.728)x0.0
+.....\LTJY3/LXGWNeoXiHei(0)/m/sl/14.4 伤
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\norule(12.672+1.728)x0.0
+.....\LTJY3/LXGWNeoXiHei(0)/m/sl/14.4 身
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\norule(12.672+1.728)x0.0
+.....\LTJY3/LXGWNeoXiHei(0)/m/sl/14.4 体
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\hbox(12.672+1.728)x7.2, direction TLT
+......\LTJY3/LXGWNeoXiHei(0)/m/sl/14.4 。
+....\penalty 10000
+....\glue 0.0 plus 1.0fil
+....\penalty -10000
+....\glue(\rightskip) 0.0
+...\penalty 300
+...\glue(\baselineskip) 9.00006
+...\hbox(12.672+1.728)x556.47656, glue set 23.67679fil, direction TLT
+....\whatsit4=[]
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\norule(12.672+1.728)x0.0
+.....\LTJY3/LXGWNeoXiHei(0)/bx/sl/14.4 我
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\norule(12.672+1.728)x0.0
+.....\LTJY3/LXGWNeoXiHei(0)/bx/sl/14.4 能
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\norule(12.672+1.728)x0.0
+.....\LTJY3/LXGWNeoXiHei(0)/bx/sl/14.4 吞
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\norule(12.672+1.728)x0.0
+.....\LTJY3/LXGWNeoXiHei(0)/bx/sl/14.4 下
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\norule(12.672+1.728)x0.0
+.....\LTJY3/LXGWNeoXiHei(0)/bx/sl/14.4 玻
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\norule(12.672+1.728)x0.0
+.....\LTJY3/LXGWNeoXiHei(0)/bx/sl/14.4 璃
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\norule(12.672+1.728)x0.0
+.....\LTJY3/LXGWNeoXiHei(0)/bx/sl/14.4 而
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\norule(12.672+1.728)x0.0
+.....\LTJY3/LXGWNeoXiHei(0)/bx/sl/14.4 不
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\norule(12.672+1.728)x0.0
+.....\LTJY3/LXGWNeoXiHei(0)/bx/sl/14.4 伤
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\norule(12.672+1.728)x0.0
+.....\LTJY3/LXGWNeoXiHei(0)/bx/sl/14.4 身
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\norule(12.672+1.728)x0.0
+.....\LTJY3/LXGWNeoXiHei(0)/bx/sl/14.4 体
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\hbox(12.672+1.728)x7.2, direction TLT
+......\LTJY3/LXGWNeoXiHei(0)/bx/sl/14.4 。
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\norule(12.672+1.728)x0.0
+.....\LTJY3/LXGWNeoXiHei(0)/m/sl/14.4 我
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\norule(12.672+1.728)x0.0
+.....\LTJY3/LXGWNeoXiHei(0)/m/sl/14.4 能
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\norule(12.672+1.728)x0.0
+.....\LTJY3/LXGWNeoXiHei(0)/m/sl/14.4 吞
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\norule(12.672+1.728)x0.0
+.....\LTJY3/LXGWNeoXiHei(0)/m/sl/14.4 下
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\norule(12.672+1.728)x0.0
+.....\LTJY3/LXGWNeoXiHei(0)/m/sl/14.4 玻
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\norule(12.672+1.728)x0.0
+.....\LTJY3/LXGWNeoXiHei(0)/m/sl/14.4 璃
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\norule(12.672+1.728)x0.0
+.....\LTJY3/LXGWNeoXiHei(0)/m/sl/14.4 而
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\norule(12.672+1.728)x0.0
+.....\LTJY3/LXGWNeoXiHei(0)/m/sl/14.4 不
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\norule(12.672+1.728)x0.0
+.....\LTJY3/LXGWNeoXiHei(0)/m/sl/14.4 傷
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\norule(12.672+1.728)x0.0
+.....\LTJY3/LXGWNeoXiHei(0)/m/sl/14.4 身
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\norule(12.672+1.728)x0.0
+.....\LTJY3/LXGWNeoXiHei(0)/m/sl/14.4 體
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\hbox(12.672+1.728)x7.2, direction TLT
+......\LTJY3/LXGWNeoXiHei(0)/m/sl/14.4 。
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\norule(12.672+1.728)x0.0
+.....\LTJY3/LXGWNeoXiHei(0)/m/sl/14.4 我
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\norule(12.672+1.728)x0.0
+.....\LTJY3/LXGWNeoXiHei(0)/m/sl/14.4 可
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\norule(12.672+1.728)x0.0
+.....\LTJY3/LXGWNeoXiHei(0)/m/sl/14.4 以
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\norule(12.672+1.728)x0.0
+.....\LTJY3/LXGWNeoXiHei(0)/m/sl/14.4 食
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\norule(12.672+1.728)x0.0
+.....\LTJY3/LXGWNeoXiHei(0)/m/sl/14.4 玻
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\norule(12.672+1.728)x0.0
+.....\LTJY3/LXGWNeoXiHei(0)/m/sl/14.4 璃
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\hbox(12.672+1.728)x7.2, direction TLT
+......\LTJY3/LXGWNeoXiHei(0)/m/sl/14.4 ，
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\norule(12.672+1.728)x0.0
+.....\LTJY3/LXGWNeoXiHei(0)/bx/sl/14.4 佢
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\norule(12.672+1.728)x0.0
+.....\LTJY3/LXGWNeoXiHei(0)/bx/sl/14.4 傷
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\norule(12.672+1.728)x0.0
+.....\LTJY3/LXGWNeoXiHei(0)/bx/sl/14.4 唔
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\norule(12.672+1.728)x0.0
+.....\LTJY3/LXGWNeoXiHei(0)/bx/sl/14.4 到
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\norule(12.672+1.728)x0.0
+.....\LTJY3/LXGWNeoXiHei(0)/bx/sl/14.4 我
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\hbox(12.672+1.728)x7.2, direction TLT
+......\LTJY3/LXGWNeoXiHei(0)/bx/sl/14.4 。
+....\penalty 10000
+....\glue(\parfillskip) 0.0 plus 1.0fil
+....\glue(\rightskip) 0.0
+...\glue(\parskip) 0.0 plus 1.0
+...\glue(\parskip) 0.0
+...\glue(\baselineskip) 9.00006
+...\hbox(12.672+1.728)x556.47656, glue set 38.07678fil, direction TLT
+....\whatsit4=[]
+....\localpar
+.....\localinterlinepenalty=0
+.....\localbrokenpenalty=0
+.....\localleftbox=null
+.....\localrightbox=null
+....\hbox(0.0+0.0)x0.0, direction TLT
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\norule(12.672+1.728)x0.0
+.....\LTJY3/LXGWZhuqueFangsong-Regular(0)/m/n/14.4 私
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\norule(12.672+1.728)x0.0
+.....\LTJY3/LXGWZhuqueFangsong-Regular(0)/m/n/14.4 ガ
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\norule(12.672+1.728)x0.0
+.....\LTJY3/LXGWZhuqueFangsong-Regular(0)/m/n/14.4 ラ
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\norule(12.672+1.728)x0.0
+.....\LTJY3/LXGWZhuqueFangsong-Regular(0)/m/n/14.4 ス
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\norule(12.672+1.728)x0.0
+.....\LTJY3/LXGWZhuqueFangsong-Regular(0)/m/n/14.4 を
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\norule(12.672+1.728)x0.0
+.....\LTJY3/LXGWZhuqueFangsong-Regular(0)/m/n/14.4 食
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\norule(12.672+1.728)x0.0
+.....\LTJY3/LXGWZhuqueFangsong-Regular(0)/m/n/14.4 べ
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\norule(12.672+1.728)x0.0
+.....\LTJY3/LXGWZhuqueFangsong-Regular(0)/m/n/14.4 ら
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\norule(12.672+1.728)x0.0
+.....\LTJY3/LXGWZhuqueFangsong-Regular(0)/m/n/14.4 れ
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\norule(12.672+1.728)x0.0
+.....\LTJY3/LXGWZhuqueFangsong-Regular(0)/m/n/14.4 ま
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\norule(12.672+1.728)x0.0
+.....\LTJY3/LXGWZhuqueFangsong-Regular(0)/m/n/14.4 す
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\hbox(12.672+1.728)x7.2, direction TLT
+......\LTJY3/LXGWZhuqueFangsong-Regular(0)/m/n/14.4 。
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\norule(12.672+1.728)x0.0
+.....\LTJY3/LXGWZhuqueFangsong-Regular(0)/bx/n/14.4 そ
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\norule(12.672+1.728)x0.0
+.....\LTJY3/LXGWZhuqueFangsong-Regular(0)/bx/n/14.4 れ
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\norule(12.672+1.728)x0.0
+.....\LTJY3/LXGWZhuqueFangsong-Regular(0)/bx/n/14.4 は
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\norule(12.672+1.728)x0.0
+.....\LTJY3/LXGWZhuqueFangsong-Regular(0)/bx/n/14.4 私
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\norule(12.672+1.728)x0.0
+.....\LTJY3/LXGWZhuqueFangsong-Regular(0)/bx/n/14.4 を
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\hbox(12.672+1.728)x14.4, direction TLT
+......\LTJY3/LXGWZhuqueFangsong-Regular(0)/bx/n/14.4 傷
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\norule(12.672+1.728)x0.0
+.....\LTJY3/LXGWZhuqueFangsong-Regular(0)/bx/n/14.4 つ
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\norule(12.672+1.728)x0.0
+.....\LTJY3/LXGWZhuqueFangsong-Regular(0)/bx/n/14.4 け
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\norule(12.672+1.728)x0.0
+.....\LTJY3/LXGWZhuqueFangsong-Regular(0)/bx/n/14.4 ま
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\norule(12.672+1.728)x0.0
+.....\LTJY3/LXGWZhuqueFangsong-Regular(0)/bx/n/14.4 せ
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\norule(12.672+1.728)x0.0
+.....\LTJY3/LXGWZhuqueFangsong-Regular(0)/bx/n/14.4 ん
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\hbox(12.672+1.728)x7.2, direction TLT
+......\LTJY3/LXGWZhuqueFangsong-Regular(0)/bx/n/14.4 。
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\hbox(12.672+1.728)x14.4, direction TLT
+......\LTJY3/LXGWZhuqueFangsong-Regular(0)/m/n/14.4 我
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\norule(12.672+1.728)x0.0
+.....\LTJY3/LXGWZhuqueFangsong-Regular(0)/m/n/14.4 能
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\norule(12.672+1.728)x0.0
+.....\LTJY3/LXGWZhuqueFangsong-Regular(0)/m/n/14.4 吞
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\norule(12.672+1.728)x0.0
+.....\LTJY3/LXGWZhuqueFangsong-Regular(0)/m/n/14.4 下
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\norule(12.672+1.728)x0.0
+.....\LTJY3/LXGWZhuqueFangsong-Regular(0)/m/n/14.4 玻
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\norule(12.672+1.728)x0.0
+.....\LTJY3/LXGWZhuqueFangsong-Regular(0)/m/n/14.4 璃
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\norule(12.672+1.728)x0.0
+.....\LTJY3/LXGWZhuqueFangsong-Regular(0)/m/n/14.4 而
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\norule(12.672+1.728)x0.0
+.....\LTJY3/LXGWZhuqueFangsong-Regular(0)/m/n/14.4 不
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\norule(12.672+1.728)x0.0
+.....\LTJY3/LXGWZhuqueFangsong-Regular(0)/m/n/14.4 伤
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\norule(12.672+1.728)x0.0
+.....\LTJY3/LXGWZhuqueFangsong-Regular(0)/m/n/14.4 身
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\norule(12.672+1.728)x0.0
+.....\LTJY3/LXGWZhuqueFangsong-Regular(0)/m/n/14.4 体
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\hbox(12.672+1.728)x7.2, direction TLT
+......\LTJY3/LXGWZhuqueFangsong-Regular(0)/m/n/14.4 。
+....\penalty 10000
+....\glue 0.0 plus 1.0fil
+....\penalty -10000
+....\glue(\rightskip) 0.0
+...\penalty 300
+...\glue(\baselineskip) 9.00006
+...\hbox(12.672+1.728)x556.47656, glue set 23.67679fil, direction TLT
+....\whatsit4=[]
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\hbox(12.672+1.728)x14.4, direction TLT
+......\LTJY3/LXGWZhuqueFangsong-Regular(0)/bx/n/14.4 我
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\norule(12.672+1.728)x0.0
+.....\LTJY3/LXGWZhuqueFangsong-Regular(0)/bx/n/14.4 能
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\norule(12.672+1.728)x0.0
+.....\LTJY3/LXGWZhuqueFangsong-Regular(0)/bx/n/14.4 吞
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\norule(12.672+1.728)x0.0
+.....\LTJY3/LXGWZhuqueFangsong-Regular(0)/bx/n/14.4 下
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\norule(12.672+1.728)x0.0
+.....\LTJY3/LXGWZhuqueFangsong-Regular(0)/bx/n/14.4 玻
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\norule(12.672+1.728)x0.0
+.....\LTJY3/LXGWZhuqueFangsong-Regular(0)/bx/n/14.4 璃
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\norule(12.672+1.728)x0.0
+.....\LTJY3/LXGWZhuqueFangsong-Regular(0)/bx/n/14.4 而
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\norule(12.672+1.728)x0.0
+.....\LTJY3/LXGWZhuqueFangsong-Regular(0)/bx/n/14.4 不
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\norule(12.672+1.728)x0.0
+.....\LTJY3/LXGWZhuqueFangsong-Regular(0)/bx/n/14.4 伤
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\norule(12.672+1.728)x0.0
+.....\LTJY3/LXGWZhuqueFangsong-Regular(0)/bx/n/14.4 身
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\norule(12.672+1.728)x0.0
+.....\LTJY3/LXGWZhuqueFangsong-Regular(0)/bx/n/14.4 体
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\hbox(12.672+1.728)x7.2, direction TLT
+......\LTJY3/LXGWZhuqueFangsong-Regular(0)/bx/n/14.4 。
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\hbox(12.672+1.728)x14.4, direction TLT
+......\LTJY3/LXGWZhuqueFangsong-Regular(0)/m/n/14.4 我
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\norule(12.672+1.728)x0.0
+.....\LTJY3/LXGWZhuqueFangsong-Regular(0)/m/n/14.4 能
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\norule(12.672+1.728)x0.0
+.....\LTJY3/LXGWZhuqueFangsong-Regular(0)/m/n/14.4 吞
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\norule(12.672+1.728)x0.0
+.....\LTJY3/LXGWZhuqueFangsong-Regular(0)/m/n/14.4 下
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\norule(12.672+1.728)x0.0
+.....\LTJY3/LXGWZhuqueFangsong-Regular(0)/m/n/14.4 玻
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\norule(12.672+1.728)x0.0
+.....\LTJY3/LXGWZhuqueFangsong-Regular(0)/m/n/14.4 璃
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\norule(12.672+1.728)x0.0
+.....\LTJY3/LXGWZhuqueFangsong-Regular(0)/m/n/14.4 而
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\norule(12.672+1.728)x0.0
+.....\LTJY3/LXGWZhuqueFangsong-Regular(0)/m/n/14.4 不
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\hbox(12.672+1.728)x14.4, direction TLT
+......\LTJY3/LXGWZhuqueFangsong-Regular(0)/m/n/14.4 傷
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\norule(12.672+1.728)x0.0
+.....\LTJY3/LXGWZhuqueFangsong-Regular(0)/m/n/14.4 身
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\norule(12.672+1.728)x0.0
+.....\LTJY3/LXGWZhuqueFangsong-Regular(0)/m/n/14.4 體
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\hbox(12.672+1.728)x7.2, direction TLT
+......\LTJY3/LXGWZhuqueFangsong-Regular(0)/m/n/14.4 。
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\hbox(12.672+1.728)x14.4, direction TLT
+......\LTJY3/LXGWZhuqueFangsong-Regular(0)/m/n/14.4 我
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\norule(12.672+1.728)x0.0
+.....\LTJY3/LXGWZhuqueFangsong-Regular(0)/m/n/14.4 可
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\norule(12.672+1.728)x0.0
+.....\LTJY3/LXGWZhuqueFangsong-Regular(0)/m/n/14.4 以
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\norule(12.672+1.728)x0.0
+.....\LTJY3/LXGWZhuqueFangsong-Regular(0)/m/n/14.4 食
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\norule(12.672+1.728)x0.0
+.....\LTJY3/LXGWZhuqueFangsong-Regular(0)/m/n/14.4 玻
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\norule(12.672+1.728)x0.0
+.....\LTJY3/LXGWZhuqueFangsong-Regular(0)/m/n/14.4 璃
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\hbox(12.672+1.728)x7.2, direction TLT
+......\LTJY3/LXGWZhuqueFangsong-Regular(0)/m/n/14.4 ，
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\norule(12.672+1.728)x0.0
+.....\LTJY3/LXGWZhuqueFangsong-Regular(0)/bx/n/14.4 佢
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\hbox(12.672+1.728)x14.4, direction TLT
+......\LTJY3/LXGWZhuqueFangsong-Regular(0)/bx/n/14.4 傷
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\norule(12.672+1.728)x0.0
+.....\LTJY3/LXGWZhuqueFangsong-Regular(0)/bx/n/14.4 唔
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\norule(12.672+1.728)x0.0
+.....\LTJY3/LXGWZhuqueFangsong-Regular(0)/bx/n/14.4 到
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\hbox(12.672+1.728)x14.4, direction TLT
+......\LTJY3/LXGWZhuqueFangsong-Regular(0)/bx/n/14.4 我
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\hbox(12.672+1.728)x7.2, direction TLT
+......\LTJY3/LXGWZhuqueFangsong-Regular(0)/bx/n/14.4 。
+....\penalty 10000
+....\glue(\parfillskip) 0.0 plus 1.0fil
+....\glue(\rightskip) 0.0
+...\glue(\parskip) 0.0 plus 1.0
+...\glue(\parskip) 0.0
+...\glue(\baselineskip) 9.00006
+...\hbox(12.672+1.728)x556.47656, glue set 38.07678fil, direction TLT
+....\whatsit4=[]
+....\localpar
+.....\localinterlinepenalty=0
+.....\localbrokenpenalty=0
+.....\localleftbox=null
+.....\localrightbox=null
+....\hbox(0.0+0.0)x0.0, direction TLT
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\norule(12.672+1.728)x0.0
+.....\LTJY3/LXGWZhuqueFangsong-Regular(0)/m/sl/14.4 私
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\norule(12.672+1.728)x0.0
+.....\LTJY3/LXGWZhuqueFangsong-Regular(0)/m/sl/14.4 ガ
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\norule(12.672+1.728)x0.0
+.....\LTJY3/LXGWZhuqueFangsong-Regular(0)/m/sl/14.4 ラ
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\norule(12.672+1.728)x0.0
+.....\LTJY3/LXGWZhuqueFangsong-Regular(0)/m/sl/14.4 ス
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\norule(12.672+1.728)x0.0
+.....\LTJY3/LXGWZhuqueFangsong-Regular(0)/m/sl/14.4 を
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\norule(12.672+1.728)x0.0
+.....\LTJY3/LXGWZhuqueFangsong-Regular(0)/m/sl/14.4 食
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\norule(12.672+1.728)x0.0
+.....\LTJY3/LXGWZhuqueFangsong-Regular(0)/m/sl/14.4 べ
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\norule(12.672+1.728)x0.0
+.....\LTJY3/LXGWZhuqueFangsong-Regular(0)/m/sl/14.4 ら
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\norule(12.672+1.728)x0.0
+.....\LTJY3/LXGWZhuqueFangsong-Regular(0)/m/sl/14.4 れ
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\norule(12.672+1.728)x0.0
+.....\LTJY3/LXGWZhuqueFangsong-Regular(0)/m/sl/14.4 ま
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\norule(12.672+1.728)x0.0
+.....\LTJY3/LXGWZhuqueFangsong-Regular(0)/m/sl/14.4 す
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\hbox(12.672+1.728)x7.2, direction TLT
+......\LTJY3/LXGWZhuqueFangsong-Regular(0)/m/sl/14.4 。
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\norule(12.672+1.728)x0.0
+.....\LTJY3/LXGWZhuqueFangsong-Regular(0)/bx/sl/14.4 そ
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\norule(12.672+1.728)x0.0
+.....\LTJY3/LXGWZhuqueFangsong-Regular(0)/bx/sl/14.4 れ
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\norule(12.672+1.728)x0.0
+.....\LTJY3/LXGWZhuqueFangsong-Regular(0)/bx/sl/14.4 は
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\norule(12.672+1.728)x0.0
+.....\LTJY3/LXGWZhuqueFangsong-Regular(0)/bx/sl/14.4 私
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\norule(12.672+1.728)x0.0
+.....\LTJY3/LXGWZhuqueFangsong-Regular(0)/bx/sl/14.4 を
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\hbox(12.672+1.728)x14.4, direction TLT
+......\LTJY3/LXGWZhuqueFangsong-Regular(0)/bx/sl/14.4 傷
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\norule(12.672+1.728)x0.0
+.....\LTJY3/LXGWZhuqueFangsong-Regular(0)/bx/sl/14.4 つ
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\norule(12.672+1.728)x0.0
+.....\LTJY3/LXGWZhuqueFangsong-Regular(0)/bx/sl/14.4 け
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\norule(12.672+1.728)x0.0
+.....\LTJY3/LXGWZhuqueFangsong-Regular(0)/bx/sl/14.4 ま
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\norule(12.672+1.728)x0.0
+.....\LTJY3/LXGWZhuqueFangsong-Regular(0)/bx/sl/14.4 せ
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\norule(12.672+1.728)x0.0
+.....\LTJY3/LXGWZhuqueFangsong-Regular(0)/bx/sl/14.4 ん
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\hbox(12.672+1.728)x7.2, direction TLT
+......\LTJY3/LXGWZhuqueFangsong-Regular(0)/bx/sl/14.4 。
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\hbox(12.672+1.728)x14.4, direction TLT
+......\LTJY3/LXGWZhuqueFangsong-Regular(0)/m/sl/14.4 我
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\norule(12.672+1.728)x0.0
+.....\LTJY3/LXGWZhuqueFangsong-Regular(0)/m/sl/14.4 能
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\norule(12.672+1.728)x0.0
+.....\LTJY3/LXGWZhuqueFangsong-Regular(0)/m/sl/14.4 吞
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\norule(12.672+1.728)x0.0
+.....\LTJY3/LXGWZhuqueFangsong-Regular(0)/m/sl/14.4 下
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\norule(12.672+1.728)x0.0
+.....\LTJY3/LXGWZhuqueFangsong-Regular(0)/m/sl/14.4 玻
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\norule(12.672+1.728)x0.0
+.....\LTJY3/LXGWZhuqueFangsong-Regular(0)/m/sl/14.4 璃
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\norule(12.672+1.728)x0.0
+.....\LTJY3/LXGWZhuqueFangsong-Regular(0)/m/sl/14.4 而
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\norule(12.672+1.728)x0.0
+.....\LTJY3/LXGWZhuqueFangsong-Regular(0)/m/sl/14.4 不
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\norule(12.672+1.728)x0.0
+.....\LTJY3/LXGWZhuqueFangsong-Regular(0)/m/sl/14.4 伤
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\norule(12.672+1.728)x0.0
+.....\LTJY3/LXGWZhuqueFangsong-Regular(0)/m/sl/14.4 身
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\norule(12.672+1.728)x0.0
+.....\LTJY3/LXGWZhuqueFangsong-Regular(0)/m/sl/14.4 体
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\hbox(12.672+1.728)x7.2, direction TLT
+......\LTJY3/LXGWZhuqueFangsong-Regular(0)/m/sl/14.4 。
+....\penalty 10000
+....\glue 0.0 plus 1.0fil
+....\penalty -10000
+....\glue(\rightskip) 0.0
+...\penalty 300
+...\glue(\baselineskip) 9.00006
+...\hbox(12.672+1.728)x556.47656, glue set 23.67679fil, direction TLT
+....\whatsit4=[]
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\hbox(12.672+1.728)x14.4, direction TLT
+......\LTJY3/LXGWZhuqueFangsong-Regular(0)/bx/sl/14.4 我
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\norule(12.672+1.728)x0.0
+.....\LTJY3/LXGWZhuqueFangsong-Regular(0)/bx/sl/14.4 能
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\norule(12.672+1.728)x0.0
+.....\LTJY3/LXGWZhuqueFangsong-Regular(0)/bx/sl/14.4 吞
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\norule(12.672+1.728)x0.0
+.....\LTJY3/LXGWZhuqueFangsong-Regular(0)/bx/sl/14.4 下
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\norule(12.672+1.728)x0.0
+.....\LTJY3/LXGWZhuqueFangsong-Regular(0)/bx/sl/14.4 玻
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\norule(12.672+1.728)x0.0
+.....\LTJY3/LXGWZhuqueFangsong-Regular(0)/bx/sl/14.4 璃
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\norule(12.672+1.728)x0.0
+.....\LTJY3/LXGWZhuqueFangsong-Regular(0)/bx/sl/14.4 而
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\norule(12.672+1.728)x0.0
+.....\LTJY3/LXGWZhuqueFangsong-Regular(0)/bx/sl/14.4 不
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\norule(12.672+1.728)x0.0
+.....\LTJY3/LXGWZhuqueFangsong-Regular(0)/bx/sl/14.4 伤
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\norule(12.672+1.728)x0.0
+.....\LTJY3/LXGWZhuqueFangsong-Regular(0)/bx/sl/14.4 身
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\norule(12.672+1.728)x0.0
+.....\LTJY3/LXGWZhuqueFangsong-Regular(0)/bx/sl/14.4 体
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\hbox(12.672+1.728)x7.2, direction TLT
+......\LTJY3/LXGWZhuqueFangsong-Regular(0)/bx/sl/14.4 。
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\hbox(12.672+1.728)x14.4, direction TLT
+......\LTJY3/LXGWZhuqueFangsong-Regular(0)/m/sl/14.4 我
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\norule(12.672+1.728)x0.0
+.....\LTJY3/LXGWZhuqueFangsong-Regular(0)/m/sl/14.4 能
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\norule(12.672+1.728)x0.0
+.....\LTJY3/LXGWZhuqueFangsong-Regular(0)/m/sl/14.4 吞
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\norule(12.672+1.728)x0.0
+.....\LTJY3/LXGWZhuqueFangsong-Regular(0)/m/sl/14.4 下
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\norule(12.672+1.728)x0.0
+.....\LTJY3/LXGWZhuqueFangsong-Regular(0)/m/sl/14.4 玻
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\norule(12.672+1.728)x0.0
+.....\LTJY3/LXGWZhuqueFangsong-Regular(0)/m/sl/14.4 璃
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\norule(12.672+1.728)x0.0
+.....\LTJY3/LXGWZhuqueFangsong-Regular(0)/m/sl/14.4 而
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\norule(12.672+1.728)x0.0
+.....\LTJY3/LXGWZhuqueFangsong-Regular(0)/m/sl/14.4 不
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\hbox(12.672+1.728)x14.4, direction TLT
+......\LTJY3/LXGWZhuqueFangsong-Regular(0)/m/sl/14.4 傷
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\norule(12.672+1.728)x0.0
+.....\LTJY3/LXGWZhuqueFangsong-Regular(0)/m/sl/14.4 身
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\norule(12.672+1.728)x0.0
+.....\LTJY3/LXGWZhuqueFangsong-Regular(0)/m/sl/14.4 體
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\hbox(12.672+1.728)x7.2, direction TLT
+......\LTJY3/LXGWZhuqueFangsong-Regular(0)/m/sl/14.4 。
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\hbox(12.672+1.728)x14.4, direction TLT
+......\LTJY3/LXGWZhuqueFangsong-Regular(0)/m/sl/14.4 我
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\norule(12.672+1.728)x0.0
+.....\LTJY3/LXGWZhuqueFangsong-Regular(0)/m/sl/14.4 可
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\norule(12.672+1.728)x0.0
+.....\LTJY3/LXGWZhuqueFangsong-Regular(0)/m/sl/14.4 以
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\norule(12.672+1.728)x0.0
+.....\LTJY3/LXGWZhuqueFangsong-Regular(0)/m/sl/14.4 食
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\norule(12.672+1.728)x0.0
+.....\LTJY3/LXGWZhuqueFangsong-Regular(0)/m/sl/14.4 玻
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\norule(12.672+1.728)x0.0
+.....\LTJY3/LXGWZhuqueFangsong-Regular(0)/m/sl/14.4 璃
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\hbox(12.672+1.728)x7.2, direction TLT
+......\LTJY3/LXGWZhuqueFangsong-Regular(0)/m/sl/14.4 ，
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\norule(12.672+1.728)x0.0
+.....\LTJY3/LXGWZhuqueFangsong-Regular(0)/bx/sl/14.4 佢
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\hbox(12.672+1.728)x14.4, direction TLT
+......\LTJY3/LXGWZhuqueFangsong-Regular(0)/bx/sl/14.4 傷
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\norule(12.672+1.728)x0.0
+.....\LTJY3/LXGWZhuqueFangsong-Regular(0)/bx/sl/14.4 唔
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\norule(12.672+1.728)x0.0
+.....\LTJY3/LXGWZhuqueFangsong-Regular(0)/bx/sl/14.4 到
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\hbox(12.672+1.728)x14.4, direction TLT
+......\LTJY3/LXGWZhuqueFangsong-Regular(0)/bx/sl/14.4 我
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\hbox(12.672+1.728)x7.2, direction TLT
+......\LTJY3/LXGWZhuqueFangsong-Regular(0)/bx/sl/14.4 。
+....\penalty 10000
+....\glue(\parfillskip) 0.0 plus 1.0fil
+....\glue(\rightskip) 0.0
+...\glue(\parskip) 0.0 plus 1.0
+...\glue(\parskip) 0.0
+...\glue(\baselineskip) 9.00006
+...\hbox(12.672+1.728)x556.47656, glue set 38.07678fil, direction TLT
+....\whatsit4=[]
+....\localpar
+.....\localinterlinepenalty=0
+.....\localbrokenpenalty=0
+.....\localleftbox=null
+.....\localrightbox=null
+....\hbox(0.0+0.0)x0.0, direction TLT
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\norule(12.672+1.728)x0.0
+.....\LTJY3/LXGWZhuqueFangsong-Regular(0)/m/sl/14.4 私
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\norule(12.672+1.728)x0.0
+.....\LTJY3/LXGWZhuqueFangsong-Regular(0)/m/sl/14.4 ガ
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\norule(12.672+1.728)x0.0
+.....\LTJY3/LXGWZhuqueFangsong-Regular(0)/m/sl/14.4 ラ
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\norule(12.672+1.728)x0.0
+.....\LTJY3/LXGWZhuqueFangsong-Regular(0)/m/sl/14.4 ス
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\norule(12.672+1.728)x0.0
+.....\LTJY3/LXGWZhuqueFangsong-Regular(0)/m/sl/14.4 を
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\norule(12.672+1.728)x0.0
+.....\LTJY3/LXGWZhuqueFangsong-Regular(0)/m/sl/14.4 食
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\norule(12.672+1.728)x0.0
+.....\LTJY3/LXGWZhuqueFangsong-Regular(0)/m/sl/14.4 べ
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\norule(12.672+1.728)x0.0
+.....\LTJY3/LXGWZhuqueFangsong-Regular(0)/m/sl/14.4 ら
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\norule(12.672+1.728)x0.0
+.....\LTJY3/LXGWZhuqueFangsong-Regular(0)/m/sl/14.4 れ
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\norule(12.672+1.728)x0.0
+.....\LTJY3/LXGWZhuqueFangsong-Regular(0)/m/sl/14.4 ま
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\norule(12.672+1.728)x0.0
+.....\LTJY3/LXGWZhuqueFangsong-Regular(0)/m/sl/14.4 す
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\hbox(12.672+1.728)x7.2, direction TLT
+......\LTJY3/LXGWZhuqueFangsong-Regular(0)/m/sl/14.4 。
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\norule(12.672+1.728)x0.0
+.....\LTJY3/LXGWZhuqueFangsong-Regular(0)/bx/sl/14.4 そ
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\norule(12.672+1.728)x0.0
+.....\LTJY3/LXGWZhuqueFangsong-Regular(0)/bx/sl/14.4 れ
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\norule(12.672+1.728)x0.0
+.....\LTJY3/LXGWZhuqueFangsong-Regular(0)/bx/sl/14.4 は
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\norule(12.672+1.728)x0.0
+.....\LTJY3/LXGWZhuqueFangsong-Regular(0)/bx/sl/14.4 私
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\norule(12.672+1.728)x0.0
+.....\LTJY3/LXGWZhuqueFangsong-Regular(0)/bx/sl/14.4 を
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\hbox(12.672+1.728)x14.4, direction TLT
+......\LTJY3/LXGWZhuqueFangsong-Regular(0)/bx/sl/14.4 傷
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\norule(12.672+1.728)x0.0
+.....\LTJY3/LXGWZhuqueFangsong-Regular(0)/bx/sl/14.4 つ
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\norule(12.672+1.728)x0.0
+.....\LTJY3/LXGWZhuqueFangsong-Regular(0)/bx/sl/14.4 け
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\norule(12.672+1.728)x0.0
+.....\LTJY3/LXGWZhuqueFangsong-Regular(0)/bx/sl/14.4 ま
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\norule(12.672+1.728)x0.0
+.....\LTJY3/LXGWZhuqueFangsong-Regular(0)/bx/sl/14.4 せ
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\norule(12.672+1.728)x0.0
+.....\LTJY3/LXGWZhuqueFangsong-Regular(0)/bx/sl/14.4 ん
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\hbox(12.672+1.728)x7.2, direction TLT
+......\LTJY3/LXGWZhuqueFangsong-Regular(0)/bx/sl/14.4 。
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\hbox(12.672+1.728)x14.4, direction TLT
+......\LTJY3/LXGWZhuqueFangsong-Regular(0)/m/sl/14.4 我
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\norule(12.672+1.728)x0.0
+.....\LTJY3/LXGWZhuqueFangsong-Regular(0)/m/sl/14.4 能
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\norule(12.672+1.728)x0.0
+.....\LTJY3/LXGWZhuqueFangsong-Regular(0)/m/sl/14.4 吞
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\norule(12.672+1.728)x0.0
+.....\LTJY3/LXGWZhuqueFangsong-Regular(0)/m/sl/14.4 下
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\norule(12.672+1.728)x0.0
+.....\LTJY3/LXGWZhuqueFangsong-Regular(0)/m/sl/14.4 玻
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\norule(12.672+1.728)x0.0
+.....\LTJY3/LXGWZhuqueFangsong-Regular(0)/m/sl/14.4 璃
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\norule(12.672+1.728)x0.0
+.....\LTJY3/LXGWZhuqueFangsong-Regular(0)/m/sl/14.4 而
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\norule(12.672+1.728)x0.0
+.....\LTJY3/LXGWZhuqueFangsong-Regular(0)/m/sl/14.4 不
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\norule(12.672+1.728)x0.0
+.....\LTJY3/LXGWZhuqueFangsong-Regular(0)/m/sl/14.4 伤
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\norule(12.672+1.728)x0.0
+.....\LTJY3/LXGWZhuqueFangsong-Regular(0)/m/sl/14.4 身
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\norule(12.672+1.728)x0.0
+.....\LTJY3/LXGWZhuqueFangsong-Regular(0)/m/sl/14.4 体
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\hbox(12.672+1.728)x7.2, direction TLT
+......\LTJY3/LXGWZhuqueFangsong-Regular(0)/m/sl/14.4 。
+....\penalty 10000
+....\glue 0.0 plus 1.0fil
+....\penalty -10000
+....\glue(\rightskip) 0.0
+...\penalty 300
+...\glue(\baselineskip) 9.00006
+...\hbox(12.672+1.728)x556.47656, glue set 23.67679fil, direction TLT
+....\whatsit4=[]
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\hbox(12.672+1.728)x14.4, direction TLT
+......\LTJY3/LXGWZhuqueFangsong-Regular(0)/bx/sl/14.4 我
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\norule(12.672+1.728)x0.0
+.....\LTJY3/LXGWZhuqueFangsong-Regular(0)/bx/sl/14.4 能
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\norule(12.672+1.728)x0.0
+.....\LTJY3/LXGWZhuqueFangsong-Regular(0)/bx/sl/14.4 吞
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\norule(12.672+1.728)x0.0
+.....\LTJY3/LXGWZhuqueFangsong-Regular(0)/bx/sl/14.4 下
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\norule(12.672+1.728)x0.0
+.....\LTJY3/LXGWZhuqueFangsong-Regular(0)/bx/sl/14.4 玻
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\norule(12.672+1.728)x0.0
+.....\LTJY3/LXGWZhuqueFangsong-Regular(0)/bx/sl/14.4 璃
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\norule(12.672+1.728)x0.0
+.....\LTJY3/LXGWZhuqueFangsong-Regular(0)/bx/sl/14.4 而
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\norule(12.672+1.728)x0.0
+.....\LTJY3/LXGWZhuqueFangsong-Regular(0)/bx/sl/14.4 不
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\norule(12.672+1.728)x0.0
+.....\LTJY3/LXGWZhuqueFangsong-Regular(0)/bx/sl/14.4 伤
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\norule(12.672+1.728)x0.0
+.....\LTJY3/LXGWZhuqueFangsong-Regular(0)/bx/sl/14.4 身
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\norule(12.672+1.728)x0.0
+.....\LTJY3/LXGWZhuqueFangsong-Regular(0)/bx/sl/14.4 体
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\hbox(12.672+1.728)x7.2, direction TLT
+......\LTJY3/LXGWZhuqueFangsong-Regular(0)/bx/sl/14.4 。
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\hbox(12.672+1.728)x14.4, direction TLT
+......\LTJY3/LXGWZhuqueFangsong-Regular(0)/m/sl/14.4 我
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\norule(12.672+1.728)x0.0
+.....\LTJY3/LXGWZhuqueFangsong-Regular(0)/m/sl/14.4 能
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\norule(12.672+1.728)x0.0
+.....\LTJY3/LXGWZhuqueFangsong-Regular(0)/m/sl/14.4 吞
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\norule(12.672+1.728)x0.0
+.....\LTJY3/LXGWZhuqueFangsong-Regular(0)/m/sl/14.4 下
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\norule(12.672+1.728)x0.0
+.....\LTJY3/LXGWZhuqueFangsong-Regular(0)/m/sl/14.4 玻
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\norule(12.672+1.728)x0.0
+.....\LTJY3/LXGWZhuqueFangsong-Regular(0)/m/sl/14.4 璃
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\norule(12.672+1.728)x0.0
+.....\LTJY3/LXGWZhuqueFangsong-Regular(0)/m/sl/14.4 而
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\norule(12.672+1.728)x0.0
+.....\LTJY3/LXGWZhuqueFangsong-Regular(0)/m/sl/14.4 不
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\hbox(12.672+1.728)x14.4, direction TLT
+......\LTJY3/LXGWZhuqueFangsong-Regular(0)/m/sl/14.4 傷
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\norule(12.672+1.728)x0.0
+.....\LTJY3/LXGWZhuqueFangsong-Regular(0)/m/sl/14.4 身
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\norule(12.672+1.728)x0.0
+.....\LTJY3/LXGWZhuqueFangsong-Regular(0)/m/sl/14.4 體
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\hbox(12.672+1.728)x7.2, direction TLT
+......\LTJY3/LXGWZhuqueFangsong-Regular(0)/m/sl/14.4 。
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\hbox(12.672+1.728)x14.4, direction TLT
+......\LTJY3/LXGWZhuqueFangsong-Regular(0)/m/sl/14.4 我
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\norule(12.672+1.728)x0.0
+.....\LTJY3/LXGWZhuqueFangsong-Regular(0)/m/sl/14.4 可
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\norule(12.672+1.728)x0.0
+.....\LTJY3/LXGWZhuqueFangsong-Regular(0)/m/sl/14.4 以
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\norule(12.672+1.728)x0.0
+.....\LTJY3/LXGWZhuqueFangsong-Regular(0)/m/sl/14.4 食
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\norule(12.672+1.728)x0.0
+.....\LTJY3/LXGWZhuqueFangsong-Regular(0)/m/sl/14.4 玻
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\norule(12.672+1.728)x0.0
+.....\LTJY3/LXGWZhuqueFangsong-Regular(0)/m/sl/14.4 璃
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\hbox(12.672+1.728)x7.2, direction TLT
+......\LTJY3/LXGWZhuqueFangsong-Regular(0)/m/sl/14.4 ，
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\norule(12.672+1.728)x0.0
+.....\LTJY3/LXGWZhuqueFangsong-Regular(0)/bx/sl/14.4 佢
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\hbox(12.672+1.728)x14.4, direction TLT
+......\LTJY3/LXGWZhuqueFangsong-Regular(0)/bx/sl/14.4 傷
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\norule(12.672+1.728)x0.0
+.....\LTJY3/LXGWZhuqueFangsong-Regular(0)/bx/sl/14.4 唔
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\norule(12.672+1.728)x0.0
+.....\LTJY3/LXGWZhuqueFangsong-Regular(0)/bx/sl/14.4 到
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\hbox(12.672+1.728)x14.4, direction TLT
+......\LTJY3/LXGWZhuqueFangsong-Regular(0)/bx/sl/14.4 我
+....\penalty 10000
+....\glue 0.0 plus 0.65768
+....\hbox(12.672+1.728)x14.4, direction TLT
+.....\whatsit4=[]
+.....\hbox(12.672+1.728)x7.2, direction TLT
+......\LTJY3/LXGWZhuqueFangsong-Regular(0)/bx/sl/14.4 。
+....\penalty 10000
+....\glue(\parfillskip) 0.0 plus 1.0fil
+....\glue(\rightskip) 0.0
+...\glue -1.728
+...\glue 0.0 plus 0.0001fil
+..\glue(\baselineskip) 30.0
+..\hbox(0.0+0.0)x556.47656, direction TLT
+...\whatsit4=[]
+...\hbox(0.0+0.0)x556.47656, direction TLT
+....\whatsit4=[]
+============================================================
+============================================================
+TEST 11: Basic Usage of LXGW Font: \itshape \kaishu 
+============================================================
+Underfull \hbox (badness 10000) detected at line 50
+[][]
+\hbox(12.672+1.728)x14.4, direction TLT
+.\whatsit4=[]
+.\hbox(12.672+1.728)x7.2, direction TLT
+..\LTJY3/LXGWWenKaiGBLite-Regular(0)/m/it/14.4 。
+LaTeX Font Info:    Font shape `LTJY3/LXGWWenKaiGBLite-Regular(0)/bx/it' in size <14.4> not available
+(Font)              Font shape `LTJY3/LXGWWenKaiGBLite-Regular(0)/b/it' tried instead on input line ....
+Underfull \hbox (badness 10000) detected at line 50
+[][]
+\hbox(12.672+1.728)x14.4, direction TLT
+.\whatsit4=[]
+.\hbox(12.672+1.728)x7.2, direction TLT
+..\LTJY3/LXGWWenKaiGBLite-Regular(0)/bx/it/14.4 。
+Underfull \hbox (badness 10000) detected at line 50
+[][]
+\hbox(12.672+1.728)x14.4, direction TLT
+.\whatsit4=[]
+.\hbox(12.672+1.728)x7.2, direction TLT
+..\LTJY3/LXGWWenKaiGBLite-Regular(0)/m/it/14.4 。
+Underfull \hbox (badness 10000) detected at line 50
+[][]
+\hbox(12.672+1.728)x14.4, direction TLT
+.\whatsit4=[]
+.\hbox(12.672+1.728)x7.2, direction TLT
+..\LTJY3/LXGWWenKaiGBLite-Regular(0)/bx/it/14.4 。
+Underfull \hbox (badness 10000) detected at line 50
+[][]
+\hbox(12.672+1.728)x14.4, direction TLT
+.\whatsit4=[]
+.\hbox(12.672+1.728)x7.2, direction TLT
+..\LTJY3/LXGWWenKaiGBLite-Regular(0)/m/it/14.4 。
+Underfull \hbox (badness 10000) detected at line 50
+[][]
+\hbox(12.672+1.728)x14.4, direction TLT
+.\whatsit4=[]
+.\hbox(12.672+1.728)x7.2, direction TLT
+..\LTJY3/LXGWWenKaiGBLite-Regular(0)/m/it/14.4 ，
+Underfull \hbox (badness 10000) detected at line 50
+[][]
+\hbox(12.672+1.728)x14.4, direction TLT
+.\whatsit4=[]
+.\hbox(12.672+1.728)x7.2, direction TLT
+..\LTJY3/LXGWWenKaiGBLite-Regular(0)/bx/it/14.4 。
+============================================================
+============================================================
+TEST 12: Basic Usage of LXGW Font: \slshape \kaishu 
+============================================================
+Underfull \hbox (badness 10000) detected at line 50
+[][]
+\hbox(12.672+1.728)x14.4, direction TLT
+.\whatsit4=[]
+.\hbox(12.672+1.728)x7.2, direction TLT
+..\LTJY3/LXGWWenKaiGBLite-Regular(0)/m/sl/14.4 。
+LaTeX Font Info:    Font shape `LTJY3/LXGWWenKaiGBLite-Regular(0)/bx/sl' in size <14.4> not available
+(Font)              Font shape `LTJY3/LXGWWenKaiGBLite-Regular(0)/b/sl' tried instead on input line ....
+Underfull \hbox (badness 10000) detected at line 50
+[][]
+\hbox(12.672+1.728)x14.4, direction TLT
+.\whatsit4=[]
+.\hbox(12.672+1.728)x7.2, direction TLT
+..\LTJY3/LXGWWenKaiGBLite-Regular(0)/bx/sl/14.4 。
+Underfull \hbox (badness 10000) detected at line 50
+[][]
+\hbox(12.672+1.728)x14.4, direction TLT
+.\whatsit4=[]
+.\hbox(12.672+1.728)x7.2, direction TLT
+..\LTJY3/LXGWWenKaiGBLite-Regular(0)/m/sl/14.4 。
+Underfull \hbox (badness 10000) detected at line 50
+[][]
+\hbox(12.672+1.728)x14.4, direction TLT
+.\whatsit4=[]
+.\hbox(12.672+1.728)x7.2, direction TLT
+..\LTJY3/LXGWWenKaiGBLite-Regular(0)/bx/sl/14.4 。
+Underfull \hbox (badness 10000) detected at line 50
+[][]
+\hbox(12.672+1.728)x14.4, direction TLT
+.\whatsit4=[]
+.\hbox(12.672+1.728)x7.2, direction TLT
+..\LTJY3/LXGWWenKaiGBLite-Regular(0)/m/sl/14.4 。
+Underfull \hbox (badness 10000) detected at line 50
+[][]
+\hbox(12.672+1.728)x14.4, direction TLT
+.\whatsit4=[]
+.\hbox(12.672+1.728)x7.2, direction TLT
+..\LTJY3/LXGWWenKaiGBLite-Regular(0)/m/sl/14.4 ，
+Underfull \hbox (badness 10000) detected at line 50
+[][]
+\hbox(12.672+1.728)x14.4, direction TLT
+.\whatsit4=[]
+.\hbox(12.672+1.728)x7.2, direction TLT
+..\LTJY3/LXGWWenKaiGBLite-Regular(0)/bx/sl/14.4 。
+============================================================
