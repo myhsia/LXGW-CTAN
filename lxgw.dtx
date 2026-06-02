@@ -554,13 +554,13 @@ https://github.com/lxgw/LxgwZhenKai/releases/latest/download/LXGWZhenKaiGB-Regul
 %     \color{gray}|\cs_gset_eq:NN \ctex_zhmap_case:nnn \use_ii:nnn|
 %   \end{quote}
 %   Load the mapping file \file{ctex-zhmap-lxgw.tex} (see~\ref{subsec:zhmap})
-%   for \pkg{zhmatrices} and set \cs{CJKrmdefault}, \cs{CJKsfdefault},
-%   \cs{CJKttdefault}, respectively.
+%   for \pkg{zhmatrices} and set \tn{CJKrmdefault}, \tn{CJKsfdefault},
+%   \tn{CJKttdefault}, respectively.
 %    \begin{macrocode}
       {
         \ctex_load_zhmap:nnnn { rm } { zhhei } { zhfs } { lxgw }
 %    \end{macrocode}
-%   Configure the usages of the edge information of \cs{CJKrmdefault}.
+%   Configure the usages of the edge information of \tn{CJKrmdefault}.
 %    \begin{macrocode}
         \ctex_punct_set:n { lxgw }
         \ctex_punct_map_family:nn   { \CJKrmdefault } { zhsong }
@@ -807,8 +807,8 @@ https://github.com/lxgw/LxgwZhenKai/releases/latest/download/LXGWZhenKaiGB-Regul
 %    \begin{macrocode}
 \else
 %    \end{macrocode}
-% Configure the upright shape of \cs{songti}, \cs{kaishu}, \cs{heiti},
-% and \cs{fangsong} mapping for GBK encoding and UTF8 encoding.
+% Configure the upright shape of \tn{songti}, \tn{kaishu}, \tn{heiti},
+% and \tn{fangsong} mapping for GBK encoding and UTF8 encoding.
 %    \begin{macrocode}
 \special{pdf:mapline gbk@UGBK@          UniGB-UTF16-H LXGWNeoZhiSong.ttf}
 \special{pdf:mapline gbksong@UGBK@      UniGB-UTF16-H LXGWNeoZhiSong.ttf}
