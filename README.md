@@ -1,7 +1,7 @@
 [![CTAN Version](https://img.shields.io/ctan/v/lxgw-fonts)](https://ctan.org/pkg/lxgw-fonts)
 [![GitHub Release](https://img.shields.io/github/v/release/myhsia/lxgw-ctan)](https://github.com/myhsia/lxgw-ctan/releases/latest)
 [![GitHub Last Commit](https://img.shields.io/github/last-commit/myhsia/LXGW-CTAN)](https://github.com/myhsia/LXGW-CTAN/commits)
-[![Actions Status](https://github.com/myhsia/lxgw-ctan/actions/workflows/test.yaml/badge.svg?branch=test)](https://github.com/myhsia/lxgw-ctan/actions)
+[![Actions Status](https://github.com/myhsia/lxgw-ctan/actions/workflows/test.yaml/badge.svg?branch=main)](https://github.com/myhsia/lxgw-ctan/actions)
 [![GitHub Repo stars](https://img.shields.io/github/stars/myhsia/LXGW-CTAN)](https://github.com/myhsia/LXGW-CTAN)
 
 The `LXGW` Font Family
@@ -29,16 +29,18 @@ The issue tracker for `LXGW` is currently located
 Build status
 ------------
 
-This project uses [GitHub Actions](https://github.com/features/actions)
-as a hosted continuous integration service. For each commit, the build status
-is tested using the current release of TeX Live.
+This project uses [GitHub Actions](https://github.com/features/actions) as a
+hosted continuous integration service. For each commit, the build status is
+tested using the current release of TeX Live.
 
-_Current build status:_ ![build status](https://github.com/myhsia/lxgw-ctan/actions/workflows/test.yaml/badge.svg?branch=test)
+_Current build status:_
+![build status](https://github.com/myhsia/lxgw-ctan/actions/workflows/test.yaml/badge.svg?branch=main)
 
 Copyright and License
 ---------------------
 
-- Runtime: Copyright (C) 2025-2026 by Mingyu Xia \<myhsia@outlook.com\>
+- Runtime: Copyright (C) 2025-2026 by Mingyu Xia
+  [`<myhsia@outlook.com>`](mailto:myhsia@outlook.com)
 
 - Fonts:   Copyright (C) 2021-2026 by [LXGW](https://github.com/lxgw) and
                                       [TrionesType](https://x.com/TrionesType)
