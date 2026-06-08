@@ -1,12 +1,10 @@
---[==========================================[--
-              L3BUILD FILE FOR LXGW
---]==========================================]--
+--[==========================================================================[--
+    L3BUILD FILE FOR LXGW                        Copyright (C) by Mingyu Xia
+--]==========================================================================]--
 
---[==========================================[--
-               Basic Information
-             Do Check Before Push
---]==========================================]--
-
+--[==========================================================================[--
+    Basic Information: Do Check Before Push
+--]==========================================================================]--
 module              = "lxgw-fonts"
 abbrev              = "lxgw"
 version             = "v1.522E"
@@ -19,11 +17,9 @@ repository          = "https://github.com/" .. maintainid .. "/LXGW-CTAN"
 summary             = "CJK font family with a comprehensive character set"
 description         = "The `LXGW` Font Family provides an open-source CJK font family with a comprehensive character set for Chinese (Simplified/Traditional), Cantonese, and Japanese. A `fontset` configuration of this font family for the `ctex-kit` is also provided in this package."
 
---[==========================================[--
-                 Pack and Upload
-         Do not Modify Unless Necessary
---]==========================================]--
-
+--[==========================================================================[--
+    Configuration: Check, Tag, Pack, Upload     Do NOT Modify if Unnecessary
+--]==========================================================================]--
 checkengines        = {"pdftex", "xetex", "uptex"}
 cleanfiles          = {"*.log", "*.pdf", "*.zip", "*.ttf", "*.otf"}
 ctanzip             = module
@@ -66,8 +62,7 @@ function update_tag(file, content, tagname, tagdate)
   return content
 end
 
---[== "Hacks" to `l3build` | Do not Modify ==]--
-
+--[================== "Hacks" to `l3build` | Do not Modify ==================]--
 function download(dir, filelist)
   local file = io.open(filelist, "r")
   if file then
