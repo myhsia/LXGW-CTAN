@@ -31,4 +31,6 @@ jobs:
         uses: actions/upload-artifact@v7
         with:
           name: lxgw-diff-${{ env.SHA_SHORT }}-${{ runner.os }}
-          path: build/**/*.diff
+          path: |
+            build/**/*.diff
+            build/**/*.fc
