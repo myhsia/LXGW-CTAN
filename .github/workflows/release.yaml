@@ -32,7 +32,7 @@ jobs:
           fi
       - name: Run l3build and Upload to CTAN
         run: |
-          l3build ctan
+          l3build ctan --dev
           yes y | l3build upload
       - name: Read version from build.lua
         run: |
