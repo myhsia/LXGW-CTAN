@@ -24,8 +24,7 @@ jobs:
         run: l3build check --dev
       - name: Get short commit SHA
         if: ${{ !cancelled() && (steps.test-lxgw.outcome == 'failure') }}
-        run: |
-          echo "SHA_SHORT=$(git rev-parse --short=7 HEAD)" >> $GITHUB_ENV
+        run: echo "SHA_SHORT=$(git rev-parse --short HEAD)" >> $GITHUB_ENV
       - name: Upload test diffs
         if: ${{ !cancelled() && (steps.test-lxgw.outcome == 'failure') }}
         uses: actions/upload-artifact@v7
