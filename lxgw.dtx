@@ -111,7 +111,7 @@ The Current Designer of this font family is **LXGW** and **TrionesType**.
 %</internal>
 %
 %<*fontset>
-%<+!driver>\GetIdInfo $Id: lxgw.dtx v1.522E 2026-06-02 myhsia<myhsia@outlook.com>$
+%<+!driver>\GetIdInfo $Id: lxgw.dtx v1.522F 2026-07-01 myhsia<myhsia@outlook.com>$
 %<fontset>  {lxgw fontset configuration for ctex-kit}
 %<fontset>\ProvidesExplFile {ctex-fontset-lxgw.def}
 %<+!driver>  {\ExplFileDate} {\ExplFileVersion} {\ExplFileDescription}
@@ -485,11 +485,13 @@ https://github.com/lxgw/LxgwZhenKai/releases/latest/download/LXGWZhenKaiGB-Regul
 %    \begin{macrocode}
 %<*fontset>
 %    \end{macrocode}
+%
 % Load CJK font family, the interface provided by \pkg{ctex-kit} accepts the
 % following 3 branches.
 %    \begin{macrocode}
 \ctex_fontset_case:nnn
 %    \end{macrocode}
+%
 % \DescribeOption{\hologo{pdfTeX}}
 % For those \hologo{pdfTeX} or \hologo{LaTeX} + \hologo{DVIPDFMx}.
 %    \begin{macrocode}
@@ -580,6 +582,7 @@ https://github.com/lxgw/LxgwZhenKai/releases/latest/download/LXGWZhenKaiGB-Regul
   }
 %    \end{macrocode}
 % \end{arguments}
+%
 % \DescribeOption{\hologo{upTeX}, \hologo{ApTeX}}
 % For those use \hologo{upLaTeX} + \hologo{DVIPDFMx}.
 % Configure the basic font mapping for \hologo{upTeX}. Due to the definition in
@@ -614,6 +617,7 @@ https://github.com/lxgw/LxgwZhenKai/releases/latest/download/LXGWZhenKaiGB-Regul
     \ctex_set_upfamily:nnn { zhkai  } { upzhserifit  } { }
   }
 %    \end{macrocode}
+%
 % \DescribeOption{\hologo{XeTeX}, \hologo{LuaTeX}}
 % For those use \hologo{XeLaTeX} or \hologo{LuaLaTeX}.
 %    \begin{macrocode}
@@ -642,6 +646,7 @@ https://github.com/lxgw/LxgwZhenKai/releases/latest/download/LXGWZhenKaiGB-Regul
                           BoldItalicFont  = LXGWZhenKaiGB-Regular         ]
   }
 %    \end{macrocode}
+%
 % \begin{macro}{\songti, \heiti, \fangsong, \kaishu}
 % Shortcuts that same as those in the \pkg{ctex-kit}.
 %    \begin{macrocode}
@@ -651,6 +656,7 @@ https://github.com/lxgw/LxgwZhenKai/releases/latest/download/LXGWZhenKaiGB-Regul
 \NewDocumentCommand \kaishu   { } { \CJKfamily { zhkai  } }
 %    \end{macrocode}
 % \end{macro}
+%
 % End the optionlist |fontset| for \pkg{l3docstrip}.
 %    \begin{macrocode}
 %</fontset>
@@ -672,10 +678,12 @@ https://github.com/lxgw/LxgwZhenKai/releases/latest/download/LXGWZhenKaiGB-Regul
 %    \begin{macrocode}
 %<*makespa>
 %    \end{macrocode}
+%
 % Loading the macro file \file{ctex-spa-macro.tex} provided by \pkg{ctex-kit}.
 %    \begin{macrocode}
 \input ctex-spa-macro %
 %    \end{macrocode}
+%
 % List all the CJK families with the corresponding font files in terms of
 % ``case-pairs''.
 %    \begin{macrocode}
@@ -690,17 +698,24 @@ https://github.com/lxgw/LxgwZhenKai/releases/latest/download/LXGWZhenKaiGB-Regul
     {lxgwzhkaib}      {LXGWZhenKaiGB-Regular} ,
   }
 %    \end{macrocode}
+%
 % End of the script.
 %    \begin{macrocode}
 \primitive\end
 %    \end{macrocode}
+%
 % End the optionlist |makespa| for \pkg{l3docstrip}.
 %    \begin{macrocode}
 %</makespa>
 %    \end{macrocode}
+%
+% Start the optionlist |lxgw-spa| for \pkg{l3docstrip}.
 %    \begin{macrocode}
 %<*lxgw-spa>
 %    \end{macrocode}
+%
+% Define the edge information of the corresponding font families for the
+% \pkg{CJKpunct} package.
 %    \begin{macrocode}
 \ctexspadef{lxgwzhsong}{10,8,9,8,67,8,58,8,71,8,65,9,67,8,65,10,55,5,54,4,64,9,71,9,0,0,10,10,5,72,4,71,9,77,9,77,19,69,18,69,19,70,5,50,12,12,8,71,9,65,8,67,10,65,5,55,4,53,9,64,9,71,8,10,8,9,8,67,8,58,,,}
 \ctexspadef{lxgwzhsongb}{9,7,8,7,67,8,58,8,70,8,65,8,67,8,65,9,55,5,53,3,63,8,70,8,-0,-0,10,10,5,72,4,71,8,77,8,76,18,68,18,68,18,69,4,50,12,12,8,70,8,65,8,67,9,65,5,55,3,53,8,63,8,70,7,9,7,8,8,67,8,58,,,}
@@ -710,6 +725,8 @@ https://github.com/lxgw/LxgwZhenKai/releases/latest/download/LXGWZhenKaiGB-Regul
 \ctexspadef{lxgwzhkai}{12,11,6,4,72,6,68,5,72,6,71,7,72,6,68,7,66,5,52,5,70,-1,72,4,0,0,12,12,7,71,8,65,10,77,12,76,20,70,18,70,17,72,7,50,12,12,6,72,7,71,6,72,7,68,5,66,5,52,-1,70,4,72,11,12,4,6,6,72,5,68,,,}
 \ctexspadef{lxgwzhkaib}{6,8,6,8,71,4,64,5,71,5,70,6,71,5,67,6,65,4,47,4,62,3,66,3,-1,-1,10,10,7,67,4,65,14,67,16,68,17,68,14,67,16,71,6,49,11,11,5,71,6,70,5,71,6,67,4,65,4,47,3,62,3,66,8,6,8,6,4,71,5,64,,,}
 %    \end{macrocode}
+%
+% End the optionlist |lxgw-spa| for \pkg{l3docstrip}.
 %    \begin{macrocode}
 %</lxgw-spa>
 %    \end{macrocode}
@@ -720,9 +737,9 @@ https://github.com/lxgw/LxgwZhenKai/releases/latest/download/LXGWZhenKaiGB-Regul
 %    \begin{macrocode}
 %<*zhmap-lxgw>
 %    \end{macrocode}
+%
 % Forked from the |zhmap| optionlist of \file{ctex.dtx}\footnote{^^A
 %   \url{https://github.com/CTeX-org/ctex-kit/blob/master/ctex/ctex.dtx}}.
-%
 %    \begin{macrocode}
 \begingroup\catcode61\catcode48\catcode32=10\relax%
   \catcode 35=6  % #
@@ -775,11 +792,13 @@ https://github.com/lxgw/LxgwZhenKai/releases/latest/download/LXGWZhenKaiGB-Regul
 \fi
 \endgroup
 %    \end{macrocode}
+%
 % Provides the identification information of the font map loader.
 %    \begin{macrocode}
 \ProvidesFile{ctex-zhmap-lxgw.tex}%
   [\LXGWFileDate\ \LXGWFileVersion\ lxgw font map loader for DVIPDFMx (CTEX)]
 %    \end{macrocode}
+%
 % Font map loader for \hologo{pdfTeX} (generate PDF).
 %    \begin{macrocode}
 \ifzhmappdf
@@ -804,6 +823,7 @@ https://github.com/lxgw/LxgwZhenKai/releases/latest/download/LXGWZhenKaiGB-Regul
   \pdfmapline{=uniheisl@Unicode@  <LXGWNeoXiHei.ttf}
   \pdfmapline{=unifssl@Unicode@   <LXGWZhuqueFangsong-Regular.ttf}
 %    \end{macrocode}
+%
 % Configuration for \hologo{pdfTeX} (generate DVI).
 %    \begin{macrocode}
 \else
@@ -836,6 +856,7 @@ https://github.com/lxgw/LxgwZhenKai/releases/latest/download/LXGWZhenKaiGB-Regul
 \special{pdf:mapline unifssl@Unicode@   UniGB-UTF16-H LXGWZhuqueFangsong-Regular.ttf -s .167}
 \fi
 %    \end{macrocode}
+%
 % End the optionlist |zhmap-lxgw| for \pkg{l3docstrip}.
 %    \begin{macrocode}
 %</zhmap-lxgw>

@@ -7,8 +7,8 @@
 --]==========================================================================]--
 module              = "lxgw-fonts"
 abbrev              = "lxgw"
-version             = "v1.522E"
-date                = "2026-06-02"
+version             = "v1.522F"
+date                = "2026-07-01"
 maintainer          = "Mingyu Xia"
 uploader            = "Mingyu Xia"
 maintainid          = "myhsia"
@@ -42,7 +42,7 @@ uploadconfig = {
   description       = description,
   license           = "ofl",
   ctanPath          = "/fonts/" .. module,
-  home              = "https://github.com/" .. maintainid,
+  home              = "",
   bugtracker        = repository .. "/issues",
   support           = "https://github.com/lxgw",
   repository        = repository,
