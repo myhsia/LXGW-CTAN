@@ -29,7 +29,6 @@ sourcefiles         = {"*.dtx", "*.ins", "*.ttf", "*.otf"}
 textfiles           = {"README.md", "LICENSE", "*.lua"}
 typesetexe          = "latexmk -pdfxe -xelatex=xelatex-dev"
 typesetruns         = 1
-unpacksuppfiles     = {"*.txt"}
 uploadconfig = {
   note              = "",
   announcement_file = "announcement.md",
