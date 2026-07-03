@@ -53,7 +53,7 @@ function update_tag(file, content, tagname, tagdate)
   tagdate = date
   if string.match(file, abbrev .. ".dtx$") then
     content = string.gsub(content,
-      "%%<++!driver>\\GetIdInfo $Id: " .. abbrev .. ".dtx " ..
+      "%%<%+!driver>\\GetIdInfo $Id: " .. abbrev .. ".dtx " ..
       "v%d+%.%d+%a+ %d+%-%d+%-%d+ (.-)<(.-)>",
       "%%<+!driver>\\GetIdInfo $Id: "  .. abbrev .. ".dtx " ..
       tagname .. " " .. tagdate .. " " .. maintainid .. "<" .. email .. ">")
