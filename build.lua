@@ -20,7 +20,7 @@ description         = "The `LXGW` Font Family provides an open-source CJK font f
 --[==========================================================================[--
     Configuration: Check, Tag, Pack, Upload     Do NOT Modify if Unnecessary
 --]==========================================================================]--
-checkengines        = {"pdftex", "xetex", "uptex", "luatex"}
+checkengines        = {"pdftex", "xetex", "uptex"}
 specialformats      = {}
 specialformats.latex= {
   pdftex = {format = "latex"},
