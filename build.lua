@@ -8,7 +8,7 @@
 module              = "lxgw-fonts"
 abbrev              = "lxgw"
 version             = "v1.522G"
-date                = "2026-07-02"
+date                = "2026-07-07"
 maintainer          = "Mingyu Xia"
 uploader            = "Mingyu Xia"
 maintainid          = "myhsia"
@@ -27,7 +27,6 @@ specialformats.latex= {
   uptex  = {binary = "euptex"}
 }
 cleanfiles          = {"*.log", "*.pdf", "*.zip", "*.ttf", "*.otf"}
-ctanzip             = module
 excludefiles        = {"*~"}
 installfiles        = {"*.def", "*.tex", "*.spa", "*.ttf", "*.otf"}
 sourcefiles         = {"*.dtx", "*.ins", "*.ttf", "*.otf"}
