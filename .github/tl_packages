@@ -78,6 +78,7 @@ chinese-jfm
 #
 # Preamble
 ctex
+docext
 framed
 libertine
 pgf
