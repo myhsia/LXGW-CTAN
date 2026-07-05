@@ -111,7 +111,7 @@ The Current Designer of this font family is **LXGW** and **TrionesType**.
 %</internal>
 %
 %<*fontset>
-%<+!driver>\GetIdInfo $Id: lxgw.dtx v1.522F 2026-07-01 myhsia<myhsia@outlook.com>$
+%<+!driver>\GetIdInfo $Id: lxgw.dtx v1.522G 2026-07-02 myhsia<myhsia@outlook.com>$
 %<fontset>  {lxgw fontset configuration for ctex-kit}
 %<fontset>\ProvidesExplFile {ctex-fontset-lxgw.def}
 %<+!driver>  {\ExplFileDate} {\ExplFileVersion} {\ExplFileDescription}
@@ -125,62 +125,22 @@ The Current Designer of this font family is **LXGW** and **TrionesType**.
 \usepackage[punct  = plain, fontset    = lxgw,
             scheme = plain, linespread = 1.05]{ctex}
 \defaultfontfeatures{Extension = .ttf, Scale = .95}
-\usepackage{tikz, framed}
+\usepackage{tikz, framed, docext}
 \tikzset{every picture/.append style = {line cap = round}}
 \ExplSyntaxOn \makeatletter
 \newcommand \mail[1]{\href{mailto:#1}{\ttfamily #1}}
 \dim_set:Nn \FrameSep {2pt}
 \tex_tracinglostchars:D = 0
 \tex_XeTeXcharclass:D "2370 = 1
-\DeclareDocumentCommand \key { s O { \ttfamily } m }
-  {
-    \IfBooleanTF {#1}
-      {
-        \color_group_begin:
-        \color_select:n { red } \bfseries #2 #3
-        \color_group_end:
-      }
-      {
-        \group_begin: #2
-        \seq_set_from_clist:Nn \l_tmpa_seq {#3}
-        \seq_set_map:NNn \l_tmpb_seq \l_tmpa_seq
-          {
-            \exp_not:n
-              {
-                \color_group_begin:
-                \color_select:n { red } \bfseries #2 ##1
-                \color_group_end:
-              }
-          }
-        \seq_use:Nn \l_tmpb_seq { ,~ } ~ = ~
-        \group_end:
-      }
-  }
-\DeclareCommandCopy \val \meta
-\newlist{keyval}{itemize}{10}
-\setlist[keyval]{leftmargin = 0pt, labelsep = 0pt}
 \tl_greplace_all:Nnn \LXGWFileDate { / } { - }
 \def \HoLogo@LXGW#1{^^A
-  \tex_XeTeXcharclass:D "004C = 1^^A L
-  \tex_XeTeXcharclass:D "0058 = 1^^A X
-  \tex_XeTeXcharclass:D "0047 = 1^^A G
-  \tex_XeTeXcharclass:D "0057 = 1^^A W
+  \xeCJK_declare_char_class:nn { CJK } { `A -> `Z }
   \kaishu LX\kern-.05emG\kern-.05emW}
 \def \HoLogo@TrionesType#1{^^A
-  \tex_XeTeXcharclass:D "0054 = 1^^A T
-  \tex_XeTeXcharclass:D "0072 = 1^^A r
-  \tex_XeTeXcharclass:D "0069 = 1^^A i
-  \tex_XeTeXcharclass:D "006F = 1^^A o
-  \tex_XeTeXcharclass:D "006E = 1^^A n
-  \tex_XeTeXcharclass:D "0065 = 1^^A e
-  \tex_XeTeXcharclass:D "0073 = 1^^A s
-  \tex_XeTeXcharclass:D "0054 = 1^^A T
-  \tex_XeTeXcharclass:D "0079 = 1^^A y
-  \tex_XeTeXcharclass:D "0070 = 1^^A p
-  \tex_XeTeXcharclass:D "0065 = 1^^A e
+  \xeCJK_declare_char_class:nn { CJK } { `A -> `Z, `a -> `z }
   \fangsong TrionesType
 }
-\def\@thanks{\Copyright}
+\def \@thanks {\Copyright}
 \makeatother \ExplSyntaxOff
 \makeindex
 \begin{document}
@@ -448,23 +408,24 @@ https://github.com/lxgw/LxgwZhenKai/releases/latest/download/LXGWZhenKaiGB-Regul
 %   \kern.8pt
 % }
 % \ExplSyntaxOff
+% \docextset{color = red}
 % \begin{keyval}
-%   \item[{\key[\mdseries\songti]{霞鶩新緻宋}}]
+%   \item [\keys{\songti 霞鶩新緻宋}]
 %   \file{LXGWNeoZhiSong.ttf}, \file{LXGWNeoZhiSongScreen.ttf}
 %   \begin{framed}
 %     \songti\0
 %   \end{framed}
-%   \item[{\key[\mdseries\heiti]{霞鶩新晰黑}}]
+%   \item [\keys{\heiti 霞鶩新晰黑}]
 %   \file{LXGWNeoXiHei.ttf}, \file{LXGWNeoXiHeiScreen.ttf}
 %   \begin{framed}
 %     \heiti\0
 %   \end{framed}
-%   \item[{\key[\mdseries\fangsong]{朱雀仿宋}}]
+%   \item [\keys{\fangsong 朱雀仿宋}]
 %   \file{LXGWZhuqueFangsong-Regular.ttf}
 %   \begin{framed}
 %     \fangsong\0
 %   \end{framed}
-%   \item[{\key[\mdseries\kaishu]{霞鹜文楷, \textbf{霞鹜臻楷}}}]
+%   \item [\keys{\kaishu 霞鹜文楷, \kaishu \textbf{霞鹜臻楷}}]
 %   \file{LXGWWenKaiGBLite-Regular.ttf}, \file{LXGWZhenKaiGB-Regular.ttf}
 %   \begin{framed}
 %     \kaishu\0
@@ -796,7 +757,7 @@ https://github.com/lxgw/LxgwZhenKai/releases/latest/download/LXGWZhenKaiGB-Regul
 % Provides the identification information of the font map loader.
 %    \begin{macrocode}
 \ProvidesFile{ctex-zhmap-lxgw.tex}%
-  [\LXGWFileDate\ \LXGWFileVersion\ lxgw font map loader for DVIPDFMx (CTEX)]
+  [\LXGWFileDate\space \LXGWFileVersion\space lxgw font map loader for DVIPDFMx (CTEX)]
 %    \end{macrocode}
 %
 % Font map loader for \hologo{pdfTeX} (generate PDF).
@@ -861,4 +822,5 @@ https://github.com/lxgw/LxgwZhenKai/releases/latest/download/LXGWZhenKaiGB-Regul
 %    \begin{macrocode}
 %</zhmap-lxgw>
 %    \end{macrocode}
+%
 % \end{implementation}

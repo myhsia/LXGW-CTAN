@@ -21,7 +21,7 @@ jobs:
           package_file: .github/tl_packages
       - name: Run l3build
         id: test-lxgw
-        run: l3build check --dev
+        run: l3build check
       - name: Get short commit SHA
         if: ${{ !cancelled() && (steps.test-lxgw.outcome == 'failure') }}
         run: echo "SHA_SHORT=$(git rev-parse --short HEAD)" >> $GITHUB_ENV
