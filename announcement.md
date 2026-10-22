@@ -1,0 +1,4 @@
+Version 1.530A Released
+
+Sync to the update in the upstream repository's TTF file
+This release features refinements or minor adjustments to the glyphs of over 400 Chinese characters. This includes the character "心" (xīn)—which had received significant user feedback—as well as various Simplified Chinese characters that were poorly implemented during the project's early stages. Additionally, 50 frequently used Small Seal Script (小篆) characters—sourced from the new additions in Unicode 18.0—have been incorporated into the full version of LXGW WenKai. Symbols for dice and Mahjong tiles have also been added. The ongoing process of refining glyphs remains a long-term project.
