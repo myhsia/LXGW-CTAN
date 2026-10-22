@@ -85,16 +85,16 @@ LaTeX Font Info:    Font shape `TU/LXGWZhuqueFangsong-Regular(0)/b/sl' in size <
 TEST 10: Basic Usage of LXGW Font: \kaishu 
 ============================================================
 Package fontspec Info: 
-(fontspec)             Font family 'LXGWWenKaiGBLite-Regular(0)' created for font 'LXGWWenKaiGBLite-Regular' with options [Script={CJK},Extension={.ttf},SlantedFont={LXGWWenKaiGBLite-Regular},BoldSlantedFont={LXGWZhenKaiGB-Regular},BoldItalicFont={LXGWZhenKaiGB-Regular},BoldFont={LXGWZhenKaiGB-Regular},ItalicFont={LXGWWenKaiGBLite-Regular}].
+(fontspec)             Font family 'LXGWWenKaiGBLite-Regular(0)' created for font 'LXGWWenKaiGBLite-Regular' with options [Script={CJK},Extension={.ttf},SlantedFont={LXGWWenKaiGBLite-Regular},BoldSlantedFont={LXGWZhenKaiSlabGB-Regular},BoldItalicFont={LXGWZhenKaiSlabGB-Regular},BoldFont={LXGWZhenKaiSlabGB-Regular},ItalicFont={LXGWWenKaiGBLite-Regular}].
 (fontspec)              
 (fontspec)              This font family consists of the following NFSS series/shapes:
 (fontspec)              
 (fontspec)             - 'normal' (m/n) with NFSS spec.: <->"[LXGWWenKaiGBLite-Regular.ttf]/OT:script=hani;language=dflt;"
-(fontspec)             - 'bold' (b/n) with NFSS spec.: <->"[LXGWZhenKaiGB-Regular.ttf]/OT:script=hani;language=dflt;"
+(fontspec)             - 'bold' (b/n) with NFSS spec.: <->"[LXGWZhenKaiSlabGB-Regular.ttf]/OT:script=hani;language=dflt;"
 (fontspec)             - 'italic' (m/it) with NFSS spec.: <->"[LXGWWenKaiGBLite-Regular.ttf]/OT:script=hani;language=dflt;"
 (fontspec)             - 'slanted' (m/sl) with NFSS spec.: <->"[LXGWWenKaiGBLite-Regular.ttf]/OT:script=hani;language=dflt;"
-(fontspec)             - 'bold italic' (b/it) with NFSS spec.: <->"[LXGWZhenKaiGB-Regular.ttf]/OT:script=hani;language=dflt;"
-(fontspec)             - 'bold slanted' (b/sl) with NFSS spec.: <->"[LXGWZhenKaiGB-Regular.ttf]/OT:script=hani;language=dflt;"
+(fontspec)             - 'bold italic' (b/it) with NFSS spec.: <->"[LXGWZhenKaiSlabGB-Regular.ttf]/OT:script=hani;language=dflt;"
+(fontspec)             - 'bold slanted' (b/sl) with NFSS spec.: <->"[LXGWZhenKaiSlabGB-Regular.ttf]/OT:script=hani;language=dflt;"
 Completed box being shipped out [1]
 \vbox(461.45076+0.0)x603.45328
 .\glue -35.55386

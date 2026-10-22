@@ -3289,28 +3289,10 @@ Overfull \hbox (0.43198pt too wide) detected at line 50
 .\kern 0.00002
 (ctex-zhmap-lxgw.tex
 File: ctex-zhmap-lxgw.tex ....-..-.. v...A lxgw font map loader for DVIPDFMx (CTEX)
-)
+{UGBK.sfd}{Unicode.sfd})
 Completed box being shipped out [1]
 \vbox(461.45076+0.0)x603.45328
 .\hbox(0.0+0.0)x0.0
-..\special{pdf:mapline gbk@UGBK@ UniGB-UTF16-H LXGWNeoZhiSong.ttf}
-..\special{pdf:mapline gbksong@UGBK@ UniGB-UTF16-H LXGWNeoZhiSong.ttf}
-..\special{pdf:mapline gbkkai@UGBK@ UniGB-UTF16-H LXGWWenKaiGBLite-Regular.ttf}
-..\special{pdf:mapline gbkhei@UGBK@ UniGB-UTF16-H LXGWNeoXiHei.ttf}
-..\special{pdf:mapline gbkfs@UGBK@ UniGB-UTF16-H LXGWZhuqueFangsong-Regular.ttf}
-..\special{pdf:mapline cyberb@Unicode@ UniGB-UTF16-H LXGWNeoZhiSong.ttf}
-..\special{pdf:mapline unisong@Unicode@ UniGB-UTF16-H LXGWNeoZhiSong.ttf}
-..\special{pdf:mapline unikai@Unicode@ UniGB-UTF16-H LXGWWenKaiGBLite-Regular.ttf}
-..\special{pdf:mapline unihei@Unicode@ UniGB-UTF16-H LXGWNeoXiHei.ttf}
-..\special{pdf:mapline unifs@Unicode@ UniGB-UTF16-H LXGWZhuqueFangsong-Regular.ttf}
-..\special{pdf:mapline gbksongsl@UGBK@ UniGB-UTF16-H LXGWNeoZhiSong.ttf -s .167}
-..\special{pdf:mapline gbkkaisl@UGBK@ UniGB-UTF16-H LXGWWenKaiGBLite-Regular.ttf -s .167}
-..\special{pdf:mapline gbkheisl@UGBK@ UniGB-UTF16-H LXGWNeoXiHei.ttf -s .167}
-..\special{pdf:mapline gbkfssl@UGBK@ UniGB-UTF16-H LXGWZhuqueFangsong-Regular.ttf -s .167}
-..\special{pdf:mapline unisongsl@Unicode@ UniGB-UTF16-H LXGWNeoZhiSong.ttf -s .167}
-..\special{pdf:mapline unikaisl@Unicode@ UniGB-UTF16-H LXGWWenKaiGBLite-Regular.ttf -s .167}
-..\special{pdf:mapline uniheisl@Unicode@ UniGB-UTF16-H LXGWNeoXiHei.ttf -s .167}
-..\special{pdf:mapline unifssl@Unicode@ UniGB-UTF16-H LXGWZhuqueFangsong-Regular.ttf -s .167}
 .\glue -35.55386
 .\vbox(497.00462+0.0)x556.47656, shifted 46.97672
 ..\vbox(12.0+0.0)x556.47656, glue set 12.0fil

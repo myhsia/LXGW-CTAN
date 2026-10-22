@@ -487,16 +487,16 @@ Underfull \hbox (badness 10000) detected at line 50
 TEST 10: Basic Usage of LXGW Font: \kaishu 
 ============================================================
 Package fontspec Info: 
-(fontspec)             Font family 'LXGWWenKaiGBLite-Regular(0)' created for font 'LXGWWenKaiGBLite-Regular' with options [NFSSEncoding=LTJY3,JFM=zh_CN/quanjiao,Extension={.ttf},BoldFont={LXGWZhenKaiGB-Regular},SlantedFont={LXGWWenKaiGBLite-Regular},ItalicFont={LXGWWenKaiGBLite-Regular},BoldSlantedFont={LXGWZhenKaiGB-Regular},BoldItalicFont={LXGWZhenKaiGB-Regular},LTJFONTUID=7].
+(fontspec)             Font family 'LXGWWenKaiGBLite-Regular(0)' created for font 'LXGWWenKaiGBLite-Regular' with options [NFSSEncoding=LTJY3,JFM=zh_CN/quanjiao,Extension={.ttf},BoldFont={LXGWZhenKaiSlabGB-Regular},SlantedFont={LXGWWenKaiGBLite-Regular},ItalicFont={LXGWWenKaiGBLite-Regular},BoldSlantedFont={LXGWZhenKaiSlabGB-Regular},BoldItalicFont={LXGWZhenKaiSlabGB-Regular},LTJFONTUID=7].
 (fontspec)              
 (fontspec)              This font family consists of the following NFSS series/shapes:
 (fontspec)              
 (fontspec)             - 'normal' (m/n) with NFSS spec.: <->"[LXGWWenKaiGBLite-Regular.ttf]:mode=node;script=latn;language=dflt;jfm=zh_CN/quanjiao;"
-(fontspec)             - 'bold' (b/n) with NFSS spec.: <->"[LXGWZhenKaiGB-Regular.ttf]:mode=node;script=latn;language=dflt;jfm=zh_CN/quanjiao;"
+(fontspec)             - 'bold' (b/n) with NFSS spec.: <->"[LXGWZhenKaiSlabGB-Regular.ttf]:mode=node;script=latn;language=dflt;jfm=zh_CN/quanjiao;"
 (fontspec)             - 'italic' (m/it) with NFSS spec.: <->"[LXGWWenKaiGBLite-Regular.ttf]:mode=node;script=latn;language=dflt;jfm=zh_CN/quanjiao;"
 (fontspec)             - 'slanted' (m/sl) with NFSS spec.: <->"[LXGWWenKaiGBLite-Regular.ttf]:mode=node;script=latn;language=dflt;jfm=zh_CN/quanjiao;"
-(fontspec)             - 'bold italic' (b/it) with NFSS spec.: <->"[LXGWZhenKaiGB-Regular.ttf]:mode=node;script=latn;language=dflt;jfm=zh_CN/quanjiao;"
-(fontspec)             - 'bold slanted' (b/sl) with NFSS spec.: <->"[LXGWZhenKaiGB-Regular.ttf]:mode=node;script=latn;language=dflt;jfm=zh_CN/quanjiao;"
+(fontspec)             - 'bold italic' (b/it) with NFSS spec.: <->"[LXGWZhenKaiSlabGB-Regular.ttf]:mode=node;script=latn;language=dflt;jfm=zh_CN/quanjiao;"
+(fontspec)             - 'bold slanted' (b/sl) with NFSS spec.: <->"[LXGWZhenKaiSlabGB-Regular.ttf]:mode=node;script=latn;language=dflt;jfm=zh_CN/quanjiao;"
 Underfull \hbox (badness 10000) detected at line 50
 [][]
 \hbox(12.672+1.728)x14.4, direction TLT
